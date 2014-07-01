@@ -1,0 +1,191 @@
+# ~/.mutt/muttrc
+
+# directories and commands
+  set alias_file          = ~/.mutt/alias                         # alias file
+  set certificate_file    = ~/.mutt/certificates                  # where to store certs
+  set header_cache        = ~/.mutt/cache/headers                 # where to store headers
+  set message_cachedir    = ~/.mutt/cache/bodies                  # where to store bodies
+  set mailcap_path        = ~/.mutt/mailcap                       # entrys for filetypes
+  set signature           = ~/.mutt/sig                           # my signature file
+  #set tmpdir              = ~/.mutt/temp                          # where to keep temp files
+  set editor              = "vim +:silent+?^$"                    # use vim and skip to last blank line
+  set ispell              = "aspell -e -c"                        # use aspell as ispell
+  set print_command       = "enscript -p - | psselect -r | lp"    # print email in reverse page order
+
+source $alias_file
+
+# maildir settings
+set from = "XXX"
+set realname = "XXX"
+
+set imap_user = "XXX"
+set imap_pass = "XXX"
+
+set folder = "XXX"
+set spoolfile = "+INBOX"
+#set postponed = "+[Gmail]/Drafts"
+#set trash = "imaps://imap.gmail.com[Gmail]/Trash"
+#set trash = "imaps://imap.riseup.net/Trash"
+
+
+set smtp_url = "XXX"
+set smtp_pass = "XXX"
+
+# main options
+  set copy=yes
+  set beep_new                                                    # terminal bell on new message
+unset confirmappend                                               # don't ask, just do
+  set delete                                                      # don't ask, just do
+  set mail_check          = 0                                     # minimum time between scans
+unset markers                                                     # no ugly plus signs
+unset mark_old                                                    # read/new is good enough for me
+  set menu_scroll                                                 # scroll in menus
+  set pager_index_lines   = 10                                    # number of index lines to show
+  set pager_context       = 5                                     # number of context lines to show
+  set pager_stop                                                  # don't go to next message automatically
+  set pipe_decode                                                 # strip headers and eval mimes when piping
+  set reverse_alias                                               # show names from alias file in index
+  set sort                = last-date-received                               # like gmail
+  set sort_aux            = reverse-last-date-received            # like gmail
+unset sort_re                                                     # always thread
+  set thorough_search                                             # strip headers and eval mimes before searching
+  set thread_received                                             # sort threads by date received, not sent
+  set tilde                                                       # show tildes like in vim
+  set timeout             = 3                                     # idle time before scanning
+unset wait_key                                                    # don't show "Press any key to continue"
+set abort_nosubject	= no
+
+# enriched messages
+auto_view text/html                                               # view html automatically
+alternative_order text/plain text/enriched text/html              # but save it for last
+
+# formats and regexps
+  set alias_format        = "%4n %t %-20a %r"
+  set date_format="%d/%m/%y %H:%M"
+  set index_format="%Z  %d »  %-20.20F  %s"
+  set forward_format      = "Fwd: %s"                             # format for subject when forwarding
+  set quote_regexp        = "^( {0,4}[>|:#%]| {0,4}[a-z0-9]+[>|]+)+"
+  set reply_regexp        = "^(([Rr][Ee]?(\[[0-9]+\])?: *)?(\[[^]]+\] *)?)*"
+  set status_format       = "-%r- %v ───────────/ %f %m%?n? [+%n]?%?d? [-%d]?%?t? [*%t]? /%?p?───/ %p waiting to send /?─%>─(%P)───"
+
+# composing mail
+  set askcc                                                       # always ask for CC:
+  set edit_headers                                                # show headers when composing
+  set fast_reply                                                  # skip to compose when replying
+  set forward_quote                                               # include message in forwards
+  set include                                                     # include message in replies
+  set reply_to                                                    # reply to Reply-to: field, not From:
+  set reverse_name                                                # reply as who it was sent to (see alternates)
+
+# headers to show
+ignore *                                                          # ignore all headers
+unignore from: to: cc: date: subject:                             # show only these
+hdr_order from: to: cc: date: subject:                            # and in this order
+
+# lists
+#subscribe arch-announce arch-dev-public aur-general xmonad arch-haskell web-devel yesod
+
+# list of folders to notify of new mail
+# mailboxes +GMail/INBOX +Googlemail/INBOX
+
+#source $alias_file                                                # required for functionality
+#source ~/.mutt/sidebar.muttrc
+#source ~/.mutt/colors.muttrc
+
+
+# override with account specific folder-hooks
+#folder-hook GMail/*      source ~/.mutt/gmail.muttrc
+#folder-hook Googlemail/*     source ~/.mutt/googlemail.muttrc
+
+# collapse all thread in ML folders
+#folder-hook Gmail/(arch_lists|xmonad_list|web_devel|yesod) "exec collapse-all"
+
+# these just give me headaches
+bind index,pager \# noop
+bind index,pager \& noop
+bind index i        noop
+
+# bindings -- very vim-like
+bind pager q       exit
+bind pager i       toggle-quoted
+bind pager /       search
+bind pager k       previous-line
+bind pager j       next-line
+bind pager gg      top
+bind index G       imap-fetch-mail
+bind pager G       imap-fetch-mail
+bind index gg      first-entry
+bind index G       last-entry
+bind pager K       previous-undeleted
+bind pager J       next-undeleted
+bind index K       previous-unread
+bind index J       next-unread
+bind index,pager R group-reply
+
+# macros
+macro index ,i "<change-folder>!<return>" "go to inbox"
+macro index ,p "<pipe-message>cat > ~/" "save message as"
+macro index ,z "<shell-escape>offlineimap -q -o<return>" "sync IMAP"
+macro index ,r "<tag-pattern>all<return><tag-prefix><clear-flag>N<untag-pattern>all<return>" "mark all as read"
+macro index ,R "<collapse-all><tag-pattern>all<return><tag-prefix><clear-flag>N<untag-pattern>all<return><collapse-all>" "mark all as read (collapsed)"
+macro index ,v "<collapse-thread>" "collapse/uncollapse thread"
+macro index ,V "<collapse-all>"    "collapse/uncollapse all threads"
+
+# search via notmuch
+macro index ,s \
+  "<enter-command>unset wait_key<enter><shell-escape>mutt-notmuch --prompt search<enter><change-folder-readonly>~/.cache/mutt_results<enter>" \
+  "search mail (using notmuch)"
+
+# cc myself when replying to an ML.
+#
+# note: with this, you can't use `:q!` mid-compose to abort the message.
+# instead, you should use `:wq` and abort from the compose menu
+unhook send-hook
+send-hook "~u" "push '<edit-cc>,your-email-addy-here<return>'"
+
+# Colors
+
+ color 	normal default default
+ color 	signature default default
+ color 	hdrdefault cyan default
+ color 	attachment yellow default
+ color 	tilde brightyellow default
+ color 	header red default "From: "
+ color 	header yellow default "Subject: "
+ color 	header magenta default "Date: "
+ color 	quoted green default
+ color 	quoted1 cyan default
+ color 	quoted2 green default
+ color 	quoted3 cyan default
+ color 	error red default # error messages
+ color 	message white	default # message informational messages
+ color 	indicator red default # indicator for the "current message"
+ color 	status blue default # blue # status lines in the folder index sed for the mini-help line
+ color 	tree red default # the "tree" display of threads within the folder index
+ color 	search white blue # search matches found with search within the internal pager
+ color 	markers default default # The markers indicate a wrapped line
+ color 	index yellow default '~O'
+ color 	index yellow default '~N'
+ color 	index red default '~F' # Flagged Messages are important!
+ color 	index blue default '~D' # Deleted Mails - use dark color as these are already "dealt with"
+ # identifies email addresses
+ color body brightred default [\-\.+_a-zA-Z0-9]+@[\-\.a-zA-Z0-9]+
+ # identifies URLs
+ color body brightblue default (https?|ftp)://[\-\.,/%~_:?&=\#a-zA-Z0-9]+
+
+
+#for solarized colorscheme
+
+#color normal        brightyellow    default         
+#color error         red             default         
+#color tilde         black           default         
+#color message       cyan            default         
+#color markers       red             white           
+#color attachment    white           default         
+#color search        brightmagenta   default         
+##color status        J_black         J_status        
+#color status        brightyellow    black           
+#color indicator     brightblack     yellow          
+#color tree          yellow          default                                     # arrow in threads
+
+

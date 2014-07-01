@@ -1,0 +1,371 @@
+Return-Path: <tenuki-brest-bounces@jeudego.org>
+X-Spam-Checker-Version: SpamAssassin 3.3.2 (2011-06-06) on spamd2.riseup.net
+X-Spam-Level: 
+X-Spam-Pyzor: Reported 0 times.
+X-Spam-Status: No, score=-0.3 required=8.0 tests=AM_TRUNCATED,CK_419SIZE,
+	ENV_FROM_DIFF0,FORWARD_RELAY,GAPPY_LET,HAS_REPLY_TO,HTML_LINK_NR_TOP,
+	HTML_MESSAGE,HTML_STYLE_EMPTY,LOCAL_PHISH_FROMREPLY,NOMATCH_NICK_FROM,
+	ODD_PUNCTUATION,PSTOCK_PART,RP_MATCHES_RCVD,SUBJ_CONTAINS_TO,
+	UNPARSEABLE_RELAY shortcircuit=no autolearn=disabled version=3.3.2
+Delivered-To: kolibry@riseup.net
+Received: from mx1.riseup.net (mx1-pn.riseup.net [10.0.1.33])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client CN "*.riseup.net", Issuer "Gandi Standard SSL CA" (not verified))
+	by vireo.riseup.net (Postfix) with ESMTPS id 2844CA2
+	for <kolibry@riseup.net>; Mon, 16 Jun 2014 10:41:59 -0700 (PDT)
+Received: from jeudego.org (jeudego.org [5.135.164.19])
+	by mx1.riseup.net (Postfix) with ESMTP id 633324DD1A
+	for <kolibry@riseup.net>; Mon, 16 Jun 2014 10:41:50 -0700 (PDT)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by jeudego.org (Postfix) with ESMTP id CC9422EC017C;
+	Mon, 16 Jun 2014 19:41:49 +0200 (CEST)
+Received: from jeudego.org ([127.0.0.1])
+	by localhost (jeudego.org [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id i3Ie1mYLAsBZ; Mon, 16 Jun 2014 19:41:49 +0200 (CEST)
+Received: from ns3311974.ovh.net (localhost.localdomain [127.0.0.1])
+	by jeudego.org (Postfix) with ESMTP;
+	Mon, 16 Jun 2014 19:41:49 +0200 (CEST)
+X-Original-To: tenuki-brest@jeudego.org
+Delivered-To: tenuki-brest@jeudego.org
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by jeudego.org (Postfix) with ESMTP id 5DF822EC017C
+	for <tenuki-brest@jeudego.org>; Mon, 16 Jun 2014 19:41:48 +0200 (CEST)
+Received: from jeudego.org ([127.0.0.1])
+	by localhost (jeudego.org [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id eP7+2ZhxAWEI for <tenuki-brest@jeudego.org>;
+	Mon, 16 Jun 2014 19:41:36 +0200 (CEST)
+Received: from mx1.riseup.net (mx1.riseup.net [198.252.153.129])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(No client certificate requested)
+	by jeudego.org (Postfix) with ESMTPS
+	for <tenuki-brest@jeudego.org>; Mon, 16 Jun 2014 19:41:36 +0200 (CEST)
+Received: from fruiteater.riseup.net (fruiteater-pn.riseup.net [10.0.1.74])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client CN "*.riseup.net",
+	Issuer "Gandi Standard SSL CA" (not verified))
+	by mx1.riseup.net (Postfix) with ESMTPS id 54BC44C8E7
+	for <tenuki-brest@jeudego.org>; Mon, 16 Jun 2014 10:41:33 -0700 (PDT)
+Received: from [127.0.0.1] (localhost [127.0.0.1])
+	(Authenticated sender: kolibry@fruiteater.riseup.net)
+	with ESMTPSA id 7786BE64
+Message-ID: <539F2C49.3080202@riseup.net>
+Date: Mon, 16 Jun 2014 19:41:29 +0200
+From: Jonathan <kolibry@riseup.net>
+User-Agent: Mozilla/5.0 (X11; Linux x86_64;
+	rv:24.0) Gecko/20100101 Thunderbird/24.6.0
+MIME-Version: 1.0
+To: tenuki-brest@jeudego.org
+References: <CAGTTgRnaw2tukEa1VyiY65ZB3L=pY580VxdS5mLRNVT4ojOpEQ@mail.gmail.com>,
+	<CAGTTgRkzReg7SyR=_WozdhUMemFGZLKwY_ofEss+enWY256R9Q@mail.gmail.com>
+	<DUB127-W181F27F1F6159AC258E744EE160@phx.gbl>
+In-Reply-To: <DUB127-W181F27F1F6159AC258E744EE160@phx.gbl>
+Subject: Re: [Tenuki-brest]
+ =?iso-8859-1?q?Marathon_du_Go_2014_=E0_Piriac_21_e?=
+ =?iso-8859-1?q?t_22_juin?=
+X-BeenThere: tenuki-brest@jeudego.org
+X-Mailman-Version: 2.1.13
+Precedence: list
+Reply-To: tenuki-brest@jeudego.org
+List-Id: <tenuki-brest.jeudego.org>
+List-Unsubscribe: <https://admin.jeudego.org/mailman/options/tenuki-brest>,
+	<mailto:tenuki-brest-request@jeudego.org?subject=unsubscribe>
+List-Archive: <https://admin.jeudego.org/mailman/private/tenuki-brest>
+List-Post: <mailto:tenuki-brest@jeudego.org>
+List-Help: <mailto:tenuki-brest-request@jeudego.org?subject=help>
+List-Subscribe: <https://admin.jeudego.org/mailman/listinfo/tenuki-brest>,
+	<mailto:tenuki-brest-request@jeudego.org?subject=subscribe>
+Content-Type: multipart/mixed; boundary="===============4814281645986003860=="
+Sender: tenuki-brest-bounces@jeudego.org
+Errors-To: tenuki-brest-bounces@jeudego.org
+X-Virus-Scanned: clamav-milter 0.98.1 at mx1
+X-Virus-Status: Clean
+
+This is a multi-part message in MIME format.
+--===============4814281645986003860==
+Content-Type: multipart/alternative;
+ boundary="------------010301020801070900080303"
+
+This is a multi-part message in MIME format.
+--------------010301020801070900080303
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 8bit
+
+Je peux prêter mon jeu (goban et pierres).
+
+Le 16/06/2014 19:09, Tenuki Club de Go Brest a écrit :
+> Bonsoir tout le monde,
+>
+> Le marathon approchant, le club de Nantes me demande si je peux mettre 
+> à disposition au nom du club des pendules + Goban et Pierres !
+>
+> En plus de celles du club, certains seraient d'accord pour prêter son 
+> jeu ? (des étiquettes club de Brest seront collées dessus.)
+>
+> Il devrait y avoir énormément de monde à Piriac, je dois leur répondre 
+> le plus rapidement possible !
+>
+> Merci beaucoup.
+>
+> Pierrot.
+>
+> ------------------------------------------------------------------------
+> Date: Fri, 13 Jun 2014 11:10:36 +0200
+> Subject: Re: Marathon du Go 2014 à Piriac 21 et 22 juin
+> From: emmanuel.vincent@gmail.com
+> To: miai.nantes@free.fr
+> CC: pabkbenou@hotmail.com; goelan@villeclose.com; lemansgo@yahoo.fr; 
+> igonokaze@orange.fr; clubyosakura@yahoo.fr; rengo@yahoogroupes.fr; 
+> govannes_56@yahoo.fr; j.p.morere@wanadoo.fr; brest.tenuki@hotmail.fr; 
+> 17Ro@jeudego.org; astrobombe@yahoo.fr; 86Po@jeudego.org; 
+> francois.mizessyn@orange.fr; brobert51@hotmail.com; 
+> benoit.caillet@orange.fr; marcpierre.jegou@free.fr; 
+> go.nantes.entre.amis@free.fr; lannion-go@googlegroups.com; 
+> Pierre.gauthereau@gmail.com; alex.mignot@free.fr
+>
+> Salut,
+>
+> je sais qu'avec le beau temps tout le monde a d'autres choses à faire 
+> que de passer du temps sur le PC mais on aurait vraiment besoin de 
+> savoir combien de jeux complets vous pourriez apporter/faire apporter 
+> à Piriac ... le week-end prochain !
+>
+> Pour l'instant nous avons :
+>
+> 10 jeux et 5 pendules (...)
+>
+> l'an dernier nous avons eu besoin de 40 jeux et pendules (ce qui 
+> n'était pas gagné au premier tour avec les non-inscrits arrivés le 
+> matin), passer à 45 cette année serait idéal
+>
+> en plus, qui a les jeux de la ligue (et combien) ?
+>
+> merci de vos réponses pour envidager sereinement l'organisation
+>
+> et bon week-end en espérant le même temps la semaine prochaine !
+>
+> Manu
+>
+>
+> Le 6 juin 2014 11:29, emmanuel vincent <emmanuel.vincent@gmail.com 
+> <mailto:emmanuel.vincent@gmail.com>> a écrit :
+>
+>     Bonjour tout le monde,
+>
+>     voici venu le temps du marathon nouveau ! L'an dernier a été une
+>     grande édition avec 80 inscrits (dont beaucoup au dernier moment).
+>     Le nombre de jeux dispo était tout juste suffisant pour la
+>     première ronde donc comme chaque année je fais le tour des bonnes
+>     volontés pour savoir combien de jeux complets / gobans/
+>     pendules/pierres vous pouvez apporter ou faire apporter (club
+>     et/ou perso) pour que tout le monde puisse en profiter en plus de
+>     la piscine de Fanfan.
+>
+>     Merci !!!!
+>
+>     et à très bientôt
+>
+>     Manu
+>
+>
+>
+>
+>
+> _______________________________________________
+> Tenuki-brest mailing list
+> Tenuki-brest@jeudego.org
+> https://admin.jeudego.org/mailman/listinfo/tenuki-brest
+
+
+--------------010301020801070900080303
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <head>
+    <meta content="text/html; charset=ISO-8859-1"
+      http-equiv="Content-Type">
+  </head>
+  <body bgcolor="#FFFFFF" text="#000000">
+    <div class="moz-cite-prefix">Je peux pr&ecirc;ter mon jeu (goban et
+      pierres).<br>
+      <br>
+      Le 16/06/2014 19:09, Tenuki Club de Go Brest a &eacute;crit&nbsp;:<br>
+    </div>
+    <blockquote cite="mid:DUB127-W181F27F1F6159AC258E744EE160@phx.gbl"
+      type="cite">
+      <style><!--
+.hmmessage P
+{
+margin:0px;
+padding:0px
+}
+body.hmmessage
+{
+font-size: 12pt;
+font-family:Calibri
+}
+--></style>
+      <div dir="ltr"><font face="Times New Roman">Bonsoir tout le
+          monde,&nbsp;</font>
+        <div><font face="Times New Roman"><br>
+          </font></div>
+        <div><font face="Times New Roman">Le marathon approchant, le
+            club de Nantes me demande si je peux mettre &agrave; disposition au
+            nom du club des pendules + Goban et Pierres !</font></div>
+        <div><font face="Times New Roman"><br>
+          </font></div>
+        <div><font face="Times New Roman">En plus de celles du club,
+            certains seraient d'accord pour pr&ecirc;ter son jeu ? (des
+            &eacute;tiquettes club de Brest seront coll&eacute;es dessus.)</font></div>
+        <div><font face="Times New Roman"><br>
+          </font></div>
+        <div><font face="Times New Roman">Il devrait y avoir &eacute;norm&eacute;ment
+            de monde &agrave; Piriac, je dois leur r&eacute;pondre le plus rapidement
+            possible !</font></div>
+        <div><font face="Times New Roman"><br>
+          </font></div>
+        <div><font face="Times New Roman">Merci beaucoup.</font></div>
+        <div><font face="Times New Roman"><br>
+          </font></div>
+        <div><font face="Times New Roman">Pierrot.</font><br>
+          <br>
+          <div>
+            <hr id="stopSpelling">Date: Fri, 13 Jun 2014 11:10:36 +0200<br>
+            Subject: Re: Marathon du Go 2014 &agrave; Piriac 21 et 22 juin<br>
+            From: <a class="moz-txt-link-abbreviated" href="mailto:emmanuel.vincent@gmail.com">emmanuel.vincent@gmail.com</a><br>
+            To: <a class="moz-txt-link-abbreviated" href="mailto:miai.nantes@free.fr">miai.nantes@free.fr</a><br>
+            CC: <a class="moz-txt-link-abbreviated" href="mailto:pabkbenou@hotmail.com">pabkbenou@hotmail.com</a>; <a class="moz-txt-link-abbreviated" href="mailto:goelan@villeclose.com">goelan@villeclose.com</a>;
+            <a class="moz-txt-link-abbreviated" href="mailto:lemansgo@yahoo.fr">lemansgo@yahoo.fr</a>; <a class="moz-txt-link-abbreviated" href="mailto:igonokaze@orange.fr">igonokaze@orange.fr</a>;
+            <a class="moz-txt-link-abbreviated" href="mailto:clubyosakura@yahoo.fr">clubyosakura@yahoo.fr</a>; <a class="moz-txt-link-abbreviated" href="mailto:rengo@yahoogroupes.fr">rengo@yahoogroupes.fr</a>;
+            <a class="moz-txt-link-abbreviated" href="mailto:govannes_56@yahoo.fr">govannes_56@yahoo.fr</a>; <a class="moz-txt-link-abbreviated" href="mailto:j.p.morere@wanadoo.fr">j.p.morere@wanadoo.fr</a>;
+            <a class="moz-txt-link-abbreviated" href="mailto:brest.tenuki@hotmail.fr">brest.tenuki@hotmail.fr</a>; <a class="moz-txt-link-abbreviated" href="mailto:17Ro@jeudego.org">17Ro@jeudego.org</a>;
+            <a class="moz-txt-link-abbreviated" href="mailto:astrobombe@yahoo.fr">astrobombe@yahoo.fr</a>; <a class="moz-txt-link-abbreviated" href="mailto:86Po@jeudego.org">86Po@jeudego.org</a>;
+            <a class="moz-txt-link-abbreviated" href="mailto:francois.mizessyn@orange.fr">francois.mizessyn@orange.fr</a>; <a class="moz-txt-link-abbreviated" href="mailto:brobert51@hotmail.com">brobert51@hotmail.com</a>;
+            <a class="moz-txt-link-abbreviated" href="mailto:benoit.caillet@orange.fr">benoit.caillet@orange.fr</a>; <a class="moz-txt-link-abbreviated" href="mailto:marcpierre.jegou@free.fr">marcpierre.jegou@free.fr</a>;
+            <a class="moz-txt-link-abbreviated" href="mailto:go.nantes.entre.amis@free.fr">go.nantes.entre.amis@free.fr</a>; <a class="moz-txt-link-abbreviated" href="mailto:lannion-go@googlegroups.com">lannion-go@googlegroups.com</a>;
+            <a class="moz-txt-link-abbreviated" href="mailto:Pierre.gauthereau@gmail.com">Pierre.gauthereau@gmail.com</a>; <a class="moz-txt-link-abbreviated" href="mailto:alex.mignot@free.fr">alex.mignot@free.fr</a><br>
+            <br>
+            <div dir="ltr">
+              <div>
+                <div>
+                  <div>
+                    <div>
+                      <div>
+                        <div>Salut, <br>
+                          <br>
+                        </div>
+                        je sais qu'avec le beau temps tout le monde a
+                        d'autres choses &agrave; faire que de passer du temps
+                        sur le PC mais on aurait vraiment besoin de
+                        savoir combien de jeux complets vous pourriez
+                        apporter/faire apporter &agrave; Piriac ... le week-end
+                        prochain !<br>
+                        <br>
+                      </div>
+                      Pour l'instant nous avons :<br>
+                      <br>
+                    </div>
+                    10 jeux et 5 pendules (...)<br>
+                    <br>
+                  </div>
+                  l'an dernier nous avons eu besoin de 40 jeux et
+                  pendules (ce qui n'&eacute;tait pas gagn&eacute; au premier tour
+                  avec les non-inscrits arriv&eacute;s le matin), passer &agrave; 45
+                  cette ann&eacute;e serait id&eacute;al<br>
+                  <br>
+                </div>
+                en plus, qui a les jeux de la ligue (et combien) ? <br>
+                <br>
+              </div>
+              merci de vos r&eacute;ponses pour envidager sereinement
+              l'organisation<br>
+              <br>
+              et bon week-end en esp&eacute;rant le m&ecirc;me temps la semaine
+              prochaine !<br>
+              <br>
+              Manu<br>
+            </div>
+            <div class="ecxgmail_extra"><br>
+              <br>
+              <div class="ecxgmail_quote">Le 6 juin 2014 11:29, emmanuel
+                vincent <span dir="ltr">&lt;<a moz-do-not-send="true"
+                    href="mailto:emmanuel.vincent@gmail.com"
+                    target="_blank">emmanuel.vincent@gmail.com</a>&gt;</span>
+                a &eacute;crit :<br>
+                <blockquote class="ecxgmail_quote"
+                  style="border-left:1px #ccc solid;padding-left:1ex;">
+                  <div dir="ltr">
+                    <div>
+                      <div>
+                        <div>
+                          <div>Bonjour tout le monde, <br>
+                            <br>
+                          </div>
+                          voici venu le temps du marathon nouveau ! L'an
+                          dernier a &eacute;t&eacute; une grande &eacute;dition avec 80
+                          inscrits (dont beaucoup au dernier moment). Le
+                          nombre de jeux dispo &eacute;tait tout juste
+                          suffisant pour la premi&egrave;re ronde donc comme
+                          chaque ann&eacute;e je fais le tour des bonnes
+                          volont&eacute;s pour savoir combien de jeux complets
+                          / gobans/ pendules/pierres vous pouvez
+                          apporter ou faire apporter (club et/ou perso)
+                          pour que tout le monde puisse en profiter en
+                          plus de la piscine de Fanfan.<br>
+                          <br>
+                        </div>
+                        Merci !!!!<br>
+                        <br>
+                      </div>
+                      et &agrave; tr&egrave;s bient&ocirc;t<br>
+                      <br>
+                    </div>
+                    Manu<br>
+                    <div>
+                      <div>
+                        <div>
+                          <div>
+                            <div>
+                              <div class="ecxgmail_extra"><br>
+                                <br>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </blockquote>
+              </div>
+              <br>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+      <fieldset class="mimeAttachmentHeader"></fieldset>
+      <br>
+      <pre wrap="">_______________________________________________
+Tenuki-brest mailing list
+<a class="moz-txt-link-abbreviated" href="mailto:Tenuki-brest@jeudego.org">Tenuki-brest@jeudego.org</a>
+<a class="moz-txt-link-freetext" href="https://admin.jeudego.org/mailman/listinfo/tenuki-brest">https://admin.jeudego.org/mailman/listinfo/tenuki-brest</a>
+</pre>
+    </blockquote>
+    <br>
+  </body>
+</html>
+
+--------------010301020801070900080303--
+
+--===============4814281645986003860==
+Content-Type: text/plain; charset="iso-8859-1"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Content-Disposition: inline
+
+_______________________________________________
+Tenuki-brest mailing list
+Tenuki-brest@jeudego.org
+https://admin.jeudego.org/mailman/listinfo/tenuki-brest
+
+--===============4814281645986003860==--

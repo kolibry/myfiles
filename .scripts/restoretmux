@@ -1,0 +1,33 @@
+#!/bin/bash
+#/home/ryann/scripts/restoretmux.sh
+ 
+SESSIONNAME="work"
+tmux has-session -t $SESSIONNAME $&gt; /dev/null
+ 
+if [ $? != 0 ]
+	then
+		# new session with name $SESSIONNAME and window 0 named "base"
+		tmux new-session -s $SESSIONNAME -n base -d
+		tmux split-window -t $SESSIONNAME:0 -h
+ 
+		# new window for regular stuff
+		tmux new-window -t $SESSIONNAME:1 -n "regular"
+		tmux split-window -t $SESSIONNAME:1 -h
+		# start mpd and ncmpcpp
+		tmux send-keys 'ranger' 'C-m'
+		# switch to left pane and start music
+		tmux select-pane -t $SESSIONNAME:1 -L
+		tmux send-keys 'zik' 'C-m'
+ 
+		## new window for rtorrent
+		tmux new-window -t $SESSIONNAME:2 -n rtorrent
+		tmux split-window -t $SESSIONNAME:2 -h
+		tmux send-keys 'rtorrent' 'C-m'
+		tmux select-pane -t $SESSIONNAME:2 -L
+		#tmux send-keys 'cd /home/ryann/projects/processwire/build/' 'C-m'
+ 
+		## switch the "base" window
+		tmux select-window -t $SESSIONNAME:1
+fi
+ 
+tmux attach -t $SESSIONNAME

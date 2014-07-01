@@ -1,0 +1,144 @@
+Return-Path: <noreply@email.wuala.com>
+X-Spam-Checker-Version: SpamAssassin 3.3.2 (2011-06-06) on spamd3.riseup.net
+X-Spam-Level: 
+X-Spam-Pyzor: Reported 0 times.
+X-Spam-Status: No, score=-0.6 required=8.0 tests=AM_TRUNCATED,CK_419SIZE,
+	HTML_MESSAGE,MAILPHISH7,PHISH_ACC2,PHISH_ACC2B,PHISH_THREAT,RCVD_IN_DNSWL_LOW,
+	RP_MATCHES_RCVD,SPF_HELO_PASS,SRC_HTTP,TO_NOREAL shortcircuit=no
+	autolearn=disabled version=3.3.2
+Delivered-To: kolibry@riseup.net
+Received: from mx1.riseup.net (mx1-pn.riseup.net [10.0.1.33])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client CN "*.riseup.net", Issuer "Gandi Standard SSL CA" (not verified))
+	by vireo.riseup.net (Postfix) with ESMTPS id 602C89E
+	for <kolibry@riseup.net>; Sun,  8 Jun 2014 18:45:31 -0700 (PDT)
+Received: from email.wuala.com (email.wuala.com [188.92.145.30])
+	(using TLSv1 with cipher DHE-RSA-AES128-SHA (128/128 bits))
+	(Client did not present a certificate)
+	by mx1.riseup.net (Postfix) with ESMTPS id E9A874FE5F
+	for <kolibry@riseup.net>; Sun,  8 Jun 2014 18:45:30 -0700 (PDT)
+Received: from vm6-wua-chzh-002.local ([188.92.145.15]:47164 helo=vm6-wua-chzh-002)
+	by email.wuala.com with esmtpsa (TLS1.0:RSA_AES_128_CBC_SHA1:128)
+	(Exim 4.80)
+	(envelope-from <noreply@email.wuala.com>)
+	id 1WtoeO-0006dx-LF
+	for kolibry@riseup.net; Mon, 09 Jun 2014 03:45:28 +0200
+Date: Mon, 9 Jun 2014 03:45:28 +0200 (CEST)
+From: Wuala <noreply@email.wuala.com>
+To: kolibry@riseup.net
+Message-ID: <319721043.537313.1402278328590.JavaMail.server@vm6-wua-chzh-002>
+Subject: [Wuala] Your Account might get deleted soon...
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_537311_1979136367.1402278328589"
+X-Authenticated-User: noreply@email.wuala.com
+X-Authenticator: login
+X-Invalid-HELO: HELO is no FQDN (contains no dot) (See RFC2821 4.1.1.1)
+X-Sender-Verify: SUCCEEDED (sender exists & accepts mail)
+X-Virus-Scanned: clamav-milter 0.98.1 at mx1
+X-Virus-Status: Clean
+
+------=_Part_537311_1979136367.1402278328589
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Dear Kolibry
+we hope you're doing well.
+We noticed that you didn't log in to your account Kolibry for more than 90 =
+days. Accounts not used anymore are automatically deleted after further 30 =
+days.
+To make sure that you keep your account and your files, please log in withi=
+n the next 30 days, otherwise your account will be deleted permanently. If =
+you decide to delete your account, you don=C2=B4t have to do anything and w=
+e will take care of that for you.
+If you're interested in our pricing plans, make sure to check out our prici=
+ng page. We hope to have you back as an active user soon!
+Best regards,
+Your Wuala Team
+------=_Part_537311_1979136367.1402278328589
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+<head>
+=09<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8"=
+ />
+=09<title>Wuala</title>
+</head>
+
+<body style=3D"font-family: Verdana,Arial,Helvetica,sans-serif; color:#6666=
+66; font-size: 12px; padding: 20px 0px 0px 0px; margin: 0px; background: #f=
+fffff;">
+=09<div style=3D"margin-left: 20px; width: 675px;">
+=09=09<table style=3D"padding: 0px; margin: 0px; border: 0px; width: 675px;=
+ border-bottom:5px solid #083370;">
+=09=09=09<tr>
+=09=09=09=09<td style=3D"width: 250px;"><img src=3D"http://cdn.wuala.com/ne=
+wsletter/common/images/logo/wuala_logo_horiz.gif" alt=3D"" /></td>
+=09=09=09=09<td style=3D"padding: 0 10px 23px 0; text-align: right; vertica=
+l-align: bottom; color: #083370; font-size: 16px; font-weight: bold; text-a=
+lign: right; width: 179px;">Your Account might get deleted soon...</td>
+=09=09=09</tr>
+=09=09</table>
+=09=09<table style=3D"padding: 0px; margin: 0px; border: 0px; width: 675px;=
+ border-bottom: 4px solid #083370;">
+=09=09=09<tr>
+=09=09=09=09<td style=3D"color:#666666; vertical-align:top; padding-top: 30=
+px; width: 490px; font-size: 12px; font-family: Verdana,Arial,Helvetica,san=
+s-serif;">
+=09=09=09=09=09Dear <strong>Kolibry</strong><br/>
+we hope you're doing well.<br/>
+We noticed that you didn't log in to your account <strong>Kolibry</strong> =
+for more than 90 days. Accounts not used anymore are automatically deleted =
+after further 30 days.<br/>
+<br/>
+To make sure that you keep your account and your files, please log in
+within the next <strong>30 days</strong>, otherwise your account will be
+deleted permanently. If you decide to delete your account, you don=C2=B4t h=
+ave to do anything=20
+and we will take care of that for you. <br/>
+<br/>
+If you're interested in our pricing plans, make sure to
+check out our <a href=3D"http://wuala.com/pricing/"
+style=3D"text-decoration: none; color:#ef675d; font-weight: bold;">pricing
+page</a>. We hope to have you back as an active user soon!<br/>
+<br/>
+Best regards,<br/>
+Your Wuala Team
+=09=09=09=09</td>
+=09=09=09=09<td style=3D"vertical-align: top; padding:20px 0 0 20px; border=
+-left: 1px solid #083370; width: 185px; font-size: 11px; font-family: Verda=
+na,Arial,Helvetica,sans-serif;">
+=09=09=09=09=09<p style=3D"padding-bottom: 5px; margin-bottom: 0; color:#66=
+6666;"><span style=3D"color:#083370; font-weight:bold;">Privacy & Security<=
+/span><br />Wuala protects your privacy: All your files are <a href=3D"http=
+://www.wuala.com/learn/technology/">encrypted</a> on your computer so that =
+no one - including LaCie - can access your private files.</p><p style=3D"pa=
+dding-bottom: 5px; margin-bottom: 0; color:#666666;"><span style=3D"color:#=
+083370; font-weight:bold;">Updates & Tips</span><br />Visit our <a href=3D"=
+http://www.wuala.com/blog">blog</a> or <a href=3D"http://forum.wuala.com">f=
+orum</a> for frequent updates and tips!</p><p style=3D"padding-bottom: 5px;=
+ margin-bottom: 0; color:#666666;"><span style=3D"color:#083370; font-weigh=
+t:bold;">Follow and Like Us</span><br /><a href=3D"http://www.facebook.com/=
+mywuala"><img src=3D"http://cdn.wuala.com/newsletter/common/images/favicons=
+/facebook.gif" alt=3D"Facebook" style=3D"border: 0px;" /></a><a href=3D"htt=
+p://www.linkedin.com/groups?gid=3D1783352"><img src=3D"http://cdn.wuala.com=
+/newsletter/common/images/favicons/linkedIn.gif" alt=3D"LinkedIn" style=3D"=
+border: 0px;" /></a><a href=3D"http://www.xing.com/net/wuala/"><img src=3D"=
+http://cdn.wuala.com/newsletter/common/images/favicons/xing.gif" alt=3D"Xin=
+g" style=3D"border: 0px;" /></a><a href=3D"http://www.twitter.com/wuala"><i=
+mg src=3D"http://cdn.wuala.com/newsletter/common/images/favicons/twitter.gi=
+f" alt=3D"Twitter" style=3D"border: 0px;" /></a><a href=3D"http://www.youtu=
+be.com/WualaTV"><img src=3D"http://cdn.wuala.com/newsletter/common/images/f=
+avicons/youtube.png" alt=3D"YouTube" style=3D"border: 0px;" /></a></p>
+=09=09=09=09</td>
+=09=09=09</tr>
+=09=09</table>
+=09=09<br />
+=09=09<br />&nbsp;
+=09</div>
+</body>
+</html>
+------=_Part_537311_1979136367.1402278328589--

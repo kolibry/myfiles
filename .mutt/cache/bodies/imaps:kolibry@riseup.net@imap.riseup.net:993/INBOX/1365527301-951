@@ -1,0 +1,53 @@
+Return-Path: <noreply@forumactif.com>
+X-Spam-Checker-Version: SpamAssassin 3.3.2 (2011-06-06) on spamd2.riseup.net
+X-Spam-Level: 
+X-Spam-Pyzor: Reported 0 times.
+X-Spam-Status: No, score=0.1 required=8.0 tests=AM_TRUNCATED,CK_419SIZE,
+	CK_KARD_SIZE,DKIM_SIGNED,DKIM_VALID,DKIM_VALID_AU,GAPPY_LET,HAS_REPLY_TO,
+	LINK_NR_TOP shortcircuit=no autolearn=disabled version=3.3.2
+Delivered-To: kolibry@riseup.net
+Received: from mx1.riseup.net (mx1-pn.riseup.net [10.0.1.33])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client CN "*.riseup.net", Issuer "Gandi Standard SSL CA" (not verified))
+	by vireo.riseup.net (Postfix) with ESMTPS id 7FB77B5
+	for <kolibry@riseup.net>; Fri, 28 Mar 2014 12:38:30 +0000 (UTC)
+Received: from f57.mail.dnspro.org (f57.mail.dnspro.org [74.86.217.135])
+	by mx1.riseup.net (Postfix) with ESMTP id 31A67518AB
+	for <kolibry@riseup.net>; Fri, 28 Mar 2014 05:38:30 -0700 (PDT)
+Received: by f57.mail.dnspro.org (ESMTP, from userid 510)
+	id 0AA57680AC; Fri, 28 Mar 2014 13:38:24 +0100 (CET)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=forumactif.com;
+	s=default; t=1396010304;
+	bh=PzjVSpC9LQWUUjQlFYHdcgMVGlwoG1figXBJ6sRd9w8=;
+	h=To:Subject:From:Reply-to:Date;
+	b=2Gtns4kNygDePoHcT5sghTbYBcLyK+XLAXWf930DUudPg3XfzKJ7jlGTk3hxzaON5
+	 kpWaMOwdTrNjZga/eNrYHRnQDLncQnaA0Zy0ecKkM/JcXVqN4w0b/5V9CqdwSOnNuq
+	 xvsu0GeHAPrIAuujM9nGWVeifUrAg2gNAw4miX40=
+To: "=?utf-8?B?S29saWJyeQ==?=" <kolibry@riseup.net>
+Subject: =?utf-8?B?UsOpcG9uc2UgYXUgc3VqZXQgOiBQYXJ0aWUgTWFsa292aXRjaCA6IEtvbGlicnkgVnMgcm9zZW56d2VpZw==?=
+Content-type: text/plain; charset="utf-8"
+Content-transfer-encoding: 8bit
+From: "=?utf-8?B?R08uT04gbCBMZSBmb3J1bSBkZSBsYSBjb21tdW5hdXTDqSBmcmFuw6dhaXNlIGRlIEdv?=" <noreply@forumactif.com>
+Reply-to: "=?utf-8?B?R08uT04gbCBMZSBmb3J1bSBkZSBsYSBjb21tdW5hdXTDqSBmcmFuw6dhaXNlIGRlIEdv?=" <noreply@forumactif.com>
+Message-ID: <20140328123823.504de7250c@go-on.forumactif.com>
+MIME-Version: 1.0
+Date: Fri, 28 Mar 2014 13:38:24 +0100 (CET)
+X-Virus-Scanned: clamav-milter 0.98.1 at mx1
+X-Virus-Status: Clean
+
+Bonjour Kolibry,
+
+Vous recevez cet email parce que vous surveillez le sujet, "Partie Malkovitch : Kolibry Vs rosenzweig  " sur "GO.ON l Le forum de la communauté française de Go", qui a reçu une réponse depuis votre dernière visite.
+
+Vous pouvez utiliser le lien suivant pour voir les réponses qui ont été faites. Aucune autre notification ne vous sera envoyée jusqu'à ce que vous visitiez le sujet.
+http://go-on.forumactif.com/t1989p75-partie-malkovitch-kolibry-vs-rosenzweig#26895
+
+Si vous ne voulez plus surveiller ce sujet vous pouvez, soit cliquer sur le lien "Arrêter de surveiller ce sujet" en bas du sujet ci-dessus, soit cliquer sur le lien suivant:
+http://go-on.forumactif.com/t1989-partie-malkovitch-kolibry-vs-rosenzweig?unwatch=topic
+
+-- 
+_____________________________________________________________________________
+
+L'Administrateur.
+GO.ON l Le forum de la communauté française de Go.
+http://goon-forum.com/

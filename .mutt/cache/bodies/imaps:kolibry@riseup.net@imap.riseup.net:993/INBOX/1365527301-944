@@ -1,0 +1,142 @@
+Return-Path: <iuriepraporscic@yahoo.fr>
+X-Spam-Checker-Version: SpamAssassin 3.3.2 (2011-06-06) on spamd3.riseup.net
+X-Spam-Level: 
+X-Spam-Pyzor: Reported 0 times.
+X-Spam-Status: No, score=0.1 required=8.0 tests=AM_TRUNCATED,BANK_NAME,
+	CK_419SIZE,DKIM_SIGNED,DKIM_VALID,DKIM_VALID_AU,FORWARD_RELAY,FREEMAIL_FROM,
+	HAS_REPLY_TO,HTML_MESSAGE,RCVD_IN_DNSWL_NONE,REPLY_TO_TEMP shortcircuit=no
+	autolearn=disabled version=3.3.2
+Delivered-To: kolibry@riseup.net
+Received: from mx1.riseup.net (mx1-pn.riseup.net [10.0.1.33])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client CN "*.riseup.net", Issuer "Gandi Standard SSL CA" (not verified))
+	by vireo.riseup.net (Postfix) with ESMTPS id 97575B1
+	for <kolibry@riseup.net>; Wed, 26 Mar 2014 07:49:30 +0000 (UTC)
+Received: from nm5-vm5.bullet.mail.ir2.yahoo.com (nm5-vm5.bullet.mail.ir2.yahoo.com [212.82.96.112])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by mx1.riseup.net (Postfix) with ESMTPS id 9EA744D84A
+	for <kolibry@riseup.net>; Wed, 26 Mar 2014 00:49:29 -0700 (PDT)
+Received: from [212.82.98.61] by nm5.bullet.mail.ir2.yahoo.com with NNFMP; 26 Mar 2014 07:49:20 -0000
+Received: from [212.82.98.95] by tm14.bullet.mail.ir2.yahoo.com with NNFMP; 26 Mar 2014 07:49:20 -0000
+Received: from [127.0.0.1] by omp1032.mail.ir2.yahoo.com with NNFMP; 26 Mar 2014 07:49:20 -0000
+X-Yahoo-Newman-Property: ymail-3
+X-Yahoo-Newman-Id: 536622.20293.bm@omp1032.mail.ir2.yahoo.com
+Received: (qmail 43885 invoked by uid 60001); 26 Mar 2014 07:49:20 -0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.fr; s=s1024; t=1395820160; bh=KtBQVwenyEUmLvq/MKwWqMkoqgvrCbHQKpBIsg9vW3U=; h=X-YMail-OSG:Received:X-Rocket-MIMEInfo:X-Mailer:References:Message-ID:Date:From:Reply-To:Subject:To:In-Reply-To:MIME-Version:Content-Type; b=yWS4OCfesMBZizqW/YfBk8ZOHA+yuwHqCHMJZeoKUNtXlJ8LQVgpiI46FEckQKJOZ3miLzzoPHSEBx5rLEL+bNvExgTQur7OIfkRFuevDauvuIVz7TmV01Drh6aJzp4wiwuZWW497/gCQ+AcY3ZsxxsvhQxgeb4EGDxZtevFhfI=
+DomainKey-Signature:a=rsa-sha1; q=dns; c=nofws;
+  s=s1024; d=yahoo.fr;
+  h=X-YMail-OSG:Received:X-Rocket-MIMEInfo:X-Mailer:References:Message-ID:Date:From:Reply-To:Subject:To:In-Reply-To:MIME-Version:Content-Type;
+  b=tRC53RU578LIJejXZVhMQaPqeQySrqZoJwzNUU+nT1X64nv4JDU/zHbJi0EeQtw0vNJNyFMj3AsWD5Geiw8ucgBfHAES199Wh3Sb/gIIJ0V12RYKZWwz8OB72TGms4stD+ea/5qqRqAVh3RjXb4JniGI/toKQdnqON8MowQ7MUE=;
+X-YMail-OSG: 01tTt1oVM1mlmV2vHA9e4z477o6Z7I_zUFGdO0LtFh84Wya
+ Ol77wJXj3sChCqiEwdxp9rJnhnQdQbWBG.0ycX84TbrZ.cn1M0dCKwJ7mRQ_
+ yMQHR0YiGIKZIOaLzsQ1uXxHvAxKxLrFnP2fUZ021q3QviPGKrMC_O5aRI8D
+ i5xWE8iMGZ1GVEzM_bQkJ_3c.LdBfmniENVHpWWS9oWLfai9buAwSTwpJ5PV
+ Qu01GTMFkUX8ROe9bUHZtjkRxdbFttaHnOukG7gTQvYPX_bclmVkpMcfA50e
+ O_sXbvaMtNk7l1WwxAvekmoVK3LcK5JN.3ZAdn44wQRUSriEmZzDacWeAvvQ
+ R2lM3z0BY9arp554imEAbv0HQs0pvp8xozHNste4xB_n6osaR6M7GAHRsSKW
+ oIEkHMj4sD8n2zjxCBQxk9lsJ3EU7TrIfX01tO0R11xwglXryCtpjJWDLzAO
+ sFoSbO9rLuYcCjPwMBHtP7CLhQqAKx1WARRz5FDSlzVs9marHdLoHkHErwfF
+ n7HR5AcGIsW3hLevlEt1PaqUmMnCO07nLZCAYJ8Z0qWTitRua8.jlsfHify5
+ vck5g2xUIuYGstx4Cd1RGpVR3QIFXW.DhoN8TBPgtpKTSFW2nR1pcZQIq
+Received: from [194.51.82.87] by web173106.mail.ir2.yahoo.com via HTTP; Wed, 26 Mar 2014 07:49:20 GMT
+X-Rocket-MIMEInfo: 002.001,Qm9uam91ciBKb25hdGhhbiwKCkxhIGJyb3VldHRlIGVzdCBwYXJ0aWUgaGllciwgZWxsZSDDqXRhaXQgbcOpdGFsbGlxdWUuCgpDb3JkaWFsZW1lbnQKCllvdXJpCgoKCkxlIE1hcmRpIDI1IG1hcnMgMjAxNCAxOWg1NCwgSm9uYXRoYW4gPGtvbGlicnlAcmlzZXVwLm5ldD4gYSDDqWNyaXQgOgogIApCb25qb3VyLAoKRXN0IGVsbGUgZW4gbcOpdGFsID8gTGEgcXVlc3Rpb24gcGV1dCBwYXJhw650cmUgYsOqdGUKbWFpcyBsYSBwaG90byBkb25uZSB1biByZW5kdSAicGxhc3RpcXVlIi4KCkplIHBldXggcGFzc2UBMAEBAQE-
+X-Mailer: YahooMailWebService/0.8.181.645
+References: <20140325185423.503F4B4B@vptrans07.leboncoin.lan>
+Message-ID: <1395820160.34884.YahooMailNeo@web173106.mail.ir2.yahoo.com>
+Date: Wed, 26 Mar 2014 07:49:20 +0000 (GMT)
+From: iurie praporscic <iuriepraporscic@yahoo.fr>
+Reply-To: iurie praporscic <iuriepraporscic@yahoo.fr>
+Subject: Re: Votre annonce "Brouette" sur Leboncoin.fr
+To: Jonathan <kolibry@riseup.net>
+In-Reply-To: <20140325185423.503F4B4B@vptrans07.leboncoin.lan>
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="404364280-938840802-1395820160=:34884"
+X-Virus-Scanned: clamav-milter 0.98.1 at mx1
+X-Virus-Status: Clean
+
+--404364280-938840802-1395820160=:34884
+Content-Type: text/plain; charset=iso-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+Bonjour Jonathan,=0A=0ALa brouette est partie hier, elle =E9tait m=E9talliq=
+ue.=0A=0ACordialement=0A=0AYouri=0A=0A=0A=0ALe Mardi 25 mars 2014 19h54, Jo=
+nathan <kolibry@riseup.net> a =E9crit :=0A  =0ABonjour,=0A=0AEst elle en m=
+=E9tal ? La question peut para=EEtre b=EAte=0Amais la photo donne un rendu =
+"plastique".=0A=0AJe peux passer demain en fin de journ=E9e.=0A=0AMerci d'a=
+vance=A0 !=0A=0AJonathan=0A=0ACoordonn=E9es du contact :=0ANom : Jonathan=
+=0AEmail : kolibry@riseup.net=0A=0ACet email vous a =E9t=E9 envoy=E9 au suj=
+et de l'annonce "Brouette" que vous avez d=E9pos=E9e sur Leboncoin.fr :=0Ah=
+ttp://www.leboncoin.fr/jardinage/640049585.htm=0A=0APS : la personne qui vo=
+us a contact=E9 ne conna=EEtra pas votre email tant que vous=0Ane lui aurez=
+ pas r=E9pondu.=0A=0APensez =E0 toujours v=E9rifier les coordonn=E9es de vo=
+tre interlocuteur (nom, adresse,=0Anum=E9ro de t=E9l=E9phone) dans l'annuai=
+re t=E9l=E9phonique afin de vous assurer d'avoir=0Aun contact en cas de lit=
+ige. D'une mani=E8re g=E9n=E9rale, privil=E9giez la remise de=0Al'objet en =
+mains propres.=0A=0AM=E9fiez-vous des offres trop all=E9chantes ! Soyez vig=
+ilants avec les demandes=0Aprovenant de l'=E9tranger quand vous ne disposez=
+ que d'un contact par email. Le=0Avirement bancaire par Western Union ou Ma=
+ndat Cash propos=E9 risque bien d'=EAtre=0Afactice.=0A=0APour toute informa=
+tion nous vous invitons =E0 consulter notre page avertissement : http://www=
+.leboncoin.fr/phishing.htm=0A=0AMerci de votre confiance et =E0 tr=E8s bien=
+t=F4t sur notre site,=0A=0AL'=E9quipe Leboncoin.fr=0Awww.leboncoin.fr=0A=0A=
+=0APS: Ceci est un email automatique, merci de ne pas y r=E9pondre.=0A_____=
+________________________________________________________________________=0A=
+Leboncoin.fr, vendez, achetez, pr=E8s de chez vous. Simple, rapide et effic=
+ace.=0Ahttp://www.leboncoin.fr/=0A=0AMobile.leboncoin.fr, d=E9couvrez notre=
+ nouveau site mobile en vous connectant depuis=0Avotre t=E9l=E9phone portab=
+le.=0Ahttp://mobile.leboncoin.fr/
+--404364280-938840802-1395820160=:34884
+Content-Type: text/html; charset=iso-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<html><body><div style=3D"color:#000; background-color:#fff; font-family:He=
+lveticaNeue, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;fo=
+nt-size:12pt"><span><div id=3D"yiv9700749357yui_3_13_0_ym1_6_1395819920652_=
+5"><span>Bonjour Jonathan,</span></div><div id=3D"yiv9700749357yui_3_13_0_y=
+m1_1_1395819920652_2616"><span><br clear=3D"none"></span></div><div id=3D"y=
+iv9700749357yui_3_13_0_ym1_1_1395819920652_2618"><span id=3D"yiv9700749357y=
+ui_3_13_0_ym1_1_1395819920652_2617">La brouette est partie hier, elle =E9ta=
+it m=E9tallique.</span></div><div><span><br></span></div><div><span>Cordial=
+ement</span></div><div><span><br></span></div><div><span>Youri</span></div>=
+</span><div></div><div class=3D"yahoo_quoted" style=3D"display: block;"> <b=
+r> <br> <div style=3D"font-family: HelveticaNeue, Helvetica Neue, Helvetica=
+, Arial, Lucida Grande, sans-serif; font-size: 12pt;"> <div style=3D"font-f=
+amily: HelveticaNeue, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans=
+-serif;
+ font-size: 12pt;"> <div dir=3D"ltr"> <font face=3D"Arial" size=3D"2"> Le M=
+ardi 25 mars 2014 19h54, Jonathan &lt;kolibry@riseup.net&gt; a =E9crit :<br=
+> </font> </div>  <div class=3D"y_msg_container">Bonjour,<br><br>Est elle e=
+n m=E9tal ? La question peut para=EEtre b=EAte<br>mais la photo donne un re=
+ndu "plastique".<br><br>Je peux passer demain en fin de journ=E9e.<br><br>M=
+erci d'avance&nbsp; !<br><br>Jonathan<br><br>Coordonn=E9es du contact :<br>=
+Nom : Jonathan<br>Email : <a href=3D"mailto:kolibry@riseup.net" ymailto=3D"=
+mailto:kolibry@riseup.net">kolibry@riseup.net</a><br><br>Cet email vous a =
+=E9t=E9 envoy=E9 au sujet de l'annonce "Brouette" que vous avez d=E9pos=E9e=
+ sur Leboncoin.fr :<br><a href=3D"http://www.leboncoin.fr/jardinage/6400495=
+85.htm" target=3D"_blank">http://www.leboncoin.fr/jardinage/640049585.htm</=
+a><br><br>PS : la personne qui vous a contact=E9 ne conna=EEtra pas votre e=
+mail tant que vous<br>ne lui aurez pas r=E9pondu.<br><br>Pensez =E0 toujour=
+s v=E9rifier les
+ coordonn=E9es de votre interlocuteur (nom, adresse,<br>num=E9ro de t=E9l=
+=E9phone) dans l'annuaire t=E9l=E9phonique afin de vous assurer d'avoir<br>=
+un contact en cas de litige. D'une mani=E8re g=E9n=E9rale, privil=E9giez la=
+ remise de<br>l'objet en mains propres.<br><br>M=E9fiez-vous des offres tro=
+p all=E9chantes ! Soyez vigilants avec les demandes<br>provenant de l'=E9tr=
+anger quand vous ne disposez que d'un contact par email. Le<br>virement ban=
+caire par Western Union ou Mandat Cash propos=E9 risque bien d'=EAtre<br>fa=
+ctice.<br><br>Pour toute information nous vous invitons =E0 consulter notre=
+ page avertissement : <a href=3D"http://www.leboncoin.fr/phishing.htm" targ=
+et=3D"_blank">http://www.leboncoin.fr/phishing.htm</a><br><br>Merci de votr=
+e confiance et =E0 tr=E8s bient=F4t sur notre site,<br><br>L'=E9quipe Lebon=
+coin.fr<br>www.leboncoin.fr<br><br><br>PS: Ceci est un email automatique, m=
+erci de ne pas y
+ r=E9pondre.<br>___________________________________________________________=
+__________________<br>Leboncoin.fr, vendez, achetez, pr=E8s de chez vous. S=
+imple, rapide et efficace.<br><a href=3D"http://www.leboncoin.fr/" target=
+=3D"_blank">http://www.leboncoin.fr/</a><br><br>Mobile.leboncoin.fr, d=E9co=
+uvrez notre nouveau site mobile en vous connectant depuis<br>votre t=E9l=E9=
+phone portable.<br><a href=3D"http://mobile.leboncoin.fr/" target=3D"_blank=
+">http://mobile.leboncoin.fr/</a><br><br><br><br><br></div>  </div> </div> =
+ </div> </div></body></html>
+--404364280-938840802-1395820160=:34884--

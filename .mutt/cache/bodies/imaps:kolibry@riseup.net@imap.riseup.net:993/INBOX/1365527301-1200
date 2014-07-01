@@ -1,0 +1,110 @@
+Return-Path: <remi.vannier@gmail.com>
+X-Spam-Checker-Version: SpamAssassin 3.3.2 (2011-06-06) on spamd2.riseup.net
+X-Spam-Level: 
+X-Spam-Pyzor: Reported 0 times.
+X-Spam-Status: No, score=-0.2 required=8.0 tests=AM_TRUNCATED,CK_419SIZE,
+	DKIM_SIGNED,DKIM_VALID,DKIM_VALID_AU,FORWARD_RELAY,FREEMAIL_FROM,HTML_MESSAGE,
+	MAILPHISH4 shortcircuit=no autolearn=disabled version=3.3.2
+Delivered-To: kolibry@riseup.net
+Received: from mx1.riseup.net (mx1-pn.riseup.net [10.0.1.33])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client CN "*.riseup.net", Issuer "Gandi Standard SSL CA" (not verified))
+	by vireo.riseup.net (Postfix) with ESMTPS id 4105995
+	for <kolibry@riseup.net>; Mon, 26 May 2014 03:26:40 -0700 (PDT)
+Received: from jeudego.org (jeudego.org [5.135.164.19])
+	by mx1.riseup.net (Postfix) with ESMTP id CD01C4AF9A
+	for <kolibry@riseup.net>; Mon, 26 May 2014 03:26:39 -0700 (PDT)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by jeudego.org (Postfix) with ESMTP id 6AFB32EC4F6B
+	for <joueurs-ouest@jeudego.org>; Mon, 26 May 2014 12:26:33 +0200 (CEST)
+Received: from jeudego.org ([127.0.0.1])
+	by localhost (jeudego.org [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id SyLFPurVeRnz for <joueurs-ouest@jeudego.org>;
+	Mon, 26 May 2014 12:26:22 +0200 (CEST)
+Received: from mail-ve0-f178.google.com (mail-ve0-f178.google.com [209.85.128.178])
+	(using TLSv1 with cipher RC4-SHA (128/128 bits))
+	(No client certificate requested)
+	by jeudego.org (Postfix) with ESMTPS
+	for <joueurs-ouest@jeudego.org>; Mon, 26 May 2014 12:26:22 +0200 (CEST)
+Received: by mail-ve0-f178.google.com with SMTP id sa20so9093424veb.37
+        for <joueurs-ouest@jeudego.org>; Mon, 26 May 2014 03:26:21 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:date:message-id:subject:from:to:content-type;
+        bh=H2VlNgjlN+ONHD3xks2rMDHd+zApx8fbFbi67BHqxMo=;
+        b=iUnraDuh3kVDBRawxFGz1obf8ndDITi2EB6hQ5afuvrYNEIQnj2+A7mGarsBM0vHLX
+         RNz2VkFhfIiKgyVZ3yKEgC/JyZNk3YyPSTqQGgu9g9s7fyLdMRounx0+Gh+n4DWRKN5h
+         QLBlAWo99UXPdr7TKGkHCVqabMGm3c17MCtEAfvq3BneoY5myAEVcCIBiyoPWfW5O42+
+         ePr9M7CZYVVuXPYHg33M5toQGFa+RM6T1B9qXgMP4O8aU/PKQTuP0BuUYAAfiIBI7pF/
+         UMcur3P0JIXHaKe7lMoJlT1nfkHZzCBhI7hdbI1b83eCKsW2RT//6czXQG/bEOWu9WrD
+         gqHg==
+MIME-Version: 1.0
+X-Received: by 10.58.123.71 with SMTP id ly7mr20376189veb.11.1401099981296;
+ Mon, 26 May 2014 03:26:21 -0700 (PDT)
+Received: by 10.52.27.13 with HTTP; Mon, 26 May 2014 03:26:21 -0700 (PDT)
+Date: Mon, 26 May 2014 12:26:21 +0200
+Message-ID: <CAJNdWjxtgOR9yxHUH=6n0yZsH1fXTd=6pcy3pHbby3CRkhpTew@mail.gmail.com>
+Subject: =?UTF-8?Q?Cho_Mikyung_=C3=A0_Rennes_ce_week=2Dend?=
+From: Remi Vannier <remi.vannier@gmail.com>
+To: joueurs-ouest@jeudego.org
+Content-Type: multipart/alternative; boundary=089e0115f0a2ae1b3604fa4b023f
+X-Virus-Scanned: clamav-milter 0.98.1 at mx1
+X-Virus-Status: Clean
+
+--089e0115f0a2ae1b3604fa4b023f
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+N'h=C3=A9sitez pas =C3=A0 passer nous voir =C3=A0 Rennes pour la venue de C=
+ho Mikyung 8p
+ce week-end, du vendredi 30 mai au soir au mardi 3 juin.
+
+On a pr=C3=A9vu un programme l=C3=A9ger pour l'instant, mais on peut s'atte=
+ndre =C3=A0 ce
+que d'autres activit=C3=A9s s'organisent =C3=A0 l'improviste...
+
+Samedi 31, Simultan=C3=A9es et commentaires de parties =C3=A0 l'Institut Co=
+nfucius
+(ICB) =C3=A0 partir de 15h, puis cr=C3=AAperie puis simultan=C3=A9es et jeu=
+x chez R=C3=A9mi.
+Dimanche 1er juin : Tourisme en journ=C3=A9e, go le soir chez R=C3=A9mi.
+Lundi 2 juin : Ap=C3=A9ro dinatoire et simultan=C3=A9es chez Marc G.
+Mardi 3 juin : Repas =C3=A0 19h30 en ville et RDV =C3=A0 21h au St Melaine =
+pour des
+simultan=C3=A9es.
+Tourisme en journ=C3=A9e.
+
+Pr=C3=A9venez-moi si vous cherchez un endroit o=C3=B9 cr=C3=A9cher, on s'or=
+ganisera. Et
+appelez-moi au 06.63.28.96.13 si vous =C3=AAtes =C3=A0 Rennes et que vous n=
+e nous
+trouvez pas... Enfin, si vous arrivez le vendredi soir,
+
+R=C3=A9mi
+
+--089e0115f0a2ae1b3604fa4b023f
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">N&#39;h=C3=A9sitez pas =C3=A0 passer nous voir =C3=A0 Renn=
+es pour la venue de Cho Mikyung 8p ce week-end, du vendredi 30 mai au soir =
+au mardi 3 juin.=C2=A0<div><br></div><div>On a pr=C3=A9vu un programme l=C3=
+=A9ger pour l&#39;instant, mais on peut s&#39;attendre =C3=A0 ce que d&#39;=
+autres activit=C3=A9s s&#39;organisent =C3=A0 l&#39;improviste...=C2=A0</di=
+v>
+<br>Samedi 31, Simultan=C3=A9es et commentaires de parties =C3=A0 l&#39;Ins=
+titut Confucius (ICB) =C3=A0 partir de 15h, puis cr=C3=AAperie puis simulta=
+n=C3=A9es et jeux chez R=C3=A9mi.<br>Dimanche 1er juin : Tourisme en journ=
+=C3=A9e, go le soir chez R=C3=A9mi.<br>
+Lundi 2 juin : Ap=C3=A9ro dinatoire et simultan=C3=A9es chez Marc G.<br>Mar=
+di 3 juin : Repas =C3=A0 19h30 en ville et RDV =C3=A0 21h au St Melaine pou=
+r des simultan=C3=A9es.<br>Tourisme en journ=C3=A9e.<div><br></div><div>Pr=
+=C3=A9venez-moi si vous cherchez un endroit o=C3=B9 cr=C3=A9cher, on s&#39;=
+organisera. Et appelez-moi au 06.63.28.96.13 si vous =C3=AAtes =C3=A0 Renne=
+s et que vous ne nous trouvez pas... Enfin, si vous arrivez le vendredi soi=
+r,=C2=A0<span style=3D"color:rgb(51,51,51);font-family:Helvetica,Arial,&#39=
+;lucida grande&#39;,tahoma,verdana,arial,sans-serif;font-size:13.6363630294=
+7998px;line-height:20px"><br>
+</span></div><div><br></div><div>R=C3=A9mi</div></div>
+
+--089e0115f0a2ae1b3604fa4b023f--

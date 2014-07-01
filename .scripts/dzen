@@ -1,0 +1,13 @@
+#!/bin/sh
+RC="$HOME/.dzen_conkyrc"
+FG="white"
+BG="#000000"
+ALIGN="center"
+WIDTH="1600"
+HEIGHT="16"
+FONT="-*-terminus-medium-*-*-*-11-*-*-*-*-*-*-*"
+#XPOS="215" 
+#YPOS="1"
+
+exec conky -d -c $RC | dzen2 -dock -fg $FG -bg $BG -ta $ALIGN -w $WIDTH -h $HEIGHT -x $XPOS -y $YPOS -fn $FONT &
+exit 0

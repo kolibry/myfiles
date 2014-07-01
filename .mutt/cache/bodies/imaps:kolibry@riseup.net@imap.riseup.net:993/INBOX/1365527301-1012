@@ -1,0 +1,89 @@
+Return-Path: <cuello.kevin@gmail.com>
+X-Spam-Checker-Version: SpamAssassin 3.3.2 (2011-06-06) on spamd3.riseup.net
+X-Spam-Level: 
+X-Spam-Pyzor: Reported 0 times.
+X-Spam-Status: No, score=0.1 required=8.0 tests=AM_TRUNCATED,CK_419SIZE,
+	CK_KARD_SIZE,DKIM_SIGNED,DKIM_VALID,DKIM_VALID_AU,FORWARD_RELAY,FREEMAIL_FROM,
+	HTML_LINK_NR_TOP,HTML_MESSAGE,LINK_NR_TOP,MAILPHISH4 shortcircuit=no
+	autolearn=disabled version=3.3.2
+Delivered-To: kolibry@riseup.net
+Received: from mx1.riseup.net (mx1-pn.riseup.net [10.0.1.33])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client CN "*.riseup.net", Issuer "Gandi Standard SSL CA" (not verified))
+	by vireo.riseup.net (Postfix) with ESMTPS id 50F4DAF
+	for <kolibry@riseup.net>; Thu, 10 Apr 2014 21:28:06 +0000 (UTC)
+Received: from jeudego.org (jeudego.org [5.135.164.19])
+	by mx1.riseup.net (Postfix) with ESMTP id 0257F4EA92
+	for <kolibry@riseup.net>; Thu, 10 Apr 2014 14:28:05 -0700 (PDT)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by jeudego.org (Postfix) with ESMTP id B432C2EC3110
+	for <joueurs-ouest@jeudego.org>; Thu, 10 Apr 2014 23:27:58 +0200 (CEST)
+X-Virus-Scanned: Debian amavisd-new at jeudego.org
+Received: from jeudego.org ([127.0.0.1])
+	by localhost (jeudego.org [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id rlv7blovJycl for <joueurs-ouest@jeudego.org>;
+	Thu, 10 Apr 2014 23:27:49 +0200 (CEST)
+Received: from mail-qg0-f43.google.com (mail-qg0-f43.google.com [209.85.192.43])
+	(using TLSv1 with cipher RC4-SHA (128/128 bits))
+	(No client certificate requested)
+	by jeudego.org (Postfix) with ESMTPS
+	for <joueurs-ouest@jeudego.org>; Thu, 10 Apr 2014 23:27:49 +0200 (CEST)
+Received: by mail-qg0-f43.google.com with SMTP id f51so4525951qge.16
+        for <joueurs-ouest@jeudego.org>; Thu, 10 Apr 2014 14:27:48 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:date:message-id:subject:from:to:content-type;
+        bh=lSpINC9bv4JJ9O0Sp+np0ySrzGQD2sph8DuIvK7XD6s=;
+        b=JtPZo6SSE04cGZxS1dfEiH9EZ4rzzTZKMTAu6h4pFcjuco6sknaOjfq8H37r5U+vaE
+         lPT06z/UKSCuPBrH/IPZwNtwTbq3MdKx2YUJHdsqAHRXvKK/M/YPfktpOZSqEEBz8Uis
+         Qo6eemEVD2hvWlxdMm2Pdg4/92PoQ6FS2dDyk40WaZPCNKFKjw5RvYlDl+V4IkT6gBRK
+         C5956y/KEioL8Y6qJ4t86iL9JNubLW1DevPK3khSS8IVmnTkk//VsQaSiTX3QeVHh5hh
+         tuGD7LZXVe1bOVhUj6klrVliOi08QsHEVJ5oQuwCH4+2hrdl5S6M6na6RRVwK7MVxO4I
+         NB0Q==
+MIME-Version: 1.0
+X-Received: by 10.140.95.8 with SMTP id h8mr22551783qge.2.1397165268256; Thu,
+ 10 Apr 2014 14:27:48 -0700 (PDT)
+Received: by 10.229.148.131 with HTTP; Thu, 10 Apr 2014 14:27:48 -0700 (PDT)
+Date: Thu, 10 Apr 2014 23:27:48 +0200
+Message-ID: <CAGd1wT2rqQRA9nvNGsErXmMy-LnNyLpRpcCHRdofdezK3qV2EA@mail.gmail.com>
+Subject: Subventions de la Ligue de l'Ouest
+From: Kevin Cuello <cuello.kevin@gmail.com>
+To: joueurs-ouest@jeudego.org
+Content-Type: multipart/alternative; boundary=001a11c15cc481e48a04f6b6e34a
+
+--001a11c15cc481e48a04f6b6e34a
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+Bonsoir =E0 tous,
+
+Le Bureau de la Ligue de l'Ouest a mis en place un programme de demande de
+subventions sur le site internet de Ligue. Voici le lien de la
+documentation : http://ligue-ouest.jeudego.org/documentation-utile/
+
+Je vous invite =E0 en prendre connaissance si vous souhaitez b=E9n=E9ficier=
+ d'une
+subvention de la Ligue.
+
+Go=EFquement,
+
+--=20
+Kevin Cuello
+Vice-pr=E9sident de la Ligue de l'Ouest
+
+--001a11c15cc481e48a04f6b6e34a
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Bonsoir =E0 tous,<div><br></div><div>Le Bureau de la Ligue=
+ de l&#39;Ouest a mis en place un programme de demande de subventions sur l=
+e site internet de Ligue. Voici le lien de la documentation :=A0<a href=3D"=
+http://ligue-ouest.jeudego.org/documentation-utile/">http://ligue-ouest.jeu=
+dego.org/documentation-utile/</a></div>
+<div><br></div><div>Je vous invite =E0 en prendre connaissance si vous souh=
+aitez b=E9n=E9ficier d&#39;une subvention de la Ligue.</div><div><br></div>=
+<div>Go=EFquement,=A0<br clear=3D"all"><div><br></div>-- <br>Kevin Cuello<b=
+r>
+</div><div>Vice-pr=E9sident de la Ligue de l&#39;Ouest</div></div>
+
+--001a11c15cc481e48a04f6b6e34a--

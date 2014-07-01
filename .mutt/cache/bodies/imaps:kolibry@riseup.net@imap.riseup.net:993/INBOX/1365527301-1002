@@ -1,0 +1,62 @@
+Return-Path: <diffusion@jeudego.org>
+X-Spam-Checker-Version: SpamAssassin 3.3.2 (2011-06-06) on spamd2.riseup.net
+X-Spam-Level: 
+X-Spam-Pyzor: Reported 0 times.
+X-Spam-Status: No, score=0.1 required=8.0 tests=AM_TRUNCATED,CK_419SIZE,
+	CK_KARD_SIZE,FORWARD_RELAY,NOMATCH_NICK_FROM,RP_MATCHES_RCVD,SUBJ_DATE
+	shortcircuit=no autolearn=disabled version=3.3.2
+Delivered-To: kolibry@riseup.net
+Received: from mx1.riseup.net (mx1-pn.riseup.net [10.0.1.33])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client CN "*.riseup.net", Issuer "Gandi Standard SSL CA" (not verified))
+	by vireo.riseup.net (Postfix) with ESMTPS id 6E4FFAA
+	for <kolibry@riseup.net>; Tue,  8 Apr 2014 12:22:36 +0000 (UTC)
+Received: from jeudego.org (jeudego.org [5.135.164.19])
+	by mx1.riseup.net (Postfix) with ESMTP id 11A644CAD8
+	for <kolibry@riseup.net>; Tue,  8 Apr 2014 05:22:35 -0700 (PDT)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by jeudego.org (Postfix) with ESMTP id D33742EC2845
+	for <ffginfo@jeudego.org>; Tue,  8 Apr 2014 14:22:28 +0200 (CEST)
+Received: from jeudego.org ([127.0.0.1])
+	by localhost (jeudego.org [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id 660jitXsZzTX for <ffginfo@jeudego.org>;
+	Tue,  8 Apr 2014 14:22:18 +0200 (CEST)
+Received: from [192.168.1.57] (240.111.118.80.rev.sfr.net [80.118.111.240])
+	(using TLSv1 with cipher DHE-RSA-AES128-SHA (128/128 bits))
+	(No client certificate requested)
+	by jeudego.org (Postfix) with ESMTPSA
+	for <ffginfo@jeudego.org>; Tue,  8 Apr 2014 14:22:18 +0200 (CEST)
+Message-ID: <5343E9F9.8040107@jeudego.org>
+Date: Tue, 08 Apr 2014 14:22:17 +0200
+From: ffg <diffusion@jeudego.org>
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:24.0) Gecko/20100101 Thunderbird/24.3.0
+MIME-Version: 1.0
+To: ffginfo@jeudego.org
+Subject: [FFG] Annulation du cours FFG de Fan Hui du 9 avril 2014
+Content-Type: text/plain; charset=windows-1252; format=flowed
+Content-Transfer-Encoding: 8bit
+X-Virus-Scanned: clamav-milter 0.98.1 at mx1
+X-Virus-Status: Clean
+
+Bonjour.
+
+Fan Hui ne sera pas disponible pour dispenser le cours du mercredi 9 avril pour raisons personnelles.
+Le cours sera donné le 30 avril.
+Nous vous présentons toutes nos excuses pour ce désagrément.
+
+
+Programme du trimestre :
+
+• Avril
+Mercredi 23 avril : Commentaire de partie*
+Mercredi 30 avril : le fuseki Kobayashi (4)
+
+• Mai
+Mercredi 14 mai : le fuseki Kobayashi (5)
+Mercredi 28 mai : Commentaire de partie
+
+• Juin
+Mercredi 11 juin : le fuseki Kobayashi (6)
+Mercredi 25 juin : Commentaire de partie
+-- Paul Piriou aka bolbi
+

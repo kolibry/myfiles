@@ -1,0 +1,57 @@
+Return-Path: <telephonie.freebox@mevo.freetelecom.fr>
+X-Spam-Checker-Version: SpamAssassin 3.3.2 (2011-06-06) on spamd3.riseup.net
+X-Spam-Level: 
+X-Spam-Pyzor: Reported 0 times.
+X-Spam-Status: No, score=0.3 required=8.0 tests=AM_TRUNCATED,CK_KARD_SIZE,
+	CK_NAIVER_NO_DNS,NO_REAL_NAME,PSTOCK_PART,TO_NOREAL shortcircuit=no
+	autolearn=disabled version=3.3.2
+Delivered-To: kolibry@riseup.net
+Received: from mx1.riseup.net (mx1-pn.riseup.net [10.0.1.33])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client CN "*.riseup.net", Issuer "Gandi Standard SSL CA" (not verified))
+	by vireo.riseup.net (Postfix) with ESMTPS id 042C6AF
+	for <kolibry@riseup.net>; Fri, 28 Mar 2014 12:20:15 +0000 (UTC)
+Received: from smtp2.free-mobile.fr (smtp2.free-mobile.fr [213.228.2.164])
+	by mx1.riseup.net (Postfix) with ESMTP id 905565187C
+	for <kolibry@riseup.net>; Fri, 28 Mar 2014 05:20:14 -0700 (PDT)
+Received: from localhost.localdomain (unknown [172.18.24.61])
+	by smtp2.free-mobile.fr (Postfix) with ESMTP id 71099180DE5
+	for <kolibry@riseup.net>; Fri, 28 Mar 2014 13:20:13 +0100 (CET)
+MIME-Version: 1.0
+Content-Transfer-Encoding: binary
+Content-Type: multipart/mixed; boundary="_----------=_1396009213155603858577"
+Date: Fri, 28 Mar 2014 13:20:13 +0100
+From: telephonie.freebox@mevo.freetelecom.fr
+To: kolibry@riseup.net
+Subject: [FREEBOX] 0950866947: Nouveau message de: 0760052682
+Message-Id: <20140328122013.71099180DE5@smtp2.free-mobile.fr>
+X-Virus-Scanned: clamav-milter 0.98.1 at mx1
+X-Virus-Status: Clean
+
+This is a multi-part message in MIME format.
+
+--_----------=_1396009213155603858577
+MIME-Version: 1.0
+Content-Disposition: inline
+Content-Length: 117
+Content-Transfer-Encoding: binary
+Content-Type: text/plain; charset="latin-1"
+Date: Fri, 28 Mar 2014 13:20:13 +0100
+
+Nouveau Message :
+
+	Pour  : 0950866947
+	De    : 0760052682
+	Le    : 2014-03-28 13:19:53
+	Duree : Moins de 2 secondes
+
+--_----------=_1396009213155603858577
+Content-Disposition: attachment; filename="20140328_131953_0760052682.wav"
+Content-Transfer-Encoding: base64
+Content-Type: audio/x-wav; name="20140328_131953_0760052682.wav"
+
+UklGRjIAAABXQVZFZm10IBIAAAAGAAEAQB8AAEAfAAABAAgAAABmYWN0BAAAAAAAAABkYXRhAAAA
+AA==
+
+--_----------=_1396009213155603858577--
+

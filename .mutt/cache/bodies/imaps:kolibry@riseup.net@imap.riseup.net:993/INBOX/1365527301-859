@@ -1,0 +1,51 @@
+Return-Path: <diffusion@jeudego.org>
+X-Spam-Checker-Version: SpamAssassin 3.3.2 (2011-06-06) on spamd2.riseup.net
+X-Spam-Level: 
+X-Spam-Pyzor: Reported 0 times.
+X-Spam-Status: No, score=0.3 required=8.0 tests=AM_TRUNCATED,CK_419SIZE,
+	CK_KARD_SIZE,FORWARD_RELAY,NOMATCH_NICK_FROM,T_RP_MATCHES_RCVD
+	shortcircuit=no autolearn=disabled version=3.3.2
+Delivered-To: kolibry@riseup.net
+Received: from mx1.riseup.net (mx1-pn.riseup.net [10.0.1.33])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client CN "*.riseup.net", Issuer "Gandi Standard SSL CA" (not verified))
+	by vireo.riseup.net (Postfix) with ESMTPS id E452695
+	for <kolibry@riseup.net>; Fri,  7 Mar 2014 18:10:11 +0000 (UTC)
+Received: from jeudego.org (jeudego.org [5.135.164.19])
+	by mx1.riseup.net (Postfix) with ESMTP id 45E054E911
+	for <kolibry@riseup.net>; Fri,  7 Mar 2014 10:10:11 -0800 (PST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by jeudego.org (Postfix) with ESMTP id 1AF132EC1434
+	for <ffginfo@jeudego.org>; Fri,  7 Mar 2014 19:10:04 +0100 (CET)
+Received: from jeudego.org ([127.0.0.1])
+	by localhost (jeudego.org [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id DjJbant8fABq for <ffginfo@jeudego.org>;
+	Fri,  7 Mar 2014 19:09:56 +0100 (CET)
+Received: from [192.168.1.57] (147.111.118.80.rev.sfr.net [80.118.111.147])
+	(using TLSv1 with cipher DHE-RSA-AES128-SHA (128/128 bits))
+	(No client certificate requested)
+	by jeudego.org (Postfix) with ESMTPSA
+	for <ffginfo@jeudego.org>; Fri,  7 Mar 2014 19:09:55 +0100 (CET)
+Message-ID: <531A0B73.1090207@jeudego.org>
+Date: Fri, 07 Mar 2014 19:09:55 +0100
+From: ffg <diffusion@jeudego.org>
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:24.0) Gecko/20100101 Thunderbird/24.3.0
+MIME-Version: 1.0
+To: ffginfo@jeudego.org
+Subject: [FFG] Changement de date du cours du 12 mars de Fan Hui sur KGS
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 8bit
+X-Virus-Scanned: clamav-milter 0.97.8 at mx1
+X-Virus-Status: Clean
+
+Bonjour.
+
+Devant jouer un tournoi, Fan Hui sera dans l'impossibilité d'assurer le 
+cours du mercredi 12 mars 2014. Le cours sera donc donné le mercredi 19 
+mars à 20h30 en salle "Cours FFG".
+Nous vous présentons nos excuses pour ce changement de programme.
+
+Cordialement,
+
+-- Paul Piriou aka bolbi
+

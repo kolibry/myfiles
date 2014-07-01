@@ -1,0 +1,1 @@
+DMENU='dmenu_run -fn 'crimefighterbb-12' -nb '#121212' -nf '#C5C5C5' -sb '#0030E8' -l '2' -x '500' -y '350' -w '500' -h '40' -dim 0.5'

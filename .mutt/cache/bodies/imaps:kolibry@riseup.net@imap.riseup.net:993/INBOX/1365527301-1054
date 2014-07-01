@@ -1,0 +1,135 @@
+Return-Path: <tenuki-brest-bounces@jeudego.org>
+X-Spam-Checker-Version: SpamAssassin 3.3.2 (2011-06-06) on spamd3.riseup.net
+X-Spam-Level: 
+X-Spam-Pyzor: Reported 0 times.
+X-Spam-Status: No, score=-0.7 required=8.0 tests=AM_TRUNCATED,CK_419SIZE,
+	ENV_FROM_DIFF0,FORWARD_RELAY,FREEMAIL_FROM,HAS_REPLY_TO,HTML_MESSAGE,
+	PSTOCK_PART,RP_MATCHES_RCVD,SUBJ_CONTAINS_TO shortcircuit=no
+	autolearn=disabled version=3.3.2
+Delivered-To: kolibry@riseup.net
+Received: from mx1.riseup.net (mx1-pn.riseup.net [10.0.1.33])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client CN "*.riseup.net", Issuer "Gandi Standard SSL CA" (not verified))
+	by vireo.riseup.net (Postfix) with ESMTPS id 151CF79
+	for <kolibry@riseup.net>; Wed, 23 Apr 2014 12:15:08 +0000 (UTC)
+Received: from jeudego.org (jeudego.org [5.135.164.19])
+	by mx1.riseup.net (Postfix) with ESMTP id 83259558AD
+	for <kolibry@riseup.net>; Wed, 23 Apr 2014 05:15:07 -0700 (PDT)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by jeudego.org (Postfix) with ESMTP id 7359B2EC25B9;
+	Wed, 23 Apr 2014 14:15:05 +0200 (CEST)
+Received: from jeudego.org ([127.0.0.1])
+	by localhost (jeudego.org [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id cDqe1MRHzMNa; Wed, 23 Apr 2014 14:15:05 +0200 (CEST)
+Received: from ns3311974.ovh.net (localhost.localdomain [127.0.0.1])
+	by jeudego.org (Postfix) with ESMTP;
+	Wed, 23 Apr 2014 14:15:05 +0200 (CEST)
+X-Original-To: tenuki-brest@jeudego.org
+Delivered-To: tenuki-brest@jeudego.org
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by jeudego.org (Postfix) with ESMTP id BD80A2EC25B9
+	for <tenuki-brest@jeudego.org>; Wed, 23 Apr 2014 14:15:04 +0200 (CEST)
+Received: from jeudego.org ([127.0.0.1])
+	by localhost (jeudego.org [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id gaNgN7LSt+qr for <tenuki-brest@jeudego.org>;
+	Wed, 23 Apr 2014 14:14:58 +0200 (CEST)
+Received: from blu0-omc2-s19.blu0.hotmail.com (blu0-omc2-s19.blu0.hotmail.com
+	[65.55.111.94]) by jeudego.org (Postfix) with ESMTP
+	for <tenuki-brest@jeudego.org>; Wed, 23 Apr 2014 14:14:58 +0200 (CEST)
+Received: from BLU0-SMTP365 ([65.55.111.73]) by blu0-omc2-s19.blu0.hotmail.com
+	with Microsoft SMTPSVC(6.0.3790.4675); 
+	Wed, 23 Apr 2014 05:14:57 -0700
+X-TMN: [JaAhy8MZBokfiDrJPBlxgW4pWZz9OuEB]
+X-Originating-Email: [saikmali@hotmail.com]
+Message-ID: <BLU0-SMTP3653F4054D3FDAB537154C4D6580@phx.gbl>
+Received: from [10.40.2.247] ([37.160.244.74]) by BLU0-SMTP365.phx.gbl over
+	TLS secured channel with Microsoft SMTPSVC(6.0.3790.4675); 
+	Wed, 23 Apr 2014 05:14:52 -0700
+Date: Wed, 23 Apr 2014 14:14:46 +0200
+Importance: normal
+From: =?ISO-8859-1?Q?Fran=E7ois?= <saikmali@hotmail.com>
+To: tenuki-brest@jeudego.org
+MIME-Version: 1.0
+X-OriginalArrivalTime: 23 Apr 2014 12:14:52.0866 (UTC)
+	FILETIME=[A19C2A20:01CF5EED]
+Subject: [Tenuki-brest] RE :  2nd tour du Champ. Fr
+X-BeenThere: tenuki-brest@jeudego.org
+X-Mailman-Version: 2.1.13
+Precedence: list
+Reply-To: tenuki-brest@jeudego.org
+List-Id: <tenuki-brest.jeudego.org>
+List-Unsubscribe: <https://admin.jeudego.org/mailman/options/tenuki-brest>,
+	<mailto:tenuki-brest-request@jeudego.org?subject=unsubscribe>
+List-Archive: <https://admin.jeudego.org/mailman/private/tenuki-brest>
+List-Post: <mailto:tenuki-brest@jeudego.org>
+List-Help: <mailto:tenuki-brest-request@jeudego.org?subject=help>
+List-Subscribe: <https://admin.jeudego.org/mailman/listinfo/tenuki-brest>,
+	<mailto:tenuki-brest-request@jeudego.org?subject=subscribe>
+Content-Type: multipart/mixed; boundary="===============6770488894537105494=="
+Sender: tenuki-brest-bounces@jeudego.org
+Errors-To: tenuki-brest-bounces@jeudego.org
+X-Virus-Scanned: clamav-milter 0.98.1 at mx1
+X-Virus-Status: Clean
+
+--===============6770488894537105494==
+Content-Type: multipart/alternative;
+	boundary="--_com.android.email_750082298057380"
+
+----_com.android.email_750082298057380
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: base64
+
+SWwgbid5IGF1cmFpdCBwYXMgbW95ZW4gZGUgcGFydGFnZXIgbGEgY2hhbWJyZSBkJ3VuZSDDqXF1
+aXBlIGF1IGNhbXBpbmcgPwoKCkVudm95w6kgZGVwdWlzIHVuIG1vYmlsZSBTYW1zdW5nCgo8ZGl2
+Pi0tLS0tLS0tIE1lc3NhZ2UgZCdvcmlnaW5lIC0tLS0tLS0tPC9kaXY+PGRpdj5EZSA6IFBpZXJy
+ZS0gQW50b2luZSBHdcOpZ3VlbiA8amFwX2FuaW0yOUBob3RtYWlsLmZyPiA8L2Rpdj48ZGl2PkRh
+dGUgOjIzLzA0LzIwMTQgIDEyOjU4ICAoR01UKzAxOjAwKSA8L2Rpdj48ZGl2PkEgOiB0ZW51a2kt
+YnJlc3RAamV1ZGVnby5vcmcgPC9kaXY+PGRpdj5PYmpldCA6IFtUZW51a2ktYnJlc3RdIDJuZCB0
+b3VyIGR1IENoYW1wLiBGciA8L2Rpdj48ZGl2Pgo8L2Rpdj5Cb25qb3VyLAoKTWF0dGhpZXUgdmll
+bnQgZCdhcHByZW5kcmUgcXVlIGZpbmFsZW1lbnQgb24gbmUgcG91cnJhaXQgZmluYWxlbWVudCBw
+YXMgw6p0cmUgaMOpYmVyZ8OpIGNoZXogdW5lIGRlIHNlcyBjb25uYWlzc2FuY2VzIGhhYml0YW50
+IHByb2NoZSBkZSBQaXJpYWMvbWVyLCBqZSBzYWlzIHF1J2lsIGVzdCB1biBwZXUgdGFycyBwb3Vy
+IGRpcmUgw6dhIG1haXMgw6dhIGltcGxpcXVlIHF1ZSBsdWkgZXQgbW9pIG5lIHBvdXZvbnMgcGx1
+cyBhbGxlciBhdSAybmQgdG91ciAhCgpTaSBxdWVscXUndW4gZGVycmnDqHJlIHZldXQgZXQgcGV1
+dCBub3VzIHJlbXBsYWNlciwgcXUnaWwgc2UgZmFzc2UgY29ubmHDrnRyZS4KCk1lcmNpICEKCkd1
+w6lndWVuIFBpZXJyZS1BbnRvaW5lLg==
+
+----_com.android.email_750082298057380
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: base64
+
+PGh0bWw+PGhlYWQ+PG1ldGEgaHR0cC1lcXVpdj0iQ29udGVudC1UeXBlIiBjb250ZW50PSJ0ZXh0
+L2h0bWw7IGNoYXJzZXQ9VVRGLTgiPjwvaGVhZD48Ym9keSA+PGRpdj5JbCBuJ3kgYXVyYWl0IHBh
+cyBtb3llbiBkZSBwYXJ0YWdlciBsYSBjaGFtYnJlIGQndW5lIMOpcXVpcGUgYXUgY2FtcGluZyA/
+PC9kaXY+PGRpdj48YnI+PC9kaXY+PGRpdj48YnI+PC9kaXY+PGRpdj48ZGl2IHN0eWxlPSJmb250
+LXNpemU6OHB4O2NvbG9yOiM1NzU3NTciPkVudm95w6kgZGVwdWlzIHVuIG1vYmlsZSBTYW1zdW5n
+PC9kaXY+PC9kaXY+PGJyPjxicj48ZGl2Pi0tLS0tLS0tIE1lc3NhZ2UgZCdvcmlnaW5lIC0tLS0t
+LS0tPC9kaXY+PGRpdj5EZSA6IFBpZXJyZS0gQW50b2luZSBHdcOpZ3VlbiA8amFwX2FuaW0yOUBo
+b3RtYWlsLmZyPiA8L2Rpdj48ZGl2PkRhdGUgOjIzLzA0LzIwMTQgIDEyOjU4ICAoR01UKzAxOjAw
+KSA8L2Rpdj48ZGl2PkEgOiB0ZW51a2ktYnJlc3RAamV1ZGVnby5vcmcgPC9kaXY+PGRpdj5PYmpl
+dCA6IFtUZW51a2ktYnJlc3RdIDJuZCB0b3VyIGR1IENoYW1wLiBGciA8L2Rpdj48ZGl2Pjxicj48
+L2Rpdj48ZGl2IGRpcj0ibHRyIj5Cb25qb3VyLDxkaXY+PGJyPjwvZGl2PjxkaXY+TWF0dGhpZXUg
+dmllbnQgZCdhcHByZW5kcmUgcXVlIGZpbmFsZW1lbnQgb24gbmUgcG91cnJhaXQgZmluYWxlbWVu
+dCBwYXMgw6p0cmUgaMOpYmVyZ8OpIGNoZXogdW5lIGRlIHNlcyBjb25uYWlzc2FuY2VzIGhhYml0
+YW50IHByb2NoZSBkZSBQaXJpYWMvbWVyLCBqZSBzYWlzIHF1J2lsIGVzdCB1biBwZXUgdGFycyBw
+b3VyIGRpcmUgw6dhIG1haXMgw6dhIGltcGxpcXVlIHF1ZSBsdWkgZXQgbW9pIG5lIHBvdXZvbnMg
+cGx1cyBhbGxlciBhdSAybmQgdG91ciAhPC9kaXY+PGRpdj48YnI+PC9kaXY+PGRpdj5TaSBxdWVs
+cXUndW4gZGVycmnDqHJlIHZldXQgZXQgcGV1dCBub3VzIHJlbXBsYWNlciwgcXUnaWwgc2UgZmFz
+c2UgY29ubmHDrnRyZS48L2Rpdj48ZGl2Pjxicj48L2Rpdj48ZGl2Pk1lcmNpICE8L2Rpdj48ZGl2
+Pjxicj48L2Rpdj48ZGl2Pkd1w6lndWVuIFBpZXJyZS1BbnRvaW5lLjwvZGl2PiAJCSAJICAgCQkg
+IDwvZGl2Pgo8L2JvZHk+
+
+----_com.android.email_750082298057380--
+
+--===============6770488894537105494==
+Content-Type: text/plain; charset="iso-8859-1"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Content-Disposition: inline
+
+_______________________________________________
+Tenuki-brest mailing list
+Tenuki-brest@jeudego.org
+https://admin.jeudego.org/mailman/listinfo/tenuki-brest
+
+--===============6770488894537105494==--

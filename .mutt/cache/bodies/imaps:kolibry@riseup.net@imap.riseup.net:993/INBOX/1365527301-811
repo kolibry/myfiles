@@ -1,0 +1,78 @@
+Return-Path: <manjaro_fr@manjaro.fr>
+X-Spam-Checker-Version: SpamAssassin 3.3.2 (2011-06-06) on spamd2.riseup.net
+X-Spam-Level: 
+X-Spam-Pyzor: Reported 0 times.
+X-Spam-Status: No, score=0.0 required=8.0 tests=AM_TRUNCATED,CK_419SIZE,
+	FORWARD_RELAY,HAS_REPLY_TO,NO_REAL_NAME shortcircuit=no autolearn=disabled
+	version=3.3.2
+Delivered-To: kolibry@riseup.net
+Received: from mx1.riseup.net (mx1-pn.riseup.net [10.0.1.33])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client CN "*.riseup.net", Issuer "Gandi Standard SSL CA" (not verified))
+	by vireo.riseup.net (Postfix) with ESMTPS id 66B567D
+	for <kolibry@riseup.net>; Sun,  2 Mar 2014 18:10:54 +0000 (UTC)
+Received: from mailrelay1.ispfr.net (mailrelay1.ispfr.net [94.247.177.231])
+	by mx1.riseup.net (Postfix) with ESMTP id 0A2324E8BC
+	for <kolibry@riseup.net>; Sun,  2 Mar 2014 10:10:53 -0800 (PST)
+Received: from localhost (localhost [127.0.0.1])
+	by mailrelay1.ispfr.net (Postfix) with ESMTP id 6CCF5D80259
+	for <kolibry@riseup.net>; Sun,  2 Mar 2014 19:10:46 +0100 (CET)
+Received: from mutu-9.ispfr.net ([127.0.0.1])
+	by localhost (mailrelay1.ispfr.net [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id BhTOPYTeXmRD for <kolibry@riseup.net>;
+	Sun,  2 Mar 2014 19:10:46 +0100 (CET)
+Received: from mutu-9.ispfr.net (195-114-18-152.ispfr.net [195.114.18.152])
+	by mailrelay1.ispfr.net (Postfix) with ESMTP id 9A927D80225
+	for <kolibry@riseup.net>; Sun,  2 Mar 2014 19:10:45 +0100 (CET)
+To: =?UTF-8?B?S29saWJyeQ==?= <kolibry@riseup.net>
+Subject: 
+ =?UTF-8?B?Tm90aWZpY2F0aW9uIGRlIHB1YmxpY2F0aW9uIGTigJl1bmUgcsOpcG9uc2Ug?=
+ =?UTF-8?B?w6AgdW4gc3VqZXQgLSDCqyBWb3MgYnVyZWF1eCAyMDE0IMK7?=
+From: <manjaro_fr@manjaro.fr>
+Reply-To: <manjaro_fr@manjaro.fr>
+Sender: <manjaro_fr@manjaro.fr>
+MIME-Version: 1.0
+Message-ID: <693209f1070202a08ea01ad4a8441397@www.manjaro.fr>
+Date: Sun, 02 Mar 2014 19:10:38 +0100
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: phpBB3
+X-MimeOLE: phpBB3
+X-phpBB-Origin: phpbb://www.manjaro.fr/forum
+Customer-Id: 1510@cl9
+Abuse: abuse@ispfr.net
+X-ScriptFilename: /web/manjaro/www/forum/cron.php
+X-RemoteAddr: 96.127.239.143
+X-Virus-Scanned: clamav-milter 0.97.8 at mx1
+X-Virus-Status: Clean
+
+Bonjour Kolibry,
+
+Vous recevez cette notification car vous surveillez le sujet « Vos bureaux
+2014 » sur «  ». Ce sujet a reçu une réponse depuis votre dernière visite.
+Vous pouvez utiliser le lien suivant afin de consulter les réponses qui ont
+été publiées, aucune nouvelle notification ne vous sera envoyée jusqu’à ce
+que vous visitez le sujet.
+
+Si vous souhaitez consulter le nouveau message écrit depuis votre dernière
+visite, veuillez cliquer sur le lien suivant :
+http://www.manjaro.fr/forum/viewtopic.php?f=29&t=3148&p=41154&e=41154
+
+Si vous souhaitez consulter le sujet, veuillez cliquer sur le lien suivant
+:
+http://www.manjaro.fr/forum/viewtopic.php?f=29&t=3148
+
+Si vous souhaitez consulter le forum, veuillez cliquer sur le lien suivant
+:
+http://www.manjaro.fr/forum/viewforum.php?f=29
+
+Si vous ne souhaitez plus surveiller ce sujet, vous pouvez cliquer sur le
+lien « Se désabonner au sujet » situé en bas du sujet dont l’adresse est
+située ci-dessus ou cliquer sur le lien suivant :
+
+http://www.manjaro.fr/forum/viewtopic.php?uid=140&f=29&t=3148&unwatch=topic
+
+-- 
+Cordialement, l'Administration

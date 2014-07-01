@@ -1,0 +1,74 @@
+Return-Path: <claudiusrolland@yahoo.fr>
+X-Spam-Checker-Version: SpamAssassin 3.3.2 (2011-06-06) on spamd3.riseup.net
+X-Spam-Level: *
+X-Spam-Pyzor: 
+X-Spam-Status: No, score=1.8 required=8.0 tests=AM_TRUNCATED,CK_KARD_SIZE,
+	DKIM_SIGNED,DKIM_VALID,DKIM_VALID_AU,EMPTY_SUBJ,FORWARD_RELAY,FREEMAIL_FROM,
+	HAS_REPLY_TO,HTML_MESSAGE,MISSING_SUBJECT,ODD_PUNCTUATION2,REPLY_TO_TEMP
+	shortcircuit=no autolearn=disabled version=3.3.2
+Delivered-To: kolibry@riseup.net
+Received: from mx1.riseup.net (mx1-pn.riseup.net [10.0.1.33])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client CN "*.riseup.net", Issuer "Gandi Standard SSL CA" (not verified))
+	by vireo.riseup.net (Postfix) with ESMTPS id 3AE697D
+	for <kolibry@riseup.net>; Tue, 25 Feb 2014 12:52:41 +0000 (UTC)
+Received: from nm15-vm9.bullet.mail.ir2.yahoo.com (nm15-vm9.bullet.mail.ir2.yahoo.com [212.82.96.206])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by mx1.riseup.net (Postfix) with ESMTPS id 7519A50C10
+	for <kolibry@riseup.net>; Tue, 25 Feb 2014 04:52:40 -0800 (PST)
+Received: from [212.82.98.53] by nm15.bullet.mail.ir2.yahoo.com with NNFMP; 25 Feb 2014 12:52:38 -0000
+Received: from [212.82.98.123] by tm6.bullet.mail.ir2.yahoo.com with NNFMP; 25 Feb 2014 12:52:38 -0000
+Received: from [127.0.0.1] by omp1060.mail.ir2.yahoo.com with NNFMP; 25 Feb 2014 12:52:38 -0000
+X-Yahoo-Newman-Property: ymail-5
+X-Yahoo-Newman-Id: 759584.97797.bm@omp1060.mail.ir2.yahoo.com
+Received: (qmail 32430 invoked by uid 60001); 25 Feb 2014 12:52:38 -0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.fr; s=s1024; t=1393332758; bh=kyI2tePyA9MbelAFK3ZLuhtidcqrwR3lv2NaF0nU/+8=; h=X-YMail-OSG:Received:X-Rocket-MIMEInfo:X-Mailer:Message-ID:Date:From:Reply-To:To:MIME-Version:Content-Type; b=2dwuKBDXRZoEjo1ahq6TZdmurbJXpSMw6NydX5vZLgI7vtj429Tizw5AXxP520ZA4u8n/8G98RqdgqIwSU/HooCiO7vKuGwklKLhAuJs5h6JB47Hidw7ayLB6U/55kSW0nULkwMwdlkq9oy/JRayyecst2fWvVf+tOj/1SpAvbo=
+DomainKey-Signature:a=rsa-sha1; q=dns; c=nofws;
+  s=s1024; d=yahoo.fr;
+  h=X-YMail-OSG:Received:X-Rocket-MIMEInfo:X-Mailer:Message-ID:Date:From:Reply-To:To:MIME-Version:Content-Type;
+  b=KDBr/HPVY7rCXS4fkhn8Oi/bNpUHEv2Zca+bT73nIpwF45Psz1ZUaDRQ4WU9PN3Hkqj+zpGHA7KR++7RjiXzmQ+yjlnPTXoSxcbRZ8f5tmF24y6c+frVznTULRaQ5rBHkBeuyqH7KvZy+bl/QBYv0fBPgyo07s8FGYrSqu0HLMg=;
+X-YMail-OSG: CNK._5gVM1lfq9ln8Ykz8_c7X36wpfnn1CFRiSUjce0lMZy
+ gyFHEfq9iDSnniOe8QMqiiCYybODtfYZrDa.IEGXvHSbvvxeUO2lmqQOYir5
+ NPTn7oFGTMUh3y2kARPSwkVQCmloz5Sm8eAyN3rUOAsNaavbdSkfxqGq1qdW
+ LMh67Wb2ocJjYMk3wFdbaxgy0_dTsmxAN_RIquVo9IaKU0VVVHD00NxXPqDT
+ f_czkmHb2.uVSjWwpzRMJnGk9uH90aODYNEA3SiSEsh2BY6kxnGmGHEFxydI
+ rfBYVI0Ga31wepbPnYPKiAUyqmbjGDoin53Zqcd4GEX7swaWHgIYwPduujfi
+ 3awr761zIn.qRPkj4x7P2Tqn6poHwOrgO0R284X5JIlg0mcpiEEi7sNZAgYw
+ s9sJaDmdXdkMJJnYWXoK61mAzPT5yfXRrBbRf_trFGn88J2uM6PDXE145JHM
+ sJkhp7ZkzrgJAvrr5VXfc7QznieOwj1.LJ6Za3880LdO_2J1x_LrJP5oU5wq
+ vDRXwF89qfhwH0gR7MF2raPHVbqzORp9v.7rJPEIamtFioG0CqrXvt8hGgN_
+ g4Tc-
+Received: from [78.241.84.159] by web171703.mail.ir2.yahoo.com via HTTP; Tue, 25 Feb 2014 12:52:38 GMT
+X-Rocket-MIMEInfo: 002.001,c2FsdXQgam9uYXRoYW4gLCAKCnBldXggdHUgdHJhdmFpbGxlciBkZW1haW4gYXByZXMgbWlkaSAsIDEzaDMwIC0xOGggPwpBKyAsIGNsYXVkZQoBMAEBAQE-
+X-Mailer: YahooMailWebService/0.8.177.636
+Message-ID: <1393332758.4929.YahooMailNeo@web171703.mail.ir2.yahoo.com>
+Date: Tue, 25 Feb 2014 12:52:38 +0000 (GMT)
+From: ROLLAND Claude <claudiusrolland@yahoo.fr>
+Reply-To: ROLLAND Claude <claudiusrolland@yahoo.fr>
+To: Jonathan <kolibry@riseup.net>
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="-30515679-1632668991-1393332758=:4929"
+X-Virus-Scanned: clamav-milter 0.97.8 at mx1
+X-Virus-Status: Clean
+
+---30515679-1632668991-1393332758=:4929
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+salut jonathan , =0A=0Apeux tu travailler demain apres midi , 13h30 -18h ?=
+=0AA+ , claude=0A
+---30515679-1632668991-1393332758=:4929
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><body><div style=3D"color:#000; background-color:#fff; font-family:He=
+lveticaNeue, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;fo=
+nt-size:12pt"><div>salut jonathan , <br></div><div style=3D"color: rgb(0, 0=
+, 0); font-size: 16px; font-family: HelveticaNeue,Helvetica Neue,Helvetica,=
+Arial,Lucida Grande,sans-serif; background-color: transparent; font-style: =
+normal;">peux tu travailler demain apres midi , 13h30 -18h ?</div><div styl=
+e=3D"color: rgb(0, 0, 0); font-size: 16px; font-family: HelveticaNeue,Helve=
+tica Neue,Helvetica,Arial,Lucida Grande,sans-serif; background-color: trans=
+parent; font-style: normal;">A+ , claude</div></div></body></html>
+---30515679-1632668991-1393332758=:4929--

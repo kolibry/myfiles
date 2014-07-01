@@ -1,0 +1,8 @@
+//!javascript
+
+hint(";v", function(wv, resource) {
+    if (resource[0] !== "@") {
+        system.spawn("mpv " + resource);
+        return true;
+    }
+});

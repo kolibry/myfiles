@@ -1,0 +1,90 @@
+# Panel conky
+######################
+# - Conky settings - #
+######################
+background yes
+update_interval 2
+update_interval_on_battery = 3
+cpu_avg_samples 1
+total_run_times 0
+override_utf8_locale yes
+
+double_buffer yes
+no_buffers yes
+
+text_buffer_size 10240
+imlib_cache_size 10240
+
+# For screen size 1366x768
+minimum_size 1600 15
+maximum_width 1600
+
+gap_x 0
+gap_y 0
+alignment tl
+#####################
+# - Text settings - #
+#####################
+use_xft yes
+xftfont terminus:size= 9
+xftalpha 1
+
+short_units yes
+uppercase no
+
+
+######################
+# - Color settings - #
+######################
+
+
+#color0 a0a0a0 #separator
+#color1 FFA7F6 #DESKTOP
+#color2 1AAA13 #CPU
+#color3 00CABA #RAM
+#color4 FFAA3E #SSD
+#color5 FF9FC9 #MAJ
+#color6 ff005B #ZIK
+#color7 00DDF4 #BAT
+#color8 FF9FC9 #MAIL
+#color9 FFA7F6 #TIME
+
+color0 a0a0a0 #separator
+color1 FFA7F6 #DESKTOP
+color2 A43261 #CPU
+color3 D5B8FF #RAM
+color4 93C9FF #SSD
+color5 FF9FC9 #MAJ
+color6 006CA5 #ZIK
+color7 D5B8FF #BAT
+color8 00DDF4 #MAIL
+color9 FFA7F6 #TIME
+
+
+default_color C5C5C5 # Text
+
+#############################
+# - Window specifications - #
+#############################
+own_window yes
+own_window_colour 000000
+own_window_argb_visual yes
+own_window_transparent no
+own_window_type desktop
+own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
+
+border_inner_margin 0
+border_outer_margin 0
+
+#########################
+# - Graphics settings - #
+#########################
+draw_shades no
+draw_outline no
+draw_borders no
+stippled_borders 0
+draw_graph_borders no
+
+
+ TEXT
+${color #122EE1}${if_match ${desktop}==1}${color1}1${else}${color}1${endif} ${if_match ${desktop}==2}${color1}2${else}${color}2${endif} ${if_match ${desktop}==3}${color1}3${else}${color}3${endif} ${if_match ${desktop}==4}${color1}4${else}${color}4${endif} ${color0} | ${color2}CPU ${color}${cpu cpu0}%${color0} | ${color3}RAM ${color}${mem}${color0} | ${color4}SSD ${color}${fs_free }${color0} | ${color5} MAJ ${color}${execi 300 pacman -Qu | wc -l}${color0} | ${color6} ZIK ${color} ${if_mpd_playing}${mpd_smart 50} ${mpd_elapsed}/${mpd_length}${else}${mpd_status}${endif}${color0} | ${color7} BAT ${color} ${execi 30 acpi -b | awk '{print$5}'} ${color0} | ${color8} MAIL ${color} ${execpi 200 ~/Scripts/imap.pl} ${color} - ${color} ${execpi 200 ~/Scripts/imap2.pl} ${color0} | ${color9}${time %H %M} ${color0} | ${color3} VOL ${color} ${exec amixer get Master | awk 'END{gsub(/\[|\]|*%/,""); print $5}'} ${color #000000}

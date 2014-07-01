@@ -1,0 +1,1067 @@
+Return-Path: <diffusion@jeudego.org>
+X-Spam-Checker-Version: SpamAssassin 3.3.2 (2011-06-06) on spamd2.riseup.net
+X-Spam-Level: 
+X-Spam-Pyzor: Reported 0 times.
+X-Spam-Status: No, score=-0.3 required=8.0 tests=AM_TRUNCATED,CK_419SIZE,
+	FORWARD_RELAY,HTML_MESSAGE,MARKOV_ODD,NOMATCH_NICK_FROM,REPLY_TO_TEMP2,
+	RP_MATCHES_RCVD shortcircuit=no autolearn=disabled version=3.3.2
+Delivered-To: kolibry@riseup.net
+Received: from mx1.riseup.net (mx1-pn.riseup.net [10.0.1.33])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client CN "*.riseup.net", Issuer "Gandi Standard SSL CA" (not verified))
+	by vireo.riseup.net (Postfix) with ESMTPS id 26F74AA
+	for <kolibry@riseup.net>; Sat,  5 Apr 2014 12:53:35 +0000 (UTC)
+Received: from jeudego.org (jeudego.org [5.135.164.19])
+	by mx1.riseup.net (Postfix) with ESMTP id 169DB4D1DF
+	for <kolibry@riseup.net>; Sat,  5 Apr 2014 05:53:33 -0700 (PDT)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by jeudego.org (Postfix) with ESMTP id 9756D2EC2FE1
+	for <ffginfo@jeudego.org>; Sat,  5 Apr 2014 14:53:25 +0200 (CEST)
+Received: from jeudego.org ([127.0.0.1])
+	by localhost (jeudego.org [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id FNX+iJrxIcL5 for <ffginfo@jeudego.org>;
+	Sat,  5 Apr 2014 14:53:13 +0200 (CEST)
+Received: from [192.168.1.57] (240.111.118.80.rev.sfr.net [80.118.111.240])
+	(using TLSv1 with cipher DHE-RSA-AES128-SHA (128/128 bits))
+	(No client certificate requested)
+	by jeudego.org (Postfix) with ESMTPSA
+	for <ffginfo@jeudego.org>; Sat,  5 Apr 2014 14:53:13 +0200 (CEST)
+Message-ID: <533FFCB8.6010205@jeudego.org>
+Date: Sat, 05 Apr 2014 14:53:12 +0200
+From: ffg <diffusion@jeudego.org>
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:24.0) Gecko/20100101 Thunderbird/24.3.0
+MIME-Version: 1.0
+To: ffginfo@jeudego.org
+Subject: [FFG] La =?ISO-8859-1?Q?deuxi=E8me_saison_d=27acad=E9mie_d?=
+ =?ISO-8859-1?Q?e_Go_de_Fan_Hui_2014?=
+Content-Type: multipart/alternative;
+ boundary="------------000808060300010906060407"
+X-Virus-Scanned: clamav-milter 0.98.1 at mx1
+X-Virus-Status: Clean
+
+This is a multi-part message in MIME format.
+--------------000808060300010906060407
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 8bit
+
+
+*Académie**de Go de Fan Hui*
+
+**
+
+*La deuxième saison d'académie de Go 2014 commencera le 14 avril au 3 
+Juillet, voici les programmes et les tarifs.*
+
+Cette Académie de Go comprend des activités principales et des options 
+complémentaires.
+
+*A) Activités principales*
+
+*1 - Entraînement interne*
+
+Deux tournois d'entraînements intensif sont prévu pendant chaque saison. 
+Les joueurs seront répartis en plusieurs groupes selon leur niveau, avec 
+six joueurs par groupe. Une partie « officielle » -donc comptabilisée- 
+sera à jouer chaque semaine. Les deux meilleurs du groupe monteront dans 
+le groupe supérieur et deux derniers du groupe descendront dans le 
+groupe inferieur. Tousl les parties seront commentées pendant les cours 
+magistraux.
+
+*2 -- Cours magistraux*
+
+*Il y aura au total 10 cours magistraux pour les deux classes, chaque 
+cours dure 90 minutes, 6 parties seront commentées à chaque cours, voici 
+l'agenda de la première saison.*
+
+*Classe A et Classe B : Mardi 20h00 à 21h30. *
+
+*/_2_/**/_2_/**/_/0_/**/_4_/**/_, 2_/**/_9_/**/_/0_/**/_4_/**/_, 
+0_/**/_6_/**/_/0_/**/_5_/**/_, 1_/**/_3_/**/_/0_/**/_5_/**/_, 
+_/**/_20_/**/_/0_/**/_5_/**/_, 2_/**/_7_/**/_/0_/**/_5_/**/_, 
+03/0_/**/_6_/**/_, 10/0_/**/_6_/**/_, 17/0_/**/_6_/**/_, 
+24/0_/**/_6_/**/_. _/*
+
+*Classe C et Classe D : Mardi 21h30 à 23h00.*
+
+*/_2_/**/_2_/**/_/0_/**/_4_/**/_, 2_/**/_9_/**/_/0_/**/_4_/**/_, 
+0_/**/_6_/**/_/0_/**/_5_/**/_, 1_/**/_3_/**/_/0_/**/_5_/**/_, 
+_/**/_20_/**/_/0_/**/_5_/**/_, 2_/**/_7_/**/_/0_/**/_5_/**/_, 
+03/0_/**/_6_/**/_, 10/0_/**/_6_/**/_, 17/0_/**/_6_/**/_, 
+24/0_/**/_6_/**/_. _/*
+
+*Classe E et Classe F : Lundi 21h30 à 23h. *
+
+*/_2_/**/_2_/**/_/0_/**/_4_/**/_, 2_/**/_9_/**/_/0_/**/_4_/**/_, 
+0_/**/_6_/**/_/0_/**/_5_/**/_, 1_/**/_3_/**/_/0_/**/_5_/**/_, 
+_/**/_20_/**/_/0_/**/_5_/**/_, 2_/**/_7_/**/_/0_/**/_5_/**/_, 
+03/0_/**/_6_/**/_, 10/0_/**/_6_/**/_, 17/0_/**/_6_/**/_, 
+24/0_/**/_6_/**/_. _/*
+
+*Tout les participants peuvent assister tous les commentaires qui sont 
+enregistrés en vidéo accessibles sur le site. *
+
+*3 -- Simultanées*
+
+*Tout le monde peut jouer une partie avec moi ou un autre professionnel. 
+Il y aura au moins 4 simultanées organisées pendant la saison. *
+
+*4 -- Tarif*
+
+*67 euros pour la saison. *
+
+*B) Options complémentaires*
+
+*1 - Cours collectifs*
+
+Il y aura des cours de *techniques du jeu de go* et des *commentaires de 
+parties*. Dix séances sont prévues au cours du trimestre.Les cours se 
+dérouleront les jeudi soirs. Tous les cours seront enregistrés en audio 
+et mis en ligne quelques jours après le cours. Seuls les joueurs 
+inscrits auront accès à ces cours.
+
+*Les cours commencent le jeudi 23 Janvier.*
+
+*Classe A : jôséki. Ces huit cours de Jôséki, de 20h30 à 21h30, sont des 
+cours de théorie.*
+
+*/_01/05, 08/05, 15/05, 22/05, 29/05, 05/06, 12/06, 19/06, 26/06, 03/07. _/*
+
+*Classe B : fuséki. Ces huit cours de Fuséki, de 21h45 à 22h45 sont 
+aussi des cours de théorie.*
+
+*/_01/05, 08/05, 15/05, 22/05, 29/05, 05/06, 12/06, 19/06, 26/06, 03/07. _/*
+
+*Tarif : 60 euros pour chacun de ces deux programmes.*
+
+*3 -- Enregistrements des cours audio*
+
+*/_Pour ceux qui ne peuvent pas assister aux cours en direct, ils 
+peuvent choisir cette option : ils recevront un code d'accès pour voir 
+les enregistrements quelques jours après le direct._/*
+
+*/_Tarif pour les cours collectifs A et B (20 cours) : 80 euros._/*
+
+**
+
+*EN RÉSUMÉ :*
+
+*/_La _/**/_deuxième _/**/_saison de l'Académie de Go 2014 se déroule du 
+14 Avril 201_/**/_4_/**/_au 03 Juilet._/*
+
+*/_Le tarif des activités de base est de 67 euros._/*
+
+*/_Le tarif des options complémentaire est de 120 euros._/*
+
+*/_Le tarif des activités de base +options complémentaires est de 168 
+euros au lieu de 187._/*
+
+*Pour vous inscrire, envoyez un e-mail à :*
+
+*oragefan@yahoo.fr <mailto:oragefan@yahoo.fr>
+*
+
+
+--------------000808060300010906060407
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <head>
+
+    <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+  </head>
+  <body bgcolor="#FFFFFF" text="#000000">
+    <br>
+    <p class="MsoNormal" style="margin-top:15.0pt;margin-right:0cm;
+      margin-bottom:0cm;margin-left:0cm;margin-bottom:.0001pt;text-align:center;
+
+      line-height:normal" align="center"><b
+        style="mso-bidi-font-weight:normal"><span
+style="font-size:22.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-language:ZH-CN"
+          lang="FR">Acad&eacute;mie</span></b><b
+        style="mso-bidi-font-weight:normal"><span
+          style="font-size:22.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:
+&quot;Times
+
+          New Roman&quot;;mso-fareast-language:FR" lang="FR"> de Go de
+          Fan Hui<o:p></o:p></span></b></p>
+    <p class="MsoNormal" style="margin-top:15.0pt;margin-right:0cm;
+      margin-bottom:0cm;margin-left:0cm;margin-bottom:.0001pt;text-align:center;
+
+      line-height:normal" align="center"><b
+        style="mso-bidi-font-weight:normal"><span
+style="font-size:22.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-language:ZH-CN"
+          lang="FR"><o:p>&nbsp;</o:p></span></b></p>
+    <p class="MsoNormal"
+      style="mso-margin-bottom-alt:auto;line-height:normal"><b
+        style="mso-bidi-font-weight:normal"><span
+          style="font-size:10.0pt;
+font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-language:ZH-CN"
+          lang="FR">La deuxi&egrave;me saison d&#8217;acad&eacute;mie de Go 2014 commencera
+          le 14 avril au 3 Juillet, voici les programmes et les tarifs.<o:p></o:p></span></b></p>
+    <p class="MsoNormal"
+      style="mso-margin-bottom-alt:auto;line-height:normal"><span
+        style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:
+&quot;Times
+
+        New Roman&quot;;mso-fareast-language:FR" lang="FR">Cette
+        Acad&eacute;mie de Go comprend des activit&eacute;s principales et des options
+        compl&eacute;mentaires.</span><span
+style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-language:ZH-CN"
+        lang="FR"><o:p></o:p></span></p>
+    <p class="MsoNormal"
+      style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+      line-height:normal"><b style="mso-bidi-font-weight:normal"><span
+          style="font-size:14.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:
+&quot;Times
+
+          New Roman&quot;;mso-fareast-language:FR" lang="FR">A)
+          Activit&eacute;s principales<o:p></o:p></span></b></p>
+    <p class="MsoNormal"
+      style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+      line-height:normal"><b style="mso-bidi-font-weight:normal"><span
+          style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:
+&quot;Times
+
+          New Roman&quot;;mso-fareast-language:FR" lang="FR">1&nbsp;-
+          Entra&icirc;nement interne<o:p></o:p></span></b></p>
+    <p class="MsoNormal"
+      style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify;text-justify:inter-ideograph;line-height:normal"><span
+        style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:
+&quot;Times
+
+        New Roman&quot;;mso-fareast-language:FR" lang="FR">Deux tournois
+        d&#8217;entra&icirc;nements intensif sont pr&eacute;vu pendant chaque saison. Les
+        joueurs seront r&eacute;partis en plusieurs groupes selon leur niveau,
+        avec six joueurs par groupe. Une partie &laquo;&nbsp;officielle&nbsp;&raquo; -donc
+        comptabilis&eacute;e- sera &agrave; jouer chaque semaine. Les deux meilleurs
+        du groupe monteront dans le groupe sup&eacute;rieur et deux derniers du
+        groupe descendront dans le groupe inferieur. Tousl les parties
+        seront comment&eacute;es pendant les cours magistraux. </span><span
+        style="font-size:
+10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-language:ZH-CN"
+        lang="FR"><o:p></o:p></span></p>
+    <p class="MsoNormal"
+      style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+      line-height:normal"><b style="mso-bidi-font-weight:normal"><span
+          style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:
+&quot;Times
+
+          New Roman&quot;;mso-fareast-language:FR" lang="FR">2&nbsp;&#8211; Cours
+          magistraux<o:p></o:p></span></b></p>
+    <p class="MsoNormal"
+      style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+      line-height:normal"><b style="mso-bidi-font-weight:normal"><span
+          style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:
+&quot;Times
+
+          New Roman&quot;;mso-fareast-language:FR" lang="FR"><span
+            style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp; </span>Il y aura au total 10
+          cours magistraux pour les deux classes, chaque cours dure 90
+          minutes, 6 parties seront comment&eacute;es &agrave; chaque cours, voici
+          l&#8217;agenda de la premi&egrave;re saison.<o:p></o:p></span></b></p>
+    <p class="MsoNormal"
+      style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+      line-height:normal"><b style="mso-bidi-font-weight:normal"><span
+          style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:
+&quot;Times
+
+          New Roman&quot;;mso-fareast-language:FR" lang="FR">Classe A et
+          Classe B&nbsp;: Mardi 20h00 &agrave; 21h30. <o:p></o:p></span></b></p>
+    <p class="MsoNormal"
+      style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+      line-height:normal"><b style="mso-bidi-font-weight:normal"><i
+          style="mso-bidi-font-style: normal"><u><span
+              style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;
+mso-fareast-font-family:&quot;Times
+
+              New Roman&quot;;mso-fareast-language:FR" lang="FR">2</span></u></i></b><b
+        style="mso-bidi-font-weight:normal"><i
+          style="mso-bidi-font-style:normal"><u><span
+style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-language:ZH-CN"
+              lang="FR">2</span></u></i></b><b
+        style="mso-bidi-font-weight:normal"><i
+          style="mso-bidi-font-style:normal"><u><span
+              style="font-size:10.0pt;
+              font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:&quot;Times
+
+              New Roman&quot;; mso-fareast-language:FR" lang="FR">/0</span></u></i></b><b
+        style="mso-bidi-font-weight: normal"><i
+          style="mso-bidi-font-style:normal"><u><span
+style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-language:ZH-CN"
+              lang="FR">4</span></u></i></b><b
+        style="mso-bidi-font-weight:normal"><i
+          style="mso-bidi-font-style:normal"><u><span
+              style="font-size:10.0pt;
+              font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:&quot;Times
+
+              New Roman&quot;; mso-fareast-language:FR" lang="FR">, 2</span></u></i></b><b
+        style="mso-bidi-font-weight: normal"><i
+          style="mso-bidi-font-style:normal"><u><span
+style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-language:ZH-CN"
+              lang="FR">9</span></u></i></b><b
+        style="mso-bidi-font-weight:normal"><i
+          style="mso-bidi-font-style:normal"><u><span
+              style="font-size:10.0pt;
+              font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:&quot;Times
+
+              New Roman&quot;; mso-fareast-language:FR" lang="FR">/0</span></u></i></b><b
+        style="mso-bidi-font-weight: normal"><i
+          style="mso-bidi-font-style:normal"><u><span
+style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-language:ZH-CN"
+              lang="FR">4</span></u></i></b><b
+        style="mso-bidi-font-weight:normal"><i
+          style="mso-bidi-font-style:normal"><u><span
+              style="font-size:10.0pt;
+              font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:&quot;Times
+
+              New Roman&quot;; mso-fareast-language:FR" lang="FR">, 0</span></u></i></b><b
+        style="mso-bidi-font-weight: normal"><i
+          style="mso-bidi-font-style:normal"><u><span
+style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-language:ZH-CN"
+              lang="FR">6</span></u></i></b><b
+        style="mso-bidi-font-weight:normal"><i
+          style="mso-bidi-font-style:normal"><u><span
+              style="font-size:10.0pt;
+              font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:&quot;Times
+
+              New Roman&quot;; mso-fareast-language:FR" lang="FR">/0</span></u></i></b><b
+        style="mso-bidi-font-weight: normal"><i
+          style="mso-bidi-font-style:normal"><u><span
+style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-language:ZH-CN"
+              lang="FR">5</span></u></i></b><b
+        style="mso-bidi-font-weight:normal"><i
+          style="mso-bidi-font-style:normal"><u><span
+              style="font-size:10.0pt;
+              font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:&quot;Times
+
+              New Roman&quot;; mso-fareast-language:FR" lang="FR">, 1</span></u></i></b><b
+        style="mso-bidi-font-weight: normal"><i
+          style="mso-bidi-font-style:normal"><u><span
+style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-language:ZH-CN"
+              lang="FR">3</span></u></i></b><b
+        style="mso-bidi-font-weight:normal"><i
+          style="mso-bidi-font-style:normal"><u><span
+              style="font-size:10.0pt;
+              font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:&quot;Times
+
+              New Roman&quot;; mso-fareast-language:FR" lang="FR">/0</span></u></i></b><b
+        style="mso-bidi-font-weight: normal"><i
+          style="mso-bidi-font-style:normal"><u><span
+style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-language:ZH-CN"
+              lang="FR">5</span></u></i></b><b
+        style="mso-bidi-font-weight:normal"><i
+          style="mso-bidi-font-style:normal"><u><span
+              style="font-size:10.0pt;
+              font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:&quot;Times
+
+              New Roman&quot;; mso-fareast-language:FR" lang="FR">, </span></u></i></b><b
+        style="mso-bidi-font-weight: normal"><i
+          style="mso-bidi-font-style:normal"><u><span
+style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-language:ZH-CN"
+              lang="FR">20</span></u></i></b><b
+        style="mso-bidi-font-weight:normal"><i
+          style="mso-bidi-font-style:normal"><u><span
+              style="font-size:10.0pt;
+              font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:&quot;Times
+
+              New Roman&quot;; mso-fareast-language:FR" lang="FR">/0</span></u></i></b><b
+        style="mso-bidi-font-weight: normal"><i
+          style="mso-bidi-font-style:normal"><u><span
+style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-language:ZH-CN"
+              lang="FR">5</span></u></i></b><b
+        style="mso-bidi-font-weight:normal"><i
+          style="mso-bidi-font-style:normal"><u><span
+              style="font-size:10.0pt;
+              font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:&quot;Times
+
+              New Roman&quot;; mso-fareast-language:FR" lang="FR">, 2</span></u></i></b><b
+        style="mso-bidi-font-weight: normal"><i
+          style="mso-bidi-font-style:normal"><u><span
+style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-language:ZH-CN"
+              lang="FR">7</span></u></i></b><b
+        style="mso-bidi-font-weight:normal"><i
+          style="mso-bidi-font-style:normal"><u><span
+              style="font-size:10.0pt;
+              font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:&quot;Times
+
+              New Roman&quot;; mso-fareast-language:FR" lang="FR">/0</span></u></i></b><b
+        style="mso-bidi-font-weight: normal"><i
+          style="mso-bidi-font-style:normal"><u><span
+style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-language:ZH-CN"
+              lang="FR">5</span></u></i></b><b
+        style="mso-bidi-font-weight:normal"><i
+          style="mso-bidi-font-style:normal"><u><span
+              style="font-size:10.0pt;
+              font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:&quot;Times
+
+              New Roman&quot;; mso-fareast-language:FR" lang="FR">, 03/0</span></u></i></b><b
+        style="mso-bidi-font-weight: normal"><i
+          style="mso-bidi-font-style:normal"><u><span
+style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-language:ZH-CN"
+              lang="FR">6</span></u></i></b><b
+        style="mso-bidi-font-weight:normal"><i
+          style="mso-bidi-font-style:normal"><u><span
+              style="font-size:10.0pt;
+              font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:&quot;Times
+
+              New Roman&quot;; mso-fareast-language:FR" lang="FR">, 10/0</span></u></i></b><b
+        style="mso-bidi-font-weight: normal"><i
+          style="mso-bidi-font-style:normal"><u><span
+style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-language:ZH-CN"
+              lang="FR">6</span></u></i></b><b
+        style="mso-bidi-font-weight:normal"><i
+          style="mso-bidi-font-style:normal"><u><span
+              style="font-size:10.0pt;
+              font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:&quot;Times
+
+              New Roman&quot;; mso-fareast-language:FR" lang="FR">, 17/0</span></u></i></b><b
+        style="mso-bidi-font-weight: normal"><i
+          style="mso-bidi-font-style:normal"><u><span
+style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-language:ZH-CN"
+              lang="FR">6</span></u></i></b><b
+        style="mso-bidi-font-weight:normal"><i
+          style="mso-bidi-font-style:normal"><u><span
+              style="font-size:10.0pt;
+              font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:&quot;Times
+
+              New Roman&quot;; mso-fareast-language:FR" lang="FR">, 24/0</span></u></i></b><b
+        style="mso-bidi-font-weight: normal"><i
+          style="mso-bidi-font-style:normal"><u><span
+style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-language:ZH-CN"
+              lang="FR">6</span></u></i></b><b
+        style="mso-bidi-font-weight:normal"><i
+          style="mso-bidi-font-style:normal"><u><span
+              style="font-size:10.0pt;
+              font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:&quot;Times
+
+              New Roman&quot;; mso-fareast-language:FR" lang="FR">. <o:p></o:p></span></u></i></b></p>
+    <p class="MsoNormal"
+      style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+      line-height:normal"><b style="mso-bidi-font-weight:normal"><span
+          style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:
+&quot;Times
+
+          New Roman&quot;;mso-fareast-language:FR" lang="FR">Classe C et
+          Classe D&nbsp;: Mardi 21h30 &agrave; 23h00.<o:p></o:p></span></b></p>
+    <p class="MsoNormal"
+      style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+      line-height:normal"><b style="mso-bidi-font-weight:normal"><i
+          style="mso-bidi-font-style: normal"><u><span
+              style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;
+mso-fareast-font-family:&quot;Times
+
+              New Roman&quot;;mso-fareast-language:FR" lang="FR">2</span></u></i></b><b
+        style="mso-bidi-font-weight:normal"><i
+          style="mso-bidi-font-style:normal"><u><span
+style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-language:ZH-CN"
+              lang="FR">2</span></u></i></b><b
+        style="mso-bidi-font-weight:normal"><i
+          style="mso-bidi-font-style:normal"><u><span
+              style="font-size:10.0pt;
+              font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:&quot;Times
+
+              New Roman&quot;; mso-fareast-language:FR" lang="FR">/0</span></u></i></b><b
+        style="mso-bidi-font-weight: normal"><i
+          style="mso-bidi-font-style:normal"><u><span
+style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-language:ZH-CN"
+              lang="FR">4</span></u></i></b><b
+        style="mso-bidi-font-weight:normal"><i
+          style="mso-bidi-font-style:normal"><u><span
+              style="font-size:10.0pt;
+              font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:&quot;Times
+
+              New Roman&quot;; mso-fareast-language:FR" lang="FR">, 2</span></u></i></b><b
+        style="mso-bidi-font-weight: normal"><i
+          style="mso-bidi-font-style:normal"><u><span
+style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-language:ZH-CN"
+              lang="FR">9</span></u></i></b><b
+        style="mso-bidi-font-weight:normal"><i
+          style="mso-bidi-font-style:normal"><u><span
+              style="font-size:10.0pt;
+              font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:&quot;Times
+
+              New Roman&quot;; mso-fareast-language:FR" lang="FR">/0</span></u></i></b><b
+        style="mso-bidi-font-weight: normal"><i
+          style="mso-bidi-font-style:normal"><u><span
+style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-language:ZH-CN"
+              lang="FR">4</span></u></i></b><b
+        style="mso-bidi-font-weight:normal"><i
+          style="mso-bidi-font-style:normal"><u><span
+              style="font-size:10.0pt;
+              font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:&quot;Times
+
+              New Roman&quot;; mso-fareast-language:FR" lang="FR">, 0</span></u></i></b><b
+        style="mso-bidi-font-weight: normal"><i
+          style="mso-bidi-font-style:normal"><u><span
+style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-language:ZH-CN"
+              lang="FR">6</span></u></i></b><b
+        style="mso-bidi-font-weight:normal"><i
+          style="mso-bidi-font-style:normal"><u><span
+              style="font-size:10.0pt;
+              font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:&quot;Times
+
+              New Roman&quot;; mso-fareast-language:FR" lang="FR">/0</span></u></i></b><b
+        style="mso-bidi-font-weight: normal"><i
+          style="mso-bidi-font-style:normal"><u><span
+style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-language:ZH-CN"
+              lang="FR">5</span></u></i></b><b
+        style="mso-bidi-font-weight:normal"><i
+          style="mso-bidi-font-style:normal"><u><span
+              style="font-size:10.0pt;
+              font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:&quot;Times
+
+              New Roman&quot;; mso-fareast-language:FR" lang="FR">, 1</span></u></i></b><b
+        style="mso-bidi-font-weight: normal"><i
+          style="mso-bidi-font-style:normal"><u><span
+style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-language:ZH-CN"
+              lang="FR">3</span></u></i></b><b
+        style="mso-bidi-font-weight:normal"><i
+          style="mso-bidi-font-style:normal"><u><span
+              style="font-size:10.0pt;
+              font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:&quot;Times
+
+              New Roman&quot;; mso-fareast-language:FR" lang="FR">/0</span></u></i></b><b
+        style="mso-bidi-font-weight: normal"><i
+          style="mso-bidi-font-style:normal"><u><span
+style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-language:ZH-CN"
+              lang="FR">5</span></u></i></b><b
+        style="mso-bidi-font-weight:normal"><i
+          style="mso-bidi-font-style:normal"><u><span
+              style="font-size:10.0pt;
+              font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:&quot;Times
+
+              New Roman&quot;; mso-fareast-language:FR" lang="FR">, </span></u></i></b><b
+        style="mso-bidi-font-weight: normal"><i
+          style="mso-bidi-font-style:normal"><u><span
+style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-language:ZH-CN"
+              lang="FR">20</span></u></i></b><b
+        style="mso-bidi-font-weight:normal"><i
+          style="mso-bidi-font-style:normal"><u><span
+              style="font-size:10.0pt;
+              font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:&quot;Times
+
+              New Roman&quot;; mso-fareast-language:FR" lang="FR">/0</span></u></i></b><b
+        style="mso-bidi-font-weight: normal"><i
+          style="mso-bidi-font-style:normal"><u><span
+style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-language:ZH-CN"
+              lang="FR">5</span></u></i></b><b
+        style="mso-bidi-font-weight:normal"><i
+          style="mso-bidi-font-style:normal"><u><span
+              style="font-size:10.0pt;
+              font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:&quot;Times
+
+              New Roman&quot;; mso-fareast-language:FR" lang="FR">, 2</span></u></i></b><b
+        style="mso-bidi-font-weight: normal"><i
+          style="mso-bidi-font-style:normal"><u><span
+style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-language:ZH-CN"
+              lang="FR">7</span></u></i></b><b
+        style="mso-bidi-font-weight:normal"><i
+          style="mso-bidi-font-style:normal"><u><span
+              style="font-size:10.0pt;
+              font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:&quot;Times
+
+              New Roman&quot;; mso-fareast-language:FR" lang="FR">/0</span></u></i></b><b
+        style="mso-bidi-font-weight: normal"><i
+          style="mso-bidi-font-style:normal"><u><span
+style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-language:ZH-CN"
+              lang="FR">5</span></u></i></b><b
+        style="mso-bidi-font-weight:normal"><i
+          style="mso-bidi-font-style:normal"><u><span
+              style="font-size:10.0pt;
+              font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:&quot;Times
+
+              New Roman&quot;; mso-fareast-language:FR" lang="FR">, 03/0</span></u></i></b><b
+        style="mso-bidi-font-weight: normal"><i
+          style="mso-bidi-font-style:normal"><u><span
+style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-language:ZH-CN"
+              lang="FR">6</span></u></i></b><b
+        style="mso-bidi-font-weight:normal"><i
+          style="mso-bidi-font-style:normal"><u><span
+              style="font-size:10.0pt;
+              font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:&quot;Times
+
+              New Roman&quot;; mso-fareast-language:FR" lang="FR">, 10/0</span></u></i></b><b
+        style="mso-bidi-font-weight: normal"><i
+          style="mso-bidi-font-style:normal"><u><span
+style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-language:ZH-CN"
+              lang="FR">6</span></u></i></b><b
+        style="mso-bidi-font-weight:normal"><i
+          style="mso-bidi-font-style:normal"><u><span
+              style="font-size:10.0pt;
+              font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:&quot;Times
+
+              New Roman&quot;; mso-fareast-language:FR" lang="FR">, 17/0</span></u></i></b><b
+        style="mso-bidi-font-weight: normal"><i
+          style="mso-bidi-font-style:normal"><u><span
+style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-language:ZH-CN"
+              lang="FR">6</span></u></i></b><b
+        style="mso-bidi-font-weight:normal"><i
+          style="mso-bidi-font-style:normal"><u><span
+              style="font-size:10.0pt;
+              font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:&quot;Times
+
+              New Roman&quot;; mso-fareast-language:FR" lang="FR">, 24/0</span></u></i></b><b
+        style="mso-bidi-font-weight: normal"><i
+          style="mso-bidi-font-style:normal"><u><span
+style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-language:ZH-CN"
+              lang="FR">6</span></u></i></b><b
+        style="mso-bidi-font-weight:normal"><i
+          style="mso-bidi-font-style:normal"><u><span
+              style="font-size:10.0pt;
+              font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:&quot;Times
+
+              New Roman&quot;; mso-fareast-language:FR" lang="FR">. <o:p></o:p></span></u></i></b></p>
+    <p class="MsoNormal"
+      style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+      line-height:normal"><b style="mso-bidi-font-weight:normal"><span
+          style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:
+&quot;Times
+
+          New Roman&quot;;mso-fareast-language:FR" lang="FR">Classe E et
+          Classe F&nbsp;: Lundi 21h30 &agrave; 23h. <o:p></o:p></span></b></p>
+    <p class="MsoNormal"
+      style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+      line-height:normal"><b style="mso-bidi-font-weight:normal"><i
+          style="mso-bidi-font-style: normal"><u><span
+              style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;
+mso-fareast-font-family:&quot;Times
+
+              New Roman&quot;;mso-fareast-language:FR" lang="FR">2</span></u></i></b><b
+        style="mso-bidi-font-weight:normal"><i
+          style="mso-bidi-font-style:normal"><u><span
+style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-language:ZH-CN"
+              lang="FR">2</span></u></i></b><b
+        style="mso-bidi-font-weight:normal"><i
+          style="mso-bidi-font-style:normal"><u><span
+              style="font-size:10.0pt;
+              font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:&quot;Times
+
+              New Roman&quot;; mso-fareast-language:FR" lang="FR">/0</span></u></i></b><b
+        style="mso-bidi-font-weight: normal"><i
+          style="mso-bidi-font-style:normal"><u><span
+style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-language:ZH-CN"
+              lang="FR">4</span></u></i></b><b
+        style="mso-bidi-font-weight:normal"><i
+          style="mso-bidi-font-style:normal"><u><span
+              style="font-size:10.0pt;
+              font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:&quot;Times
+
+              New Roman&quot;; mso-fareast-language:FR" lang="FR">, 2</span></u></i></b><b
+        style="mso-bidi-font-weight: normal"><i
+          style="mso-bidi-font-style:normal"><u><span
+style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-language:ZH-CN"
+              lang="FR">9</span></u></i></b><b
+        style="mso-bidi-font-weight:normal"><i
+          style="mso-bidi-font-style:normal"><u><span
+              style="font-size:10.0pt;
+              font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:&quot;Times
+
+              New Roman&quot;; mso-fareast-language:FR" lang="FR">/0</span></u></i></b><b
+        style="mso-bidi-font-weight: normal"><i
+          style="mso-bidi-font-style:normal"><u><span
+style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-language:ZH-CN"
+              lang="FR">4</span></u></i></b><b
+        style="mso-bidi-font-weight:normal"><i
+          style="mso-bidi-font-style:normal"><u><span
+              style="font-size:10.0pt;
+              font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:&quot;Times
+
+              New Roman&quot;; mso-fareast-language:FR" lang="FR">, 0</span></u></i></b><b
+        style="mso-bidi-font-weight: normal"><i
+          style="mso-bidi-font-style:normal"><u><span
+style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-language:ZH-CN"
+              lang="FR">6</span></u></i></b><b
+        style="mso-bidi-font-weight:normal"><i
+          style="mso-bidi-font-style:normal"><u><span
+              style="font-size:10.0pt;
+              font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:&quot;Times
+
+              New Roman&quot;; mso-fareast-language:FR" lang="FR">/0</span></u></i></b><b
+        style="mso-bidi-font-weight: normal"><i
+          style="mso-bidi-font-style:normal"><u><span
+style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-language:ZH-CN"
+              lang="FR">5</span></u></i></b><b
+        style="mso-bidi-font-weight:normal"><i
+          style="mso-bidi-font-style:normal"><u><span
+              style="font-size:10.0pt;
+              font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:&quot;Times
+
+              New Roman&quot;; mso-fareast-language:FR" lang="FR">, 1</span></u></i></b><b
+        style="mso-bidi-font-weight: normal"><i
+          style="mso-bidi-font-style:normal"><u><span
+style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-language:ZH-CN"
+              lang="FR">3</span></u></i></b><b
+        style="mso-bidi-font-weight:normal"><i
+          style="mso-bidi-font-style:normal"><u><span
+              style="font-size:10.0pt;
+              font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:&quot;Times
+
+              New Roman&quot;; mso-fareast-language:FR" lang="FR">/0</span></u></i></b><b
+        style="mso-bidi-font-weight: normal"><i
+          style="mso-bidi-font-style:normal"><u><span
+style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-language:ZH-CN"
+              lang="FR">5</span></u></i></b><b
+        style="mso-bidi-font-weight:normal"><i
+          style="mso-bidi-font-style:normal"><u><span
+              style="font-size:10.0pt;
+              font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:&quot;Times
+
+              New Roman&quot;; mso-fareast-language:FR" lang="FR">, </span></u></i></b><b
+        style="mso-bidi-font-weight: normal"><i
+          style="mso-bidi-font-style:normal"><u><span
+style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-language:ZH-CN"
+              lang="FR">20</span></u></i></b><b
+        style="mso-bidi-font-weight:normal"><i
+          style="mso-bidi-font-style:normal"><u><span
+              style="font-size:10.0pt;
+              font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:&quot;Times
+
+              New Roman&quot;; mso-fareast-language:FR" lang="FR">/0</span></u></i></b><b
+        style="mso-bidi-font-weight: normal"><i
+          style="mso-bidi-font-style:normal"><u><span
+style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-language:ZH-CN"
+              lang="FR">5</span></u></i></b><b
+        style="mso-bidi-font-weight:normal"><i
+          style="mso-bidi-font-style:normal"><u><span
+              style="font-size:10.0pt;
+              font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:&quot;Times
+
+              New Roman&quot;; mso-fareast-language:FR" lang="FR">, 2</span></u></i></b><b
+        style="mso-bidi-font-weight: normal"><i
+          style="mso-bidi-font-style:normal"><u><span
+style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-language:ZH-CN"
+              lang="FR">7</span></u></i></b><b
+        style="mso-bidi-font-weight:normal"><i
+          style="mso-bidi-font-style:normal"><u><span
+              style="font-size:10.0pt;
+              font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:&quot;Times
+
+              New Roman&quot;; mso-fareast-language:FR" lang="FR">/0</span></u></i></b><b
+        style="mso-bidi-font-weight: normal"><i
+          style="mso-bidi-font-style:normal"><u><span
+style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-language:ZH-CN"
+              lang="FR">5</span></u></i></b><b
+        style="mso-bidi-font-weight:normal"><i
+          style="mso-bidi-font-style:normal"><u><span
+              style="font-size:10.0pt;
+              font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:&quot;Times
+
+              New Roman&quot;; mso-fareast-language:FR" lang="FR">, 03/0</span></u></i></b><b
+        style="mso-bidi-font-weight: normal"><i
+          style="mso-bidi-font-style:normal"><u><span
+style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-language:ZH-CN"
+              lang="FR">6</span></u></i></b><b
+        style="mso-bidi-font-weight:normal"><i
+          style="mso-bidi-font-style:normal"><u><span
+              style="font-size:10.0pt;
+              font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:&quot;Times
+
+              New Roman&quot;; mso-fareast-language:FR" lang="FR">, 10/0</span></u></i></b><b
+        style="mso-bidi-font-weight: normal"><i
+          style="mso-bidi-font-style:normal"><u><span
+style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-language:ZH-CN"
+              lang="FR">6</span></u></i></b><b
+        style="mso-bidi-font-weight:normal"><i
+          style="mso-bidi-font-style:normal"><u><span
+              style="font-size:10.0pt;
+              font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:&quot;Times
+
+              New Roman&quot;; mso-fareast-language:FR" lang="FR">, 17/0</span></u></i></b><b
+        style="mso-bidi-font-weight: normal"><i
+          style="mso-bidi-font-style:normal"><u><span
+style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-language:ZH-CN"
+              lang="FR">6</span></u></i></b><b
+        style="mso-bidi-font-weight:normal"><i
+          style="mso-bidi-font-style:normal"><u><span
+              style="font-size:10.0pt;
+              font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:&quot;Times
+
+              New Roman&quot;; mso-fareast-language:FR" lang="FR">, 24/0</span></u></i></b><b
+        style="mso-bidi-font-weight: normal"><i
+          style="mso-bidi-font-style:normal"><u><span
+style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-language:ZH-CN"
+              lang="FR">6</span></u></i></b><b
+        style="mso-bidi-font-weight:normal"><i
+          style="mso-bidi-font-style:normal"><u><span
+              style="font-size:10.0pt;
+              font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:&quot;Times
+
+              New Roman&quot;; mso-fareast-language:FR" lang="FR">. <o:p></o:p></span></u></i></b></p>
+    <p class="MsoNormal"
+      style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify;text-justify:inter-ideograph;line-height:normal"><b
+        style="mso-bidi-font-weight:normal"><span
+          style="font-size:10.0pt;
+          font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:&quot;Times
+
+          New Roman&quot;; mso-fareast-language:FR" lang="FR">Tout les
+          participants peuvent assister tous les commentaires qui sont
+          enregistr&eacute;s en vid&eacute;o accessibles sur le site. <o:p></o:p></span></b></p>
+    <p class="MsoNormal"
+      style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+      line-height:normal"><b style="mso-bidi-font-weight:normal"><span
+          style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:
+&quot;Times
+
+          New Roman&quot;;mso-fareast-language:FR" lang="FR">3&nbsp;&#8211;
+          Simultan&eacute;es<o:p></o:p></span></b></p>
+    <p class="MsoNormal"
+      style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+      line-height:normal"><b style="mso-bidi-font-weight:normal"><span
+          style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:
+&quot;Times
+
+          New Roman&quot;;mso-fareast-language:FR" lang="FR">Tout le
+          monde peut jouer une partie avec moi ou un autre
+          professionnel. Il y aura au moins 4 simultan&eacute;es organis&eacute;es
+          pendant la saison. <o:p></o:p></span></b></p>
+    <p class="MsoNormal"
+      style="mso-margin-top-alt:auto;margin-bottom:0cm;margin-bottom:
+.0001pt;text-align:justify;text-justify:inter-ideograph;line-height:normal"><b
+        style="mso-bidi-font-weight:normal"><span
+          style="font-size:10.0pt;
+font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-language:ZH-CN"
+          lang="FR">4 &#8211; Tarif<span style="mso-spacerun:yes">&nbsp; </span><o:p></o:p></span></b></p>
+    <p class="MsoNormal"
+      style="mso-margin-top-alt:auto;margin-bottom:0cm;margin-bottom:
+.0001pt;text-align:justify;text-justify:inter-ideograph;line-height:normal"><b
+        style="mso-bidi-font-weight:normal"><span
+          style="font-size:10.0pt;
+font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-language:ZH-CN"
+          lang="FR">67 euros pour la saison. </span></b><span
+        style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;
+mso-fareast-font-family:&quot;Times
+
+        New Roman&quot;;mso-fareast-language:FR" lang="FR"><o:p></o:p></span></p>
+    <p class="MsoNormal"
+      style="mso-margin-top-alt:auto;margin-bottom:0cm;margin-bottom:
+.0001pt;text-align:justify;text-justify:inter-ideograph;line-height:normal"><span
+        style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:
+&quot;Times
+
+        New Roman&quot;;mso-fareast-language:FR" lang="FR"><o:p>&nbsp;</o:p></span></p>
+    <p class="MsoNormal"
+      style="mso-margin-bottom-alt:auto;line-height:normal"><b
+        style="mso-bidi-font-weight:normal"><span
+          style="font-size:14.0pt;
+          font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:&quot;Times
+
+          New Roman&quot;; mso-fareast-language:FR" lang="FR">B) Options
+          compl&eacute;mentaires<o:p></o:p></span></b></p>
+    <p class="MsoNormal"
+      style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+      line-height:normal"><b style="mso-bidi-font-weight:normal"><span
+          style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:
+&quot;Times
+
+          New Roman&quot;;mso-fareast-language:FR" lang="FR">1 - Cours
+          collectifs<o:p></o:p></span></b></p>
+    <p class="MsoNormal"
+      style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify;text-justify:inter-ideograph;line-height:normal"><span
+        style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:
+&quot;Times
+
+        New Roman&quot;;mso-fareast-language:FR" lang="FR">Il y aura des
+        cours de <b style="mso-bidi-font-weight:normal">techniques du
+          jeu de go</b> et des <b style="mso-bidi-font-weight:normal">commentaires
+
+          de parties</b>. </span><span
+style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-language:ZH-CN"
+        lang="FR">Dix </span><span
+        style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;
+mso-fareast-font-family:&quot;Times
+
+        New Roman&quot;;mso-fareast-language:FR" lang="FR">s&eacute;ances sont
+        pr&eacute;vues au cours du trimestre</span><span
+        style="font-size:10.0pt;
+font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-language:ZH-CN"
+        lang="FR">.</span><span
+        style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:
+&quot;Times
+
+        New Roman&quot;;mso-fareast-language:FR" lang="FR"> Les cours se
+        d&eacute;rouleront les jeudi soirs. Tous les cours seront enregistr&eacute;s
+        en audio et mis en ligne quelques jours apr&egrave;s le cours. Seuls
+        les joueurs inscrits auront acc&egrave;s &agrave; ces cours.<o:p></o:p></span></p>
+    <p class="MsoNormal"
+      style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+      line-height:normal"><b style="mso-bidi-font-weight:normal"><span
+          style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:
+&quot;Times
+
+          New Roman&quot;;mso-fareast-language:FR" lang="FR">Les cours
+          commencent le jeudi 23 Janvier.<o:p></o:p></span></b></p>
+    <p class="MsoNormal"
+      style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+      line-height:normal"><b style="mso-bidi-font-weight:normal"><span
+          style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:
+&quot;Times
+
+          New Roman&quot;;mso-fareast-language:FR" lang="FR">Classe A&nbsp;:
+          j&ocirc;s&eacute;ki. Ces huit cours de J&ocirc;s&eacute;ki, de 20h30 &agrave; 21h30, sont des
+          cours de th&eacute;orie.<o:p></o:p></span></b></p>
+    <p class="MsoNormal"
+      style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+      line-height:normal"><b style="mso-bidi-font-weight:normal"><i
+          style="mso-bidi-font-style: normal"><u><span
+              style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;
+mso-fareast-font-family:&quot;Times
+
+              New Roman&quot;;mso-fareast-language:FR" lang="FR">01/05,
+              08/05, 15/05, 22/05, 29/05, 05/06, 12/06, 19/06, 26/06,
+              03/07. <o:p></o:p></span></u></i></b></p>
+    <p class="MsoNormal"
+      style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+      line-height:normal"><b style="mso-bidi-font-weight:normal"><span
+          style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:
+&quot;Times
+
+          New Roman&quot;;mso-fareast-language:FR" lang="FR">Classe B&nbsp;:
+          fus&eacute;ki. Ces huit cours de Fus&eacute;ki, de 21h45 &agrave; 22h45 sont aussi
+          des cours de th&eacute;orie.<o:p></o:p></span></b></p>
+    <p class="MsoNormal"
+      style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+      line-height:normal"><b style="mso-bidi-font-weight:normal"><i
+          style="mso-bidi-font-style: normal"><u><span
+              style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;
+mso-fareast-font-family:&quot;Times
+
+              New Roman&quot;;mso-fareast-language:FR" lang="FR">01/05,
+              08/05, 15/05, 22/05, 29/05, 05/06, 12/06, 19/06, 26/06,
+              03/07. <o:p></o:p></span></u></i></b></p>
+    <p class="MsoNormal"
+      style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+      line-height:normal"><b style="mso-bidi-font-weight:normal"><span
+          style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:
+&quot;Times
+
+          New Roman&quot;;mso-fareast-language:FR" lang="FR">Tarif&nbsp;: 60
+          euros pour chacun de ces deux programmes.<o:p></o:p></span></b></p>
+    <p class="MsoNormal"
+      style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+      line-height:normal"><span
+        style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;
+mso-fareast-font-family:&quot;Times
+
+        New Roman&quot;;mso-fareast-language:FR" lang="FR"><o:p>&nbsp;</o:p></span></p>
+    <p class="MsoNormal"
+      style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+      line-height:normal"><b style="mso-bidi-font-weight:normal"><span
+          style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:
+&quot;Times
+
+          New Roman&quot;;mso-fareast-language:FR" lang="FR">3 &#8211;
+          Enregistrements des cours audio<o:p></o:p></span></b></p>
+    <p class="MsoNormal"
+      style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify;text-justify:inter-ideograph;line-height:normal"><b
+        style="mso-bidi-font-weight:normal"><i
+          style="mso-bidi-font-style:normal"><u><span
+              style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:
+&quot;Times
+
+              New Roman&quot;;mso-fareast-language:FR" lang="FR">Pour
+              ceux qui ne peuvent pas assister aux cours en direct, ils
+              peuvent choisir cette option&nbsp;: ils recevront un code
+              d&#8217;acc&egrave;s pour voir les enregistrements quelques jours apr&egrave;s
+              le direct.<o:p></o:p></span></u></i></b></p>
+    <p class="MsoNormal"
+      style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+      line-height:normal"><b style="mso-bidi-font-weight:normal"><i
+          style="mso-bidi-font-style: normal"><u><span
+              style="font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;
+mso-fareast-font-family:&quot;Times
+
+              New Roman&quot;;mso-fareast-language:FR" lang="FR">Tarif
+              pour les cours collectifs A et B (20 cours)&nbsp;: 80 euros.<o:p></o:p></span></u></i></b></p>
+    <p class="MsoNormal"
+      style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+      normal"><b style="mso-bidi-font-weight:normal"><span
+          style="font-size:
+10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-language:ZH-CN"
+          lang="FR"><o:p>&nbsp;</o:p></span></b></p>
+    <p class="MsoNormal"
+      style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+      line-height:normal"><b style="mso-bidi-font-weight:normal"><span
+style="font-size:14.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-language:ZH-CN"
+          lang="FR">EN R&Eacute;SUM&Eacute;&nbsp;:<o:p></o:p></span></b></p>
+    <p class="MsoNormal"
+      style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+      line-height:normal"><b style="mso-bidi-font-weight:normal"><i
+          style="mso-bidi-font-style: normal"><u><span
+              style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:
+&quot;Times
+
+              New Roman&quot;;mso-fareast-language:FR" lang="FR">La </span></u></i></b><b
+        style="mso-bidi-font-weight:normal"><i
+          style="mso-bidi-font-style:normal"><u><span
+style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-language:ZH-CN"
+              lang="FR">deuxi&egrave;me </span></u></i></b><b
+        style="mso-bidi-font-weight:normal"><i
+          style="mso-bidi-font-style: normal"><u><span
+              style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:
+&quot;Times
+
+              New Roman&quot;;mso-fareast-language:FR" lang="FR">saison
+              de l&#8217;Acad&eacute;mie de Go 2014 se d&eacute;roule du 14 Avril 201</span></u></i></b><b
+        style="mso-bidi-font-weight:normal"><i
+          style="mso-bidi-font-style:normal"><u><span
+              style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;
+              mso-fareast-language:ZH-CN" lang="FR">4</span></u></i></b><b
+        style="mso-bidi-font-weight: normal"><i
+          style="mso-bidi-font-style:normal"><u><span
+              style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:&quot;Times
+
+              New Roman&quot;; mso-fareast-language:FR" lang="FR"> au 03
+              Juilet.<o:p></o:p></span></u></i></b></p>
+    <p class="MsoNormal"
+      style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+      line-height:normal"><b style="mso-bidi-font-weight:normal"><i
+          style="mso-bidi-font-style: normal"><u><span
+              style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:
+&quot;Times
+
+              New Roman&quot;;mso-fareast-language:FR" lang="FR">Le
+              tarif des activit&eacute;s de base est de 67 euros.<o:p></o:p></span></u></i></b></p>
+    <p class="MsoNormal"
+      style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+      line-height:normal"><b style="mso-bidi-font-weight:normal"><i
+          style="mso-bidi-font-style: normal"><u><span
+              style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:
+&quot;Times
+
+              New Roman&quot;;mso-fareast-language:FR" lang="FR">Le
+              tarif des options compl&eacute;mentaire est de 120 euros.<o:p></o:p></span></u></i></b></p>
+    <p class="MsoNormal"
+      style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+      line-height:normal"><b style="mso-bidi-font-weight:normal"><i
+          style="mso-bidi-font-style: normal"><u><span
+              style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:
+&quot;Times
+
+              New Roman&quot;;color:red;mso-fareast-language:FR"
+              lang="FR">Le tarif des activit&eacute;s de base +<span
+                style="mso-spacerun:yes">&nbsp; </span>options
+              compl&eacute;mentaires est de 168 euros au lieu de 187.<o:p></o:p></span></u></i></b></p>
+    <p class="MsoNormal"
+      style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+      line-height:normal"><b style="mso-bidi-font-weight:normal"><span
+          style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:&quot;Times
+
+          New Roman&quot;; mso-fareast-language:FR" lang="FR">Pour vous
+          inscrire, envoyez un e-mail &agrave;&nbsp;:<o:p></o:p></span></b></p>
+    <p class="MsoNormal"
+      style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+      line-height:normal"><b style="mso-bidi-font-weight:normal"><span
+          style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:&quot;Times
+
+          New Roman&quot;; mso-fareast-language:FR" lang="FR"><a
+            href="mailto:oragefan@yahoo.fr">oragefan@yahoo.fr</a><br>
+          &nbsp;<o:p></o:p></span></b></p>
+  </body>
+</html>
+
+--------------000808060300010906060407--

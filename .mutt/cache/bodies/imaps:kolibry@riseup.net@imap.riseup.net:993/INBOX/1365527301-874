@@ -1,0 +1,151 @@
+Return-Path: <noreply@servimg.com>
+X-Spam-Checker-Version: SpamAssassin 3.3.2 (2011-06-06) on spamd3.riseup.net
+X-Spam-Level: ****
+X-Spam-Pyzor: 
+X-Spam-Status: No, score=4.9 required=8.0 tests=AM_TRUNCATED,CK_NAIVER_NO_DNS,
+	CK_NAIVE_NO_DNS,EMPTY_MESSAGE,ENV_FROM_DIFF,ENV_FROM_DIFF0,IMAGE_ATTACH,
+	LINK_NR_TOP,NEAR_EMPTY,PHISH_ACC2B,RDNS_NONE,SPF_HELO_FAIL,SRC_HTTP,TO_NOREAL
+	shortcircuit=no autolearn=disabled version=3.3.2
+Delivered-To: kolibry@riseup.net
+Received: from mx1.riseup.net (mx1-pn.riseup.net [10.0.1.33])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client CN "*.riseup.net", Issuer "Gandi Standard SSL CA" (not verified))
+	by vireo.riseup.net (Postfix) with ESMTPS id D527979
+	for <kolibry@riseup.net>; Mon, 10 Mar 2014 20:52:37 +0000 (UTC)
+Received: from p03.phpbb3now.com (unknown [173.192.27.194])
+	by mx1.riseup.net (Postfix) with ESMTP id 6F1E2500F1
+	for <kolibry@riseup.net>; Mon, 10 Mar 2014 13:52:37 -0700 (PDT)
+Received: by p03.phpbb3now.com (ESMTP, from userid 112)
+	id CDFB41B806D; Mon, 10 Mar 2014 21:52:29 +0100 (CET)
+To: kolibry@riseup.net
+Subject: Your account has been created
+From: "Servimg" <member@servimg.com>
+Message-ID: <425dcd8019be6c25d4ab0abb85c4f7fd@Servimg>
+MIME-Version: 1.0
+X-Sender: <www.servimg.com>
+X-Mailer: PHP
+X-auth-smtp-user: member@servimg.com 
+X-abuse-contact: member@servimg.com 
+Content-Type: multipart/related;
+	boundary="----=_NEXT_PART_531e260dcb106";
+	type="multipart/alternative"
+Date: Mon, 10 Mar 2014 21:52:29 +0100 (CET)
+X-Virus-Scanned: clamav-milter 0.97.8 at mx1
+X-Virus-Status: Clean
+
+
+
+------=_NEXT_PART_531e260dcb106
+Content-Type: multipart/alternative;
+	boundary="----=_NEXT_PART_531e260dcbcc0"
+
+------=_NEXT_PART_531e260dcbcc0
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 8bit
+
+Your account has been created
+
+Hello Kolibry,
+
+You receive this automatic e-mail because your account on "Servimg" - http://servimg.com has been created from your board account.
+
+Please notice that you can log in with the following information :
+Login : kolibry@riseup.net 
+Password : The board one
+
+Servimg.com - Free image hosting service
+
+------=_NEXT_PART_531e260dcbcc0
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: 8bit
+
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xml:lang="fr" xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
+
+<head>
+<title></title>
+
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+
+<style type="text/css">
+body{
+    color:#000;
+    font-family:verdana,arial,sans-serif;
+    background:#efefef;
+    margin:0;
+    padding:10px;
+    text-align:center;
+}
+
+#global #content a {font-size:12px;color:#0083ff; text-decoration:none}
+#global #content a:hover{text-decoration:underline;}
+</style>
+
+</head>
+</title>
+<body color="#000" bgcolor="#efefef" style="text-align:center;padding:10px;margin:0;font-family:verdana,arial,sans-serif;">
+<table id="global" width="650" bgcolor="#ffffff" style="margin:auto;border: 2px solid #ddd;background: #fff;padding: 0;text-align:left;width: 650px;">
+    <tr><td id="header" align="center" valign="middle" bgcolor="#ffffff" style="padding-top: 10px;background: #fff;">
+        <h1 style="margin: 10px 0 10px 0;text-align: center;">
+          <a href="http://www.servimg.com"><img src="http://www.servimg.com/images/title.png" alt="" style="vertical-align:middle;margin-right:10px;border:0" /></a>
+        </h1>
+    </td></tr>
+
+    <tr><td id="content" style="font-size:12px;border-top: 8px solid #e2e2e2;border-bottom: 8px solid #e2e2e2;text-align:justify;margin: 10px 10px 20px 10px;padding: 10px 80px 10px 40px;">
+        <h1 style="color:#0084ff;font-size:1.4em;">Your account has been created</h1>
+        Hello Kolibry,<br />
+<br />
+You receive this automatic e-mail because your account on "Servimg" - <a href="http://servimg.com" target="_blank">http://servimg.com</a> has been created from your board account.<br />
+<br />
+Please notice that you can log in with the following information :<br />
+Login : kolibry@riseup.net <br />
+Password : The board one
+        <br/><br/>
+        <table width="100%">
+          <tr>
+            <td align="left" valign="top" style="font-size:12px;"><br />
+<br />
+Servimg.com - Free image hosting service</td>
+          </tr>
+        </table>
+    </td></tr>
+
+    <tr><td id="footer" align="center" style="text-align:center;padding: 0 0 5px 0;background: #fff;font-size:12px;">&copy; servimg.com</td></tr>
+</table>
+
+</body>
+</html>
+
+------=_NEXT_PART_531e260dcbcc0--
+
+
+------=_NEXT_PART_531e260dcb106
+Content-Type: image/png;
+	name="logo.png"
+Content-Transfer-Encoding: base64
+Content-Location: http://www.servimg.com/images/title.png
+
+iVBORw0KGgoAAAANSUhEUgAAATkAAAArCAMAAAA0Vg/nAAAABGdBTUEAAK/INwWK6QAAABl0RVh0
+U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAABgUExURYiIiIjU/7W1tePj4/b29qKion19
+fb6+vpCQkJmZmdHR0YeHh+zs7KysrMfHx9ra2jS1/t3z/7vm/xKo/lbB/qrg/2fH/kW7/njN/u75
+/yOu/szs/3R0dAGi/gAAAP///+MeFwwAAAM7SURBVHja7Jlre6sgDICtIqhYu3Xtrlj+/79cQsDS
+Qq0963OqG/lgEcPtNQnBZnqB0vf94yeRJXKJXCK3EEnkErn/Tu5wOAw352V4mHmKp+Wxhi4ahaJX
+sdrVZeXV6XxXVjnez3hvbnqhGAyBZHFlr0kil8j9HnKR8DACI6r89OxXPD955FaxPi/05pOLB60s
+UnMFzlxsLrKgLVS/7I/3+xeo2CZy18kZG+tf3d1rTzaYyF0np/V77zzWUHx3GH4zufipKYxzVw5U
+W/RQ8Ng9eu5WJ3LTj6Ifb/Bwt4PL24eeF7nRjfeCXN2xszt5q6VBWno6ucjQ2cVpj2Qlyyanvz77
+/vNLJ3I3k9N6txvx+seQ+yPn8/t/0kvkErlE7k6cLp34E7lELpFL/0PMWwqVX9UpVfHDUdZKuT4u
+DzhLcrkSdtrlI8jlCskxxRO5G4XLFq6J3M3C1HrKgAsgJ1QD/sOFtxCGkWjNsNhUyj3UuoObuvLI
+NZaClHgVHB4XVJ8TZOyDV22pVDOwQsmx2iMnJDQ1KgyduRbLIEcihoUwaSokc0FJ0fqcpmdzkrMB
+VE1PNwE5CUTHyZXHphUV2SLIVR2Yk5LDQkpVM93WR0diFcYkxrEd823OdlWq1vRTYLEKyFlDHLyV
+YoRHrjEanaq13uBFi3oZ5JohfNFCuPE9Rj9FbqyA4cpEEOdaBNWafmqqr5DimbeexbmAXG0sV685
+kqvYguIcVTZ2Icy8dmTABm+l4ibcIWqoNE21sUvbz43kpB0EoYPP81zMlJyw5Ci+j5IrYBmtRZAT
+slNyDXAg47wHOey5ywFeNU9v7Swasj1LznhZ4K2DhzJU7CJZieT2RfjeuqE9d7q3BqeMbpbkINTb
+TbUwP2vtInuwQzQGcs4RwUbJwpSLsxMBRSl/h2gVZLuYi0wjJ2gPETBWU3YzJgeWFOYavI1mJVQ0
+5FzacUquVS6f9rISm1vwieRcVsLxVdmxZ3rib3CVdWejXolpaBvPhMH0IEUlt8OjuhTnZ4iaWJ1k
+wpp5zSaQ0wJRrzFsmK0cxl7AtxIxJKn/JnR++ItfmX5Izu4hidzNUtH+kMjdKhv/y8c95VuAAQBE
+9v5SWk2gzwAAAABJRU5ErkJggg==
+
+
+------=_NEXT_PART_531e260dcb106--
+

@@ -1,0 +1,53 @@
+Return-Path: <noreply@forumactif.com>
+X-Spam-Checker-Version: SpamAssassin 3.3.2 (2011-06-06) on spamd3.riseup.net
+X-Spam-Level: 
+X-Spam-Pyzor: 
+X-Spam-Status: No, score=0.1 required=8.0 tests=AM_TRUNCATED,CK_419SIZE,
+	CK_KARD_SIZE,DKIM_SIGNED,DKIM_VALID,DKIM_VALID_AU,GAPPY_LET,HAS_REPLY_TO,
+	LINK_NR_TOP shortcircuit=no autolearn=disabled version=3.3.2
+Delivered-To: kolibry@riseup.net
+Received: from mx1.riseup.net (mx1-pn.riseup.net [10.0.1.33])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client CN "*.riseup.net", Issuer "Gandi Standard SSL CA" (not verified))
+	by vireo.riseup.net (Postfix) with ESMTPS id BA4CD79
+	for <kolibry@riseup.net>; Mon,  3 Mar 2014 07:25:16 +0000 (UTC)
+Received: from f60.mail.dnspro.org (f60.mail.dnspro.org [74.86.217.136])
+	by mx1.riseup.net (Postfix) with ESMTP id 83F1D4E3FC
+	for <kolibry@riseup.net>; Sun,  2 Mar 2014 23:25:16 -0800 (PST)
+Received: by f60.mail.dnspro.org (ESMTP, from userid 510)
+	id 29BBF2680F1; Mon,  3 Mar 2014 08:25:09 +0100 (CET)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=forumactif.com;
+	s=default; t=1393831514;
+	bh=5dM6QgmL6vXWUWRumwz0sg+D0WZQn0Q5/LEsURyei4A=;
+	h=To:Subject:From:Reply-to:Date;
+	b=uZ/HLhyrf3v3tXLTfjvK4alTKEmohWg6XDfZ3fT+V1MZ3KM8mLOP8kwZGEdMURsJj
+	 IJSfBY1uPis7EBlsmYwTMlr0rjFBJtjg7tjVxAEIQyI2I5QOmK+js9M1Vo8jP3sFtM
+	 Wp/TY6ACIfJsNzOxcbv9hSp/ejAPs/H/skLCTvho=
+To: "Kolibry" <kolibry@riseup.net>
+Subject: =?utf-8?B?UsOpcG9uc2UgYXUgc3VqZXQgOiBMYSBEb25hdGlvbiBhdSBmb3J1bSBldCBzZXMgYXZhbnRhZ2Vz?=
+From: "GO.ON l Le forum de la communauté française de Go" <noreply@forumactif.com>
+Reply-to: "GO.ON l Le forum de la communauté française de Go" <noreply@forumactif.com>
+Message-ID: <20140303072509.708dff20c0@go-on.forumactif.com>
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-transfer-encoding: 8bit
+Date: Mon,  3 Mar 2014 08:25:09 +0100 (CET)
+X-Virus-Scanned: clamav-milter 0.97.8 at mx1
+X-Virus-Status: Clean
+
+Bonjour ,
+
+Vous recevez cet email parce que vous surveillez le sujet, "La Donation au forum et ses avantages" sur "GO.ON l Le forum de la communauté française de Go", qui a reçu une réponse depuis votre dernière visite.
+
+Vous pouvez utiliser le lien suivant pour voir les réponses qui ont été faites. Aucune autre notification ne vous sera envoyée jusqu'à ce que vous visitiez le sujet.
+http://go-on.forumactif.com/t1968-la-donation-au-forum-et-ses-avantages#25901
+
+Si vous ne voulez plus surveiller ce sujet vous pouvez, soit cliquer sur le lien "Arrêter de surveiller ce sujet" en bas du sujet ci-dessus, soit cliquer sur le lien suivant:
+http://go-on.forumactif.com/t1968-la-donation-au-forum-et-ses-avantages?unwatch=topic
+
+-- 
+_____________________________________________________________________________
+
+L'Administrateur.
+GO.ON l Le forum de la communauté française de Go.
+http://goon-forum.com/

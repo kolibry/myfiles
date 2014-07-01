@@ -1,0 +1,51 @@
+Return-Path: <noreply@forumactif.com>
+X-Spam-Checker-Version: SpamAssassin 3.3.2 (2011-06-06) on spamd3.riseup.net
+X-Spam-Level: 
+X-Spam-Pyzor: Reported 0 times.
+X-Spam-Status: No, score=0.1 required=8.0 tests=AM_TRUNCATED,CK_419SIZE,
+	CK_KARD_SIZE,DKIM_SIGNED,DKIM_VALID,DKIM_VALID_AU,GAPPY_LET,HAS_REPLY_TO,
+	LINK_NR_TOP,ODD_PUNCTUATION2 shortcircuit=no autolearn=disabled version=3.3.2
+Delivered-To: kolibry@riseup.net
+Received: from mx1.riseup.net (mx1-pn.riseup.net [10.0.1.33])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client CN "*.riseup.net", Issuer "Gandi Standard SSL CA" (not verified))
+	by vireo.riseup.net (Postfix) with ESMTPS id 86BD4B2
+	for <kolibry@riseup.net>; Fri,  9 May 2014 20:04:38 +0000 (UTC)
+Received: from f57.mail.dnspro.org (f57.mail.dnspro.org [74.86.217.135])
+	by mx1.riseup.net (Postfix) with ESMTP id 2E4AC5E5BC
+	for <kolibry@riseup.net>; Fri,  9 May 2014 13:04:34 -0700 (PDT)
+Received: by f57.mail.dnspro.org (ESMTP, from userid 510)
+	id 52F996805B; Fri,  9 May 2014 22:04:33 +0200 (CEST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=forumactif.com;
+	s=default; t=1399665873;
+	bh=OUEQqIilfmiJk0yVH1ztJhKFwzxXRqHBxMLJVkf3GUs=;
+	h=To:Subject:From:Reply-to:Date;
+	b=npQz9TeFWfg2HzQtFWCibPi7Xb7dYHShKX2QeQGB8dpnC5uJDPpmClx8XosnCq5yx
+	 neaqMlwANl2I9Ke38uwBiNr858ifelpCmiR0cloG4YqKKeYdLSC6RYaJSGBBj0Hyv/
+	 79KTJpMJHlTBi2y+r71JFiVDyq6VsUuf6cjZxhgs=
+To: "=?utf-8?B?S29saWJyeQ==?=" <kolibry@riseup.net>
+Subject: =?utf-8?B?UsOpcG9uc2UgYXUgc3VqZXQgOiBHb2xkZW4gU3RvbmUgNnRoIEVkaXRpb24gLiBSb25kZXMgMSAmIDI=?=
+Content-type: text/plain; charset="utf-8"
+Content-transfer-encoding: 8bit
+From: "=?utf-8?B?R08uT04gbCBMZSBmb3J1bSBkZSBsYSBjb21tdW5hdXTDqSBmcmFuw6dhaXNlIGRlIEdv?=" <noreply@forumactif.com>
+Reply-to: "=?utf-8?B?R08uT04gbCBMZSBmb3J1bSBkZSBsYSBjb21tdW5hdXTDqSBmcmFuw6dhaXNlIGRlIEdv?=" <noreply@forumactif.com>
+Message-ID: <20140509200433.e1cf909864@go-on.forumactif.com>
+MIME-Version: 1.0
+Date: Fri,  9 May 2014 22:04:33 +0200 (CEST)
+
+Bonjour Kolibry,
+
+Vous recevez cet email parce que vous surveillez le sujet, "Golden Stone 6th Edition . Rondes 1 & 2" sur "GO.ON l Le forum de la communauté française de Go", qui a reçu une réponse depuis votre dernière visite.
+
+Vous pouvez utiliser le lien suivant pour voir les réponses qui ont été faites. Aucune autre notification ne vous sera envoyée jusqu'à ce que vous visitiez le sujet.
+http://go-on.forumactif.com/t2067p400-golden-stone-6th-edition-rondes-1-2#29354
+
+Si vous ne voulez plus surveiller ce sujet vous pouvez, soit cliquer sur le lien "Arrêter de surveiller ce sujet" en bas du sujet ci-dessus, soit cliquer sur le lien suivant:
+http://go-on.forumactif.com/t2067-golden-stone-6th-edition-rondes-1-2?unwatch=topic
+
+-- 
+_____________________________________________________________________________
+
+L'Administrateur.
+GO.ON l Le forum de la communauté française de Go.
+http://goon-forum.com/

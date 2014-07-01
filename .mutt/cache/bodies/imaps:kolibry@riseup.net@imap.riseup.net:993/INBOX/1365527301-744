@@ -1,0 +1,85 @@
+Return-Path: <claudiusrolland@yahoo.fr>
+X-Spam-Checker-Version: SpamAssassin 3.3.2 (2011-06-06) on spamd2.riseup.net
+X-Spam-Level: 
+X-Spam-Pyzor: Reported 0 times.
+X-Spam-Status: No, score=-0.5 required=8.0 tests=AM_TRUNCATED,CK_419SIZE,
+	CK_KARD_SIZE,DKIM_SIGNED,DKIM_VALID,DKIM_VALID_AU,FORWARD_RELAY,FREEMAIL_FROM,
+	HAS_REPLY_TO,HTML_MESSAGE,KHOP_THREADED,ODD_PUNCTUATION2,RCVD_IN_DNSWL_NONE,
+	RCVD_IN_HOSTKARMA_YE,REPLY_TO_TEMP shortcircuit=no autolearn=disabled
+	version=3.3.2
+Delivered-To: kolibry@riseup.net
+Received: from mx1.riseup.net (mx1-pn.riseup.net [10.0.1.33])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client CN "*.riseup.net", Issuer "Gandi Standard SSL CA" (not verified))
+	by vireo.riseup.net (Postfix) with ESMTPS id E121879
+	for <kolibry@riseup.net>; Wed, 12 Feb 2014 15:27:32 +0000 (UTC)
+Received: from nm3-vm6.bullet.mail.ir2.yahoo.com (nm3-vm6.bullet.mail.ir2.yahoo.com [212.82.96.95])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by mx1.riseup.net (Postfix) with ESMTPS id BC50D4FA1C
+	for <kolibry@riseup.net>; Wed, 12 Feb 2014 07:27:31 -0800 (PST)
+Received: from [212.82.98.48] by nm3.bullet.mail.ir2.yahoo.com with NNFMP; 12 Feb 2014 15:27:29 -0000
+Received: from [212.82.98.82] by tm1.bullet.mail.ir2.yahoo.com with NNFMP; 12 Feb 2014 15:27:29 -0000
+Received: from [127.0.0.1] by omp1019.mail.ir2.yahoo.com with NNFMP; 12 Feb 2014 15:27:29 -0000
+X-Yahoo-Newman-Property: ymail-3
+X-Yahoo-Newman-Id: 571346.53682.bm@omp1019.mail.ir2.yahoo.com
+Received: (qmail 40666 invoked by uid 60001); 12 Feb 2014 15:27:29 -0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.fr; s=s1024; t=1392218849; bh=R9aNVGePkHgk02AsX2HYiPUVrj4UKqKjmpCnfghHXLE=; h=X-YMail-OSG:Received:X-Rocket-MIMEInfo:X-Mailer:References:Message-ID:Date:From:Reply-To:Subject:To:In-Reply-To:MIME-Version:Content-Type; b=WqndnM+uTX2nKL7Fw9NmxHWITXtnwSrJ6WD1eeomKRJoyOlwAE24dUPCurHH6KHLE8ISiiJkecaf34dWLEY0NTXdEeczgdi0wDZxrEGFeEDxzyTWIchLYs3c+yyHigmlkozDagB6LlWn0VJ7rDCXjRFGTmAllyirjwBBesGfv44=
+DomainKey-Signature:a=rsa-sha1; q=dns; c=nofws;
+  s=s1024; d=yahoo.fr;
+  h=X-YMail-OSG:Received:X-Rocket-MIMEInfo:X-Mailer:References:Message-ID:Date:From:Reply-To:Subject:To:In-Reply-To:MIME-Version:Content-Type;
+  b=OT671rnkqe7I4eG1cTI2sqnufni2ynSJBfCR/6vpuUBLodE5RCmH+dqXFXEoVCwWTKcMNGrWQBD79AuL5/OXcKm8AvzzWNDM1nZ/pbryQY2cqQwDhJ06P/8GdW6B1zyDNSDPE9uQfAUMtI+0v7G4SqD75/HCA5n7MA+xSG5CW8I=;
+X-YMail-OSG: JpgTEy0VM1lMZTxfZn4WqR_iQDacHLjTty56USAp1QJHbht
+ 6490ECawRcPgKloXQVCBdWXI725ILDpbTNfi01uA7xIBHtPHDeospqMvEvZz
+ SY8ghcdlcbtGkuVNcF.Dpn0DRVcuI_SO3O.SGyYayPeQPBgKGL1nMxSwai.C
+ SK.RvQ8LOm94V0PrxjElWVJ4loO11QjGQ5nnTPSYUbXgiExmLMp_OQJOVukl
+ wSkUm9YRCWK8MuJqsQVHkvcIB.M9pyXms6pGlMO49yu2mjejoxbd9g1baAuD
+ a4.Vq.QB3ChrLrktv5vtQq8knbKVT4_rI8y9tKypI7x_hlrudkRZ8s.oDYHY
+ ecnSf7iRCazVrls6sQTE.PI9xpRsABlo6uRrcMuV8EcUkaDLpClOpho8YrOd
+ 9XAbiz_l5Ui9mT6GSSrd0W1QJMy4MAN.2JuIrSmfctcT_6cOcb_Tb32AMYFi
+ g65Gzk9_3EbQ0xMSONc4vYLWbVYnJfxaFC7RP.ZDBj6jERdFhN8PcmjBne2v
+ R9nokWxgiOLrr77oYjj9Tt1njj_8mSJkuYT.Xte93VjnpS6STO78FMEXT1Ku
+ K
+Received: from [78.243.148.239] by web171704.mail.ir2.yahoo.com via HTTP; Wed, 12 Feb 2014 15:27:29 GMT
+X-Rocket-MIMEInfo: 002.001,c2FsdXQgam9uYXRoYW4gLCBwZXV4IHR1IHRyYXZhaWxsZXIgZGVtYWluIG1hdGluICwgOWggLTEyaCBvdSAxM2gKYSArICwgY2xhdWRlCgoKCgoKTGUgSmV1ZGkgNiBmw6l2cmllciAyMDE0IDE5aDA3LCBKb25hdGhhbiA8a29saWJyeUByaXNldXAubmV0PiBhIMOpY3JpdCA6CiAKT0sgcG91ciBkZW1haW4gbWF0aW4sIGJvbm5lIHNvaXLDqWUuCgoKSm9uYXRoYW4BMAEBAQE-
+X-Mailer: YahooMailWebService/0.8.176.634
+References: <1389627403.55017.YahooMailNeo@web171704.mail.ir2.yahoo.com> <1423146.coSjmd3zYv@chakra> <1390233001.7980.YahooMailNeo@web171701.mail.ir2.yahoo.com> <52DD5B3E.9010602@riseup.net> <1390401857.32926.YahooMailNeo@web171701.mail.ir2.yahoo.com> <52E3A1AD.3060202@riseup.net> <1390689066.15706.YahooMailNeo@web171706.mail.ir2.yahoo.com> <1390928917.34713.YahooMailNeo@web171704.mail.ir2.yahoo.com> <52E7E987.4030105@riseup.net> <1391703459.14997.YahooMailNeo@web171701.mail.ir2.yahoo.com> <52F3CF67.2020101@riseup.net>
+Message-ID: <1392218849.6287.YahooMailNeo@web171704.mail.ir2.yahoo.com>
+Date: Wed, 12 Feb 2014 15:27:29 +0000 (GMT)
+From: ROLLAND Claude <claudiusrolland@yahoo.fr>
+Reply-To: ROLLAND Claude <claudiusrolland@yahoo.fr>
+Subject: Re: 
+To: Jonathan <kolibry@riseup.net>
+In-Reply-To: <52F3CF67.2020101@riseup.net>
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="147469114-601155603-1392218849=:6287"
+X-Virus-Scanned: clamav-milter 0.97.8 at mx1
+X-Virus-Status: Clean
+
+--147469114-601155603-1392218849=:6287
+Content-Type: text/plain; charset=iso-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+salut jonathan , peux tu travailler demain matin , 9h -12h ou 13h=0Aa + , c=
+laude=0A=0A=0A=0A=0A=0ALe Jeudi 6 f=E9vrier 2014 19h07, Jonathan <kolibry@r=
+iseup.net> a =E9crit :=0A =0AOK pour demain matin, bonne soir=E9e.=0A=0A=0A=
+Jonathan
+--147469114-601155603-1392218849=:6287
+Content-Type: text/html; charset=iso-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<html><body><div style=3D"color:#000; background-color:#fff; font-family:He=
+lveticaNeue, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;fo=
+nt-size:12pt">salut jonathan , peux tu travailler demain matin , 9h -12h ou=
+ 13h<br>a + , claude<br><div><span><br></span></div><div style=3D"display: =
+block;" class=3D"yahoo_quoted"> <br> <br> <div style=3D"font-family: Helvet=
+icaNeue, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif; font-=
+size: 12pt;"> <div style=3D"font-family: HelveticaNeue, Helvetica Neue, Hel=
+vetica, Arial, Lucida Grande, sans-serif; font-size: 12pt;"> <div dir=3D"lt=
+r"> <font face=3D"Arial" size=3D"2"> Le Jeudi 6 f=E9vrier 2014 19h07, Jonat=
+han &lt;kolibry@riseup.net&gt; a =E9crit :<br> </font> </div>  <div class=
+=3D"y_msg_container">OK pour demain matin, bonne soir=E9e.<div class=3D"yqt=
+7297965099" id=3D"yqtfd64894"><br clear=3D"none"><br clear=3D"none">Jonatha=
+n<br clear=3D"none"></div><br><br></div>  </div> </div>  </div> </div></bod=
+y></html>
+--147469114-601155603-1392218849=:6287--

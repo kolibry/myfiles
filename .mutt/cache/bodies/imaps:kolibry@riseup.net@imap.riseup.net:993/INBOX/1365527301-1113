@@ -1,0 +1,157 @@
+Return-Path: <tenuki-brest-bounces@jeudego.org>
+Delivered-To: kolibry@riseup.net
+Received: from mx1.riseup.net (mx1-pn.riseup.net [10.0.1.33])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client CN "*.riseup.net", Issuer "Gandi Standard SSL CA" (not verified))
+	by vireo.riseup.net (Postfix) with ESMTPS id C8223C0
+	for <kolibry@riseup.net>; Thu,  8 May 2014 20:44:32 +0000 (UTC)
+Received: from jeudego.org (jeudego.org [5.135.164.19])
+	by mx1.riseup.net (Postfix) with ESMTP id 525564D04C
+	for <kolibry@riseup.net>; Thu,  8 May 2014 13:44:32 -0700 (PDT)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by jeudego.org (Postfix) with ESMTP id BD1DA2EC25F6;
+	Thu,  8 May 2014 22:44:31 +0200 (CEST)
+X-Virus-Scanned: Debian amavisd-new at jeudego.org
+Received: from jeudego.org ([127.0.0.1])
+	by localhost (jeudego.org [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id mQ2K1hIyqWt3; Thu,  8 May 2014 22:44:31 +0200 (CEST)
+Received: from ns3311974.ovh.net (localhost.localdomain [127.0.0.1])
+	by jeudego.org (Postfix) with ESMTP;
+	Thu,  8 May 2014 22:44:31 +0200 (CEST)
+X-Original-To: tenuki-brest@jeudego.org
+Delivered-To: tenuki-brest@jeudego.org
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by jeudego.org (Postfix) with ESMTP id 7296B2EC25F6
+	for <tenuki-brest@jeudego.org>; Thu,  8 May 2014 22:44:30 +0200 (CEST)
+X-Virus-Scanned: Debian amavisd-new at jeudego.org
+Received: from jeudego.org ([127.0.0.1])
+	by localhost (jeudego.org [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id c1MTQjU2Mxc7 for <tenuki-brest@jeudego.org>;
+	Thu,  8 May 2014 22:44:25 +0200 (CEST)
+Received: from mail-qa0-f49.google.com (mail-qa0-f49.google.com
+	[209.85.216.49]) (using TLSv1 with cipher RC4-SHA (128/128 bits))
+	(No client certificate requested)
+	by jeudego.org (Postfix) with ESMTPS
+	for <tenuki-brest@jeudego.org>; Thu,  8 May 2014 22:44:21 +0200 (CEST)
+Received: by mail-qa0-f49.google.com with SMTP id cm18so3079172qab.22
+	for <tenuki-brest@jeudego.org>; Thu, 08 May 2014 13:44:21 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=20120113;
+	h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+	:content-type; bh=00axZLzOD0ga+2ZbDxiFWrMjThnTo57u/K52MQjY1Fo=;
+	b=cUu6R+MDIue6+RFj9i+y5RoVqq9enEeeLVWOysUrtl+Q/X/SNonVlWFxAtzkMTfGcM
+	jnMh+FiAb/DC0VIX2g7jl1blg4YDxjpq33DmXLPejm3q2KfcpMmej2WesOs6j2hIVfRP
+	633/VoBQOu1ka9AzZxmVgr/aJP6d7zdP+2QH9NljEq117I9ubv6N2SYO8zSVBlZK6Gjk
+	y18alcPve6gvaNH4A1JtJUGne+xKk8QHFcNqS6q036FwA4KXKu549hytF5QDohw+pRs9
+	EXdbuKv3MfdOYx0swy/X7HqawQqpWjhGQUh2lIn5DviOuUaHMboLJrYWUEWWF0K4sRhh
+	Oi1g==
+MIME-Version: 1.0
+X-Received: by 10.140.44.34 with SMTP id f31mr7806821qga.73.1399581861013;
+	Thu, 08 May 2014 13:44:21 -0700 (PDT)
+Received: by 10.140.93.38 with HTTP; Thu, 8 May 2014 13:44:20 -0700 (PDT)
+Received: by 10.140.93.38 with HTTP; Thu, 8 May 2014 13:44:20 -0700 (PDT)
+In-Reply-To: <DUB129-W29A2FF5488275BAC0322FA9E490@phx.gbl>
+References: <DUB129-W29A2FF5488275BAC0322FA9E490@phx.gbl>
+Date: Thu, 8 May 2014 22:44:20 +0200
+Message-ID: <CAHCdiMqAPu4jXs9ozvYLpfqYW7DVG=uXUDAeGW=E7EX3rgJCWA@mail.gmail.com>
+From: Louis Gueguen <louisgueguen@gmail.com>
+To: tenuki-brest@jeudego.org
+Subject: Re: [Tenuki-brest] Rendez-vous de la semaine 5-11mai.
+X-BeenThere: tenuki-brest@jeudego.org
+X-Mailman-Version: 2.1.13
+Precedence: list
+Reply-To: tenuki-brest@jeudego.org
+List-Id: <tenuki-brest.jeudego.org>
+List-Unsubscribe: <https://admin.jeudego.org/mailman/options/tenuki-brest>,
+	<mailto:tenuki-brest-request@jeudego.org?subject=unsubscribe>
+List-Archive: <https://admin.jeudego.org/mailman/private/tenuki-brest>
+List-Post: <mailto:tenuki-brest@jeudego.org>
+List-Help: <mailto:tenuki-brest-request@jeudego.org?subject=help>
+List-Subscribe: <https://admin.jeudego.org/mailman/listinfo/tenuki-brest>,
+	<mailto:tenuki-brest-request@jeudego.org?subject=subscribe>
+Content-Type: multipart/mixed; boundary="===============5835557293420819672=="
+Sender: tenuki-brest-bounces@jeudego.org
+Errors-To: tenuki-brest-bounces@jeudego.org
+
+--===============5835557293420819672==
+Content-Type: multipart/alternative; boundary=001a1139fddaa8f5b404f8e98bf7
+
+--001a1139fddaa8f5b404f8e98bf7
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Je pense que j arriverais =C3=A0 venir pour cette fois du coup :)
+Le 8 mai 2014 22:43, "Pierre- Antoine Gu=C3=A9guen" <jap_anim29@hotmail.fr>=
+ a
+=C3=A9crit :
+
+> Bonsoir,
+>
+> N'=C3=A9tant pas s=C3=BBr que la salle soit ouverte demain, je vous propo=
+se de venir
+> chez moi jouer au go. :)
+>
+> J'habite au 13, rue Erwan Marec =C3=A0 St Marc (Brest), je vous y attends=
+ pour
+> 20h.
+>
+> Merci de signaler votre pr=C3=A9sence ici-m=C3=AAme ou sur la page facebo=
+ok !
+>
+> Que ceux qui ont goban + pierres am=C3=A8nent leur jeu, ce serait cool !
+>
+> =C3=80 demain,
+>
+> Pierrot.
+>
+> _______________________________________________
+> Tenuki-brest mailing list
+> Tenuki-brest@jeudego.org
+> https://admin.jeudego.org/mailman/listinfo/tenuki-brest
+>
+>
+
+--001a1139fddaa8f5b404f8e98bf7
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<p dir=3D"ltr">Je pense que j arriverais =C3=A0 venir pour cette fois du co=
+up :)</p>
+<div class=3D"gmail_quote">Le 8 mai 2014 22:43, &quot;Pierre- Antoine Gu=C3=
+=A9guen&quot; &lt;<a href=3D"mailto:jap_anim29@hotmail.fr">jap_anim29@hotma=
+il.fr</a>&gt; a =C3=A9crit :<br type=3D"attribution"><blockquote class=3D"g=
+mail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-l=
+eft:1ex">
+
+
+
+<div><div dir=3D"ltr">Bonsoir,=C2=A0<div><br></div><div>N&#39;=C3=A9tant pa=
+s s=C3=BBr que la salle soit ouverte demain, je vous propose de venir chez =
+moi jouer au go. :)<br></div><div><br></div><div>J&#39;habite au 13, rue Er=
+wan Marec =C3=A0 St Marc (Brest), je vous y attends pour 20h.</div>
+<div><br></div><div>Merci de signaler votre pr=C3=A9sence ici-m=C3=AAme ou =
+sur la page facebook !<br><br></div><div>Que ceux qui ont goban + pierres a=
+m=C3=A8nent leur jeu, ce serait cool !</div><div><br></div><div>=C3=80 dema=
+in,=C2=A0</div><div><br>
+</div><div>Pierrot.</div> 		 	   		  </div></div>
+<br>_______________________________________________<br>
+Tenuki-brest mailing list<br>
+<a href=3D"mailto:Tenuki-brest@jeudego.org">Tenuki-brest@jeudego.org</a><br=
+>
+<a href=3D"https://admin.jeudego.org/mailman/listinfo/tenuki-brest" target=
+=3D"_blank">https://admin.jeudego.org/mailman/listinfo/tenuki-brest</a><br>
+<br></blockquote></div>
+
+--001a1139fddaa8f5b404f8e98bf7--
+
+--===============5835557293420819672==
+Content-Type: text/plain; charset="iso-8859-1"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Content-Disposition: inline
+
+_______________________________________________
+Tenuki-brest mailing list
+Tenuki-brest@jeudego.org
+https://admin.jeudego.org/mailman/listinfo/tenuki-brest
+
+--===============5835557293420819672==--

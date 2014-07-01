@@ -1,0 +1,559 @@
+Return-Path: <newsletter-owner@lists.riseup.net>
+X-Spam-Checker-Version: SpamAssassin 3.3.2 (2011-06-06) on spamd2.riseup.net
+X-Spam-Level: 
+X-Spam-Pyzor: 
+X-Spam-Status: No, score=-121.0 required=8.0 tests=ALL_TRUSTED,SC_HAM,
+	SHORTCIRCUIT shortcircuit=ham autolearn=disabled version=3.3.2
+Delivered-To: kolibry@riseup.net
+Received: from mx2.riseup.net (mx2-pn.riseup.net [10.0.1.44])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client CN "*.riseup.net", Issuer "Gandi Standard SSL CA" (not verified))
+	by vireo.riseup.net (Postfix) with ESMTPS id 7020FE2;
+	Mon,  3 Mar 2014 04:25:09 +0000 (UTC)
+Received: from willet.riseup.net (willet-pn.riseup.net [10.0.1.41])
+	by mx2.riseup.net (Postfix) with ESMTP id 41A2BA4CCC;
+	Sun,  2 Mar 2014 20:24:31 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple; d=lists.riseup.net;
+	s=chirp; t=1393820674;
+	bh=J0W6+/UBhe1sigA0jv+S3hiasDFhq7fFeXSvtuB8u18=;
+	h=Date:To:From:Subject:Reply-To:List-Id:List-Archive:List-Help:
+	 List-Owner:List-Post:List-Subscribe:List-Unsubscribe:From;
+	b=UcQryEx8yAE++1C9EZ60ORycIwbCUziz+wDuzJSm2VlfsqUDQe+uD7L6ide7wyq2g
+	 VSlRrE7ChBFctBFXsLHVbWfuccvDtchcNa7BtNtQXo8QPolGS7C7Zi/VMvZ/zTQ4Ga
+	 /YRw1mMCeLDMekbA3hKifz5Se7pufg7UbDlixdyw=
+Received: by willet.riseup.net (Postfix, from userid 1000)
+	id CCB4F10F9; Sun,  2 Mar 2014 20:23:57 -0800 (PST)
+X-Original-To: newsletter@lists.riseup.net
+Delivered-To: newsletter@lists.riseup.net
+Date: Sun, 02 Mar 2014 20:15:45 -0800
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:24.0) Gecko/20100101 Thunderbird/24.3.0
+MIME-Version: 1.0
+To: newsletter@lists.riseup.net
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+X-Virus-Scanned: clamav-milter 0.97.8 at willet
+X-Virus-Status: Clean
+From: newsletter@lists.riseup.net
+Message-id: <newsletter.82@anonymous>
+Subject: [riseup] Riseup Newsletter 2013-02
+Reply-To: newsletter@lists.riseup.net
+X-Loop: newsletter@lists.riseup.net
+X-Sequence: 82
+Errors-to: newsletter-owner@lists.riseup.net
+Precedence: list
+Precedence: bulk
+Sender: newsletter-request@lists.riseup.net
+X-no-archive: yes
+List-Id: <newsletter.lists.riseup.net>
+List-Archive: <https://lists.riseup.net/www/arc/newsletter>
+List-Help: <mailto:sympa@lists.riseup.net?subject=help>
+List-Owner: <mailto:newsletter-request@lists.riseup.net>
+List-Post: <mailto:newsletter@lists.riseup.net>
+List-Subscribe: <mailto:sympa@lists.riseup.net?subject=subscribe%20newsletter>
+List-Unsubscribe: <mailto:sympa@lists.riseup.net?subject=unsubscribe%20newsletter>
+
+[en] english
+===================================================
+
+February 2014 contents:
+
+* Our "Snowden Homework"
+* Security Thought Experiment
+* Haven't changed your password in 7 years?
+* Money, we still need it.
+
+Our "Snowden Homework"
+---------------------------------------------------
+
+As a result of the continuing Snowden revelations that continue to
+trickle out, we learn about more capabilities the NSA has and more
+threats we need to worry about. We've started referring to these as our
+"Snowden homework", because they require a lot of study and thinking
+about how it affects Riseup. We are keeping on top of things and making
+adjustments to our crypto, our processes, and our infrastructure to work
+to be protected against these new threats. In many cases they were
+threats we were already theoretically worried about, but now we know the
+threat is more real and urgent.
+
+Security Thought Experiment
+---------------------------------------------------
+
+Imagine you just found out a member of your project is actually a police
+informant. What project resources do they have access to? How will your
+group go about locking them out and protecting yourself? Is there any
+one person who could bring your project to a halt because they are the
+only one with certain passwords, access to mailing lists, or databases?
+Is there anyone who has access to a lot of data who doesn't need it?
+(Which isn't to say they are suspicious, but that a good security
+practice is limiting access only to people who need the information.)
+
+Are there any changes you could make right now that would make an
+informant less of a problem?
+
+For sure, this kind of thing seldom happens, but the more prepared we
+are, the stronger our group will be, and the more trust there can be
+between the members of the group.
+
+Haven't changed your password in 7 years?
+---------------------------------------------------
+
+Around 2,000 of you haven't changed your password in 7 years, and will
+soon be getting an email from us informing you that you have to change
+it due to updates in our system. First, thanks for using Riseup for so
+long! Second, what? Seven years? Really? Everyone should be changing
+their passwords way more regularly.
+
+Money, we still need it.
+---------------------------------------------------
+
+Thanks to everyone out there who's already donated to Riseup! For
+everyone else who has a little extra, we've been hearing some amazing
+reports that when people donate to Riseup they are filled with a
+pleasant and satisfying feeling that can last for weeks. Try it!
+
+https://riseup.net/donate
+
+[el] ελληνικά
+===================================================
+
+* Η "δουλειά για το σπίτι" που μας άφησε ο Snowden
+* Ένα νοητικό πείραμα περί ασφάλειας
+* Δεν άλλαξες το κωδικό σου εδώ και 7 χρόνια;
+* Χρήματα, τα χρειαζόμαστε ακόμα.
+
+*Η "δουλειά για το σπίτι" που μας άφησε ο Snowden*
+
+Ως αποτέλεσμα των αποκαλύψεων του Snowden που συνεχίζουν να βλέπουν το
+φως της δημοσιότητας, μαθαίνουμε τις όλο και περισσότερες δυνατότητες
+της NSA και τις απειλές για τις οποίες πρέπει να ανησυχούμε. Αρχίσαμε να
+αναφερόμαστε σε αυτές ως "την εργασία για το σπίτι" που μας άφησε ο
+Snowden, διότι χρειάζεται μπόλικη μελέτη και σκέψη για να κατανοήσουμε
+πώς αυτά επηρρεάζουν την Riseup. Κρατιόμαστε ενήμεροι και κάνουμε
+αλλαγές στην κρυπτογραφία που χρησιμοποιούμε, τις διαδικασίες και την
+υποδομή μας, καθώς εργαζόμαστε για να είμαστε προστατευμένοι από αυτές
+τις νέες απειλές. Σε πολλές των περιπτώσεων επρόκειτο για απειλές που
+μας ανησυχούσαν από πριν σε θεωρητικό επίπεδο, αλλά τώρα γνωρίζουμε ότι
+οι απειλές αυτές είναι πραγματικές και επείγουσες.
+
+*Ένα νοητικό πείραμα περί ασφάλειας*
+
+Φανταστείτε ότι μόλις ανακαλύψατε ότι ένα μέλος του εγχειρήματός σας
+είναι στην πραγματικότητα πληροφοριοδότης της αστυνομίας. Σε τι πόρους
+του εγχειρήματός σας θα είχε πρόσβαση το μέλος αυτό; Πώς θα λειτουργούσε
+το εγχείρημά σας αν χρειαζόταν να αποκλείσει τους πόρους αυτούς για την
+αυτοπροστασία του; Υπάρχει κάποιο πρόσωπο που θα μπορούσε να σταματήσει
+τη λειτουργία του εγχειρήματος επειδή θα ήταν το μόνο άτομο με
+συγκεκριμένους κωδικούς, πρόσβαση σε λίστες ταχυδρομείου ή βάσεις
+δεδομένων; Υπάρχει κάποια ή κάποιος που έχει πρόσβαση σε πολλά δεδομένα
+ενώ δεν είναι απαραίτητο; (Όχι ότι είναι απαραίτητα ύποπτοι αλλά μια
+καλή πρακτική ασφαλείας είναι να περιορίζεται η πρόσβαση μόνο στους
+ανθρώπους που χρειάζονται μια πληροφορία.)
+
+Υπάρχουν αλλαγές που θα μπορούσατε να κάνετε αυτή τη στιγμή, που θα
+καθιστούσε έναν πληροφοριοδότη μικρότερο πρόβλημα;
+
+Βέβαια αυτό το πράγμα συμβαίνει σπάνια, αλλά όσο πιο προετοιμασμένοι
+είμαστε, τόσο πιο δυνατή θα είναι η ομάδα μας, και τόσο περισσότερη
+εμπιστοσύνη θα υπάρχει ανάμεσα στα μέλη της.
+
+*Δεν άλλαξες το κωδικό σου εδώ και 7 χρόνια;*
+
+Περίπου 2000 από εσάς δεν έχουν αλλάξει τον κωδικό τους εδώ και 7
+χρόνια, και σύντομα θα λάβετε ένα email από εμάς, που θα σας πληροφορεί
+ότι χρειάζεται να τον αλλάξετε καθώς κάνουμε ενημερώσεις στα συστήματά
+μας. Πρώτα, σας ευχαριστούμε που χρησιμοποιείτε την Riseup τόσο καιρό!
+Δεύτερον, τι; Εφτά χρόνια; Σοβαρά τώρα; Όλοι και όλες πρέπει να
+αλλάζουμε τως κωδικούς μας πολύ συχνότερα.
+
+*Χρήματα, τα χρειαζόμαστε ακόμα.*
+
+Ευχαριστούμε όλες και όλους που έχουν ήδη κάνει μια δωρεά στην Riseup!
+Οι υπόλοιπες και υπόλοιποι που έχετε λίγα επιπλέον φράγκα, ακούμε
+κάποιες καταπληκτικές αναφορές ότι όσοι άνθρωποι συνεισέφεραν οικονομικά
+στην Riseup γέμισαν με μια ευχάριστη αίσθηση ικανοποίησης, η οποία
+κράτησε για εβδομάδες. Δοκιμάστε το!
+https://riseup.net/el/συνεισφέρετε
+
+
+[pt] Português
+===================================================
+
+Conteúdo de Fevereiro de 2014:
+* "Lição de Casa do Snowden"
+* Exercício: Pensando na Segurança
+* Você não mudou de senha nos últimos 7 anos?
+* Dinheiro, ainda precisamos.
+
+"Lição de Casa do Snowden"
+---------------------------------------------------
+
+Como resultado das contínuas revelações feitas por Edward Snowden que
+continuam a vazar, aprendemos mais sobre as capacidades da Agência de
+Segurança Nacional dos Estados Unidos (NSA) e mais ameaças com que
+devemos nos preocupar. Temos nos referido a elas como nossas "lições de
+casa do Snowden", porque elas demandam muito estudo e reflexão sobre
+como afetam Riseup. Temos estado no controle da situação e fazendo
+ajustes na nossa criptografia, nossos processos, e nossa infraestrutura
+para trabalhar para estarmos protegidos contra essas novas ameaças. Em
+muitos casos, são ameaças que já estávamos teoricamente considerando e
+nos preocupando, mas agora, sabemos que a ameaça é mais real e urgente.
+
+Exercício: Pensando na Segurança
+---------------------------------------------------
+
+Imagine que você acaba de descobrir que um integrante do seu projeto é,
+na verdade, informante da polícia. Que dados do projeto essa pessoa tem
+acesso? Como seu grupo fará para bloquear essa pessoa e se proteger? Tem
+alguma pessoa que poderia colocar o projeto a perder porque é a única
+pessoa que possui uma senha, acesso a listas de e-mails ou banco de
+dados? Existem integrantes que tem acesso para mais dados do que eles
+realmente precisam? (O que não queremos dizer que eles sejam suspeitos,
+mas que uma boa prática de segurança é limitar o acesso somente a
+pessoas que precisam da informação.)
+
+Existem mudanças que você pode fazer agora mesmo que fariam com que um
+informante no grupo não fosse um grande problema?
+
+Esse tipo de coisa raramente acontece, mas quanto mais preparados nós
+estamos, mais forte será nosso grupo, e mais confiança haverá entre os
+membros do grupo.
+
+Você não mudou de senha nos últimos 7 anos?
+---------------------------------------------------
+
+Cerca de 2.000 de vocês não mudou sua senha nos últimos sete anos, e
+receberá em breve uma mensagem nossa informando que você deve alterá-la
+por causa da atualização do nosso sistema. Primeiro, gratidão por usar
+Riseup por tanto tempo! Segundo, o quê?! Sete anos? Sério? Todo mundo
+deveria mudar as senhas com muito mais frequência.
+
+Dinheiro, ainda precisamos.
+---------------------------------------------------
+
+Agradecemos a todos vocês que já doaram para Riseup! Para todos os
+demais que tem um pequeno extra, nós temos ouvido relatos incríveis de
+que quando as pessoas doam para Riseup, elas se enchem de um sentimento
+bom e de satisfação que podem durar semanas. Tente!
+
+https://riseup.net/pt/pt-doacao
+
+[cs] castellano
+===================================================
+
+Nuestros “deberes de Snowden”
+---------------------------------------------------
+
+Como resultado de las contínuas revelaciones de Snowden que siguen
+goteando, nos hemos enterado de otras capacidades que tiene la NSA
+(Agencia Secreta Nacional por sus siglas en inglés, y otras amenazas de
+las que nos tenemos que preocupar. Hemos comenzado a referirnos a estas
+últimas como los “deberes de Snowden”, porque requiren mucho estudio y
+análisis de como afectan a Riseup. Estamos manteniéndonos al día, y
+actualizando nuestro cifrado, nuestros procesos, y nuestra
+infrastructura de trabajo para estar protegidas contra estas nuevas
+amenazas. En muchos casos son amenazas para las que ya nos estábamos
+preocupando en teoría, pero ahora sabemos que la amenaza es más real y
+urgente.
+
+Ejercicio de pensamiento en la seguridad
+---------------------------------------------------
+
+Imagínate que acabas de descubrir que un miembro de tu proyecto es un
+informante de la policía. ¿A qué recursos del proyecto tienen acceso?
+¿Qué hará tu grupo para sacarlos fuera y para protegerte? ¿Hay alguna
+persona que puede paralizar el proyecto porque es la única con cierta
+contraseña, acceso a lista de correo, o base de datos? ¿Hay alguien con
+acceso a muchos datos que no necesita? (Lo que no quiere decir que sean
+sospechosas, pero una buena práctica de seguridad es limitar el acceso a
+la información sólo a la gente que lo necesita).
+
+¿Hay algunos cambios que podríais implementar ahora mismo que hagan que
+un informante no sea un problema tan grande?
+
+Bueno claro, este tipo de cosas tampoco pasan amenudo, pero lo mejor
+preparadxs estemos a ello, lo más fuerte será el grupo, y mejor la
+confianza entre los miembros del grupo.
+
+¿No has cambiado tu contraseña en 7 años?
+---------------------------------------------------
+
+Alrededor de 2000 de vosotros no habéis cambiado vuestra contraseña en 7
+años, y pronto reciviréis un correo nuestro informándoos de que tenéis
+que cambiarlo debido a actualizaciones en nuestro sistema. Primero,
+¡gracias por usar Riseup durante tanto tiempo! Segundo, ¿Qué? ¿Siete
+años? ¿En serio? Todo el mundo debería cambiar sus contraseñas mucho más
+a menudo.
+
+Dinero, aún lo necesitamos
+---------------------------------------------------
+
+¡Gracias a todas las que estáis ahí fuera y ya habéis donado a Riseup!
+Para el resto que tiene un poco de sobra, hemos oído de casos
+alucinantes de gente que tras donar a Riseup las ha llenado un
+sentimiento de placer y satisfacción que ha durado semanas. ¡Pruébalo!
+
+https://riseup.net/donate
+
+[fr] français
+===================================================
+
+Au sommaire en février 2014:
+
+* Nos "Devoirs sur Snowden"
+* Un entraînement à penser "sécurité"
+* Jamais changé de mot de passe en 7 ans?
+* L'argent, on en a encore besoin
+
+Nos "Devoirs sur Snowden"
+---------------------------------------------------
+
+Au fur et à mesure que les révélations de Snowden continuent à filtrer,
+nous nous rendons de plus en plus compte de quoi est capable la NSA* et
+des menaces qui pèsent sur nous. On a commencé à en parler comme de nos
+"devoirs sur Snowden", car ça demande des études approfondies et de
+penser aux conséquences pour Riseup. Nous restons à la pointe, et
+ajustons notre cryptage, nos processus, et notre infrastructure rester à
+l'abri de ces nouvelles menaces. La plupart du temps ce sont des menaces
+dont on se préoccupait déjà, mais on est maintenant plus conscient.e.s
+de la réalité de l'urgence.
+
+*National Security Agency, l'Agence Nationale de la Sécurité des états-unis
+
+Un entraînement à penser "sécurité"
+---------------------------------------------------
+
+Imaginez que vous venez de découvrir qu'un membre de votre collectif est
+une taupe. Quels sont les ressources auxquelles cette personne a accès?
+Comment votre groupe réagira s'il faut la dégager pour se protéger?
+Y-a-t-il ne serait-ce qu'une personne qui pourrait arrêter votre projet
+parce qu'elle est la seule à détenir certains mots de passe, l'accès à
+des mailing-lists, ou à des bases de données? Est-ce que certaines
+personnes ont accès à un grand nombre de données alors qu'elles n'en ont
+pas besoin? (Ce qui ne veut pas dire qu'elles soient suspectes, mais
+qu'une pratique sûre limite l'accès aux seules personnes qui ont besoin
+de l'information.)
+
+Y-a-t-il des changements que vous pourriez faire immédiatement pour que
+la présence d'une taupe soit moins problématique ?
+
+Bon évidemment, ce genre de truc n'arrive pas si souvent, mais bien s'y
+préparer renforcera le groupe et la confiance qu'on aura les un.e.s dans
+les autres.
+
+Jamais changé de mot de passe en 7 ans?
+---------------------------------------------------
+
+Environ 2.000 d'entre vous n'avez jamais changé de mot de passe en 7
+ans, et allez bientôt recevoir un email de notre part vous enjoignant à
+le changer suite aux mises à jour de notre système. D'abord, merci
+d'utiliser Riseup depuis si longtemps! Ensuite, quoi? Sept ans?
+Vraiment? Tout le monde devrait changer son mot de passe beaucoup plus
+souvent que ça.
+
+De l'argent, on en a encore besoin.
+---------------------------------------------------
+
+Merci à vous tou.te.s qui avez déjà fait un don à Riseup! Pour toute
+personne ayant un peu d'économies, on a eu vent de choses merveilleuses
+qui arrivent aux personnes qui font un don à Riseup, comme de ressentir
+une joie et une satisfaction qui peut durer des semaines entières.
+Essayez, vous verrez!
+
+https://riseup.net/fr/donner
+
+[it] italiano
+===================================================
+
+Febbraio 2014 - indice
+
+* I nostri "Compiti a casa di Snowden"
+* Esercizio: pensando alla sicurezza
+* Non hai cambiato la password in sette anni?
+* Soldi, ne abbiamo ancora bisogno
+
+I nostri "Compiti a casa di Snowden"
+---------------------------------------------------
+
+Come consequenza delle costanti rivelazioni di Snowden, che continuano
+ad essere rese pubbliche, stiamo imparando a conoscere le nuove capacità
+della NSA e nuove minacce di cui dobbiamo preoccuparci. Abbiamo iniziato
+a riferirci a queste questioni come "Compiti a casa di Snowden", perché
+richiedono un sacco per essere studiate e per riflettere su come
+influenzano Riseup. Stiamo rimanendo al passo con queste rivelazioni, e
+stiamo correggendo i nostri sistemi di crittazione, i nostri processi e
+le nostre infrastrutture per funzionare nel proteggerci contro queste
+nuove minacce. In molti casi, si tratta di minacce di cui, in maniera
+teorica, eravamo già preoccupate, ma sappiamo ora che la minaccia è più
+reale e impellente.
+
+Esercizio: pensando alla sicurezza
+---------------------------------------------------
+
+Immagina di aver appena scoperto che una persona parte del tuo progetto
+collabora con la polizia. A quali risorse sel progetto ha accesso questa
+persona? Come si comporterà il tuo gruppo per escludere questa persona
+per la vostra protezione? C'è una persona che sia in grado di bloccare
+un intero progetto, perché è l'unica persona in possesso di alcune
+password, accesso alle liste di distribuzione o a certi database? C'è
+qualcuno che ha accesso ad un sacco di dati senza averne la necessità?
+(Il che non vuol dire che queste persone siano sospette, ma che una
+buona pratica di sicurezza consiste nel limitare l'accesso solo alle
+persone che hanno bisogno di queste informazioni.)
+
+C'è qualcosa che potresti cambiare ora che potrebbe fare di un
+informatore un problema minore?
+
+Certo, questo tipo di cose succede di rado, ma più siamo preparati e
+preparate, più forte sarà il nostro gruppo, e più sarà possibile avere
+fiducia tra i membri del gruppo.
+
+Non hai cambiato la password in sette anni?
+---------------------------------------------------
+
+Circa 2000 di voi non hanno cambiato la loro password in sette anni, e
+riceveranno a breve una mail da parte nostra, in cui vi informeremo che
+dovrete cambiarla a causa di un aggiornamento dei nostri sistemi.
+Per prima cosa, grazie di aver usato Riseup così a lungo. Ma poi...
+sette anni? Davvero? Chiunque dovrebbe cambiare la propria password
+molto più frequentemente.
+
+Soldi, ne abbiamo ancora bisogno
+---------------------------------------------------
+
+Grazie a tutti e tutte coloro le quali hanno già donato a Riseup! Per
+quelle persone che hanno qualcosa in più, abbiamo sentito storie
+incredibili, che narrano che quando qualcuno sostiene Riseup viene
+riempito da una piacevole e soddisfacente sensazione che dura settimane.
+Prova!
+
+https://riseup.net/donate
+
+[de] deutsch
+===================================================
+
+Inhalt Februar 2014:
+
+* Unsere "Snowden-Hausaufgaben"
+* Gedankenexperiment zur Sicherheit
+* Seit 7 Jahren dein Passwort nicht geändert?
+* Geld: Wir brauchen es noch immer!
+
+Unsere "Snowden-Hausaufgaben"
+---------------------------------------------------
+
+In Folge der laufenden Snowden-Enthüllungen, die weiterhin durchsickern,
+erfahren wir mehr über die technischen Möglichkeiten der NSA und andere
+Gefahren, um die wir uns sorgen müssen. Wir haben begonnen, dies unsere
+"Snowden-Hausaufgaben" zu nennen, weil es viele Untersuchungen und
+Grübelei darüber erfordert, inwiefern das Riseup betrifft. Wir halten
+uns auf dem Laufenden und nehmen Optimierungen an der Verschlüsselung,
+an unseren Abläufen und der Infrastruktur vor, um für diese neuen
+Bedrohungen gewappnet zu sein. In vielen Fällen waren uns diese Gefahren
+theoretisch schon bewusst, doch jetzt wissen wir, dass die Bedrohung
+realer und dringlicher ist.
+
+Gedankenexperiment zur Sicherheit
+---------------------------------------------------
+
+Stelle dir vor, ihr habt gerade herausgefunden, dass ein Mitglied eures
+Projekts ein Spitzel ist. Auf welche Ressourcen des Projekts hat er/sie
+Zugriff? Was wird deine Gruppe unternehmen, um sie auszuschließen und
+sich zu schützen? Gibt es eine Einzelperson, die Euer Projekt stoppen
+könnte, weil er als Einziger gewisse Passwörter kennt oder Zugriff auf
+Mailinglisten oder Datenbanken hat? Gibt es jemanden mit Zugriff auf
+viele Daten, die sie/er eigentlich nicht benötigt? (Das soll nicht
+heißen, das das jemanden verdächtig macht, aber dass es eine gute
+Sicherheitsmaßnahme ist, den Zugriff auf diejenigen zu beschränken, die
+diese Informationen benötigen.)
+
+Gibt es irgendwelche Änderungen, die Ihr jetzt machen könntet, um eine_n
+Informant_n zu einem kleineren Problem werden zu lassen?
+
+Natürlich passiert so etwas selten - doch je besser wir vorbereitet
+sind, desto stärker wird unsere Gruppe sein und um so mehr Vertrauen
+kann unter den Mitgliedern der Gruppe bestehen.
+
+Seit 7 Jahren dein Passwort nicht geändert?
+---------------------------------------------------
+
+Ungefähr 2000 von euch haben in den letzten sieben Jahren ihr Passwort
+nicht geändert und werden in naher Zukunft ein Mail von uns bekommen,
+das darüber informiert, dass sie aufgrund von Updates an unserem System
+ihr Passwort ändern müssen. Erstens danke, dass ihr Riseup schon so
+lange nutzt! Zweitens: Was? Sieben Jahre? Wirklich? Ihr solltet Eure
+Passwörter wesentlich öfter ändern!
+
+Geld: Wir brauchen es noch immer!
+---------------------------------------------------
+
+Danke an alle da draußen, die schon an Riseup gespendet haben! An alle
+anderen, die ein wenig übrig haben: Uns sind erstaunliche Berichte zu
+Ohren gekommen, dass Leute die an Riseup spenden von einem angenehmen
+und befriedigenden Gefühl erfüllt werden, das über Wochen andauern kann.
+Probier's aus!
+
+https://riseup.net/de/spenden
+
+[ca] Catalan
+===================================================
+
+Continguts de febrer 2014:
+
+* Els nostres "deures de Snowden"
+* Experiment mental de seguretat
+* Has canviat la teva contrasenya els darrers 7 anys?
+* Diners, encara en necessitem
+
+Els nostres "deures Snowden"
+---------------------------------------------------
+
+Com a resultat de les continuades revelacions que ha fet Snowden, i
+continua fent, hem conegut més habilitats que té la NSA (Agència de
+Seguretat Estatal) i més aspectes pels quals ens hem de preocupar. Hem
+començat a referir-nos a ells com els nostres "deures Snowden", perquè
+requereixen de molt d'estudi i tenir en compte com afecten a Riseup.
+Nosaltres ara mateix els tenim com a prioritaris a la llista de coses
+per pensar i fer, i estem fent ajustos a la nostra criptografia,
+processos i la nostra infrastructura per estar protegits d'aquests nous
+flancs. En la majoria de casos eren flancs que de forma teòrica ens
+preocupàven, però ara sabem que els flancs són més autèntics i urgents.
+
+Experiment mental de seguretat
+---------------------------------------------------
+
+Imagina't que acabes de descobrir que un membre del projecte en el qual
+participes és un informant policial. A quins recursos del projecte han
+tingut accés? Com es protegirà a partir d'ara el grup? Hi ha alguna
+persona que pugui bloquejar el projecte perquè és l'única que té
+determiades contrasenyes, accés a llistes de correu o bases de dades? Hi
+ha algú que tingui accés a moltes dades però no el necessitaria? (No
+estem dient que sigui sospitós, però és una bona mesura de seguretat la
+de limitar l'accés només a aquelles personesq ue realment necessiten
+accedir a determinada informació).
+
+Els canvis que podries fer ara mateix són suficients com per minimitzar
+l'impacte del que podria fer un informant?
+
+Tingues clar que aquest tipus de coses li poden passar a qualsevol, però
+com més preparats estiguem, el nostre grup serà més fort, i es podrà
+confiar més en els membres del grup.
+
+Has canviat la teva contrasenya els darrers 7 anys?
+---------------------------------------------------
+
+Aproximadament 2000 de vosaltres no heu canviat la contrasenya en els
+últims 7 anys, i aviat rebreu un correu en el qual us informarem que
+l'haureu de canviar com a conseqüència de millores en els nostres
+sistemes. Primer, gràcies per estar usant Riseup des de fa tant de
+temps! Segon, què? Set anys? De veritat? Tothom hauria de canviar les
+seves contrasenyes de forma més regular.
+
+Diners, encara en necessitem
+---------------------------------------------------
+
+Gràcies a tots els qui heu fet una donació a Riseup! A tots aquells que
+tinguin un racó extra, hem estat atents a increïbles informes que diuen
+que quan la gent fa un donatiu a Riseup s'omple de plàcida satisfacció
+que pot durar setmanes! Intenta-ho!
+
+https://riseup.net/donate

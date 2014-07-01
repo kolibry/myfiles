@@ -1,0 +1,97 @@
+Return-Path: <claudiusrolland@yahoo.fr>
+X-Spam-Checker-Version: SpamAssassin 3.3.2 (2011-06-06) on spamd2.riseup.net
+X-Spam-Level: 
+X-Spam-Pyzor: Reported 0 times.
+X-Spam-Status: No, score=-0.1 required=8.0 tests=AM_TRUNCATED,CK_419SIZE,
+	DKIM_SIGNED,DKIM_VALID,DKIM_VALID_AU,FORWARD_RELAY,FREEMAIL_FROM,HAS_REPLY_TO,
+	HTML_MESSAGE,ODD_PUNCTUATION2,RCVD_IN_DNSWL_NONE,REPLY_TO_TEMP
+	shortcircuit=no autolearn=disabled version=3.3.2
+Delivered-To: kolibry@riseup.net
+Received: from mx1.riseup.net (mx1-pn.riseup.net [10.0.1.33])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client CN "*.riseup.net", Issuer "Gandi Standard SSL CA" (not verified))
+	by vireo.riseup.net (Postfix) with ESMTPS id 14A42C0
+	for <kolibry@riseup.net>; Mon,  5 May 2014 08:18:02 +0000 (UTC)
+Received: from nm18-vm9.bullet.mail.ir2.yahoo.com (nm18-vm9.bullet.mail.ir2.yahoo.com [212.82.96.233])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by mx1.riseup.net (Postfix) with ESMTPS id 2526051060
+	for <kolibry@riseup.net>; Mon,  5 May 2014 01:18:00 -0700 (PDT)
+Received: from [212.82.98.57] by nm18.bullet.mail.ir2.yahoo.com with NNFMP; 05 May 2014 08:17:59 -0000
+Received: from [212.82.98.65] by tm10.bullet.mail.ir2.yahoo.com with NNFMP; 05 May 2014 08:17:59 -0000
+Received: from [127.0.0.1] by omp1002.mail.ir2.yahoo.com with NNFMP; 05 May 2014 08:17:59 -0000
+X-Yahoo-Newman-Property: ymail-3
+X-Yahoo-Newman-Id: 147548.25031.bm@omp1002.mail.ir2.yahoo.com
+Received: (qmail 91455 invoked by uid 60001); 5 May 2014 08:17:59 -0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.fr; s=s1024; t=1399277879; bh=qaOIBvVkKWgfj0y88LS3BAMsd1DggwMHRwCZAo4W5Pw=; h=References:Message-ID:Date:From:Reply-To:Subject:To:In-Reply-To:MIME-Version:Content-Type; b=prTA59U+680/BGIQoEpXyLlGgvi40n4A7BR15gSL0B8dS9rXuPpjxkz1dRNwDdLfKvuMO7J8eJvg1rQQpVDdPheLuypje5vzJQecacumu3rpdGh+H2liWSuJcd0OvYsNym7ri+WGKoRcZhANmtvzLjKlFRkE0vPgRGt6z1GTIcE=
+X-YMail-OSG: fdMyTIMVM1k04os6h7AZMjSM6YPH3_adDOkt_3SWQZsCl8.
+ GZqbN7m99CGInwyshsQawdkfTCXmzs8PPwpE8CQ7cTJF6HNj7defCiwsZWEE
+ qFbaaztYHDkveOYyp_GNZH6cL9qpcyEMJIor8CjC6rSLkFVg3tGqMqUDTFgU
+ bmSJUFbesFOFX5IIzhC6MXeNiXUwYRVUFvnXbebKG.DILIbsZlaLL9_yzMiz
+ e9qzlSL73nK878XfJxAtuZC0CyA00khw_XmI35_697izgyFXUjg0qy8NycD8
+ BQ4xGPyPgzSxiP7z56Wna8EtkS5Vd_ycAdvOhRR.Gi2CE9kTxhaJZ5tFBOEc
+ ysFdW7KxbFYG58WB3A32weTa1ohcIeUBNAp2otzMDeUOx4EqZBfp.ztlxzH0
+ 1m.vUkUR9xp.oiVf.SW.qV07ymAuww81KyWmQSw9pf0lWQAHfaew4nQtixTA
+ Vyj6scdSZ1OISXHzqhL9strGWIPwlzioQHi1Usrz7AeiQC_xChJgCozHDlsT
+ NalGHUpCQRVcCVwk3ZqMc4lyAMyCcUeLLwU0GtOTZOCqcm0CikuEEKcEtVMq
+ vUw--
+Received: from [78.243.148.239] by web171705.mail.ir2.yahoo.com via HTTP; Mon, 05 May 2014 09:17:58 BST
+X-Rocket-MIMEInfo: 002.001,Ym9uam91ciBqb25hdGhhbiAsIDhoIDo6Ojo.MTNoMzAsCmEgZGVtYWluCgoKTGUgTHVuZGkgNSBtYWkgMjAxNCAxMGgxMSwgSm9uYXRoYW4gPGtvbGlicnlAcmlzZXVwLm5ldD4gYSDDqWNyaXQgOgogClNhbHV0IENsYXVkZSwKCk9LIHBvdXIgZGVtYWluLCBxdWVsbGVzIHNvbnQgbGVzIGhvcmFpcmVzPwoKSm9uYXRoYW4KCgpPbiAwNC8wNS8xNCAxOTo0MiwgUk9MTEFORCBDbGF1ZGUgd3JvdGU6Cj4gYm9uc29pciBqb25hdGhhbiAsIAo.IHBldXggdHUgdHJhdmFpbGxlciBjZXR0ZSBzZW1haW5lID8KPiB0dSABMAEBAQE-
+X-Mailer: YahooMailWebService/0.8.188.663
+References: <20140416175854.GA18083@arch> <1399228927.18839.YahooMailNeo@web171703.mail.ir2.yahoo.com> <20140505081117.GA31088@arch>
+Message-ID: <1399277878.59227.YahooMailNeo@web171705.mail.ir2.yahoo.com>
+Date: Mon, 5 May 2014 09:17:58 +0100 (BST)
+From: ROLLAND Claude <claudiusrolland@yahoo.fr>
+Reply-To: ROLLAND Claude <claudiusrolland@yahoo.fr>
+Subject: Re: 
+To: Jonathan <kolibry@riseup.net>
+In-Reply-To: <20140505081117.GA31088@arch>
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="1253611123-1836126323-1399277878=:59227"
+X-Virus-Scanned: clamav-milter 0.98.1 at mx1
+X-Virus-Status: Clean
+
+--1253611123-1836126323-1399277878=:59227
+Content-Type: text/plain; charset=iso-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+bonjour jonathan , 8h ::::>13h30,=0Aa demain=0A=0A=0ALe Lundi 5 mai 2014 10=
+h11, Jonathan <kolibry@riseup.net> a =E9crit :=0A =0ASalut Claude,=0A=0AOK =
+pour demain, quelles sont les horaires?=0A=0AJonathan=0A=0A=0AOn 04/05/14 1=
+9:42, ROLLAND Claude wrote:=0A> bonsoir jonathan , =0A> peux tu travailler =
+cette semaine ?=0A> tu peux commencer a 8h demain si possible=0A> A+=0A> =
+=0A> =0A> Le Mercredi 16 avril 2014 19h59, Jonathan <kolibry@riseup.net> a =
+=E9crit :=0A>=A0 =0A> Salut Claude,=0A> =0A> Je t'envoie mes dates d'indisp=
+onibilit=E9 pour que tu les gardes, je serai=0A> absent du 21 avril au 5 ma=
+i.=0A> =0A> Bonne soir=E9e et =E0 demain,=0A> =0A> Jonathan
+--1253611123-1836126323-1399277878=:59227
+Content-Type: text/html; charset=iso-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<html><body><div style=3D"color:#000; background-color:#fff; font-family:He=
+lveticaNeue, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;fo=
+nt-size:12pt">bonjour jonathan , 8h ::::&gt;13h30,<br>a demain<br><div><spa=
+n><br></span></div><div style=3D"display: block;" class=3D"yahoo_quoted"> <=
+div style=3D"font-family: HelveticaNeue, Helvetica Neue, Helvetica, Arial, =
+Lucida Grande, sans-serif; font-size: 12pt;"> <div style=3D"font-family: He=
+lveticaNeue, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif; f=
+ont-size: 12pt;"> <div dir=3D"ltr"> <font face=3D"Arial" size=3D"2"> Le Lun=
+di 5 mai 2014 10h11, Jonathan &lt;kolibry@riseup.net&gt; a =E9crit :<br> </=
+font> </div>  <div class=3D"y_msg_container">Salut Claude,<br clear=3D"none=
+"><br clear=3D"none">OK pour demain, quelles sont les horaires?<br clear=3D=
+"none"><br clear=3D"none">Jonathan<br clear=3D"none"><div class=3D"yqt93630=
+13086" id=3D"yqtfd37641"><br clear=3D"none">On 04/05/14 19:42, ROLLAND Clau=
+de wrote:<br
+ clear=3D"none">&gt; bonsoir jonathan , <br clear=3D"none">&gt; peux tu tra=
+vailler cette semaine ?<br clear=3D"none">&gt; tu peux commencer a 8h demai=
+n si possible<br clear=3D"none">&gt; A+<br clear=3D"none">&gt; <br clear=3D=
+"none">&gt; <br clear=3D"none">&gt; Le Mercredi 16 avril 2014 19h59, Jonath=
+an &lt;<a shape=3D"rect" ymailto=3D"mailto:kolibry@riseup.net" href=3D"mail=
+to:kolibry@riseup.net">kolibry@riseup.net</a>&gt; a =E9crit :<br clear=3D"n=
+one">&gt;&nbsp; <br clear=3D"none">&gt; Salut Claude,<br clear=3D"none">&gt=
+; <br clear=3D"none">&gt; Je t'envoie mes dates d'indisponibilit=E9 pour qu=
+e tu les gardes, je serai<br clear=3D"none">&gt; absent du 21 avril au 5 ma=
+i.<br clear=3D"none">&gt; <br clear=3D"none">&gt; Bonne soir=E9e et =E0 dem=
+ain,<br clear=3D"none">&gt; <br clear=3D"none">&gt; Jonathan<br clear=3D"no=
+ne"></div><br><br></div>  </div> </div>  </div> </div></body></html>
+--1253611123-1836126323-1399277878=:59227--

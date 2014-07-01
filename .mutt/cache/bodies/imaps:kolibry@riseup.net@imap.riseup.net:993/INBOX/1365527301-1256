@@ -1,0 +1,81 @@
+Return-Path: <bounce-md_30216215.53a14143.v1-0cab91a1c89b4086bb540e9d80cd75d6@mandrillapp.com>
+X-Spam-Checker-Version: SpamAssassin 3.3.2 (2011-06-06) on spamd3.riseup.net
+X-Spam-Level: 
+X-Spam-Pyzor: Reported 0 times.
+X-Spam-Status: No, score=-0.8 required=8.0 tests=AM_TRUNCATED,BLANK_NICK_TO,
+	CK_419SIZE,DKIM_SIGNED,DKIM_VALID,DKIM_VALID_AU,ENV_FROM_DIFF,ENV_FROM_DIFF0,
+	EXCITED_PLING,FORWARD_RELAY,MSGID_FROM_MTA_HEADER,NO_REAL_NAME,
+	RCVD_IN_DNSWL_NONE,RP_MATCHES_RCVD,SPF_HELO_PASS shortcircuit=no
+	autolearn=disabled version=3.3.2
+Delivered-To: kolibry@riseup.net
+Received: from mx1.riseup.net (mx1-pn.riseup.net [10.0.1.33])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client CN "*.riseup.net", Issuer "Gandi Standard SSL CA" (not verified))
+	by vireo.riseup.net (Postfix) with ESMTPS id 20B4EA2
+	for <kolibry@riseup.net>; Wed, 18 Jun 2014 07:35:39 +0000 (UTC)
+Received: from mail132-5.atl131.mandrillapp.com (mail132-5.atl131.mandrillapp.com [198.2.132.5])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by mx1.riseup.net (Postfix) with ESMTPS id BA2314F4F6
+	for <kolibry@riseup.net>; Wed, 18 Jun 2014 00:35:38 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=mandrill; d=hummingbird.me;
+ h=From:Subject:To:Message-Id:Date:MIME-Version:Content-Type:Content-Transfer-Encoding; i=josh@hummingbird.me;
+ bh=JgXna8YCELYWNo4AK9fOUsr7aVE=;
+ b=mDLPZtzGQcM7s46odXvbUS1QFicHE8k3mRHU9Et/B7ARPBFkyOjHHxQsg/emdhZRX6P/vGa40b7f
+   DZH/Deq+eObLj/NMKhy3ZFiDUTgravn2sncOB8hxgIssoIHfjmk3VzDpRvzcikQ4evYSQqad1gJD
+   vPIEDWDfE3mMDG0HdvI=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=mandrill; d=hummingbird.me;
+ b=KYhDqBXNOWeZRwZKd7rPnIiBRB0Or0ukQzC4kKQVIOCNBaplBatcbu+F5XUQK/TJEfEWacusNu/k
+   JvkPnooQeMuIBLOcrbMf1Ot+pqOQOQRiq1Kmves53jy1aofX2lGLUfclcS+5XRxsawQYGUydaSMS
+   VM/GBjEqzVJNm1TLHoI=;
+Received: from pmta13.atl01.mandrillapp.com (127.0.0.1) by mail132-5.atl131.mandrillapp.com id hk50kk1sar84 for <kolibry@riseup.net>; Wed, 18 Jun 2014 07:35:32 +0000 (envelope-from <bounce-md_30216215.53a14143.v1-0cab91a1c89b4086bb540e9d80cd75d6@mandrillapp.com>)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=mandrillapp.com; 
+ i=@mandrillapp.com; q=dns/txt; s=mandrill; t=1403076931; h=From : 
+ Subject : To : Message-Id : Date : MIME-Version : Content-Type : 
+ Content-Transfer-Encoding : From : Subject : Date : X-Mandrill-User : 
+ List-Unsubscribe; bh=jUXivywdXDcmXdaZbYuzvXTDsSnTWQl9XIT/2LIkzFk=; 
+ b=auHUqvn9M4xdKVbD36KqGY5SG6TXwsukVLx9KKd+0hOHChSSmzSXq1p8EnzOvWRfD3H2Pu
+ jxjyzrCVVkVT6YlnqwUu1HEYJtV2ccC38pEA5vNaoMmWRsjz8Xcps6aJBKbYradZzmUJ119X
+ cYIAoKNW2FGAQUSHI9zn6BSFXiVLE=
+From: <josh@hummingbird.me>
+Subject: Guess What! Hummingbird is open source!
+To: <kolibry@riseup.net>
+Message-Id: <53a141439c8fe_51c93fc4b311731430623e@hummingbird.mail>
+Received: from [107.170.189.56] by mandrillapp.com id 0cab91a1c89b4086bb540e9d80cd75d6; Wed, 18 Jun 2014 07:35:31 +0000
+X-Report-Abuse: Please forward a copy of this message, including all headers, to abuse@mandrill.com
+X-Report-Abuse: You can also report abuse here: http://mandrillapp.com/contact/abuse?id=30216215.0cab91a1c89b4086bb540e9d80cd75d6
+X-Mandrill-User: md_30216215
+Date: Wed, 18 Jun 2014 07:35:31 +0000
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+X-Virus-Scanned: clamav-milter 0.98.1 at mx1
+X-Virus-Status: Clean
+
+Hi.
+
+Hummingbird is open source.
+
+We hit the front-page of Hacker News and we're trending on GitHub. That's like pulling your pants down in front of the entire school on the one day you decided it wasn't worth finding clean underwear. I guess what I'm trying to say is, our code is a little messy but we're sharing it with you anyway.
+
+This is important for Hummingbird because it helps us grow faster and it keeps things more interesting for everyone involved. Another bonus is that if we die fighting a bear, shark or a flippin' bear shark, someone else can pick up where we left off.
+
+Go ahead, have a look at this mindless, soulless killing machine:
+http://i.imgur.com/mJ3nNEW.jpg
+
+We're currently the 7th most popular repo in the last 24 hours on GitHub. We REALLY want to hit top 5 so that we can be included in their secret email club and get the limited edition decoder ring.
+
+Can you take 1 minute and 'star' our repo? It would mean the world, and I'll either kiss you on the mouth or buy you fine alcohol should we ever happen to cross paths... unless you're a minor, in which case I can't legally fulfill either promise. Hugs are still cool.
+
+Here's the repo, star that shit:
+https://github.com/hummingbird-me/hummingbird
+
+Thanks jerk, love you lots!
+
+Josh and Vikhyat
+
+--
+
+Feel free to unsubscribe with the link below. In the next newsletter, we'll talk about how much we didn't like you anyways.
+
+http://hummingbird.me/unsubscribe/newsletter/bb6f6aa74b72f22a1b766569e5934fb0

@@ -1,0 +1,38 @@
+# green theme by Jacek Lehmann
+# best viewed on shaded or black terminal
+
+background		= default	default
+frame			= white		default
+window_title		= white		default
+directory		= red		default
+selected_directory	= blue		default
+playlist		= cyan		default
+selected_playlist	= blue		default
+file			= yellow	default
+selected_file		= blue		default
+marked_file		= red		default bold
+marked_selected_file	= black		default bold
+info			= white		default
+selected_info		= yellow	default
+marked_info		= white		default bold
+marked_selected_info	= black		default bold
+status			= red		default
+title			= yellow	default
+state			= red		default
+current_time		= red		default
+time_left		= cyan		default
+total_time		= cyan		default
+time_total_frames	= red		default
+sound_parameters	= cyan		default
+legend			= red		default
+disabled		= white		default
+enabled			= yellow	default
+empty_mixer_bar		= green		default
+filled_mixer_bar	= black		green
+empty_time_bar		= cyan		default
+filled_time_bar		= black		cyan
+entry			= yellow	default
+entry_title		= red		default
+error			= red		default
+message			= yellow	default
+plist_time		= red		default

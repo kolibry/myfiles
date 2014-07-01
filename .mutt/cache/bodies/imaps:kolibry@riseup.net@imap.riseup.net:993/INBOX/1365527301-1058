@@ -1,0 +1,446 @@
+Return-Path: <newsletter-owner@lists.riseup.net>
+X-Spam-Checker-Version: SpamAssassin 3.3.2 (2011-06-06) on spamd2.riseup.net
+X-Spam-Level: 
+X-Spam-Pyzor: 
+X-Spam-Status: No, score=-121.0 required=8.0 tests=ALL_TRUSTED,SC_HAM,
+	SHORTCIRCUIT shortcircuit=ham autolearn=disabled version=3.3.2
+Delivered-To: kolibry@riseup.net
+Received: from mx2.riseup.net (mx2-pn.riseup.net [10.0.1.44])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client CN "*.riseup.net", Issuer "Gandi Standard SSL CA" (not verified))
+	by vireo.riseup.net (Postfix) with ESMTPS id 0E8E3134;
+	Thu, 24 Apr 2014 17:29:42 +0000 (UTC)
+Received: from willet.riseup.net (willet-pn.riseup.net [10.0.1.41])
+	by mx2.riseup.net (Postfix) with ESMTP id 0C3DAA040B;
+	Thu, 24 Apr 2014 10:29:38 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple; d=lists.riseup.net;
+	s=chirp; t=1398360581;
+	bh=MeVL0vpPFJpJDA0ibjQ+xeco/apD6U+VKCmt2hPRSIQ=;
+	h=Date:To:From:Subject:Reply-To:List-Id:List-Archive:List-Help:
+	 List-Owner:List-Post:List-Subscribe:List-Unsubscribe:From;
+	b=bbsvWXw1+UfzhdtdOBy1JyFKNvb4Hyp9mXVnxhHsEBpmklyXD57MgCoYPL5gPNz4I
+	 WA4nPQf9v3lcC1w9c9JBqKG2RYc8Xtbixhnz2riiBr2v0hpXN7eL2YBQGeecEB8nAP
+	 p6aHtjtlvA9kZXCbg6L56g/PosgPza0nu8Jc7mwo=
+Received: by willet.riseup.net (Postfix, from userid 1000)
+	id 0A7CF2588; Thu, 24 Apr 2014 10:26:58 -0700 (PDT)
+X-Original-To: newsletter@lists.riseup.net
+Delivered-To: newsletter@lists.riseup.net
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Date: Thu, 24 Apr 2014 10:16:22 -0700
+To: newsletter@lists.riseup.net
+Mime-Version: 1.0 (Apple Message framework v1085)
+X-Mailer: Apple Mail (2.1085)
+X-Virus-Scanned: clamav-milter 0.98.1 at willet
+X-Virus-Status: Clean
+From: newsletter@lists.riseup.net
+Message-id: <newsletter.82@anonymous>
+Subject: [riseup] =?UTF-8?B?bmV3c2xldHRlciAvIHJ1bmRzY2hyZWliZW4gLyBib2xl?=
+ =?UTF-8?B?dMOtbiBkZSBub3RpY2lhcyAvIGJ1bGxldGluIC8gzpXOvc63zrzOtc+Bz4k=?=
+ =?UTF-8?B?z4TOuc66z4wgzrTOtc67z4TOr86/IC8gYm9sbGV0dGlubyAvIGJvbGV0aW0g?=
+ =?UTF-8?B?Lw==?=
+Reply-To: newsletter@lists.riseup.net
+X-Loop: newsletter@lists.riseup.net
+X-Sequence: 82
+Errors-to: newsletter-owner@lists.riseup.net
+Precedence: list
+Precedence: bulk
+Sender: newsletter-request@lists.riseup.net
+X-no-archive: yes
+List-Id: <newsletter.lists.riseup.net>
+List-Archive: <https://lists.riseup.net/www/arc/newsletter>
+List-Help: <mailto:sympa@lists.riseup.net?subject=help>
+List-Owner: <mailto:newsletter-request@lists.riseup.net>
+List-Post: <mailto:newsletter@lists.riseup.net>
+List-Subscribe: <mailto:sympa@lists.riseup.net?subject=subscribe%20newsletter>
+List-Unsubscribe: <mailto:sympa@lists.riseup.net?subject=unsubscribe%20newsletter>
+
+[en]  This newsletter is for all riseup.net list admins and mail account =
+users. It contains vital information, technical tips, and news about =
+Riseup.
+[de] Dieses Rundschreiben ist f=C3=BCr alle riseup.net =
+Verteiler-Administrator_innen und eMail-Benutzer_innen. Es enth=C3=A4lt =
+wichtige Informationen, technische Tipps und Neuigkeiten =C3=BCber =
+Riseup.
+[es]  Este bolet=C3=ADn es para todxs lxs administradorxs de listas y =
+usuarixs de cuentas de correo. Contiene informaci=C3=B3n vital, consejos =
+t=C3=A9cnicos y noticias sobre Riseup.
+[fr]  Ce bulletin est adress=C3=A9 aux admins des listes de diffusion de =
+riseup.net, ainsi qu'aux utilisateurs et aux utilisatrices de courriel. =
+Il contient des informations importantes, des tuyaux techniques et des =
+nouvelles de Riseup.
+[gr]  =CE=91=CF=85=CF=84=CF=8C =CF=84=CE=BF =CE=B5=CE=BD=CE=B7=CE=BC=CE=B5=
+=CF=81=CF=89=CF=84=CE=B9=CE=BA=CF=8C =CE=B4=CE=B5=CE=BB=CF=84=CE=AF=CE=BF =
+=CE=B5=CE=AF=CE=BD=CE=B1=CE=B9 =CE=B3=CE=B9=CE=B1 =CF=8C=CE=BB=CE=BF=CF=85=
+=CF=82 =CF=84=CE=BF=CF=85=CF=82 =CE=B4=CE=B9=CE=B1=CF=87=CE=B5=CE=B9=CF=81=
+=CE=B9=CF=83=CF=84=CE=AD=CF=82 =CE=BB=CE=B9=CF=83=CF=84=CF=8E=CE=BD =
+=CF=84=CE=BF=CF=85 riseup.net =CE=BA=CE=B1=CE=B9 =CF=84=CE=BF=CF=85=CF=82 =
+=CF=87=CF=81=CE=AE=CF=83=CF=84=CE=B5=CF=82 =CE=BB=CE=BF=CE=B3=CE=B1=CF=81=CE=
+=B9=CE=B1=CF=83=CE=BC=CF=8E=CE=BD =CE=B7=CE=BB=CE=B5=CE=BA=CF=84=CF=81=CE=BF=
+=CE=BD=CE=B9=CE=BA=CE=BF=CF=8D =CF=84=CE=B1=CF=87=CF=85=CE=B4=CF=81=CE=BF=CE=
+=BC=CE=B5=CE=AF=CE=BF=CF=85. =CE=A0=CE=B5=CF=81=CE=B9=CE=AD=CF=87=CE=B5=CE=
+=B9 =CF=87=CF=81=CE=AE=CF=83=CE=B9=CE=BC=CE=B5=CF=82 =
+=CF=80=CE=BB=CE=B7=CF=81=CE=BF=CF=86=CE=BF=CF=81=CE=AF=CE=B5=CF=82, =
+=CF=84=CE=B5=CF=87=CE=BD=CE=B9=CE=BA=CE=AD=CF=82 =CF=83=CF=85=CE=BC=CE=B2=CE=
+=BF=CF=85=CE=BB=CE=AD=CF=82 =CE=BA=CE=B1=CE=B9 =CE=BD=CE=AD=CE=B1 =
+=CF=83=CF=87=CE=B5=CF=84=CE=B9=CE=BA=CE=AC =CE=BC=CE=B5 =CF=84=CE=BF =
+Riseup.
+[it] Questo bollettino =C3=A8 per gli amministratori delle liste di =
+riseup.net e per tutti gli utenti. Contiene informazioni vitali, =
+suggerimenti tecnici e notizie su Riseup.=20
+[pt] Este boletim =C3=A9 para todas as pessoas que administram listas e =
+usam os servi=C3=A7os de riseup.net.  Ele cont=C3=A9m informa=C3=A7=C3=B5e=
+s importantes, dicas t=C3=A9cnicas e novidades do Riseup.
+
+
+[en] english
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D
+April 2014 Contents
+* Heartbleed Update
+
+Heartbleed Update
+-------------------------------
+Riseup users,
+By now you've probably heard of the major encryption bug that was made =
+public last week, named Heartbleed. We fixed everything the day the bug =
+became public. There is some risk that your password could have been =
+stolen and your communication with riseup monitored or interfered with. =
+You will need to change your password. If you want to know more there is =
+a good summary at:
+https://mayfirst.org/heartbleed.
+
+There have been reports (and also denials) that the NSA knew of this =
+problem for two years. If they did, by our calculations, the worst case =
+scenario is that they could have compromised our communications for =
+approximately 11 months. Yeah, ugh :(
+
+Details about the new security certificate (and Tor hidden services =
+names) are listed on the riseup homepage in the 'system updates' =
+section.
+
+You need to login to user.riseup.net and change your password. Do this =
+right away.
+
+In Solidarity,
+Riseup
+
+NOTE: Remember that riseup will never, ever, ask you to send us your =
+password, or to click on a link where you provide your password.
+
+
+
+[de] deutsch
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D
+Inhalt April 2014
+* Neues zu Heartbleed
+
+Heartbleed Update
+-------------------------------
+Liebe Riseup-Nutzer*innen,
+inzwischen werdet Ihr wahrscheinlich schon von dem schwerwiegenden =
+Verschl=C3=BCsselungsfehler Namens Heartbleed geh=C3=B6rt haben, der =
+letzte Woche =C3=B6ffentlich gemacht wurde. Wir haben alles noch am =
+selben Tag repariert, an dem der Bug ver=C3=B6ffentlicht wurde. Es =
+besteht ein gewisses Risiko, dass Euer Passwort geklaut wurde oder dass =
+die Kommunikation, die Ihr =C3=BCber riseup abgewickelt habt, =C3=BCberwac=
+ht oder manipuliert wurde. Ihr werdet Euer Passwort =C3=A4ndern m=C3=BCsse=
+n. Wenn Ihr genaueres erfahren wollt, findet Ihr eine gute =
+Zusammenfassung auf:
+https://mayfirst.org/heartbleed (link in deutsch).
+
+Es hat Berichte gegeben (ebenso wie Dementis), dass dieses Problem der =
+NSA seit zwei Jahren bekannt war. Wenn das zutrifft, so h=C3=A4tten sie =
+im Worstcase-Szenario nach unseren Berechnungen ungef=C3=A4hr 11 Monate =
+lang unsere Kommunikation kompromittieren k=C3=B6nnen. Jepp, ugh :(
+
+Details zum neuen Sicherheitszertifikat (und den neuen Tor hidden =
+services) befinden sich auf der riseup-Homepage im Abschnitt 'System =
+Updates'.
+Ihr m=C3=BCsst Euch auf user.riseup.net einloggen und Euer Passwort =
+=C3=A4ndern. Tut dies sofort.
+
+Solidarische Gr=C3=BC=C3=9Fe,
+Riseup
+
+ANMERKUNG: Vergesst nicht, dass wir bei riseup Euch nie, niemals =
+auffordern werden, uns Euer Passwort zu schicken oder auf einen Link zu =
+klicken, unter dem Ihr Euer Passwort eingeben k=C3=B6nnt.
+
+
+
+[el] =CE=95=CE=BB=CE=BB=CE=B7=CE=BD=CE=B9=CE=BA=CE=AC
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+=CE=91=CF=80=CF=81=CE=AF=CE=BB=CE=B7=CF=82 2014, =CE=A0=CE=B5=CF=81=CE=B9=CE=
+=B5=CF=87=CF=8C=CE=BC=CE=B5=CE=BD=CE=B1
+* =CE=95=CE=BD=CE=B7=CE=BC=CE=AD=CF=81=CF=89=CF=83=CE=B7 =CE=B3=CE=B9=CE=B1=
+ =CF=84=CE=BF HeartBleed
+
+=CE=95=CE=BD=CE=B7=CE=BC=CE=AD=CF=81=CF=89=CF=83=CE=B7 =CE=B3=CE=B9=CE=B1 =
+=CF=84=CE=BF HeartBleed
+------------------
+
+=CE=A7=CF=81=CE=AE=CF=83=CF=84=CE=B5=CF=82 =CF=84=CE=BF=CF=85 Riseup,
+=CE=A0=CE=B9=CE=B8=CE=B1=CE=BD=CF=8C=CF=84=CE=B1=CF=84=CE=B1 =CE=B8=CE=B1 =
+=CE=AD=CF=87=CE=B5=CF=84=CE=B5 =CE=AE=CE=B4=CE=B7 =CE=B1=CE=BA=CE=BF=CF=8D=
+=CF=83=CE=B5=CE=B9 =CE=B3=CE=B9=CE=B1 =CF=84=CE=BF =CF=83=CE=BF=CE=B2=CE=B1=
+=CF=81=CF=8C =CF=80=CF=81=CF=8C=CE=B2=CE=BB=CE=B7=CE=BC=CE=B1 =CF=83=CF=84=
+=CE=B7=CE=BD =CE=BA=CF=81=CF=85=CF=80=CF=84=CE=BF=CE=B3=CF=81=CE=AC=CF=86=CE=
+=B7=CF=83=CE=B7 =CF=80=CE=BF=CF=85 =CE=B2=CE=B3=CE=AE=CE=BA=CE=B5 =
+=CE=B4=CE=B7=CE=BC=CF=8C=CF=83=CE=B9=CE=B1 =CF=84=CE=B7=CE=BD =
+=CF=80=CF=81=CE=BF=CE=B7=CE=B3=CE=BF=CF=8D=CE=BC=CE=B5=CE=BD=CE=B7 =
+=CE=B5=CE=B2=CE=B4=CE=BF=CE=BC=CE=AC=CE=B4=CE=B1, =CE=BA=CE=B1=CE=B9 =
+=CE=BF=CE=BD=CE=BF=CE=BC=CE=AC=CF=83=CF=84=CE=B7=CE=BA=CE=B5 Heartbleed. =
+=CE=94=CE=B9=CE=BF=CF=81=CE=B8=CF=8E=CF=83=CE=B1=CE=BC=CE=B5 =CF=84=CE=B1 =
+=CF=80=CE=AC=CE=BD=CF=84=CE=B1 =CF=84=CE=B7=CE=BD =CE=BC=CE=AD=CF=81=CE=B1=
+ =CF=80=CE=BF=CF=85 =CE=B4=CE=B7=CE=BC=CE=BF=CF=83=CE=B9=CE=B5=CF=8D=CF=84=
+=CE=B7=CE=BA=CE=B5 =CF=84=CE=BF =CE=BA=CE=B5=CE=BD=CF=8C =CE=B1=CF=85=CF=84=
+=CF=8C =CE=B1=CF=83=CF=86=CE=B1=CE=BB=CE=B5=CE=AF=CE=B1=CF=82. =
+=CE=A5=CF=80=CE=AC=CF=81=CF=87=CE=B5=CE=B9 =CE=BC=CE=B9=CE=B1 =
+=CF=80=CE=B9=CE=B8=CE=B1=CE=BD=CF=8C=CF=84=CE=B7=CF=84=CE=B1 =CE=BF =
+=CE=BA=CF=89=CE=B4=CE=B9=CE=BA=CF=8C=CF=82 =CF=83=CE=B1=CF=82 =CE=BD=CE=B1=
+ =CE=B5=CE=AF=CF=87=CE=B5 =CF=85=CF=80=CE=BF=CE=BA=CE=BB=CE=B1=CF=80=CE=B5=
+=CE=AF =CE=BA=CE=B1=CE=B9 =CE=BF=CE=B9 =CE=B5=CF=80=CE=B9=CE=BA=CE=BF=CE=B9=
+=CE=BD=CF=89=CE=BD=CE=AF=CE=B5=CF=82 =CF=83=CE=B1=CF=82 =CE=BC=CE=B5 =
+=CF=84=CE=BF riseup =CE=BD=CE=B1 =CE=B5=CF=80=CE=B9=CF=84=CE=B7=CF=81=CE=BF=
+=CF=8D=CE=BD=CF=84=CE=B1=CE=BD =CE=AE =CE=BD=CE=B1 =CE=B5=CE=AF=CF=87=CE=B1=
+=CE=BD =CF=80=CE=B1=CF=81=CE=B5=CE=BC=CE=B2=CE=BB=CE=B7=CE=B8=CE=B5=CE=AF =
+=CE=BA=CE=B1=CE=BA=CF=8C=CE=B2=CE=BF=CF=85=CE=BB=CE=BF=CE=B9. =
+=CE=A7=CF=81=CE=B5=CE=B9=CE=AC=CE=B6=CE=B5=CF=84=CE=B1=CE=B9 =CE=BD=CE=B1 =
+=CE=B1=CE=BB=CE=BB=CE=AC=CE=BE=CE=B5=CF=84=CE=B5 =CF=84=CE=BF=CE=BD =
+=CE=BA=CF=89=CE=B4=CE=B9=CE=BA=CF=8C =CF=83=CE=B1=CF=82. =CE=91=CE=BD =
+=CE=B8=CE=AD=CE=BB=CE=B5=CF=84=CE=B5 =CE=BD=CE=B1 =CE=B4=CE=B9=CE=B1=CE=B2=
+=CE=AC=CF=83=CE=B5=CF=84=CE=B5 =CF=80=CE=B5=CF=81=CE=B9=CF=83=CF=83=CF=8C=CF=
+=84=CE=B5=CF=81=CE=B1 =CF=85=CF=80=CE=AC=CF=81=CF=87=CE=B5=CE=B9 =CE=BC=CE=
+=B9=CE=B1 =CE=BA=CE=B1=CE=BB=CE=AE =CF=80=CE=B5=CF=81=CE=AF=CE=BB=CE=B7=CF=
+=88=CE=B7 =CF=83=CF=84=CE=BF : https://mayfirst.org/heartbleed =
+(=CF=80=CE=B5=CF=81=CE=B9=CE=B5=CE=BA=CF=84=CE=B9=CE=BA=CF=8C=CF=84=CE=B7=CF=
+=84=CE=B1 =CF=83=CE=B5 =CE=B5=CE=BB=CE=BB=CE=B7=CE=BD=CE=B9=CE=BA=CE=AC).
+
+=CE=88=CF=87=CE=BF=CF=85=CE=BD =CF=85=CF=80=CE=AC=CF=81=CE=BE=CE=B5=CE=B9 =
+=CE=B1=CE=BD=CE=B1=CF=86=CE=BF=CF=81=CE=AD=CF=82 (=CE=B1=CE=BB=CE=BB=CE=AC=
+ =CE=BA=CE=B1=CE=B9 =CE=B4=CE=B9=CE=B1=CF=88=CE=B5=CF=8D=CF=83=CE=B5=CE=B9=
+=CF=82) =CF=8C=CF=84=CE=B9 =CE=B7 NSA =CE=B3=CE=BD=CF=8E=CF=81=CE=B9=CE=B6=
+=CE=B5 =CF=84=CE=BF =CF=80=CF=81=CF=8C=CE=B2=CE=BB=CE=B7=CE=BC=CE=B1 =
+=CE=B1=CF=85=CF=84=CF=8C =CE=B5=CE=B4=CF=8E =CE=BA=CE=B1=CE=B9 =CE=B4=CF=8D=
+=CE=BF =CF=87=CF=81=CF=8C=CE=BD=CE=B9=CE=B1. =CE=91=CE=BD =CF=84=CE=BF =
+=CE=B3=CE=BD=CF=8E=CF=81=CE=B9=CE=B6=CE=B1=CE=BD, =CF=83=CF=8D=CE=BC=CF=86=
+=CF=89=CE=BD=CE=B1 =CE=BC=CE=B5 =CF=84=CE=BF=CF=85=CF=82 =
+=CF=85=CF=80=CE=BF=CE=BB=CE=BF=CE=B3=CE=B9=CF=83=CE=BC=CE=BF=CF=8D=CF=82 =
+=CE=BC=CE=B1=CF=82, =CF=84=CE=BF =CF=87=CE=B5=CE=B9=CF=81=CF=8C=CF=84=CE=B5=
+=CF=81=CE=BF =CF=83=CE=B5=CE=BD=CE=AC=CF=81=CE=B9=CE=BF =CE=B5=CE=AF=CE=BD=
+=CE=B1=CE=B9 =CF=8C=CF=84=CE=B9 =CE=B8=CE=B1 =CE=BC=CF=80=CE=BF=CF=81=CE=BF=
+=CF=8D=CF=83=CE=B1=CE=BD =CE=BD=CE=B1 =CE=AD=CF=87=CE=BF=CF=85=CE=BD =
+=CE=B8=CE=AD=CF=83=CE=B5=CE=B9 =CF=85=CF=80=CF=8C =CF=84=CE=BF=CE=BD =
+=CE=AD=CE=BB=CE=B5=CE=B3=CF=87=CF=8C =CF=84=CE=BF=CF=85=CF=82 =CF=84=CE=B9=
+=CF=82 =CE=B5=CF=80=CE=B9=CE=BA=CE=BF=CE=B9=CE=BD=CF=89=CE=BD=CE=AF=CE=B5=CF=
+=82 =CE=BC=CE=B1=CF=82 =CE=B3=CE=B9=CE=B1 =CF=80=CE=B5=CF=81=CE=AF=CF=80=CE=
+=BF=CF=85 11 =CE=BC=CE=AE=CE=BD=CE=B5=CF=82. =CE=9D=CE=B1=CE=B9, =CE=BF=CF=
+=8D=CF=86 :(
+
+=CE=9B=CE=B5=CF=80=CF=84=CE=BF=CE=BC=CE=AD=CF=81=CE=B5=CE=B9=CE=B5=CF=82 =
+=CF=83=CF=87=CE=B5=CF=84=CE=B9=CE=BA=CE=AC =CE=BC=CE=B5 =CF=84=CE=BF =
+=CE=BD=CE=AD=CE=BF =CF=80=CE=B9=CF=83=CF=84=CE=BF=CF=80=CE=BF=CE=B9=CE=B7=CF=
+=84=CE=B9=CE=BA=CF=8C =CE=B1=CF=83=CF=86=CE=B1=CE=BB=CE=B5=CE=AF=CE=B1=CF=82=
+ (=CE=BA=CE=B1=CE=B9 =CF=84=CE=B1 =CE=BF=CE=BD=CF=8C=CE=BC=CE=B1=CF=84=CE=B1=
+ =CF=84=CF=89=CE=BD =CE=BA=CF=81=CF=85=CE=BC=CE=BC=CE=AD=CE=BD=CF=89=CE=BD=
+ =CF=85=CF=80=CE=B7=CF=81=CE=B5=CF=83=CE=B9=CF=8E=CE=BD Tor) =CE=AD=CF=87=CE=
+=BF=CF=85=CE=BD =CE=B1=CE=BD=CE=B1=CF=81=CF=84=CE=B7=CE=B8=CE=B5=CE=AF =
+=CF=83=CF=84=CE=B7=CE=BD =CE=B1=CF=81=CF=87=CE=B9=CE=BA=CE=AE =
+=CF=83=CE=B5=CE=BB=CE=AF=CE=B4=CE=B1 =CF=84=CE=BF=CF=85 risep =CF=83=CF=84=
+=CE=B7=CE=BD =CE=B5=CE=BD=CF=8C=CF=84=CE=B7=CF=84=CE=B1 "system =
+updates".
+
+=CE=A7=CF=81=CE=B5=CE=B9=CE=AC=CE=B6=CE=B5=CF=84=CE=B1=CE=B9 =CE=BD=CE=B1 =
+=CF=83=CF=85=CE=BD=CE=B4=CE=B5=CE=B8=CE=B5=CE=AF=CF=84=CE=B5 =CF=83=CF=84=CE=
+=BF user.riseup.net =CE=BA=CE=B1=CE=B9 =CE=BD=CE=B1 =CE=B1=CE=BB=CE=BB=CE=AC=
+=CE=BE=CE=B5=CF=84=CE=B5 =CF=84=CE=BF =CE=BA=CF=89=CE=B4=CE=B9=CE=BA=CF=8C=
+ =CF=83=CE=B1=CF=82. =CE=9A=CE=AC=CE=BD=CF=84=CE=B5 =CF=84=CE=BF =
+=CE=B1=CE=BC=CE=AD=CF=83=CF=89=CF=82.
+
+=CE=91=CE=BB=CE=BB=CE=B7=CE=BB=CE=B5=CE=B3=CE=B3=CF=8D=CE=B7,
+Riseup
+
+=CE=A3=CE=97=CE=9C=CE=95=CE=99=CE=A9=CE=A3=CE=97 : =CE=98=CF=85=CE=BC=CE=B7=
+=CE=B8=CE=B5=CE=AF=CF=84=CE=B5 =CF=8C=CF=84=CE=B9 =CF=84=CE=BF riseup =
+=CE=B4=CE=B5=CE=BD =CF=80=CF=81=CF=8C=CE=BA=CE=B5=CE=B9=CF=84=CE=B1=CE=B9 =
+=CF=80=CE=BF=CF=84=CE=AD , =CE=BC=CE=B1 =CF=80=CE=BF=CF=84=CE=AD, =CE=BD=CE=
+=B1 =CF=83=CE=B1=CF=82 =CE=B6=CE=B7=CF=84=CE=AE=CF=83=CE=B5=CE=B9 =CE=BD=CE=
+=B1 =CE=BD=CE=B1 =CF=83=CF=84=CE=B5=CE=AF=CE=BB=CE=B5=CF=84=CE=B5 =CF=84=CE=
+=BF=CE=BD =CE=BA=CF=89=CE=B4=CE=B9=CE=BA=CF=8C =CF=83=CE=B1=CF=82 =CE=AE =
+=CE=BD=CE=B1 =CE=BA=CE=AC=CE=BD=CE=B5=CF=84=CE=B5 =CE=BA=CE=BB=CE=B9=CE=BA=
+ =CF=83=CE=B5 =CF=83=CF=85=CE=BD=CE=B4=CE=AD=CF=83=CE=BC=CE=BF=CF=85=CF=82=
+ =CF=8C=CF=80=CE=BF=CF=85 =CE=B8=CE=B1 =CF=80=CF=81=CE=AD=CF=80=CE=B5=CE=B9=
+ =CE=B2=CE=AC=CE=BB=CE=B5=CF=84=CE=B5 =CF=84=CE=BF=CE=BD =CE=BA=CF=89=CE=B4=
+=CE=B9=CE=BA=CF=8C =CF=83=CE=B1=CF=82.
+
+
+
+[es] espa=C3=B1ol
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+Abril de 2014 - Indice
+
+* Noticias sobre Heartbleed
+
+
+Noticias sobre Heartbleed
+
+Usuarios de Riseup, en este momento ustedes han escuchado sobre la gran =
+falla de seguridad hecha publica la semana pasada, denominada =
+Heartbleed. Aqu=C3=AD, Nosotros hicimos las arreglos necesarios el mismo =
+d=C3=ADa en que la falla se hizo publica. Existe el riesgo de que tu =
+clave haya sido extra=C3=ADda, y de que tu comunicaci=C3=B3n por medio =
+de Riseup haya sido monitoreada o interferida. Es necesario que cambies =
+tu clave. Si quieres saber m=C3=A1s al respecto, hay un resumen muy =
+bueno en https://mayfirst.org/heartbleed
+
+Hay quien afirma (y quien lo niega) que la NSA estuvo al tanto de este =
+problema desde hace dos a=C3=B1os. De ser as=C3=AD, calculamos que, en =
+el peor de los escenarios, ellos pudieron intervenir nuestra =
+comunicaci=C3=B3n durante 11 meses, aproximadamente. Aja, Uff =E2=98=B9
+
+Puedes encontrar detalles sobre el nuevo certificado de seguridad (y los =
+nombres de los servicios ocultos de Tor) enlistados en la pagina web =
+principal de riseup, dentro de la secci=C3=B3n de =E2=80=9Cactualizaciones=
+ del sistema=E2=80=9D
+
+Debes entrar a user.riseup.net y cambiar tu clave. Hazlo inmediatamente.
+
+En solidaridad, Riseup
+
+Nota: Recuerda que Riseup nunca, pero nunca, va a pedirte que nos =
+env=C3=ADes tu clave, o que des clic en un enlace para que nos =
+proporciones tu clave.
+
+
+
+[fr] fran=C3=A7ais
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+Au sommaire ce mois d'avril 2014
+* Des nouvelles de Heartbleed
+
+Des nouvelles de Heartbleed
+-------------------------------
+Ch=C3=A8re utilisatrice de Riseup, cher utilisateur de Riseup,
+Vous avez s=C3=BBrement entendu parler de l'important bogue d'encryptage =
+du nom de Heartbleed qui a =C3=A9t=C3=A9 d=C3=A9voil=C3=A9 la semaine =
+derni=C3=A8re. Nous avons tout r=C3=A9gl=C3=A9 le jour m=C3=AAme. Il y a =
+un risque que votre mot de passe ait =C3=A9t=C3=A9 vol=C3=A9 et que vos =
+communications avec Riseup aient =C3=A9t=C3=A9 espionn=C3=A9es ou =
+bidouill=C3=A9s. Vous devez changer vos mots de passe. Si vous voulez en =
+savoir plus, vous pouvez trouver un bon r=C3=A9sum=C3=A9 au =
+https://mayfirst.org/heartbleed.
+
+Il y a eu des confirmations (et aussi des d=C3=A9mentis) indiquant que =
+la NSA =C3=A9tait au courant de ce probl=C3=A8me depuis deux ans. =
+D'apr=C3=A8s nos calculs, si cela s=E2=80=99av=C3=A8re exact, le pire =
+sc=C3=A9nario serait qu'illes ont eu acc=C3=A8s =C3=A0 nos =
+communications depuis environ 11 mois. Ouais, ouch :(
+
+Les d=C3=A9tails =C3=A0 propos des nouveaux certificats de s=C3=A9curit=C3=
+=A9 (et le nom des services cach=C3=A9s Tor) sont sur la page =
+d=E2=80=99accueil de Riseup dans la section =C2=AB System Updates =C2=BB.
+
+Vous devez vous connectez sur user.riseup.net et changer votre mot de =
+passe. Faites-le tout de suite.
+
+Solidarit=C3=A9,
+Riseup
+
+NB : Rappelez-vous que Riseup ne vous demandera jamais, jamais de nous =
+envoyer votre mot de passe ou de cliquer sur un lien o=C3=B9 vous devez =
+fournir votre mot de passe.
+
+
+[it] italiano
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+Aprile 2014 - Indice
+
+* Aggiornamento riguardo Heartbleed
+
+Aggiornamento riguardo Heartbleed
+------------------------------
+
+Utente di Riseup,
+con ogni probabilit=C3=A0 avrai gi=C3=A0 sentito parlare di Heartbleed, =
+un grave bug riguardante la crittografia (un difetto del software) che =
+=C3=A8 diventato pubblico la settimana scorsa. Abbiamo sistemato tutto =
+il giorno stesso in cui il bug =C3=A8 stato reso pubblico, ma c'=C3=A8 =
+il rischio che la tua password sia stata rubata e che le tue =
+comunicazioni con riseup siano state tenute sotto osservazione o =
+manipolate.
+Dovrai cambiare la tua password. Se vuoi saperne di pi=C3=B9, un buon =
+riassunto =C3=A8 disponibile qui:
+https://mayfirst.org/heartbleed (link anche in italiano).
+
+La NSA (National Security Agency, l'Agenzia per la Sicurezza Nazionale =
+statunitense - NdT) =C3=A8 stata accusata (ed ha anche negato) di essere =
+a conoscenza di questo problema da due anni. Se questo fosse vero, in =
+base ai nostri calcoli, l'ipotesi peggiore =C3=A8 che potrebbero aver =
+compromesso le nostre comunicazioni per circa 11 mesi. Gi=C3=A0, puah... =
+:(
+I dettagli riguardanti i nuovi certificati di sicurezza (ed i nomi dei =
+servizi nascosti di Tor) sono elencati sulla homepage di riseup nella =
+sezione 'system updates'.
+
+Devi accedere a user.riseup.net e modificare la tua password. Fallo =
+immediatamente.
+
+In solidariet=C3=A0.
+Riseup
+
+NOTA BENE: Ricorda che riseup mai e poi mai ti chieder=C3=A0 di =
+inviargli la tua password o di cliccare su un link dove ti =C3=A8 =
+richiesto di inserire la tua password.
+
+
+
+[pt] portugu=C3=AAs
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D
+Conte=C3=BAdo de Abril de 2014
+* Sobre o Heartbleed
+
+Sobre o Heartbleed
+-------------------------------
+Pessoas que usam Riseup,
+A esta altura, voc=C3=AA j=C3=A1 deve ter ouvido sobre o maior bug de =
+criptografia que foi descoberto publicamente na semana passada, =
+conhecido como Heartbleed. N=C3=B3s arrumamos tudo no dia em que o bug =
+tornou-se p=C3=BAblico. H=C3=A1 algum risco de que sua senha tenha sido =
+roubada e sua comunica=C3=A7=C3=A3o com riseup tenha sido monitorada ou =
+interferida. Voc=C3=AA precisar=C3=A1 alterar a sua senha. Se quiser =
+saber mais sobre o caso, aqui tem uma boa explica=C3=A7=C3=A3o: =
+https://mayfirst.org/heartbleed (liga=C3=A7=C3=A3o em portugu=C3=AAs).
+
+H=C3=A1 relatos (e outros que refutam) que a NSA sabia deste problema =
+h=C3=A1 dois anos. Se sabiam, pelos nossos c=C3=A1lculos, no pior =
+cen=C3=A1rio, eles podem ter comprometido nossa comunica=C3=A7=C3=A3o =
+por cerca de 11 meses. Sim, ugh :(
+
+Detalhes sobre o novo certificado de seguran=C3=A7a (e nomes dos =
+servi=C3=A7os escondidos Tor) est=C3=A3o listados na p=C3=A1gina inicial =
+de riseup na se=C3=A7=C3=A3o "atualiza=C3=A7=C3=B5es de sistema" =
+("system updates").
+
+Para trocar a senha, voc=C3=AA precisa fazer o login em user.riseup.net. =
+Fa=C3=A7a isso agora mesmo!
+
+Em solidariedade,
+Riseup
+
+NOTA: Lembre-se que riseup nunca vai pedir para que nos mande a sua =
+senha, ou para clicar em um link no qual voc=C3=AA tenha que colocar a =
+sua senha.
+
+
+
+

@@ -1,0 +1,245 @@
+Return-Path: <tenuki-brest-bounces@jeudego.org>
+X-Spam-Checker-Version: SpamAssassin 3.3.2 (2011-06-06) on spamd3.riseup.net
+X-Spam-Level: 
+X-Spam-Pyzor: Reported 0 times.
+X-Spam-Status: No, score=-0.4 required=8.0 tests=AM_TRUNCATED,CK_419SIZE,
+	DKIM_ADSP_CUSTOM_MED,DKIM_SIGNED,ENV_FROM_DIFF0,FORWARD_RELAY,FREEMAIL_FROM,
+	GAPPY_LET2,HAS_REPLY_TO,HTML_MESSAGE,MAILPHISH4,ODD_PUNCTUATION,PSTOCK_PART,
+	RP_MATCHES_RCVD,SUBJ_CONTAINS_TO,T_DKIM_INVALID shortcircuit=no
+	autolearn=disabled version=3.3.2
+Delivered-To: kolibry@riseup.net
+Received: from mx1.riseup.net (mx1-pn.riseup.net [10.0.1.33])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client CN "*.riseup.net", Issuer "Gandi Standard SSL CA" (not verified))
+	by vireo.riseup.net (Postfix) with ESMTPS id C78C99E
+	for <kolibry@riseup.net>; Tue, 10 Jun 2014 18:22:57 -0700 (PDT)
+Received: from jeudego.org (jeudego.org [5.135.164.19])
+	by mx1.riseup.net (Postfix) with ESMTP id 5402F49376
+	for <kolibry@riseup.net>; Tue, 10 Jun 2014 18:22:57 -0700 (PDT)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by jeudego.org (Postfix) with ESMTP id 24A5E2EC5001;
+	Wed, 11 Jun 2014 03:22:56 +0200 (CEST)
+Received: from jeudego.org ([127.0.0.1])
+	by localhost (jeudego.org [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id 6kZvv5YZlbxB; Wed, 11 Jun 2014 03:22:56 +0200 (CEST)
+Received: from ns3311974.ovh.net (localhost.localdomain [127.0.0.1])
+	by jeudego.org (Postfix) with ESMTP;
+	Wed, 11 Jun 2014 03:22:56 +0200 (CEST)
+X-Original-To: tenuki-brest@jeudego.org
+Delivered-To: tenuki-brest@jeudego.org
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by jeudego.org (Postfix) with ESMTP id D3EF52EC5001
+	for <tenuki-brest@jeudego.org>; Wed, 11 Jun 2014 03:22:53 +0200 (CEST)
+Received: from jeudego.org ([127.0.0.1])
+	by localhost (jeudego.org [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id nlAeU1nkzWz2 for <tenuki-brest@jeudego.org>;
+	Wed, 11 Jun 2014 03:22:38 +0200 (CEST)
+Received: from mail-la0-f53.google.com (mail-la0-f53.google.com
+	[209.85.215.53]) (using TLSv1 with cipher RC4-SHA (128/128 bits))
+	(No client certificate requested)
+	by jeudego.org (Postfix) with ESMTPS
+	for <tenuki-brest@jeudego.org>; Wed, 11 Jun 2014 03:22:35 +0200 (CEST)
+Received: by mail-la0-f53.google.com with SMTP id ty20so4363327lab.26
+	for <tenuki-brest@jeudego.org>; Tue, 10 Jun 2014 18:22:34 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=20120113;
+	h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+	:content-type; bh=i8SN7C7ygoriR1PpLw5boelfc/5lUvXO43dVE7iSRug=;
+	b=uG06Mn6gEn6J0kHzqUVV4873dzewHQdD0N2EvZTGgG/XyR9HaOlwPrVr9TOoVVet0b
+	HDMiCnrbmpyD3zfSxmtF/2/5j0RundfI9egmt3/sgSBEhs5hXqeHqT/OUYZaAZBXdWQ/
+	9H1qjr0VT8rU3AbSBtSj41oC2KPHEoOJpiMsztw79AwrdbQRDMUKytKCSNC+avwoizBG
+	1Wg9yr9unXXA0nWbIgVWDtgrlZ/jLDjqhb0qweQ+ll3o/o4lmBDXl2VgSC/NFTm42rcw
+	BMsA9BrMuqwfppm/MeDY8+vQQ+gRZni22WhPMjw2AXqBCMmt9VYZcVe1F581aiDJa3s1
+	TIog==
+MIME-Version: 1.0
+X-Received: by 10.152.42.194 with SMTP id q2mr9785223lal.39.1402449753985;
+	Tue, 10 Jun 2014 18:22:33 -0700 (PDT)
+Received: by 10.112.118.74 with HTTP; Tue, 10 Jun 2014 18:22:33 -0700 (PDT)
+In-Reply-To: <CAHCdiMrcoNY2SBCiibzKTbciw8R6x2-UcfjCc6jFoOHKeqQB5g@mail.gmail.com>
+References: <DUB129-W8096F4D23AD1DCC38FAD29E2C0@phx.gbl>
+	<CAHCdiMrcoNY2SBCiibzKTbciw8R6x2-UcfjCc6jFoOHKeqQB5g@mail.gmail.com>
+Date: Wed, 11 Jun 2014 03:22:33 +0200
+Message-ID: <CAHnw_7BoBVmRpr_L_f5MNmNz_EyrwE5LbtxY3Vv82JVcqE1EhA@mail.gmail.com>
+From: Romain Gloaguen <rgloaguen@gmail.com>
+To: tenuki-brest@jeudego.org
+Subject: Re: [Tenuki-brest] 9e Marathon de go
+X-BeenThere: tenuki-brest@jeudego.org
+X-Mailman-Version: 2.1.13
+Precedence: list
+Reply-To: tenuki-brest@jeudego.org
+List-Id: <tenuki-brest.jeudego.org>
+List-Unsubscribe: <https://admin.jeudego.org/mailman/options/tenuki-brest>,
+	<mailto:tenuki-brest-request@jeudego.org?subject=unsubscribe>
+List-Archive: <https://admin.jeudego.org/mailman/private/tenuki-brest>
+List-Post: <mailto:tenuki-brest@jeudego.org>
+List-Help: <mailto:tenuki-brest-request@jeudego.org?subject=help>
+List-Subscribe: <https://admin.jeudego.org/mailman/listinfo/tenuki-brest>,
+	<mailto:tenuki-brest-request@jeudego.org?subject=subscribe>
+Content-Type: multipart/mixed; boundary="===============4194975527402269356=="
+Sender: tenuki-brest-bounces@jeudego.org
+Errors-To: tenuki-brest-bounces@jeudego.org
+X-Virus-Scanned: clamav-milter 0.98.1 at mx1
+X-Virus-Status: Clean
+
+--===============4194975527402269356==
+Content-Type: multipart/alternative; boundary=001a11c3557a66d89604fb854758
+
+--001a11c3557a66d89604fb854758
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Bonjour,
+
+Je souhaiterais faire part de ma volont=C3=A9 de participer au marathon mai=
+s
+n'=C3=A9tant pas motoris=C3=A9 j'aimerais savoir s'il y a un covoiturage d'=
+organiser
+!?
+
+Dans le doute, je viens =C3=A9galement de me pr=C3=A9-inscrire pour le tour=
+noi en
+r=C3=A9servant une nuit en chalet pour le samedi soir.
+
+Cordialement =3D)
+
+
+Le 10 juin 2014 18:42, Louis Gueguen <louisgueguen@gmail.com> a =C3=A9crit =
+:
+
+> J en suis ;) pr=C3=A9 inscription faite :)
+> Le 6 juin 2014 18:02, "Pierre- Antoine Gu=C3=A9guen" <jap_anim29@hotmail.=
+fr> a
+> =C3=A9crit :
+>
+>> Bonsoir =C3=A0 tous,
+>>
+>> Le 9e marathon de go du club de Nantes Miai aura lieu les 21 et 22 juin =
+=C3=A0
+>> Piriac sur Mer, au camping Parc du Guibel.
+>>
+>> J'aimerai savoir qui est int=C3=A9ress=C3=A9 pour y aller et qui pourrai=
+t proposer
+>> une voiture (je pense que l'on en aura besoin de deux). Nous partirions
+>> soit t=C3=B4t le samedi matin, soit le vendredi soir (=C3=A0 compter 13=
+=E2=82=AC supp pour la
+>> nuit vend =3D> sam).
+>>
+>> Au total ce tournoi compte 52=E2=82=AC (et 65 pour une nuit supp donc) q=
+ui
+>> additionne les 42=E2=82=AC de nuit + repas et les 10=E2=82=AC du tournoi=
+.
+>>
+>> Merci de r=C3=A9pondre rapidement ! :)
+>>
+>> N'oubliez pas de vous pr=C3=A9inscrire :
+>> http://miai.nantes.free.fr/tournoi.php5
+>>
+>> Gu=C3=A9guen pierre-Antoine.
+>>
+>> _______________________________________________
+>> Tenuki-brest mailing list
+>> Tenuki-brest@jeudego.org
+>> https://admin.jeudego.org/mailman/listinfo/tenuki-brest
+>>
+>>
+> _______________________________________________
+> Tenuki-brest mailing list
+> Tenuki-brest@jeudego.org
+> https://admin.jeudego.org/mailman/listinfo/tenuki-brest
+>
+>
+
+--001a11c3557a66d89604fb854758
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Bonjour,=C2=A0<div><br></div><div><div>Je souhaiterais fai=
+re part de ma volont=C3=A9 de participer au marathon mais n&#39;=C3=A9tant =
+pas motoris=C3=A9 j&#39;aimerais savoir s&#39;il y a un covoiturage d&#39;o=
+rganiser !?=C2=A0</div><div>
+<br></div><div>Dans le doute, je viens =C3=A9galement de me pr=C3=A9-inscri=
+re pour le tournoi en r=C3=A9servant une nuit en chalet pour le samedi soir=
+.</div></div><div><br></div><div>Cordialement =3D)</div></div><div class=3D=
+"gmail_extra"><br>
+<br><div class=3D"gmail_quote">Le 10 juin 2014 18:42, Louis Gueguen <span d=
+ir=3D"ltr">&lt;<a href=3D"mailto:louisgueguen@gmail.com" target=3D"_blank">=
+louisgueguen@gmail.com</a>&gt;</span> a =C3=A9crit :<br><blockquote class=
+=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padd=
+ing-left:1ex">
+<p dir=3D"ltr">J en suis ;) pr=C3=A9 inscription faite :)</p>
+<div class=3D"gmail_quote">Le 6 juin 2014 18:02, &quot;Pierre- Antoine Gu=
+=C3=A9guen&quot; &lt;<a href=3D"mailto:jap_anim29@hotmail.fr" target=3D"_bl=
+ank">jap_anim29@hotmail.fr</a>&gt; a =C3=A9crit :<br type=3D"attribution"><=
+blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px=
+ #ccc solid;padding-left:1ex">
+<div><div class=3D"h5">
+
+
+
+<div><div dir=3D"ltr">Bonsoir =C3=A0 tous,<div><font face=3D"Calibri"><br><=
+/font></div><div><span style=3D"line-height:19.5px;background-color:rgb(255=
+,255,255)"><font face=3D"Calibri" size=3D"3">Le 9e marathon de go du club d=
+e Nantes Miai aura lieu les 21 et 22 juin =C3=A0 Piriac sur Mer, au camping=
+ Parc du Guibel.</font></span></div>
+
+<div><span style=3D"font-size:13px;line-height:19.5px;background-color:rgb(=
+255,255,255)"><font face=3D"Calibri"><br></font></span></div><div><span sty=
+le=3D"line-height:19.5px;background-color:rgb(255,255,255)"><font face=3D"C=
+alibri" size=3D"3">J&#39;aimerai savoir qui est int=C3=A9ress=C3=A9 pour y =
+aller et qui pourrait proposer une voiture (je pense que l&#39;on en aura b=
+esoin de deux). Nous partirions soit t=C3=B4t le samedi matin, soit le vend=
+redi soir (=C3=A0 compter 13=E2=82=AC supp pour la nuit vend =3D&gt; sam).<=
+/font></span></div>
+
+<div><span style=3D"line-height:19.5px;background-color:rgb(255,255,255)"><=
+font face=3D"Calibri" size=3D"3"><br></font></span></div><div><span style=
+=3D"line-height:19.5px;background-color:rgb(255,255,255)"><font face=3D"Cal=
+ibri" size=3D"3">Au total ce tournoi compte 52=E2=82=AC (et 65 pour une nui=
+t supp donc) qui additionne les 42=E2=82=AC de nuit + repas et les 10=E2=82=
+=AC du tournoi.</font></span></div>
+
+<div><span style=3D"line-height:19.5px;background-color:rgb(255,255,255)"><=
+font face=3D"Calibri" size=3D"3"><br></font></span></div><div><span style=
+=3D"line-height:19.5px;background-color:rgb(255,255,255)"><font face=3D"Cal=
+ibri" size=3D"3">Merci de r=C3=A9pondre rapidement ! :)</font></span></div>
+
+<div><span style=3D"line-height:19.5px;background-color:rgb(255,255,255)"><=
+font face=3D"Calibri" size=3D"3"><br></font></span></div><div>N&#39;oubliez=
+ pas de vous pr=C3=A9inscrire :=C2=A0<a href=3D"http://miai.nantes.free.fr/=
+tournoi.php5" target=3D"_blank">http://miai.nantes.free.fr/tournoi.php5</a>=
+</div>
+
+<div><span style=3D"line-height:19.5px;background-color:rgb(255,255,255)"><=
+font face=3D"Calibri" size=3D"3"><br></font></span></div><div><span style=
+=3D"line-height:19.5px;background-color:rgb(255,255,255)"><font face=3D"Cal=
+ibri" size=3D"3">Gu=C3=A9guen pierre-Antoine.</font></span></div>
+
+ 		 	   		  </div></div>
+<br></div></div>_______________________________________________<br>
+Tenuki-brest mailing list<br>
+<a href=3D"mailto:Tenuki-brest@jeudego.org" target=3D"_blank">Tenuki-brest@=
+jeudego.org</a><br>
+<a href=3D"https://admin.jeudego.org/mailman/listinfo/tenuki-brest" target=
+=3D"_blank">https://admin.jeudego.org/mailman/listinfo/tenuki-brest</a><br>
+<br></blockquote></div>
+<br>_______________________________________________<br>
+Tenuki-brest mailing list<br>
+<a href=3D"mailto:Tenuki-brest@jeudego.org">Tenuki-brest@jeudego.org</a><br=
+>
+<a href=3D"https://admin.jeudego.org/mailman/listinfo/tenuki-brest" target=
+=3D"_blank">https://admin.jeudego.org/mailman/listinfo/tenuki-brest</a><br>
+<br></blockquote></div><br></div>
+
+--001a11c3557a66d89604fb854758--
+
+--===============4194975527402269356==
+Content-Type: text/plain; charset="iso-8859-1"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Content-Disposition: inline
+
+_______________________________________________
+Tenuki-brest mailing list
+Tenuki-brest@jeudego.org
+https://admin.jeudego.org/mailman/listinfo/tenuki-brest
+
+--===============4194975527402269356==--

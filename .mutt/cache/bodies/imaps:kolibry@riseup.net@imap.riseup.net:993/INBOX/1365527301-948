@@ -1,0 +1,194 @@
+Return-Path: <jGwc7EwsHLSsLIxsHBxsjLRGtExMrJzMTMxs@smtp-coi-g13-038.aweber.com>
+X-Spam-Checker-Version: SpamAssassin 3.3.2 (2011-06-06) on spamd3.riseup.net
+X-Spam-Level: *
+X-Spam-Pyzor: Reported 0 times.
+X-Spam-Status: No, score=1.5 required=8.0 tests=AM_TRUNCATED,CK_419SIZE,
+	DKIM_SIGNED,DKIM_VALID,ENV_FROM_DIFF0,HTML_MESSAGE,LINK_NR_TOP,PHISH_ACC6,
+	RCVD_IN_BL_SPAMCOP_NET,RCVD_IN_DNSWL_NONE,RDNS_DYNAMIC,RP_MATCHES_RCVD,
+	SPF_HELO_PASS,WEB_MAILER15 shortcircuit=no autolearn=disabled version=3.3.2
+Delivered-To: kolibry@riseup.net
+Received: from mx1.riseup.net (mx1-pn.riseup.net [10.0.1.33])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client CN "*.riseup.net", Issuer "Gandi Standard SSL CA" (not verified))
+	by vireo.riseup.net (Postfix) with ESMTPS id 6C19D158
+	for <kolibry@riseup.net>; Thu, 27 Mar 2014 16:42:17 +0000 (UTC)
+Received: from smtp-coi-g13-038.aweber.com (smtp-coi-g13-038.aweber.com [204.194.223.38])
+	by mx1.riseup.net (Postfix) with ESMTP id 39D6D51524
+	for <kolibry@riseup.net>; Thu, 27 Mar 2014 09:42:06 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha1; d=aweber.com; s=dkim_s1024; c=relaxed/simple;
+	q=dns/txt; i=@aweber.com; t=1395938509;
+	h=Sender:Subject:Date:From:List-Unsubscribe:To:MIME-version:Content-type;
+	bh=D+qLe1Xnre8iaH5r+kGbntgsEEs=;
+	b=nXSPgGciUgJLfDumEySIqTRxv5bDHfZjLX1y4y/ycFW0IlqJJxOMXW3O5f3PGHN2
+	tBeVaQpDMgnvRwnSVuzJ96uEaUPAP3d6kDWHl9nvbtFKdAoy0hEQliyA9Hbtn22B
+	7Y3VIUrys2b0Tl2OFAEn8M4Y+ZW6/f3veb0u+X1OoiQ=;
+Received: (qmail 5452 invoked by uid 0); 27 Mar 2014 16:41:49 -0000
+Message-ID: <70.74.08799.DC454335@ec1>
+MIME-version: 1.0
+Content-type: multipart/alternative; boundary="_----------=_139593848752720"
+To: kolibry@riseup.net
+From: "Go Game Guru" <news@gogameguru.com>
+Sender: ggg-newsletter@aweber.com
+X-Loop: ggg-newsletter@aweber.com
+X-Mailer: AWeber 4.1
+X-Subscription: Subscribed on 04/11/2013, via web form, by 78.200.24.99, from http://gogameguru.com/
+X-Verification: Verified by 78.200.24.99
+X_Id: 1687248:03-27-2014-12-31-25:kolibry@riseup.net/1687248
+Date: Thu, 27 Mar 2014 12:41:49 -0400
+List-Unsubscribe: <mailto:ggg-newsletter@aweber.com?subject=unsubscribe;jGwc7EwsHLSsLIxsHBxsjLRGtExMrJzMTMxs>, <http://www.aweber.com/z/r/?jGwc7EwsHLSsLIxsHBxsjLRGtExMrJzMTMxs>
+Subject: Go Game Guru: Korea wins 4th Zhaoshang Cup by a whisker
+X-Virus-Scanned: clamav-milter 0.98.1 at mx1
+X-Virus-Status: Clean
+
+This is a multi-part message in MIME format.
+
+--_----------=_139593848752720
+Content-Disposition: inline
+Content-Length: 2497
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+Hi,
+
+Here are Go Game Guru's weekly updates for Thursday, March 27, 2014.
+
+(please note: you can quit receiving these emails any time 
+you want: http://www.aweber.com/z/r/?jGwc7EwsHLSsLIxsHBxsjLRGtExMrJzMTMxs)
+
+
+
+Korea wins 4th Zhaoshang Cup by a whisker
+The 4th Zhaoshang Cup was played on March 21 and 23, 2014, in Hangzhou, China. Teams China and Korea competed in a seven board team tournament of the top players from the two countries. Round 1 was held on March 21 and Team Korea won 4-3 against Team China...
+
+Read more: http://gogameguru.com/korea-wins-4th-zhaoshang-cup/
+
+
+
+Weekly Go problems: Week 115
+Here are the weekly Go problems. Easy Go problem: Sometimes when a stone is in atari, it’s even less useful than if it weren’t on the board at all. Intermediate Go problem: The opponent’s vital point is your own. Hard Go problem: Normally Black’s corner group would be dead...
+
+Read more: http://gogameguru.com/weekly-go-problems-week-115/
+
+
+
+How we just saved a customer $93 on international shipping for this Go board
+If you live somewhere other than the US or Western Europe, you know how expensive international shipping can be, right? Especially when you want to buy something as heavy, big and unusual as a Go board. It's just hard to find them locally in most places...
+
+Read more: http://feedproxy.google.com/~r/gogameguru/~3/GjRMa3CpIlk/
+
+
+
+Don’t miss Lee Sedol vs Gu Li this weekend – Plus, weekly Go wrap up
+One more quick update before we send out the weekly newsletter. Don't forget that game 3 of the Lee Sedol - Gu Li Jubango is on this weekend. Join Go Game Guru's An Younggil 8p and discuss the game with him while watching Baduk TV Live...
+
+Read more: http://feedproxy.google.com/~r/gogameguru/~3/BEYaRdr4Rk4/
+
+
+
+Enjoy the articles and if you like them, 
+feel free to share this email with friends.
+
+Regards,
+
+David
+
+Go Game Guru
+http://gogameguru.com/
+
+Looking for a Go board? Get great boards and free shipping 
+at the Go Game Shop: http://shop.gogameguru.com/
+
+Follow Go Game Guru on: 
+    - Facebook http://www.facebook.com/gogameguru
+    - Google+ http://gplus.to/gogameguru
+    - Twitter https://twitter.com/gogameguru/
+
+This email was sent to you at kolibry@riseup.net because you 
+subscribed to free updates from Go Game Guru at: 
+http://gogameguru.com/.
+
+
+Go Game Guru, Suite 5013, 92 Wattle Street, Lyneham, ACT 2602, AUSTRALIA
+
+
+To unsubscribe or change subscriber options visit:
+http://www.aweber.com/z/r/?jGwc7EwsHLSsLIxsHBxsjLRGtExMrJzMTMxs
+
+
+--_----------=_139593848752720
+Content-Disposition: inline
+Content-Length: 5194
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+</head>
+<body style="margin: 0px">
+<div><span style="font-size: 15px">Hi,</span></div>
+<div><span style="font-size: 15px"><br />
+</span></div>
+<div><span style="font-size: 15px">Here are Go Game Guru's weekly updates for Thursday, March 27, 2014.</span></div>
+<div><span style="font-size: 15px"><br />
+</span></div>
+<div><span style="font-size: 15px">(please note: you can&nbsp;<a title="" href="http://www.aweber.com/z/r/?jGwc7EwsHLSsLIxsHBxsjLRGtExMrJzMTMxs">quit receiving these emails</a>&nbsp;any time you want)</span></div>
+<div><span style="font-size: 15px">
+<ol>
+<li><a href="http://gogameguru.com/korea-wins-4th-zhaoshang-cup/"><strong>Korea wins 4th Zhaoshang Cup by a whisker</strong></a><br />
+<br />
+The 4th Zhaoshang Cup was played on March 21 and 23, 2014, in Hangzhou, China. Teams China and Korea competed in a seven board team tournament of the top players from the two countries. Round 1 was held on March 21 and Team Korea won 4-3 against Team China... <a href="http://gogameguru.com/korea-wins-4th-zhaoshang-cup/"><em>Click here to read more...</em></a><br />
+<br /></li>
+
+<li><a href="http://gogameguru.com/weekly-go-problems-week-115/"><strong>Weekly Go problems: Week 115</strong></a><br />
+<br />
+Here are the weekly Go problems. Easy Go problem: Sometimes when a stone is in atari, it’s even less useful than if it weren’t on the board at all. Intermediate Go problem: The opponent’s vital point is your own. Hard Go problem: Normally Black’s corner group would be dead... <a href="http://gogameguru.com/weekly-go-problems-week-115/"><em>Click here to read more...</em></a><br />
+<br /></li>
+
+<li><a href="http://feedproxy.google.com/~r/gogameguru/~3/GjRMa3CpIlk/"><strong>How we just saved a customer $93 on international shipping for this Go board</strong></a><br />
+<br />
+If you live somewhere other than the US or Western Europe, you know how expensive international shipping can be, right? Especially when you want to buy something as heavy, big and unusual as a Go board. It's just hard to find them locally in most places... <a href="http://feedproxy.google.com/~r/gogameguru/~3/GjRMa3CpIlk/"><em>Click here to read more...</em></a><br />
+<br /></li>
+
+<li><a href="http://feedproxy.google.com/~r/gogameguru/~3/BEYaRdr4Rk4/"><strong>Don’t miss Lee Sedol vs Gu Li this weekend – Plus, weekly Go wrap up</strong></a><br />
+<br />
+One more quick update before we send out the weekly newsletter. Don't forget that game 3 of the Lee Sedol - Gu Li Jubango is on this weekend. Join Go Game Guru's An Younggil 8p and discuss the game with him while watching Baduk TV Live... <a href="http://feedproxy.google.com/~r/gogameguru/~3/BEYaRdr4Rk4/"><em>Click here to read more...</em></a><br />
+<br /></li>
+</ol></span></div>
+<div><span style="font-size: 15px">Enjoy the articles and if you like them, feel free to share this email with friends.</span></div>
+<div><span style="font-size: 15px"><br />
+</span></div>
+<div><span style="font-size: 15px">Regards,</span></div>
+<div><span style="font-size: 15px"><br />
+</span></div>
+<div><span style="font-size: 15px">David</span></div>
+<div><span style="font-size: 15px"><br />
+</span></div>
+<div><span style="font-size: 15px">Go Game Guru</span></div>
+<div><span style="font-size: 15px"><a title="" href="http://gogameguru.com/">http://gogameguru.com/</a></span></div>
+<div><span style="font-size: 15px">&nbsp;</span></div>
+<div><span style="font-size: 15px">Looking for a Go board? Get great boards and free shipping at the <a title="" href="http://shop.gogameguru.com/">Go Game Shop</a>.</span></div>
+<div><span style="font-size: 15px">&nbsp;</span></div>
+<div><span style="font-size: 15px">Follow Go Game Guru on: <a title="" href="http://www.facebook.com/gogameguru">Facebook</a> | <a title="" href="https://plus.google.com/111715774215148787136">Google+</a> | <a title="" href="http://twitter.com/gogameguru/">Twitter</a></span></div>
+<div><span style="font-size: 15px">&nbsp;</span></div>
+<div><span style="font-size: 15px">This email was sent to you at kolibry@riseup.net because you subscribed to free updates from Go Game Guru at http://gogameguru.com/.</span></div>
+<div><span style="font-size: 15px"><br />
+</span></div>
+<div><span style="font-size: 15px"><br />
+</span></div>
+<div><span style="font-size: 15px">Go Game Guru, Suite 5013, 92 Wattle Street, Lyneham, ACT 2602, AUSTRALIA</span></div>
+
+<center>
+<div style="background-color:#ffffff !important; color:#000000 !important; font-family:Verdana !important; font-size:10px !important; max-width:600px; padding:8px !important; text-align:left; width:100%;">
+   
+   <br/>
+   <a href="http://www.aweber.com/z/r/?jGwc7EwsHLSsLIxsHBxsjLRGtExMrJzMTMxs" style="color: #00f !important;">Unsubscribe</a> | <a href="http://www.aweber.com/z/r/?jGwc7EwsHLSsLIxsHBxsjLRGtExMrJzMTMxs" style="color: #00f !important;">Change Subscriber Options</a>
+   <br/><br/>
+   <img src="https://openrate.aweber.com/y/o/?l=MIyww&m=3bglXEoLzsQNJ.U" width="1" height="1">
+</div>
+</center>
+</body>
+</html>
+
+--_----------=_139593848752720--
+

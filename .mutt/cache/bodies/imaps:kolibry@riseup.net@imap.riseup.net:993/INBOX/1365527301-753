@@ -1,0 +1,126 @@
+Return-Path: <typhaine.gaillard@laposte.net>
+X-Spam-Checker-Version: SpamAssassin 3.3.2 (2011-06-06) on spamd3.riseup.net
+X-Spam-Level: 
+X-Spam-Pyzor: Reported 0 times.
+X-Spam-Status: No, score=-0.6 required=8.0 tests=AM_TRUNCATED,CK_419SIZE,
+	CK_KARD_SIZE,FREEMAIL_FROM,HTML_MESSAGE,RCVD_IN_DNSWL_NONE,RP_MATCHES_RCVD,
+	TO_NOREAL shortcircuit=no autolearn=disabled version=3.3.2
+Delivered-To: kolibry@riseup.net
+Received: from mx1.riseup.net (mx1-pn.riseup.net [10.0.1.33])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client CN "*.riseup.net", Issuer "Gandi Standard SSL CA" (not verified))
+	by vireo.riseup.net (Postfix) with ESMTPS id 4B52379
+	for <kolibry@riseup.net>; Sat, 15 Feb 2014 09:17:02 +0000 (UTC)
+Received: from smtpout.laposte.net (smtpout3.laposte.net [193.253.67.228])
+	by mx1.riseup.net (Postfix) with ESMTP id B4B8E52CDC
+	for <kolibry@riseup.net>; Sat, 15 Feb 2014 01:17:01 -0800 (PST)
+Received: from [78.241.84.90] ([78.241.84.90])
+	by mwinf8506-out with ME
+	id SZGu1n0061wwGjy03ZGv17; Sat, 15 Feb 2014 10:16:55 +0100
+Message-ID: <52FF3086.7080407@laposte.net>
+Date: Sat, 15 Feb 2014 10:16:54 +0100
+From: Typhaine <typhaine.gaillard@laposte.net>
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:24.0) Gecko/20100101 Thunderbird/24.3.0
+MIME-Version: 1.0
+To: kolibry@riseup.net
+Subject: Fwd: accueil
+References: <39C3BDF3-7E43-41F0-8F3E-7008EBC4C2F5@laposte.net>
+In-Reply-To: <39C3BDF3-7E43-41F0-8F3E-7008EBC4C2F5@laposte.net>
+X-Forwarded-Message-Id: <39C3BDF3-7E43-41F0-8F3E-7008EBC4C2F5@laposte.net>
+Content-Type: multipart/alternative;
+ boundary="------------030006090701030209080704"
+X-Virus-Scanned: clamav-milter 0.97.8 at mx1
+X-Virus-Status: Clean
+
+This is a multi-part message in MIME format.
+--------------030006090701030209080704
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 8bit
+
+
+
+
+-------- Message original --------
+Sujet: 	accueil
+Date : 	Fri, 14 Feb 2014 11:37:36 +0100
+De : 	le LIEU <le.lieu@laposte.net>
+Pour : 	Typhaine <typhaine.gaillard@laposte.net>
+
+
+
+coucou je recommence donc
+voici les modifs je les envoie par rubrique
+
+mettre UN TITRE POUR LA PAGE D'ACCUEIL (ET PAS -)
+Le LIEU - Ferme de Trézenvy
+*
+*
+coller la page Projet sur la page d'accueil (et enlever cette page 
+projet ensuite)
+*
+*
+
+
+
+--------------030006090701030209080704
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <head>
+
+    <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+  </head>
+  <body bgcolor="#FFFFFF" text="#000000">
+    <br>
+    <div class="moz-forward-container"><br>
+      <br>
+      -------- Message original --------
+      <table class="moz-email-headers-table" border="0" cellpadding="0"
+        cellspacing="0">
+        <tbody>
+          <tr>
+            <th align="RIGHT" nowrap="nowrap" valign="BASELINE">Sujet: </th>
+            <td>accueil</td>
+          </tr>
+          <tr>
+            <th align="RIGHT" nowrap="nowrap" valign="BASELINE">Date&nbsp;: </th>
+            <td>Fri, 14 Feb 2014 11:37:36 +0100</td>
+          </tr>
+          <tr>
+            <th align="RIGHT" nowrap="nowrap" valign="BASELINE">De&nbsp;: </th>
+            <td>le LIEU <a class="moz-txt-link-rfc2396E" href="mailto:le.lieu@laposte.net">&lt;le.lieu@laposte.net&gt;</a></td>
+          </tr>
+          <tr>
+            <th align="RIGHT" nowrap="nowrap" valign="BASELINE">Pour&nbsp;: </th>
+            <td>Typhaine <a class="moz-txt-link-rfc2396E" href="mailto:typhaine.gaillard@laposte.net">&lt;typhaine.gaillard@laposte.net&gt;</a></td>
+          </tr>
+        </tbody>
+      </table>
+      <br>
+      <br>
+      <div>coucou je recommence donc</div>
+      <div>voici les modifs je les envoie par rubrique</div>
+      <div>
+        <div><span class="Apple-style-span" style="font-weight: 800; "><br>
+          </span></div>
+        <div><span class="Apple-style-span" style="font-weight: 800; ">mettre
+            UN TITRE POUR LA PAGE D'ACCUEIL (ET PAS -)&nbsp;</span></div>
+        <div><span class="Apple-style-span" style="font-weight: 800; "><font
+              class="Apple-style-span" color="#650ac1">Le LIEU - Ferme
+              de Tr&eacute;zenvy</font></span></div>
+        <div style="font-weight: bold; "><b><br>
+          </b></div>
+        <div><span class="Apple-style-span" style="font-weight: 800;">coller
+            la page Projet sur la page d'accueil (et enlever cette page
+            projet ensuite)</span></div>
+        <div style="font-weight: bold; "><b><br>
+          </b></div>
+      </div>
+      <br>
+    </div>
+    <br>
+  </body>
+</html>
+
+--------------030006090701030209080704--

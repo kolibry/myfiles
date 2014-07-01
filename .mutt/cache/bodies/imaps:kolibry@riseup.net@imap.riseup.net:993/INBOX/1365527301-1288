@@ -1,0 +1,301 @@
+Return-Path: <bounces+848413-a81b-kolibry=riseup.net@sgmail.github.com>
+X-Spam-Checker-Version: SpamAssassin 3.3.2 (2011-06-06) on spamd3.riseup.net
+X-Spam-Level: 
+X-Spam-Pyzor: Reported 1 times.
+X-Spam-Status: No, score=0.3 required=8.0 tests=AM_TRUNCATED,CK_419SIZE,
+	DKIM_SIGNED,DKIM_VALID,ENV_FROM_DIFF0,HREF_PHISH2,HTML_MESSAGE,
+	HTML_STYLE_EMPTY,LINK_NR_TOP,MAILPHISH3B,OFFWHITE,PHISH_ACC5,
+	RCVD_IN_DNSWL_NONE,SRC_HTTP,T_REMOTE_IMAGE,T_RP_MATCHES_RCVD shortcircuit=no
+	autolearn=disabled version=3.3.2
+Delivered-To: kolibry@riseup.net
+Received: from mx1.riseup.net (mx1-pn.riseup.net [10.0.1.33])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client CN "*.riseup.net", Issuer "Gandi Standard SSL CA" (not verified))
+	by vireo.riseup.net (Postfix) with ESMTPS id D13767D
+	for <kolibry@riseup.net>; Tue,  1 Jul 2014 06:05:24 +0000 (UTC)
+Received: from o4.sgmail.github.com (o4.sgmail.github.com [192.254.112.99])
+	(using TLSv1 with cipher DHE-RSA-AES128-SHA (128/128 bits))
+	(Client did not present a certificate)
+	by mx1.riseup.net (Postfix) with ESMTPS id 62AE051B1A
+	for <kolibry@riseup.net>; Mon, 30 Jun 2014 23:05:24 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; d=sgmail.github.com; 
+	h=from:to:subject:mime-version:content-type:content-transfer-encoding; 
+	s=smtpapi; bh=jiWvN+yC38SggWt7GYSL/NQ0Cbg=; b=ig6NZdHY06aSC8AI8P
+	A9Sz4E7A8Erm2dv5/K74oYwqFYQAKfoEA3T/jpnL+MNbSJbIpkhXzky6rDszwmD2
+	AU2wyvRfcebBtiftbbsj7FpwwYEc9JjQp6heg8zYXqH/zzpsJb+160XToSjIE+3K
+	PWjd8nWM3kx4Z4VffitEzOjMU=
+Received: by mf148.sendgrid.net with SMTP id mf148.5935.53B24FA21B
+        2014-07-01 06:05:23.00560375 +0000 UTC
+Received: from github-smtp2a-ext-cp1-prd.iad.github.net (github-smtp2a-ext-cp1-prd.iad.github.net [192.30.253.16])
+	by ismtpd-001.iad1.sendgrid.net (SG) with ESMTP id 146f0871452.6119.1a9ff8
+	for <kolibry@riseup.net>; Tue, 01 Jul 2014 06:05:22 +0000 (GMT)
+Date: Mon, 30 Jun 2014 23:05:22 -0700
+From: GitHub <support@github.com>
+To: kolibry <kolibry@riseup.net>
+Message-ID: <53b24fa2c78d1_5a3b3fc70836d29c200ee@github-highworker1-cp1-prd.iad.github.net.mail>
+Subject: kolibry + GitHub = <3
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_53b24fa2c6806_5a3b3fc70836d29c19955";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+X-Auto-Response-Suppress: All
+tracking: true
+categories: welcome,welcome-iteration-2
+X-SG-EID: bb5tnJ5IokYZ21fl7WeBW8tftRx2imFlHFBazBch0PIRrxqM7Rrr71XBZj3qUVJcxoKqGYUw5x/BS1l5W7+Uatzi3LRQdgNUaKZaSeDyZMl2pPY+pbMhrjNdq5tyJxxI0cAJ8Q9UjORrBsGwGfjInvW1hs/dA7j+ApHsNrI0ODU=
+X-SG-ID: vsx7nv/2zpleokjqD6CJiTie/0iJ+JyNhNjpGj4xCT0xEp/gpytKyMiBdindUART
+X-Virus-Scanned: clamav-milter 0.98.1 at mx1
+X-Virus-Status: Clean
+
+----==_mimepart_53b24fa2c6806_5a3b3fc70836d29c19955
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Welcome to GitHub!
+
+We're pretty certain this is the start of something really special, so we
+wanted to take a moment to personally welcome you to GitHub. We like to thi=
+nk
+of GitHub as the best way to build and ship software, and it's great to have
+you on board!
+
+To make your life easier, we thought it might be helpful to point you to so=
+me
+awesome ways to use GitHub.
+
+
+    GitHub Flow in the Browser
+    https://github.com/blog/1557-github-flow-in-the-browser
+
+    Want to learn how to contribute to GitHub without learning Git? Learn h=
+ow
+    to branch, edit, and submit your first pull request all in the browser.
+
+
+    Explore what is Trending on GitHub
+    https://github.com/blog/1585-explore-what-is-trending-on-github
+
+    From open government data to web frameworks, our trending page is a gre=
+at
+    way to discover different ways people are using GitHub.
+
+
+    Help & Support
+    https://help.github.com
+
+    Feel stuck? It happens to the best of us. Head on over to
+    https://help.github.com or https://github.com/contact to get advice
+    and guidance from real humans. We're here to help.
+
+----
+
+Thanks so much for your time =E2=80=94  we're looking forward to seeing wha=
+t you build
+with GitHub!
+
+----==_mimepart_53b24fa2c6806_5a3b3fc70836d29c19955
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+
+<html lang=3D"en">
+<head>
+  <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8">
+  <title>Welcome to GitHub!</title>
+  <style>
+  div.content a{
+    color: #4183C4 !important;
+    text-decoration: none;
+  }
+  div.content a:hover {
+    color: #4183C4 !important;
+    text-decoration: underline !important;
+  }
+
+
+  @media only screen and (max-device-width: 480px) {
+    h1[class=3D"heading"] {
+      font-size: 30px !important;
+    }
+    p[class=3D"subtext"] {
+      font-size: 14px !important;
+    }
+
+    div[class=3D"content"] {
+      width: 260px !important;
+    }
+    div[class=3D"heading-content"] {
+      width: 300px !important;
+    }
+    img[class=3D"video-teaser"] {
+      width: 260px !important;
+      height: 76px !important;
+    }
+  }
+  </style>
+</head>
+<body bgcolor=3D"#fafafa" topmargin=3D"0" leftmargin=3D"0" marginheight=3D"=
+0" marginwidth=3D"0" style=3D"-webkit-font-smoothing: antialiased;width:100=
+% !important;background:#fafafa;-webkit-text-size-adjust:none;">
+
+  <div style=3D"padding: 10px;">
+    <div class=3D"heading-content" style=3D"padding-top: 20px; width: 550px=
+; margin: 0 auto;">
+      <h1 class=3D"heading" style=3D"margin: 0; font-family:'Helvetica Neue=
+',Helvetica,Arial,sans-serif; font-size: 40px; letter-spacing: -1px; color:=
+ #333; font-weight:normal;">
+        Welcome to GitHub
+      </h1>
+      <p class=3D"subtext" style=3D"margin: 0 0 30px 0; font-family:'Helvet=
+ica Neue',Helvetica,Arial,sans-serif; font-size: 17px; font-weight: 300; co=
+lor: #555;">
+        You've taken your first step into a larger world, <strong style=3D"=
+color:#333">@kolibry</strong>.
+      </p>
+    </div>
+
+    <div class=3D"content" style=3D"margin: 20px auto !important; width: 51=
+0px; padding: 20px 20px 20px 20px !important; border: 1px solid #ddd !impor=
+tant; border-radius: 3px !important; box-shadow: 0 1px 3px rgba(0,0,0,0.05)=
+ !important; background: #ffffff !important;">
+
+      <p style=3D"margin: 5px 0 15px 0; font-family:'Helvetica Neue',Helvet=
+ica,Arial,sans-serif; font-size: 14px; font-weight: normal; color: #333; li=
+ne-height: 20px;">
+        We're pretty certain this is the start of something really special,=
+ so we wanted to take a moment to personally welcome you to GitHub. We like=
+ to think of GitHub as the <strong>best way to build and ship software</str=
+ong>, and it's great to have you on board!
+      </p>
+
+      <p style=3D"margin: 15px 0 15px 0; font-family:'Helvetica Neue',Helve=
+tica,Arial,sans-serif; font-size: 14px; font-weight: normal; color: #333; l=
+ine-height: 20px;">
+        <a href=3D"http://sgmail.github.com/wf/click?upn=3DmKhMueuVDT5alVx0=
+S8jEu23qg3znq6IvSd0dP-2BADwXlUdE4YIx-2FamzXkFabVecIcFZTJ8dyIMe499nVd19OgQg-=
+3D-3D_XqbPGbX-2F45LRxgF-2BMwXaprhBcAk4Q-2BWQIU7m0UKPX-2FikjhTsfIL9bTq69CjAZ=
+xYhv8A043-2BpJWtYRQXXW7U5aKbx7Rz-2Fjjn01oNK-2FMoc-2B042jjVKCtkZL1VTWeEaSmCL=
+j1iwO7KZzpfvFlB1YUAITl5AIB-2BqZIJG4g6-2B8A0oP02T5lPuA4gdfSR0-2FVsf4P0rHzWSB=
+rTvifKqNnc2kFSowKGbh76RPYY-2FRbFUdCRJnV66q3x5XczrOCJclb5KCx8P">
+          <img src=3D"https://assets-cdn.github.com/images/email/welcome-em=
+ail/better-together-teaser.png" width=3D"510" height=3D"150" class=3D"video=
+-teaser" />
+        </a>
+      </p>
+
+      <p style=3D"margin: 15px 0 15px 0; font-family:'Helvetica Neue',Helve=
+tica,Arial,sans-serif; font-size: 14px; font-weight: normal; color: #333; l=
+ine-height: 20px;">
+        To make your life easier, we thought it might be helpful to point y=
+ou to some awesome ways to use GitHub.
+      </p>
+
+      <div class=3D"rule" style=3D"margin: 20px 0;border-top: 1px solid #dd=
+d;"></div>
+
+      <h3 style=3D"color:#000; font-size:18px; line-height:24px; font-famil=
+y:'Helvetica Neue',Helvetica,Arial,sans-serif; margin-top:20px; margin-bott=
+om:0; padding-top:0; padding-bottom:0; font-weight:bold;">
+        <a href=3D"http://sgmail.github.com/wf/click?upn=3DlYxq-2FYU7yocrdK=
+NILYalBi3VwnzY7zTO6Pte-2BaGwxir0Kd9H9VQkXOqT-2BGr-2F-2BLuLXjutmfqrz6vbdhpNm=
+4Wuaw-3D-3D_XqbPGbX-2F45LRxgF-2BMwXaprhBcAk4Q-2BWQIU7m0UKPX-2FikjhTsfIL9bTq=
+69CjAZxYh38IqhI9rkzMpgxL3vFAky6tY-2BKhom6UI393hIksSq9GDC5U8-2BLiZqmvWxm4YJe=
+QELQ8C401K162tp9Zt4iviaX05GTHTsJp5vdoptJxV2YBBsftxHoqIhxoMKo0Xqv9YuPWRsJwfG=
+5BMNp0wxYmjrCtOeBtt-2B5TuA7WgBophgWLezBc8Jd53Avhw52p2QTsl" style=3D"color: =
+#4183C4 !important; text-decoration:none;">GitHub Flow in the Browser</a>
+      </h3>
+      <p style=3D"margin: 5px 0 15px 0; font-family:'Helvetica Neue',Helvet=
+ica,Arial,sans-serif; font-size: 14px; font-weight: normal; color: #333; li=
+ne-height: 20px;">
+        Want to learn how to contribute to GitHub without learning Git? Lea=
+rn how to branch, edit, and submit your first pull request all in the brows=
+er.
+      </p>
+
+      <h3 style=3D"color:#000; font-size:18px; line-height:24px; font-famil=
+y:'Helvetica Neue',Helvetica,Arial,sans-serif; margin-top:20px; margin-bott=
+om:0; padding-top:0; padding-bottom:0; font-weight:bold;">
+        <a href=3D"http://sgmail.github.com/wf/click?upn=3DlYxq-2FYU7yocrdK=
+NILYalBi3VwnzY7zTO6Pte-2BaGwxiqDPG24uAHGi0FSOxLoUFi19DRKFImPmSQdsFf8uNaCvqA=
+LiF5FAGnFWMdpF063e6M-3D_XqbPGbX-2F45LRxgF-2BMwXaprhBcAk4Q-2BWQIU7m0UKPX-2Fi=
+kjhTsfIL9bTq69CjAZxYhyMF-2Fn3mslhNOdV8-2FOhhHsKPwtUD4ht4oElViembIrCON4SZqzA=
+UZrkmJwowOcHVuM7sY6-2Bt0l11em-2FLpyvT-2Fi3IWNT0YFVG5FLmfqzmnboRbNrXmZFPn-2B=
+z4Tt0rFIo52zSf1L9Q04nN6S3Ie-2BS3g2bFJpYL5lp8phJgnoYf0yLWDMkiyHgo3q9o-2Bt2-2=
+BmGTYo" style=3D"color: #4183C4 !important; text-decoration:none;">Explore =
+what is Trending on GitHub</a>
+      </h3>
+      <p style=3D"margin: 5px 0 15px 0; font-family:'Helvetica Neue',Helvet=
+ica,Arial,sans-serif; font-size: 14px; font-weight: normal; color: #333; li=
+ne-height: 20px;">
+        From open government data to web frameworks, our trending page is a=
+ great way to discover different ways people are using GitHub.
+      </p>
+
+      <h3 style=3D"color:#000; font-size:18px; line-height:24px; font-famil=
+y:'Helvetica Neue',Helvetica,Arial,sans-serif; margin-top:20px; margin-bott=
+om:0; padding-top:0; padding-bottom:0; font-weight:bold;">
+        <a href=3D"http://sgmail.github.com/wf/click?upn=3DH-2FQ3yMxnv4jw-2=
+BxNnSBX800Ob4haBdxdnbHhw-2FfIS1q8-3D_XqbPGbX-2F45LRxgF-2BMwXaprhBcAk4Q-2BWQ=
+IU7m0UKPX-2FikjhTsfIL9bTq69CjAZxYhiDnoprNXAdYddmVuh-2FqTCuSV8RdDzFBPW1JW99s=
+7aJRz-2F4G-2F6xXph2lr7zHWGDq2RFmge4iH43IkVt9tkxdgWGGaCEEmVDMTmaowHclz5IYV4q=
+mYkhGPSxmaLcCao4QFrVRzyA46dSnaLAHkxY-2F-2FSwE3osc03NlhoVefwX-2BXYWCl4Ho71e4=
+qaRIGWURNmWVW" style=3D"color: #4183C4 !important; text-decoration:none;">H=
+elp &amp; Support</a>
+      </h3>
+      <p style=3D"margin: 5px 0 15px 0; font-family:'Helvetica Neue',Helvet=
+ica,Arial,sans-serif; font-size: 14px; font-weight: normal; color: #333; li=
+ne-height: 20px;">
+        Feel stuck? It happens to the best of us. Head on over to <a href=
+=3D"http://sgmail.github.com/wf/click?upn=3DH-2FQ3yMxnv4jw-2BxNnSBX800Ob4ha=
+BdxdnbHhw-2FfIS1q8-3D_XqbPGbX-2F45LRxgF-2BMwXaprhBcAk4Q-2BWQIU7m0UKPX-2Fikj=
+hTsfIL9bTq69CjAZxYhLQz0lSQpeRhV06nvSMiu8KcJDu6JbALKwF-2FQtkd84la8NhR8MeBxr9=
+6eNVOMJ2DZCC2FwpAqKtbT5kI6MCtqm7ui6LXWCdwzIHUDSR-2F3lxf-2BsE9JbZeErltkQoBEm=
+K1VHxcG7TlcCyeA5-2B8y5P0Ej50LLyuIyFYnwU92iaFg43qqtHMkMu4tEwPf-2Fprr1OJ5" st=
+yle=3D"color: #4183C4 !important;">https://help.github.com</a> or <a href=
+=3D"http://sgmail.github.com/wf/click?upn=3DlYxq-2FYU7yocrdKNILYalBns0-2BAt=
+uVmzGa7SLHyHvAeqldWkPIsTFf4FBwmzIISp1_XqbPGbX-2F45LRxgF-2BMwXaprhBcAk4Q-2BW=
+QIU7m0UKPX-2FikjhTsfIL9bTq69CjAZxYh7jPAzxEn6AXNBNJ71xd8FX1E88q6p0OY9-2FnUMW=
+HujeQzosQCpV67hJgslEuP6MQzYHB8vkvXbnijboMJG7qAbQ7f44Mi4XqLjSAzBZPzuEJfW99oT=
+nj3s9w-2FTxlMX7HoeTZjwAwT-2FmyOie1-2F-2BPDgre8WrQ0Uq6uVQFH8tdK-2FiS84Cwm3p4=
+6ryXlPjkJS6ZyS" style=3D"color: #4183C4 !important;">get advice and guidanc=
+e from real humans</a>. We're here to help.
+      </p>
+
+      <div class=3D"rule" style=3D"margin: 20px 0;border-top: 1px solid #dd=
+d;"></div>
+
+      <p style=3D"margin: 15px 0 5px 0; font-family:'Helvetica Neue',Helvet=
+ica,Arial,sans-serif; font-size: 14px; font-weight: normal; color: #333; li=
+ne-height: 20px;">
+        Thanks so much for your time =E2=80=94  we're looking forward to se=
+eing what you build with GitHub!<br /><br />
+      </p>
+
+    </div>
+
+    <div class=3D"mark" style=3D"margin: 20px 0; text-align: center;">
+      <img src=3D"https://assets-cdn.github.com/images/email/welcome-email/=
+footer-mark.png" width=3D"40" height=3D"40" />
+    </div>
+  </div>
+
+
+<img src=3D"http://sgmail.github.com/wf/open?upn=3DXqbPGbX-2F45LRxgF-2BMwXa=
+prhBcAk4Q-2BWQIU7m0UKPX-2FikjhTsfIL9bTq69CjAZxYh1wdVETgli6FXraT2HqqtP0VTv-2=
+Fgo4KFxt9n1HsnUnZXTHaiXw0ixDuLGW3wSwzki4cLzGGIGEVnKMJPHl76yG6ubK4jvyiqGQegG=
+b0nD43qA0j7PsK9-2FUSgG6MvOL5kWxtV0-2BiyAfL-2Fv9qzJ8wkDuxq1XgclqlXO1-2FiyWq-=
+2FDPk-2F0ZmFom3zXBHS3Zq20sE4CzFVT-2FXw558CCqkj0DvCBGg-3D-3D" alt=3D"" width=
+=3D"1" height=3D"1" border=3D"0" style=3D"height:1px !important;width:1px !=
+important;border-width:0 !important;margin-top:0 !important;margin-bottom:0=
+ !important;margin-right:0 !important;margin-left:0 !important;padding-top:=
+0 !important;padding-bottom:0 !important;padding-right:0 !important;padding=
+-left:0 !important;"/>
+</body>
+</html>
+
+
+----==_mimepart_53b24fa2c6806_5a3b3fc70836d29c19955--

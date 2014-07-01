@@ -1,0 +1,157 @@
+#!/bin/sh
+#
+# z3bra - (c) wtfpl 2014
+# Fetch infos on your computer, and print them to stdout every second.
+#
+# require :
+#           amixer      - volume()
+#           bc          - cpuload() memused()
+#           curl        - netip()
+#           fcount      - mails()
+#           iwconfig    - netint() (to spot wifi interface)
+#           mpc         - nowplaying()
+#           xprop       - groups()
+
+# configuration variables
+refresh_rate=0.75               # how often will the bar update
+datefmt="%a %d %b  %H:%M"
+alsactl=Master                  # which alsa channel to display
+volStatus=$(amixer get Master | tail -n 1 | cut -d '[' -f 4 | sed 's/].*//g')
+headphone=$(amixer contents | grep 18 -A 2 | awk 'NR==3 { print $2 }' | cut -d '=' -f 2)
+
+# find battery name in a smart way
+battery=$(ls /sys/class/power_supply | grep BAT)
+
+barch=''
+barfg=''
+barbg='%{F#ff666666}'
+
+grpfg='%{F#ffff4343} '
+grpbg='%{F#ffffffff} '
+
+# no need to modify anything else here
+
+clock() {
+    date "+${datefmt}"
+    }
+
+
+	battery() {
+	    BATC=/sys/class/power_supply/${battery}/capacity
+	        BATS=/sys/class/power_supply/${battery}/status
+
+		    cat $BATC
+		    }
+
+		    muted() {
+		        amixer get $alsactl | grep -o '\[off\]' >/dev/null && false || true
+			}
+
+			volume() {
+			    amixer get $alsactl | sed -n 's/^.*\[\([0-9]\+\)%.*$/\1/p' | uniq
+			    }
+			   
+
+					      nettrafic() {
+					          case $1 in
+						          up)     col=10;;
+							          down)   col=2;;
+								          *) 
+									      esac
+
+									          trafic=$(awk "/$(netint)/ {print \$$col}" /proc/net/dev)
+										      echo $(( trafic / 1024 ))
+										      }
+
+										      netint() {
+										          read lo int1 int2 <<< `ip link | sed -n 's/^[0-9]: \(.*\):.*$/\1/p'`
+											      if iwconfig $int1 >/dev/null 2>&1; then
+											              wifi=$int1
+												              eth0=$int2
+													          else
+														          wifi=$int2
+															          eth0=$int1
+																      fi
+
+																          if ip link show $eth0 | grep 'state UP' >/dev/null; then
+																	          int=$eth0
+																		      elif ip link show $wifi | grep 'state UP' >/dev/null; then
+																		              int=$wifi
+																			          else
+																				          int=lo
+																					      fi
+
+																					          echo $int
+																						  }
+
+																						  groups() {
+																						      cur=`xprop -root _NET_CURRENT_DESKTOP | awk '{print $3}'`
+																						          tot=`xprop -root _NET_NUMBER_OF_DESKTOPS | awk '{print $3}'`
+
+																							      for w in `seq 0 $((cur - 1))`; do line="${line}${grpbg}"; done
+																							          line="${line}${grpfg}"
+																								      for w in `seq $((cur + 2)) $tot`; do line="${line}${grpbg}"; done
+																								          line="${line}%{F-}"
+
+																									      echo $line
+																									      }
+
+																									      nowplaying() {
+																									          cur=`mpc current`
+																										      # this line allow to choose whether the output will scroll or not
+																										          test "$1" = "scroll" && PARSER='skroll -n20 -d0.5 -r' || PARSER='cat'
+																											      test -n "$cur" && $PARSER <<< $cur || echo "- stopped -"
+																											      }
+
+																											      makebar() {
+																											          max=10
+																												      cur=$(($1 / 10))
+
+																												          bar="$barfg"
+
+																													      for v in $(seq 0 $((max - 1))); do
+																													              if [ "$v" -lt "$cur" ]; then
+																														                  bar="${bar}${barfg}${barch}"
+																																          else
+																																	              bar="${bar}${barbg}${barch}"
+																																		              fi
+																																			          done
+
+																																				      echo "${bar}${barfg}"
+																																				      }
+
+																																				      # This loop will fill a buffer with our infos, and output it to stdout.
+																																				      buf="%{l} "
+
+																																				      buf="${buf}%{F#111d4512} %{F-} $(nowplaying)"
+																																				      buf="${buf}%{c} $(groups)"
+																																				      buf="${buf}%{r}"
+
+																																				      # Set icon depending on the interface that is up
+																																				      buf="${buf}%{F#ffB6107E} "
+																																				      if test "$(netint)" = "enp5s0"; then
+																																				          buf="${buf}%{F-}"
+																																					  elif test "$(netint)" = "wlp3s0"; then
+																																					      buf="${buf}%{F-}"
+																																					      else
+																																					          buf="${buf}%{F-}"
+																																						  fi
+																																				
+
+																																						  # Change icon if volume is muted
+																																						  if amixer get $alsactl | grep '\[off\]' >/dev/null; then
+																																						      buf="${buf}%{F#ffd43f10} %{F-} "
+																																						      elif [ "$volStatus" == "on" ] && [ "$headphone" == "on" ]; then
+																																						          buf="${buf}%{F#FFF4FF00}  %{F-}"
+																																							  elif [ "$volStatus" == "on" ] && [ "$headphone" == "off" ]; then
+																																							      buf="${buf}%{F#ff6ac0fd}  %{F-}"
+																																							      fi
+																																							      buf="${buf}$(makebar $(volume)) "
+
+																																							      # Show battery status if there is a battery (U DONT SAY)
+																																							      test -n "${battery}" &&
+																																							          buf="${buf}%{F#ffe11111} %{F-} $(makebar $(battery)) "
+
+																																								  buf="${buf}%{F#ffffffe0} %{F-} $(clock)    "
+																																								  echo $buf
+																																								  sleep ${refresh_rate}

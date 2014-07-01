@@ -1,0 +1,55 @@
+Return-Path: <board@forumactif.com>
+X-Spam-Checker-Version: SpamAssassin 3.3.2 (2011-06-06) on spamd2.riseup.net
+X-Spam-Level: 
+X-Spam-Pyzor: Reported 0 times.
+X-Spam-Status: No, score=0.1 required=8.0 tests=AM_TRUNCATED,CK_419SIZE,
+	CK_KARD_SIZE,DKIM_SIGNED,DKIM_VALID,DKIM_VALID_AU,FREEMAIL_FORGED_REPLYTO,
+	GAPPY_LET,HAS_REPLY_TO,KHOP_RCVD_TRUST,LINK_NR_TOP,RCVD_IN_HOSTKARMA_W,
+	RCVD_IN_HOSTKARMA_WL,REPLYTO_DIFF,REPLYTO_DIFF_DOMAIN,REPLY_TO_TEMP
+	shortcircuit=no autolearn=disabled version=3.3.2
+Delivered-To: kolibry@riseup.net
+Received: from mx1.riseup.net (mx1-pn.riseup.net [10.0.1.33])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client CN "*.riseup.net", Issuer "Gandi Standard SSL CA" (not verified))
+	by vireo.riseup.net (Postfix) with ESMTPS id 7377179
+	for <kolibry@riseup.net>; Tue, 29 Oct 2013 22:37:38 +0000 (UTC)
+Received: from f64.mail.dnspro.org (f64.mail.dnspro.org [173.192.27.207])
+	by mx1.riseup.net (Postfix) with ESMTP id 130744F635
+	for <kolibry@riseup.net>; Tue, 29 Oct 2013 15:37:38 -0700 (PDT)
+Received: by f64.mail.dnspro.org (ESMTP, from userid 510)
+	id B8AF71C8050; Tue, 29 Oct 2013 23:37:30 +0100 (CET)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=forumactif.com;
+	s=default; t=1383086250;
+	bh=0W+zryeKujkXJ+h4sRbqRAXksQAjIQ5awBwGeNvmfSo=;
+	h=To:Subject:From:Reply-to:Date;
+	b=2mq/tRVrgxQixn6AiiAbzG4y2R2aD1pbqYlPQ0RRVg5C6hOi+4QZHpZ0AlwAx1ILH
+	 crm6CQjcH2KXb3OwXtpgCr+Znm+qITgcyaIWL5mxUqGh5x2iTgDMRtKG6webmsbtsX
+	 UwCuJv9g3so/bRvYDVPwNfMZ0vWKYOw3TeO1s+4Q=
+To: "Kolibry" <kolibry@riseup.net>
+Subject: =?utf-8?B?UsOpcG9uc2UgYXUgc3VqZXQgOiBUeWdlbSwgc2VydmV1ciBkZSBnbw==?=
+From: "=?utf-8?B?R08uT04gbCBMZSBmb3J1bSBkZSBsYSBjb21tdW5hdXTDqSBmcmFuw6dhaXNlIGRlIEdv?=" <board@forumactif.com>
+Reply-to: "=?utf-8?B?R08uT04gbCBMZSBmb3J1bSBkZSBsYSBjb21tdW5hdXTDqSBmcmFuw6dhaXNlIGRlIEdv?=" <ldlretouching@hotmail.com>
+Message-ID: <20131029223730.de6f1b6a44@go-on.forumactif.com>
+MIME-Version: 1.0
+Content-type: text/plain; charset=utf-8
+Content-transfer-encoding: 8bit
+Date: Tue, 29 Oct 2013 23:37:30 +0100 (CET)
+X-Virus-Scanned: clamav-milter 0.97.8 at mx1
+X-Virus-Status: Clean
+
+Bonjour ,
+
+Vous recevez cet email parce que vous surveillez le sujet, "Tygem, serveur de go" sur "GO.ON l Le forum de la communauté française de Go", qui a reçu une réponse depuis votre dernière visite.
+
+Vous pouvez utiliser le lien suivant pour voir les réponses qui ont été faites. Aucune autre notification ne vous sera envoyée jusqu'à ce que vous visitiez le sujet.
+http://go-on.forumactif.com/t1837-tygem-serveur-de-go#24197
+
+Si vous ne voulez plus surveiller ce sujet vous pouvez, soit cliquer sur le lien "Arrêter de surveiller ce sujet" en bas du sujet ci-dessus, soit cliquer sur le lien suivant:
+http://go-on.forumactif.com/t1837-tygem-serveur-de-go?unwatch=topic
+
+-- 
+_____________________________________________________________________________
+
+L'Administrateur.
+GO.ON l Le forum de la communauté française de Go.
+http://goon-forum.com/

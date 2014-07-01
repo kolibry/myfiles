@@ -1,0 +1,68 @@
+Return-Path: <popo.st@live.fr>
+X-Spam-Checker-Version: SpamAssassin 3.3.2 (2011-06-06) on spamd3.riseup.net
+X-Spam-Level: **
+X-Spam-Pyzor: 
+X-Spam-Status: No, score=2.1 required=8.0 tests=AM_TRUNCATED,CK_419SIZE,
+	CK_KARD_SIZE,FREEMAIL_FROM,HTML_IMAGE_ONLY_08,HTML_MESSAGE,HTML_STYLE_EMPTY,
+	NOMATCH_NICK_FROM,RCVD_IN_DNSWL_NONE,T_REMOTE_IMAGE shortcircuit=no
+	autolearn=disabled version=3.3.2
+Delivered-To: kolibry@riseup.net
+Received: from mx1.riseup.net (mx1-pn.riseup.net [10.0.1.33])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client CN "*.riseup.net", Issuer "Gandi Standard SSL CA" (not verified))
+	by vireo.riseup.net (Postfix) with ESMTPS id CA6F179
+	for <kolibry@riseup.net>; Fri, 28 Feb 2014 13:34:03 +0000 (UTC)
+Received: from dub0-omc3-s33.dub0.hotmail.com (dub0-omc3-s33.dub0.hotmail.com [157.55.2.42])
+	by mx1.riseup.net (Postfix) with ESMTP id 8ADB350D3D
+	for <kolibry@riseup.net>; Fri, 28 Feb 2014 05:34:02 -0800 (PST)
+Received: from DUB121-W9 ([157.55.2.7]) by dub0-omc3-s33.dub0.hotmail.com with Microsoft SMTPSVC(6.0.3790.4675);
+	 Fri, 28 Feb 2014 05:34:01 -0800
+X-TMN: [zcE6/mWigaBcwqoB4DS/H8G9IhDlF3pr]
+X-Originating-Email: [popo.st@live.fr]
+Message-ID: <DUB121-W9825D6002B8D864CE589AFF820@phx.gbl>
+Content-Type: multipart/alternative;
+	boundary="_5ddc3941-115b-465e-ab01-e34854b19180_"
+From: PORHEL Corinne <popo.st@live.fr>
+To: Jonathan <kolibry@riseup.net>
+Subject: RE: Chantier yourte
+Date: Fri, 28 Feb 2014 14:34:01 +0100
+Importance: Normal
+In-Reply-To: <20140228125154.GA11325@arch>
+References: <20140228125154.GA11325@arch>
+MIME-Version: 1.0
+X-OriginalArrivalTime: 28 Feb 2014 13:34:01.0485 (UTC) FILETIME=[BDB36BD0:01CF3489]
+X-Virus-Scanned: clamav-milter 0.97.8 at mx1
+X-Virus-Status: Clean
+
+--_5ddc3941-115b-465e-ab01-e34854b19180_
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: base64
+
+TWVyY2kgYmllbiHwn5iKDQoNCj4gRGF0ZTogRnJpLCAyOCBGZWIgMjAxNCAxMzo1MTo1NCArMDEw
+MA0KPiBGcm9tOiBrb2xpYnJ5QHJpc2V1cC5uZXQNCj4gVG86IHBvcG8uc3RAbGl2ZS5mcg0KPiBT
+dWJqZWN0OiBDaGFudGllciB5b3VydGUNCj4gDQo+IEJvbmpvdXIgISANCj4gDQo+IFZvdXMgcG91
+dmV6IGNvbnRhY3RlciBDaGFybG90dGUgYXUoeCkgbnVtw6lybyhzKSBzdWl2YW50KHMpOg0KPiAN
+Cj4gMDYgNzAgNDAgNzcgODggLyAwMiA5OCA0NCA1MCA1Nw0KPiANCj4gTWVyY2kgYmVhdWNvdXAg
+ISA6KQ0KPiANCj4gSm9uYXRoYW4sIHdlYm1hc3RlciBkdSBmb3JtaWRhYmxlIHNpdGUgZGUgVHJl
+emVudnkNCiAJCSAJICAgCQkgIA==
+
+--_5ddc3941-115b-465e-ab01-e34854b19180_
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: base64
+
+PGh0bWw+DQo8aGVhZD4NCjxzdHlsZT48IS0tDQouaG1tZXNzYWdlIFANCnsNCm1hcmdpbjowcHg7
+DQpwYWRkaW5nOjBweA0KfQ0KYm9keS5obW1lc3NhZ2UNCnsNCmZvbnQtc2l6ZTogMTJwdDsNCmZv
+bnQtZmFtaWx5OkNhbGlicmkNCn0NCi0tPjwvc3R5bGU+PC9oZWFkPg0KPGJvZHkgY2xhc3M9J2ht
+bWVzc2FnZSc+PGRpdiBkaXI9J2x0cic+TWVyY2kgYmllbiE8aW1nIHNyYz0iaHR0cHM6Ly9hLmdm
+eC5tcy9FbW9qaV8xRjYwQS5wbmciIGFsdD0iRW1vamkiIGNsYXNzPSJFbW9qaSQxRjYwQSRBQzAg
+UmVuZGVyZWRFbW9qaSI+PGJyPjxicj48ZGl2PiZndDsgRGF0ZTogRnJpLCAyOCBGZWIgMjAxNCAx
+Mzo1MTo1NCArMDEwMDxicj4mZ3Q7IEZyb206IGtvbGlicnlAcmlzZXVwLm5ldDxicj4mZ3Q7IFRv
+OiBwb3BvLnN0QGxpdmUuZnI8YnI+Jmd0OyBTdWJqZWN0OiBDaGFudGllciB5b3VydGU8YnI+Jmd0
+OyA8YnI+Jmd0OyBCb25qb3VyICEgPGJyPiZndDsgPGJyPiZndDsgVm91cyBwb3V2ZXogY29udGFj
+dGVyIENoYXJsb3R0ZSBhdSh4KSBudW3DqXJvKHMpIHN1aXZhbnQocyk6PGJyPiZndDsgPGJyPiZn
+dDsgMDYgNzAgNDAgNzcgODggLyAwMiA5OCA0NCA1MCA1Nzxicj4mZ3Q7IDxicj4mZ3Q7IE1lcmNp
+IGJlYXVjb3VwICEgOik8YnI+Jmd0OyA8YnI+Jmd0OyBKb25hdGhhbiwgd2VibWFzdGVyIGR1IGZv
+cm1pZGFibGUgc2l0ZSBkZSBUcmV6ZW52eTxicj48L2Rpdj4gCQkgCSAgIAkJICA8L2Rpdj48L2Jv
+ZHk+DQo8L2h0bWw+
+
+--_5ddc3941-115b-465e-ab01-e34854b19180_--

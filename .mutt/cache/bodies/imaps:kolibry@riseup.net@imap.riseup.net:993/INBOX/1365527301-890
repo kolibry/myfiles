@@ -1,0 +1,37 @@
+Return-Path: <noreply@pandanet-igs.com>
+X-Spam-Checker-Version: SpamAssassin 3.3.2 (2011-06-06) on spamd2.riseup.net
+X-Spam-Level: 
+X-Spam-Pyzor: Reported 0 times.
+X-Spam-Status: No, score=1.0 required=8.0 tests=AM_TRUNCATED,CK_419SIZE,
+	CK_KARD_SIZE,LINK_NR_TOP,MAILPHISH_SUBJ,NO_REAL_NAME,PHISH_ACC2,PHISH_ACC2B,
+	PHISH_ACC5,RISEUP_SPEAR_C,TO_NOREAL,T_RP_MATCHES_RCVD shortcircuit=no
+	autolearn=disabled version=3.3.2
+Delivered-To: kolibry@riseup.net
+Received: from mx1.riseup.net (mx1-pn.riseup.net [10.0.1.33])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client CN "*.riseup.net", Issuer "Gandi Standard SSL CA" (not verified))
+	by vireo.riseup.net (Postfix) with ESMTPS id B61668F
+	for <kolibry@riseup.net>; Thu, 13 Mar 2014 20:23:03 +0000 (UTC)
+Received: from pandanet-igs.com (pandanet-igs.com [83.169.17.170])
+	by mx1.riseup.net (Postfix) with ESMTP id 162774F14D
+	for <kolibry@riseup.net>; Thu, 13 Mar 2014 13:23:02 -0700 (PDT)
+Received: from localhost.localdomain (localhost [127.0.0.1])
+	by pandanet-igs.com (Postfix) with ESMTP id E6B981A94800A
+	for <kolibry@riseup.net>; Thu, 13 Mar 2014 21:22:55 +0100 (CET)
+Date: Thu, 13 Mar 2014 21:22:55 +0100
+From: noreply@pandanet-igs.com
+To: kolibry@riseup.net
+Message-ID: <5322139fe3560_570fb1d60e062297@pandanet-igs.com.mail>
+Subject: Confirm your account at Pandanet!
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+X-Virus-Scanned: clamav-milter 0.97.8 at mx1
+X-Virus-Status: Clean
+
+The Pandanet account "kolibry" was registered with your email address.
+
+To complete the registration please follow this link within the next 24 hours:
+
+http://pandanet-igs.com/igs_users/71028/confirm?confirmation_code=1ca17a4054b6935ab

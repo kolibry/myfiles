@@ -1,0 +1,19 @@
+background no
+out_to_console yes
+out_to_x no
+override_utf8_locale yes
+update_interval 1.0
+total_run_times 0
+
+
+template1   /home/kolibry/.dzen2/icons/
+
+TEXT
+^fg(\#d5B8FF) ^i(/home/kolibry/.dzen2/icons/cpu1.xbm) ^fg(\#C6C6C6)${cpu cpu0}% ^fg(\#5E5E5E)| \
+^fg(\#00ddf4) ^i(/home/kolibry/.dzen2/icons/mem.xbm) ^fg(\#C6C6C6)${mem} ^fg(\#5E5E5E)| \
+^fg(\#FF9FC9) ^i(/home/kolibry/.dzen2/icons/disk.xbm) ^fg(\#C6C6C6)${fs_free} ^fg(\#5E5E5E)| \
+^fg(\#00DDF4) ^i(/home/kolibry/.dzen2/icons/note1.xbm) ^fg(\#C6C6C6)${if_mpd_playing}${mpd_smart 50} ${mpd_elapsed}/${mpd_length}${else}${mpd_status}${endif} ^fg(\#5E5E5E)| \
+^fg(\#93C9FF) ^i(/home/kolibry/.dzen2/icons/clock2.xbm) ^fg(\#C6C6C6)${time %H %M} ^fg(\#5E5E5E)| \
+^fg(\#ffa7f6) ^i(/home/kolibry/.dzen2/icons/pacman1.xbm) ^fg(\#C6C6C6)${execi 300 pacman -Qu | wc -l} ^fg(\#5E5E5E)| \
+^fg(\#3BD6FF) ^i(/home/kolibry/.dzen2/icons/mail4.xbm)  ^fg(\#C6C6C6)${execpi 200 ~/Scripts/imap.pl} - ${execpi 200 ~/Scripts/imap2.pl} ^fg(\#5E5E5E)| \
+^fg(\#d5B8FF) ^i(/home/kolibry/.dzen2/icons/headphone1.xbm) ^fg(\#C6C6C6)${exec amixer get Master | awk 'END{gsub(/\[|\]|*%/,""); print $5}'} ^fg(\#5E5E5E)| \

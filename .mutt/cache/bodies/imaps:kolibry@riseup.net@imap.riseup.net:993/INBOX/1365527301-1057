@@ -1,0 +1,201 @@
+Return-Path: <tenuki-brest-bounces@jeudego.org>
+X-Spam-Checker-Version: SpamAssassin 3.3.2 (2011-06-06) on spamd2.riseup.net
+X-Spam-Level: 
+X-Spam-Pyzor: Reported 0 times.
+X-Spam-Status: No, score=-0.6 required=8.0 tests=AM_TRUNCATED,CK_419SIZE,
+	DKIM_ADSP_CUSTOM_MED,DKIM_SIGNED,ENV_FROM_DIFF0,FORWARD_RELAY,FREEMAIL_FROM,
+	HAS_REPLY_TO,HTML_MESSAGE,MAILPHISH4,PSTOCK_PART,RP_MATCHES_RCVD,
+	SUBJ_CONTAINS_TO,T_DKIM_INVALID shortcircuit=no autolearn=disabled
+	version=3.3.2
+Delivered-To: kolibry@riseup.net
+Received: from mx1.riseup.net (mx1-pn.riseup.net [10.0.1.33])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client CN "*.riseup.net", Issuer "Gandi Standard SSL CA" (not verified))
+	by vireo.riseup.net (Postfix) with ESMTPS id 3B7C6FE
+	for <kolibry@riseup.net>; Thu, 24 Apr 2014 04:08:00 +0000 (UTC)
+Received: from jeudego.org (jeudego.org [5.135.164.19])
+	by mx1.riseup.net (Postfix) with ESMTP id 8F2E747F3D
+	for <kolibry@riseup.net>; Wed, 23 Apr 2014 21:07:59 -0700 (PDT)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by jeudego.org (Postfix) with ESMTP id 675E32EC156D;
+	Wed, 23 Apr 2014 21:50:39 +0200 (CEST)
+X-Virus-Scanned: Debian amavisd-new at jeudego.org
+Received: from jeudego.org ([127.0.0.1])
+	by localhost (jeudego.org [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id Z7PDreJn9HcO; Wed, 23 Apr 2014 21:50:39 +0200 (CEST)
+Received: from ns3311974.ovh.net (localhost.localdomain [127.0.0.1])
+	by jeudego.org (Postfix) with ESMTP;
+	Wed, 23 Apr 2014 21:50:39 +0200 (CEST)
+X-Original-To: tenuki-brest@jeudego.org
+Delivered-To: tenuki-brest@jeudego.org
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by jeudego.org (Postfix) with ESMTP id 9A2422EC156D
+	for <tenuki-brest@jeudego.org>; Wed, 23 Apr 2014 21:50:37 +0200 (CEST)
+X-Virus-Scanned: Debian amavisd-new at jeudego.org
+Received: from jeudego.org ([127.0.0.1])
+	by localhost (jeudego.org [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id PNNiB81ncokg for <tenuki-brest@jeudego.org>;
+	Wed, 23 Apr 2014 21:50:26 +0200 (CEST)
+Received: from mail-vc0-f170.google.com (mail-vc0-f170.google.com
+	[209.85.220.170]) (using TLSv1 with cipher RC4-SHA (128/128 bits))
+	(No client certificate requested)
+	by jeudego.org (Postfix) with ESMTPS
+	for <tenuki-brest@jeudego.org>; Wed, 23 Apr 2014 21:50:26 +0200 (CEST)
+Received: by mail-vc0-f170.google.com with SMTP id hr9so1803348vcb.1
+	for <tenuki-brest@jeudego.org>; Wed, 23 Apr 2014 12:50:25 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=20120113;
+	h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+	:content-type; bh=ey3Eu2ZXtSR56DYDA+0AIY04iuMG1zEC0hAQyJUz1pA=;
+	b=ZClL3NmGcFJOzO0oBLJbh/2Lp272SUFRnzJyJmuNsOql2JfyKGJ8LW2QBQGyhWt2jE
+	wpfK7NNKhXsE7SXWUGUMQyz2Rys7NR6vmj4KEPkMOAVfgarAaJXaT7ItLHK9imlE03Hs
+	CyrkT1E19blFXpn0sqiWglrxBHh/6K/RJ2tQjffDNrRq2RQKppWg9WVJb7/0odUQ7t4j
+	0mpoc6H9Fw9wiNmk9+GRPORi8Ny9InYadMC2BnvNCnLpt4a5MwFTL2Cv6Drp42MCYyy1
+	yEppnnyz8wtFDt8ESI5cIOxPOIydli8FXwgYO15WGgJeq4bxehYCtfzUYoWwfhQyyLfU
+	3/kg==
+MIME-Version: 1.0
+X-Received: by 10.52.26.161 with SMTP id m1mr13260816vdg.24.1398282625842;
+	Wed, 23 Apr 2014 12:50:25 -0700 (PDT)
+Received: by 10.58.39.97 with HTTP; Wed, 23 Apr 2014 12:50:25 -0700 (PDT)
+In-Reply-To: <BLU0-SMTP3653F4054D3FDAB537154C4D6580@phx.gbl>
+References: <BLU0-SMTP3653F4054D3FDAB537154C4D6580@phx.gbl>
+Date: Wed, 23 Apr 2014 21:50:25 +0200
+Message-ID: <CAGd1wT13xfejsW=M76Vi8f3QzXsuHZqp_cCSvD8oARGFgM0adQ@mail.gmail.com>
+From: Kevin Cuello <cuello.kevin@gmail.com>
+To: tenuki-brest@jeudego.org
+Subject: Re: [Tenuki-brest] RE : 2nd tour du Champ. Fr
+X-BeenThere: tenuki-brest@jeudego.org
+X-Mailman-Version: 2.1.13
+Precedence: list
+Reply-To: tenuki-brest@jeudego.org
+List-Id: <tenuki-brest.jeudego.org>
+List-Unsubscribe: <https://admin.jeudego.org/mailman/options/tenuki-brest>,
+	<mailto:tenuki-brest-request@jeudego.org?subject=unsubscribe>
+List-Archive: <https://admin.jeudego.org/mailman/private/tenuki-brest>
+List-Post: <mailto:tenuki-brest@jeudego.org>
+List-Help: <mailto:tenuki-brest-request@jeudego.org?subject=help>
+List-Subscribe: <https://admin.jeudego.org/mailman/listinfo/tenuki-brest>,
+	<mailto:tenuki-brest-request@jeudego.org?subject=subscribe>
+Content-Type: multipart/mixed; boundary="===============8007618278000867231=="
+Sender: tenuki-brest-bounces@jeudego.org
+Errors-To: tenuki-brest-bounces@jeudego.org
+
+--===============8007618278000867231==
+Content-Type: multipart/alternative; boundary=20cf307c9efc35856104f7bb0b97
+
+--20cf307c9efc35856104f7bb0b97
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Bonsoir,
+
+D=C3=A9sol=C3=A9 d'apprendre =C3=A7a. Comme dit Fran=C3=A7ois, essayez de v=
+oir avec Fanfan si
+vous pouvez vous arranger...
+
+Personnellement, je ne serais pas disponible ce weekend pour prendre la
+place...
+
+Bonne soir=C3=A9e,
+
+Kevin
+
+
+Le 23 avril 2014 14:14, Fran=C3=A7ois <saikmali@hotmail.com> a =C3=A9crit :
+
+> Il n'y aurait pas moyen de partager la chambre d'une =C3=A9quipe au campi=
+ng ?
+>
+>
+> Envoy=C3=A9 depuis un mobile Samsung
+>
+>
+> -------- Message d'origine --------
+> De : Pierre- Antoine Gu=C3=A9guen
+> Date :23/04/2014 12:58 (GMT+01:00)
+> A : tenuki-brest@jeudego.org
+> Objet : [Tenuki-brest] 2nd tour du Champ. Fr
+>
+> Bonjour,
+>
+> Matthieu vient d'apprendre que finalement on ne pourrait finalement pas
+> =C3=AAtre h=C3=A9berg=C3=A9 chez une de ses connaissances habitant proche=
+ de Piriac/mer,
+> je sais qu'il est un peu tars pour dire =C3=A7a mais =C3=A7a implique que=
+ lui et moi
+> ne pouvons plus aller au 2nd tour !
+>
+> Si quelqu'un derri=C3=A8re veut et peut nous remplacer, qu'il se fasse
+> conna=C3=AEtre.
+>
+> Merci !
+>
+> Gu=C3=A9guen Pierre-Antoine.
+>
+> _______________________________________________
+> Tenuki-brest mailing list
+> Tenuki-brest@jeudego.org
+> https://admin.jeudego.org/mailman/listinfo/tenuki-brest
+>
+>
+
+
+--=20
+Kevin Cuello
+
+--20cf307c9efc35856104f7bb0b97
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Bonsoir,<div><br></div><div>D=C3=A9sol=C3=A9 d&#39;apprend=
+re =C3=A7a. Comme dit Fran=C3=A7ois, essayez de voir avec Fanfan si vous po=
+uvez vous arranger...=C2=A0</div><div><br></div><div>Personnellement, je ne=
+ serais pas disponible ce weekend pour prendre la place...</div>
+<div><br></div><div>Bonne soir=C3=A9e,</div><div><br></div><div>Kevin</div>=
+</div><div class=3D"gmail_extra"><br><br><div class=3D"gmail_quote">Le 23 a=
+vril 2014 14:14, Fran=C3=A7ois <span dir=3D"ltr">&lt;<a href=3D"mailto:saik=
+mali@hotmail.com" target=3D"_blank">saikmali@hotmail.com</a>&gt;</span> a =
+=C3=A9crit :<br>
+<blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1p=
+x #ccc solid;padding-left:1ex"><div><div>Il n&#39;y aurait pas moyen de par=
+tager la chambre d&#39;une =C3=A9quipe au camping ?</div><div><br></div><di=
+v><br>
+</div><div><div style=3D"font-size:8px;color:#575757">Envoy=C3=A9 depuis un=
+ mobile Samsung</div></div><br><br><div>-------- Message d&#39;origine ----=
+----</div><div>De : Pierre- Antoine Gu=C3=A9guen <u></u> </div><div>Date :2=
+3/04/2014  12:58  (GMT+01:00) </div>
+<div>A : <a href=3D"mailto:tenuki-brest@jeudego.org" target=3D"_blank">tenu=
+ki-brest@jeudego.org</a> </div><div>Objet : [Tenuki-brest] 2nd tour du Cham=
+p. Fr </div><div><div class=3D"h5"><div><br></div><div dir=3D"ltr">Bonjour,=
+<div>
+<br></div><div>Matthieu vient d&#39;apprendre que finalement on ne pourrait=
+ finalement pas =C3=AAtre h=C3=A9berg=C3=A9 chez une de ses connaissances h=
+abitant proche de Piriac/mer, je sais qu&#39;il est un peu tars pour dire =
+=C3=A7a mais =C3=A7a implique que lui et moi ne pouvons plus aller au 2nd t=
+our !</div>
+<div><br></div><div>Si quelqu&#39;un derri=C3=A8re veut et peut nous rempla=
+cer, qu&#39;il se fasse conna=C3=AEtre.</div><div><br></div><div>Merci !</d=
+iv><div><br></div><div>Gu=C3=A9guen Pierre-Antoine.</div> 		 	   		  </div>
+</div></div></div><br>_______________________________________________<br>
+Tenuki-brest mailing list<br>
+<a href=3D"mailto:Tenuki-brest@jeudego.org">Tenuki-brest@jeudego.org</a><br=
+>
+<a href=3D"https://admin.jeudego.org/mailman/listinfo/tenuki-brest" target=
+=3D"_blank">https://admin.jeudego.org/mailman/listinfo/tenuki-brest</a><br>
+<br></blockquote></div><br><br clear=3D"all"><div><br></div>-- <br>Kevin Cu=
+ello<br>
+</div>
+
+--20cf307c9efc35856104f7bb0b97--
+
+--===============8007618278000867231==
+Content-Type: text/plain; charset="iso-8859-1"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Content-Disposition: inline
+
+_______________________________________________
+Tenuki-brest mailing list
+Tenuki-brest@jeudego.org
+https://admin.jeudego.org/mailman/listinfo/tenuki-brest
+
+--===============8007618278000867231==--

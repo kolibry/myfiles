@@ -1,0 +1,187 @@
+Return-Path: <jGwc7EwsHLSsLIxsHBxsjLRGtEzMzExMDIyM@smtp-coi-g18-052.aweber.com>
+X-Spam-Checker-Version: SpamAssassin 3.3.2 (2011-06-06) on spamd2.riseup.net
+X-Spam-Level: 
+X-Spam-Pyzor: Reported 0 times.
+X-Spam-Status: No, score=-0.0 required=8.0 tests=AM_TRUNCATED,CK_419SIZE,
+	DKIM_SIGNED,DKIM_VALID,ENV_FROM_DIFF0,HTML_MESSAGE,LINK_NR_TOP,PHISH_ACC6,
+	RCVD_IN_DNSWL_NONE,RDNS_DYNAMIC,RP_MATCHES_RCVD,SPF_HELO_PASS,WEB_MAILER15
+	shortcircuit=no autolearn=disabled version=3.3.2
+Delivered-To: kolibry@riseup.net
+Received: from mx1.riseup.net (mx1-pn.riseup.net [10.0.1.33])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client CN "*.riseup.net", Issuer "Gandi Standard SSL CA" (not verified))
+	by vireo.riseup.net (Postfix) with ESMTPS id 368697D
+	for <kolibry@riseup.net>; Thu, 22 May 2014 20:13:31 -0700 (PDT)
+Received: from smtp-coi-g18-052.aweber.com (smtp-coi-g18-052.aweber.com [204.194.223.52])
+	by mx1.riseup.net (Postfix) with ESMTP id 7E3DF55C41
+	for <kolibry@riseup.net>; Thu, 22 May 2014 20:13:30 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha1; d=aweber.com; s=dkim_s1024; c=relaxed/simple;
+	q=dns/txt; i=@aweber.com; t=1400814802;
+	h=Sender:Subject:Date:From:List-Unsubscribe:To:MIME-version:Content-type:Feedback-ID;
+	bh=/2kCYCjnp2dZAhTCCji5QTfcDFI=;
+	b=eDiz5FNtMDke1wSC4GBC4XHGpMBYkDbTE058y3MHiZ196UkqeOtny50uMt1U+W3C
+	b2GnGa/7K5GF0hi+7m3feSz8LlLywiTbJ8ulWErvzUix8xbpD3GIPuNHVNqrckHu
+	Vytw6AjjVFxtVHYBKUbDKGQBEjbDiqhfJY8jqkuFLYc=;
+Received: (qmail 21432 invoked by uid 0); 23 May 2014 03:13:22 -0000
+Message-ID: <AF.5B.11912.2DCBE735@momentum1-mta3>
+MIME-version: 1.0
+Content-type: multipart/alternative; boundary="_----------=_1400814782213530"
+To: kolibry@riseup.net
+From: "Go Game Guru" <news@gogameguru.com>
+Sender: ggg-newsletter@aweber.com
+X-Loop: ggg-newsletter@aweber.com
+X-Mailer: AWeber 4.1
+X-Subscription: Subscribed on 04/11/2013, via web form, by 78.200.24.99, from http://gogameguru.com/
+X-Verification: Verified by 78.200.24.99
+X_Id: 1687248:05-22-2014-12-35-08:kolibry@riseup.net/1687248
+Feedback-ID: A519709:L1687248:M05-22-2014-12-35-08:AWeber
+Date: Thu, 22 May 2014 23:13:22 -0400
+List-Unsubscribe: <mailto:ggg-newsletter@aweber.com?subject=unsubscribe;jGwc7EwsHLSsLIxsHBxsjLRGtEzMzExMDIyM>, <http://www.aweber.com/z/r/?jGwc7EwsHLSsLIxsHBxsjLRGtEzMzExMDIyM>
+Subject: Go Game Guru: Go Commentary:
+ =?UTF-8?B?IEd1IExpIHZzIExlZSBTZWRvbCDigJMgSnViYW5nbyDigJMgR2FtZSA0?=
+X-Virus-Scanned: clamav-milter 0.98.1 at mx1
+X-Virus-Status: Clean
+
+This is a multi-part message in MIME format.
+
+--_----------=_1400814782213530
+Content-Disposition: inline
+Content-Length: 2514
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+Hi,
+
+Here are Go Game Guru's weekly updates for Thursday, May 22, 2014.
+
+(please note: you can quit receiving these emails any time 
+you want: http://www.aweber.com/z/r/?jGwc7EwsHLSsLIxsHBxsjLRGtEzMzExMDIyM)
+
+
+
+Go Commentary: Gu Li vs Lee Sedol – Jubango – Game 4
+This is game 4 of the MLily Gu vs Lee Jubango, between Lee Sedol 9p and Gu Li 9p. The mood of the series changed when Gu Li defeated Lee Sedol in three consecutive games, including in game 3 of this match, but the overall score for the Jubango was still 2-1 in Lee's favor...
+
+Read more: http://feedproxy.google.com/~r/gogameguru/~3/iYcdUyuQpwA/
+
+
+
+Why Ichiriki Ryo is a new sensation – 1st GLOBIS Cup
+Japan's Ichiriki Ryo won the 1st GLOBIS Cup, defeating Kyo Kagen on May 11, 2014. In a hopeful sign for Japan's Go fans, Ichiriki Ryo and Kyo Kagen defeated Lian Xiao and Xia Chenkun, achieving an overall 2-0 score for Japan vs China in this tournament...
+
+Read more: http://feedproxy.google.com/~r/gogameguru/~3/yfN6uqu-wdc/
+
+
+
+Weekly Go problems: Week 116
+Here are the weekly Go problems. Easy Go problem: White’s shape is short of liberties. Intermediate Go problem: We looked at a similar shape last time, but don’t assume that both situations are the same. Hard Go problem: You can do a lot with thickness if you know how!
+
+Read more: http://feedproxy.google.com/~r/gogameguru/~3/gj9joAq8dpA/
+
+
+
+Lee Sedol vs Gu Li Jubango – Game 5 is this weekend!
+A quick reminder for everyone who's following the MLily Gu vs Lee Jubango - a 10 game match between Gu Li 9p and Lee Sedol 9p. Game 5 of the match will take place this weekend. The Jubango is currently tied at 2-2 and whoever wins this weekend will take the lead...
+
+Read more: http://feedproxy.google.com/~r/gogameguru/~3/JysvHBNjAjQ/
+
+
+
+Enjoy the articles and if you like them, 
+feel free to share this email with friends.
+
+Regards,
+
+David
+
+Go Game Guru
+http://gogameguru.com/
+
+Looking for a Go board? Get great boards and free shipping 
+at the Go Game Shop: http://shop.gogameguru.com/
+
+Follow Go Game Guru on: 
+    - Facebook http://www.facebook.com/gogameguru
+    - Google+ http://gplus.to/gogameguru
+    - Twitter https://twitter.com/gogameguru/
+
+This email was sent to you at kolibry@riseup.net because you 
+subscribed to free updates from Go Game Guru at: 
+http://gogameguru.com/.
+
+
+Go Game Guru, Suite 5013, 92 Wattle Street, Lyneham, ACT 2602, AUSTRALIA
+
+
+To unsubscribe or change subscriber options visit:
+http://www.aweber.com/z/r/?jGwc7EwsHLSsLIxsHBxsjLRGtEzMzExMDIyM
+
+
+--_----------=_1400814782213530
+Content-Disposition: inline
+Content-Length: 5512
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+</head>
+<body style="margin: 0px">
+<div><span style="font-size: 15px">Hi,</span></div>
+<div><span style="font-size: 15px"><br />
+</span></div>
+<div><span style="font-size: 15px">Here are Go Game Guru's weekly updates for Thursday, May 22, 2014.</span></div>
+<div><span style="font-size: 15px"><br />
+</span></div>
+<div><span style="font-size: 15px">(please note: you can&nbsp;<a title="" href="http://www.aweber.com/z/r/?jGwc7EwsHLSsLIxsHBxsjLRGtEzMzExMDIyM">quit receiving these emails</a>&nbsp;any time you want)</span></div>
+<div>
+<ol>
+<li style="font-size: 15px"><a href="http://feedproxy.google.com/~r/gogameguru/~3/iYcdUyuQpwA/"><strong>Go Commentary: Gu Li vs Lee Sedol – Jubango – Game 4</strong></a><br />
+<br />
+This is game 4 of the MLily Gu vs Lee Jubango, between Lee Sedol 9p and Gu Li 9p. The mood of the series changed when Gu Li defeated Lee Sedol in three consecutive games, including in game 3 of this match, but the overall score for the Jubango was still 2-1 in Lee's favor... <a href="http://feedproxy.google.com/~r/gogameguru/~3/iYcdUyuQpwA/"><em>Click here to read more...</em></a><br />
+<br /></li>
+<li style="font-size: 15px"><a href="http://feedproxy.google.com/~r/gogameguru/~3/yfN6uqu-wdc/"><strong>Why Ichiriki Ryo is a new sensation – 1st GLOBIS Cup</strong></a><br />
+<br />
+Japan's Ichiriki Ryo won the 1st GLOBIS Cup, defeating Kyo Kagen on May 11, 2014. In a hopeful sign for Japan's Go fans, Ichiriki Ryo and Kyo Kagen defeated Lian Xiao and Xia Chenkun, achieving an overall 2-0 score for Japan vs China in this tournament... <em><a href="http://feedproxy.google.com/~r/gogameguru/~3/yfN6uqu-wdc/">Click here to read more...</a></em></li><br />
+<li><font color="#0000ee"><span style="font-size: 15px"><strong><u>Weekly Go problems: Week 116</u></strong></span></font><br style="font-style: normal" />
+<br style="font-style: normal" /><span style="font-size: 15px">Here are the weekly Go problems. Easy Go problem: White’s shape is short of liberties. Intermediate Go problem: We looked at a similar shape last time, but don’t assume that both situations are the same. Hard Go problem: You can do a lot with thickness if you know how!&nbsp;</span><em style="font-size: 15px; font-style: normal"><a href="http://feedproxy.google.com/~r/gogameguru/~3/gj9joAq8dpA/" style="font-style: normal" title="">Click here to read more...</a></em></li><br />
+<li><a href="http://feedproxy.google.com/~r/gogameguru/~3/JysvHBNjAjQ/" title=""><strong><span style="font-size: 15px">Lee Sedol vs Gu Li Jubango – Game 5 is this weekend!</span></strong></a><br />
+<br /><span style="font-size: 15px">A quick reminder for everyone who's following the MLily Gu vs Lee Jubango - a 10 game match between Gu Li 9p and Lee Sedol 9p. Game 5 of the match will take place this weekend. The Jubango is currently tied at 2-2 and whoever wins this weekend will take the lead...&nbsp;</span><a href="http://feedproxy.google.com/~r/gogameguru/~3/JysvHBNjAjQ/" title="" style="font-size: 15px"><em>Click here to read more...</em></a><br />
+<br /></li></ol></div>
+<div><span style="font-size: 15px">Enjoy the articles and if you like them, feel free to share this email with friends.</span></div>
+<div><span style="font-size: 15px"><br />
+</span></div>
+<div><span style="font-size: 15px">Regards,</span></div>
+<div><span style="font-size: 15px"><br />
+</span></div>
+<div><span style="font-size: 15px">David</span></div>
+<div><span style="font-size: 15px"><br />
+</span></div>
+<div><span style="font-size: 15px">Go Game Guru</span></div>
+<div><span style="font-size: 15px"><a title="" href="http://gogameguru.com/">http://gogameguru.com/</a></span></div>
+<div><span style="font-size: 15px">&nbsp;</span></div>
+<div><span style="font-size: 15px">Looking for a Go board? Get great boards and free shipping at the <a title="" href="http://shop.gogameguru.com/">Go Game Shop</a>.</span></div>
+<div><span style="font-size: 15px">&nbsp;</span></div>
+<div><span style="font-size: 15px">Follow Go Game Guru on: <a title="" href="http://www.facebook.com/gogameguru">Facebook</a> | <a title="" href="https://plus.google.com/111715774215148787136">Google+</a> | <a title="" href="http://twitter.com/gogameguru/">Twitter</a></span></div>
+<div><span style="font-size: 15px">&nbsp;</span></div>
+<div><span style="font-size: 15px">This email was sent to you at kolibry@riseup.net because you subscribed to free updates from Go Game Guru at http://gogameguru.com/.</span></div>
+<div><span style="font-size: 15px"><br />
+</span></div>
+<div><span style="font-size: 15px"><br />
+</span></div>
+<div><span style="font-size: 15px">Go Game Guru, Suite 5013, 92 Wattle Street, Lyneham, ACT 2602, AUSTRALIA</span></div>
+<center>
+<div style="background-color:#ffffff !important; color:#000000 !important; font-family:Verdana !important; font-size:10px !important; max-width:600px; padding:8px !important; text-align:left; width:100%;">
+   
+   <br/>
+   <a href="http://www.aweber.com/z/r/?jGwc7EwsHLSsLIxsHBxsjLRGtEzMzExMDIyM" style="color: #00f !important;">Unsubscribe</a> | <a href="http://www.aweber.com/z/r/?jGwc7EwsHLSsLIxsHBxsjLRGtEzMzExMDIyM" style="color: #00f !important;">Change Subscriber Options</a>
+   <br/><br/>
+   <img src="https://openrate.aweber.com/y/o/?l=MIyww&m=3l8UTC6lsIQNJ.U" width="1" height="1">
+</div>
+</center>
+</body>
+</html>
+
+--_----------=_1400814782213530--
+

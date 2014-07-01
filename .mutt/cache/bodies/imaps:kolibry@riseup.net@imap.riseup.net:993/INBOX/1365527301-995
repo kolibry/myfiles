@@ -1,0 +1,58 @@
+Return-Path: <alain.porte@univ-lr.fr>
+X-Spam-Checker-Version: SpamAssassin 3.3.2 (2011-06-06) on spamd3.riseup.net
+X-Spam-Level: 
+X-Spam-Pyzor: Reported 0 times.
+X-Spam-Status: No, score=0.1 required=8.0 tests=AM_TRUNCATED,CK_419SIZE,
+	CK_KARD_SIZE,FORWARD_RELAY,LINK_NR_TOP,MAILPHISH_COLLEGE shortcircuit=no
+	autolearn=disabled version=3.3.2
+Delivered-To: kolibry@riseup.net
+Received: from mx1.riseup.net (mx1-pn.riseup.net [10.0.1.33])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client CN "*.riseup.net", Issuer "Gandi Standard SSL CA" (not verified))
+	by vireo.riseup.net (Postfix) with ESMTPS id 609CEAA
+	for <kolibry@riseup.net>; Mon,  7 Apr 2014 09:40:10 +0000 (UTC)
+Received: from jeudego.org (jeudego.org [5.135.164.19])
+	by mx1.riseup.net (Postfix) with ESMTP id 0E39041F15
+	for <kolibry@riseup.net>; Mon,  7 Apr 2014 02:40:09 -0700 (PDT)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by jeudego.org (Postfix) with ESMTP id 8FC802EC25F8
+	for <joueurs-ouest@jeudego.org>; Mon,  7 Apr 2014 11:40:02 +0200 (CEST)
+Received: from jeudego.org ([127.0.0.1])
+	by localhost (jeudego.org [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id UfnPFsCbpH8y for <joueurs-ouest@jeudego.org>;
+	Mon,  7 Apr 2014 11:39:57 +0200 (CEST)
+Received: from mail.xmp.net (mail.xmp.net [5.9.113.210])
+	by jeudego.org (Postfix) with ESMTP
+	for <joueurs-ouest@jeudego.org>; Mon,  7 Apr 2014 11:39:57 +0200 (CEST)
+Received: from mailint.univ-lr.fr (mailint.univ-lr.fr [193.49.30.36])
+	by mail.xmp.net (Postfix) with ESMTPS id 1904A19A029D
+	for <joueurs-ouest@jeudego.org>; Mon,  7 Apr 2014 11:39:57 +0200 (CEST)
+Received: from [127.0.0.1] (perec.univ-lr.fr [10.1.100.34])
+	(authenticated bits=0)
+	by mailint.univ-lr.fr (8.14.4/8.14.4) with ESMTP id s379dnRF028513
+	(version=TLSv1/SSLv3 cipher=DHE-RSA-AES128-SHA bits=128 verify=NO);
+	Mon, 7 Apr 2014 11:39:49 +0200
+Message-ID: <53427265.1090201@univ-lr.fr>
+Date: Mon, 07 Apr 2014 11:39:49 +0200
+From: Alain Porte <alain.porte@univ-lr.fr>
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:24.0) Gecko/20100101 Thunderbird/24.4.0
+MIME-Version: 1.0
+To: joueurs-ouest@jeudego.org, joueurs-sudouest@jeudego.org
+Subject: derniers jours tournoi rochelais
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 8bit
+X-Virus-Scanned: clamav-milter 0.98.1 at mx1
+X-Virus-Status: Clean
+
+Bonjour
+dernier dernier rappel pour le tournoi de Go de La Rochelle des 12 et 13 
+avril
+clôture des inscriptions pour les pensions complète et repas mercredi  9
+pas de regrets?
+
+Alors bonne semaine à tous
+
+rappel, les infos sont sur     http://www.weiqiban.fr/ et sur le site ffg
+merci
+Alain Porte
+

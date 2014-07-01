@@ -1,0 +1,160 @@
+Xcursor.theme: ComixCursors-White
+
+!Xft.autohint: true
+!Xft.lcdfilter:  lcddefault
+!Xft.hintstyle:  hintfull 
+!Xft.hinting: true
+!Xft.antialias: true
+!Xft.dpi: 96
+!Xft.rgba: rgb
+
+dzen2.font:       -*-terminus-*-r-normal-*-*-120-*-*-*-*-iso8859-*
+dzen2.foreground: #22EE11
+dzen2.background: black
+
+!#####################
+!####### URxvt #######
+!#####################
+
+!URxvt.intensityStyles: false
+!URxvt*.transparent: true
+!URxvt*.shading: 5 ## 0 to 99 darkens, 101 to 200 lightens
+URxvt.saveLines: 2000
+URxvt.iconFile: /usr/share/icons/Buuf-Kolibry/128x128/apps/terminal.png
+
+!------------------------------------------------------------------------------
+! URXVT - Settings
+
+!URxvt*font:	-*-termsyn-medium-r-*-*-14-*-*-*-*-*-iso8859-*
+!URxvt*boldFont:	-*-termsyn-medium-r-*-*-14-*-*-*-*-*-iso8859-*
+
+URxvt*font: xft:terminus:hinting=true:pixelsize=16:antialias=false
+URxvt*boldFont: xft:terminus:hinting=true:pixelsize=16:antialias=false
+
+!URxvt*font: xft:ubuntu mono:hinting=true:pixelsize=16:antialias=true
+!URxvt*boldFont: xft:ubuntu mono:hinting=true:pixelsize=16:antialias=true
+
+URxvt*geometry:		149x45
+ 
+
+! URXVT ENABLE LINK SUPPORT
+!------------------------------------------------
+
+URxvt.perl-ext-common:  default,matcher,clipboard,url-select,url-picker
+URxvt.keysym.C-u:    perl:url-select:select_next
+URxvt.keysym.C-o: perl:keyboard-select:activate
+URxvt.keysym.C-f: perl:keyboard-select:search
+URxvt.url-select.underline: true
+URxvt.url-select.launcher: /usr/bin/dwb
+
+URxvt.matcher.button:   1
+
+
+! URXVT COPY PASTE SHORTCUTS
+!------------------------------------------------
+
+
+URxvt.keysym.M-c: 			perl:clipboard:copy
+URxvt.keysym.M-v: 			perl:clipboard:pasteq
+URxvt.keysym.C-Up:     perl:font-size:increase
+URxvt.keysym.C-Down:   perl:font-size:decrease
+URxvt.keysym.C-S-Up:   perl:font-size:incglobal
+URxvt.keysym.C-S-Down: perl:font-size:decglobal
+URxvt.iso14755: false
+URxvt.iso14755_52: false
+
+! URXVT SCROLLBAR AND CURSOR STYLE
+!------------------------------------------------
+
+URxvt*borderLess:                               false
+URxvt*scrollBar:                                false
+URxvt*cursorBlink:                              true
+URxvt*cursorUnderline:                          true
+URxvt*cursorColor:                              #ffffff
+URxvt*scrollColor:                              #151515
+
+!------------------------------------------------
+
+!URxvt.tabbedex.autohide: 	yes
+!URxvt.tabbedex.tabbar-fg: 	2
+!URxvt.tabbedex.tabbar-bg: 	0
+!URxvt.tabbedex.tab-fg:    	10
+!URxvt.tabbedex.tab-bg:    	2
+!URxvt.tabbedex.title: 		yes
+!URxvt.tabbedex.new-button:  yes
+
+! URXVT FULLSCREEN TOGGLE
+!------------------------------------------------
+
+URxvt.keysym.F11: 			perl:fullscreen:switch
+
+
+!#include "/home/kolibry/.colorschemes/blinks"
+!#include "/home/kolibry/.colorschemes/cathexis"
+!#include "/home/kolibry/.colorschemes/euphrasia"
+#include "/home/kolibry/.colorschemes/gjm-kolibry"
+!#include "/home/kolibry/.colorschemes/gjm"
+!#include "/home/kolibry/.colorschemes/visiblue"
+!#include "/home/kolibry/.colorschemes/count-von-count"
+!#include "/home/kolibry/.colorschemes/linuxkartoffel"
+!#include "/home/kolibry/.colorschemes/euphrasia-white"
+!#include "/home/kolibry/.colorschemes/jwr-dark"
+!#include "/home/kolibry/.colorschemes/na12"
+!#include "/home/kolibry/.colorschemes/ivory-light"
+!#include "/home/kolibry/.colorschemes/solarized"
+!#include "/home/kolibry/.colorschemes/mikazuki"
+!#include "/home/kolibry/.colorschemes/iiamblack"
+!#include "/home/kolibry/.colorschemes/baskerville"
+!#include "/home/kolibry/.colorschemes/solarized-light"
+!#include "/home/kolibry/.colorschemes/base16"
+!#include "/home/kolibry/.colorschemes/zenburn"
+!#include "/home/kolibry/.colorschemes/white"
+!#include "/home/kolibry/.colorschemes/colorpencils"
+
+!#####################
+!####### XTerm #######
+!#####################
+
+XTerm*cursorColor:  cyan
+XTerm*cursorBlink:      true
+XTerm*cursorUnderline:   true
+XTerm*faceName:     -*-termsyn-medium-*-normal-*-11-*-*-*-*-*-iso8859-1
+!XTerm*faceSize:     11
+
+XTerm*metaSendsEscape: true
+
+!XTerm.vt100.geometry:   97x24
+
+!Xterm*saveLines: 4000
+
+!#### Couleurs ####
+
+
+  
+XTerm*VT100.background:    #121212                                                                                                                                         
+                                                                                                                                                                                                                                                                                        
+XTerm*VT100.color0:    #1c1c1c                                                                                                                                         
+XTerm*VT100.color8:    #666666                                                                                                                                              
+                                                                                                                                                                            
+XTerm*VT100.color1:    #ff005b                                                                                                                                             
+XTerm*VT100.color9:    #ff00a0                                                                                                                                            
+                                                                                                                                                                            
+XTerm*VT100.color2:    #1AAA13                                                                                                                                            
+XTerm*VT100.color10:   #5DCE33                                                                                                                                              
+                                                                                                                                                                            
+XTerm*VT100.color3:    #FFAA3E                                                                                                                                            
+XTerm*VT100.color11:   #FADD2D                                                                                                                                             
+                                                                                                                                                                            
+XTerm*VT100.color4:   #048ac7                                                                                                       
+XTerm*VT100.color12:   #48c6ff                                                                                                                                              
+                                                                                                                                                                            
+XTerm*VT100.color5:  #9734BE                                                                                                                                               
+XTerm*VT100.color13:   #be67e1                                                                                                                                             
+                                                                                                                                                                            
+XTerm*VT100.color6:  #0ac1cd                                                                                                                                             
+XTerm*VT100.color14:   #63e7f0                                                                                                                                             
+                                                                                                                                                                            
+XTerm*VT100.color7:   #e5e5e5                                                                                                                                             
+XTerm*VT100.color15:  #f3f3f3                                                                                                                                            
+                                                                                                                                                     
+XTerm*VT100.foreground:    #c5c5c5   

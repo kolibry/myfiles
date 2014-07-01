@@ -1,0 +1,85 @@
+Return-Path: <claudiusrolland@yahoo.fr>
+X-Spam-Checker-Version: SpamAssassin 3.3.2 (2011-06-06) on spamd2.riseup.net
+X-Spam-Level: 
+X-Spam-Pyzor: Reported 0 times.
+X-Spam-Status: No, score=-0.0 required=8.0 tests=AM_TRUNCATED,CK_419SIZE,
+	CK_KARD_SIZE,DKIM_SIGNED,DKIM_VALID,DKIM_VALID_AU,FORWARD_RELAY,FREEMAIL_FROM,
+	HAS_REPLY_TO,HTML_MESSAGE,ODD_PUNCTUATION2,RCVD_IN_DNSWL_NONE,REPLY_TO_TEMP
+	shortcircuit=no autolearn=disabled version=3.3.2
+Delivered-To: kolibry@riseup.net
+Received: from mx1.riseup.net (mx1-pn.riseup.net [10.0.1.33])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client CN "*.riseup.net", Issuer "Gandi Standard SSL CA" (not verified))
+	by vireo.riseup.net (Postfix) with ESMTPS id B59A6C1
+	for <kolibry@riseup.net>; Sun,  4 May 2014 18:42:16 +0000 (UTC)
+Received: from nm29-vm6.bullet.mail.ir2.yahoo.com (nm29-vm6.bullet.mail.ir2.yahoo.com [212.82.97.75])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by mx1.riseup.net (Postfix) with ESMTPS id E81FA4FC1F
+	for <kolibry@riseup.net>; Sun,  4 May 2014 11:42:15 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.fr; s=s1024; t=1399228928; bh=qXXVrv2/pWVerSDcSaGttixQWWwQN30pbqIpRtJuNok=; h=Received:Received:Received:X-Yahoo-Newman-Property:X-Yahoo-Newman-Id:Received:DKIM-Signature:X-YMail-OSG:Received:X-Rocket-MIMEInfo:X-Mailer:References:Message-ID:Date:From:Reply-To:Subject:To:In-Reply-To:MIME-Version:Content-Type; b=WTV87nsych2GQmUkaob7TGBsbZ0D9/hCLE2WFKnVQhFUHhDnH503mb/9kYRI5zhcY+8gccGxya3zD6vh9b1S5M0Kj7gH9vuaJID6l/d+L4GtWnl5Q7PaTGXwCRnRpbpLVXgCwmjTvBFQMl0BvtUqU1CMfXa0gLJeAQU8wI01wOU=
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws; s=s1024; d=yahoo.fr;
+	b=Jr5xrcKtFr34ZwPMtUInL/Ittyuuvn0lB+VC7dtgFgeX6tf4NbEncEvZ5YwqL3JsZmRkQJ1nDr2u+5EQ3VghcnKqU7JuBKDUB5Er6EmTlivBnob6qilRFadftEHQFs79dSYmxJw553mpH1B0uFZI4pqgs2vMGBI8qe+oeaqnMZU=;
+Received: from [212.82.98.48] by nm29.bullet.mail.ir2.yahoo.com with NNFMP; 04 May 2014 18:42:08 -0000
+Received: from [212.82.98.78] by tm1.bullet.mail.ir2.yahoo.com with NNFMP; 04 May 2014 18:42:07 -0000
+Received: from [127.0.0.1] by omp1015.mail.ir2.yahoo.com with NNFMP; 04 May 2014 18:42:07 -0000
+X-Yahoo-Newman-Property: ymail-3
+X-Yahoo-Newman-Id: 961586.59456.bm@omp1015.mail.ir2.yahoo.com
+Received: (qmail 68524 invoked by uid 60001); 4 May 2014 18:42:07 -0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.fr; s=s1024; t=1399228927; bh=qXXVrv2/pWVerSDcSaGttixQWWwQN30pbqIpRtJuNok=; h=References:Message-ID:Date:From:Reply-To:Subject:To:In-Reply-To:MIME-Version:Content-Type; b=K07yoj6VCKHDrWePCY2PXQs3elklUbSWWcn5ts8uZDWcMwujNFY0dlE49/RnlNAibATd5e/PxIgJvgttRyT8SnmhgazxE0dx8kN8MjwHEX7LLyTmst/CZFuC3oEVQf2+04tBZhy4RpuKvZQI81tKMBVBuzKLP5Ehj9Of9dmDBdE=
+X-YMail-OSG: vkBdr6wVM1kvpq6FtL_sgqwu26D7GWRvlguTYKxPuCJmRP7
+ CusphCeXXp56EIV0hIm1WmP37syr6IpkWi4.djJzGvi58klY3d_1.EgdzKoo
+ zXPvgwwQ7fhhTC6RtX0b2x4kAX7vQAh2ZEcy43a0bSAoQVNdYurGn.Rs_YTi
+ 0BfeSmj0PmfjaADmujFPP45rw2RLyStzz5tiMLTbbRLCtWHB0eKLvA7x1ODZ
+ j1H6nfsL9vBLwmvQHaZ85EyqLeFDiGMF5r.FqvqlHOZ80vwZufZLUvqZq3m8
+ ThgeyYtXTPRCUKVSs2R.uXHgOaIPwr2GFWn0Dg6mQQXFWUEHwBy6stNeFPJP
+ .G.P_XTOJ1I.igCEMqVpIa7JFlvFYTDlocQF1BiP6FH0NtKJuGBaCKjXV0ao
+ .mgtriWZZjGAFTQAlRGdvQda7_0gi57xW9KDNJo76I5FPZMyMzJiMQAXuzUr
+ 88v.aozG6PR.0kUe2UWbvo7e0P1nP85kFCEQRRfTi9Oer8cuqk5jx3Svr9wn
+ zkgXQZ60PQkoutNwF0VzsANewLbLgojdoNswY.NeIybdeS0AyLTx9n0w.Aj_
+ JFQ--
+Received: from [78.243.148.239] by web171703.mail.ir2.yahoo.com via HTTP; Sun, 04 May 2014 19:42:07 BST
+X-Rocket-MIMEInfo: 002.001,Ym9uc29pciBqb25hdGhhbiAsIApwZXV4IHR1IHRyYXZhaWxsZXIgY2V0dGUgc2VtYWluZSA_CnR1IHBldXggY29tbWVuY2VyIGEgOGggZGVtYWluIHNpIHBvc3NpYmxlCkErCgoKTGUgTWVyY3JlZGkgMTYgYXZyaWwgMjAxNCAxOWg1OSwgSm9uYXRoYW4gPGtvbGlicnlAcmlzZXVwLm5ldD4gYSDDqWNyaXQgOgogClNhbHV0IENsYXVkZSwKCkplIHQnZW52b2llIG1lcyBkYXRlcyBkJ2luZGlzcG9uaWJpbGl0w6kgcG91ciBxdWUgdHUgbGVzIGdhcmRlcywgamUgc2VyYWkKYWJzZW50IGR1IDIxIGF2cmlsIGF1IDUBMAEBAQE-
+X-Mailer: YahooMailWebService/0.8.188.663
+References: <20140416175854.GA18083@arch>
+Message-ID: <1399228927.18839.YahooMailNeo@web171703.mail.ir2.yahoo.com>
+Date: Sun, 4 May 2014 19:42:07 +0100 (BST)
+From: ROLLAND Claude <claudiusrolland@yahoo.fr>
+Reply-To: ROLLAND Claude <claudiusrolland@yahoo.fr>
+Subject: Re: 
+To: Jonathan <kolibry@riseup.net>
+In-Reply-To: <20140416175854.GA18083@arch>
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="-30515679-1900932156-1399228927=:18839"
+X-Virus-Scanned: clamav-milter 0.98.1 at mx1
+X-Virus-Status: Clean
+
+---30515679-1900932156-1399228927=:18839
+Content-Type: text/plain; charset=iso-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+bonsoir jonathan , =0Apeux tu travailler cette semaine ?=0Atu peux commence=
+r a 8h demain si possible=0AA+=0A=0A=0ALe Mercredi 16 avril 2014 19h59, Jon=
+athan <kolibry@riseup.net> a =E9crit :=0A =0ASalut Claude,=0A=0AJe t'envoie=
+ mes dates d'indisponibilit=E9 pour que tu les gardes, je serai=0Aabsent du=
+ 21 avril au 5 mai.=0A=0ABonne soir=E9e et =E0 demain,=0A=0AJonathan
+---30515679-1900932156-1399228927=:18839
+Content-Type: text/html; charset=iso-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<html><body><div style=3D"color:#000; background-color:#fff; font-family:He=
+lveticaNeue, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;fo=
+nt-size:12pt">bonsoir jonathan , <br>peux tu travailler cette semaine ?<br>=
+tu peux commencer a 8h demain si possible<br>A+<br><div><span><br></span></=
+div><div style=3D"display: block;" class=3D"yahoo_quoted"> <div style=3D"fo=
+nt-family: HelveticaNeue, Helvetica Neue, Helvetica, Arial, Lucida Grande, =
+sans-serif; font-size: 12pt;"> <div style=3D"font-family: HelveticaNeue, He=
+lvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif; font-size: 12pt;=
+"> <div dir=3D"ltr"> <font face=3D"Arial" size=3D"2"> Le Mercredi 16 avril =
+2014 19h59, Jonathan &lt;kolibry@riseup.net&gt; a =E9crit :<br> </font> </d=
+iv>  <div class=3D"y_msg_container">Salut Claude,<br><br>Je t'envoie mes da=
+tes d'indisponibilit=E9 pour que tu les gardes, je serai<br>absent du 21 av=
+ril au 5 mai.<br><br>Bonne soir=E9e et =E0 demain,<br><br>Jonathan<br><br><=
+br></div>=20
+ </div> </div>  </div> </div></body></html>
+---30515679-1900932156-1399228927=:18839--

@@ -1,0 +1,239 @@
+[options]
+resize_grip = false
+scroll_on_output = false
+scroll_on_keystroke = true
+audible_bell = false
+visible_bell = false
+mouse_autohide = false
+allow_bold = false
+dynamic_title = true
+urgent_on_bell = true
+clickable_url = true
+font = ubuntu mono 12
+crollback_lines = 1000
+search_wrap = true
+icon_name = terminal
+geometry = 170x45
+
+# 0.0: opaque, 1.0: transparent
+transparency = 0.0
+pseudo_transparency = false 
+
+# "system", "on" or "off"
+cursor_blink = on
+
+# "block", "underline" or "ibeam"
+cursor_shape = ibeam
+
+# $BROWSER is used by default
+browser = dwb
+
+# word characters used for word selection
+# (default if unset: all graphic non-punctuation/space characters)
+#word_chars = -A-Za-z0-9,./?%&#:_=+@~
+
+# set size hints for the window
+size_hints = true
+
+
+#cursor = #dcdccc
+
+# if unset, will reverse foreground and background
+highlight = #2f2f2f
+
+# colors from color0 to color254 can be set
+
+# gjm
+#color0 = #1C1C1C
+#color1 = #ff005B
+#color2 = #1AAA13
+#color3 = #FFAA3E
+#color4 = #048AC7
+#color5 = #9734BE
+#color6 = #0AC1CD
+#color7 = #DDDDDD
+#color8 = #666666
+#color9 = #ff00A0
+#color10 = #5DCE33
+#color11 = #FADD2D
+#color12 = #48C6FF
+#color13 = #be67E1
+#color14 = #63E7F0
+#color15 = #CCCCCC
+
+#cathexis
+#color0 = #222222
+#color1 = #E84F4F
+#color2 = #B7CE42
+#color3 = #FEA63C
+#color4 = #66AABB
+#color5 = #B7416E
+#color6 = #6D878D
+#color7 = #DDDDDD
+#color8 = #666666
+#color9 = #D23D3D
+#color10 = #BDE077
+#color11 = #FFE863
+#color12 = #AACCBB
+#color13 = #E16A98
+#color14 = #42717B
+#color15 = #CCCCCC
+
+# colors from color0 to color254 can be set
+# Black / Grey
+#color0 = #000000
+#color8 = #191919
+
+## Red / lRed
+#color1 = #97130E
+#color9 = #DC6E18
+
+## Green / lGreen
+#color2 = #285014
+#color10 = #D0B020
+
+## Gold / Yellow
+#color3 = #785A1B
+#color11 = #BC9458
+
+## Blue / lBlue
+#color4 = #28435E
+#color12 = #3073BB
+
+## Magenta / lMagenta
+#color5 = #702B5B
+#color13 = #D349A8
+
+## Cyan / lCyan
+#color6 = #247A7E
+#color14 = #84C0C3
+
+## lGrey / White
+#color7 = #969696
+#color15 = #BBBBBB
+
+[colors]
+foreground = #919191
+foreground_bold = #c5C5C5
+foreground_dim = #888888
+background = #000000
+
+##baskerville
+color0 = #303030
+color1 = #A43261
+color2 = #006CA5
+color3 = #007086
+color4 = #6751A6
+color5 = #913E88
+color6 = #0061B1
+color7 = #C6C6C6
+color8 = #5E5E5E
+color9 = #FF9FC9
+color10 = #3BD6FF
+color11 = #00DDF4
+color12 = #D5B8FF
+color13 = #FFA7F6
+color14 = #93C9FF
+color15 = #FFFFFF
+
+#[colors]
+#foreground = #c5c8c6
+#foreground_bold = #ffffff
+#foreground_dim = #888888
+#background = #262626
+#cursor = #CC6666
+
+# if unset, will reverse foreground and background
+#highlight = #373b41
+
+# colors from color0 to color254 can be set
+#color0 = #262626
+#color1 = #cc6666
+#color2 = #b5bd68
+#color3 = #f0c674
+#color4 = #87afaf
+#color5 = #b294bb
+#color6 = #3e999f
+#color7 = #969896
+#color8 = #424242
+#color9 = #cc6666
+#color10 = #b5bd68
+#color11 = #f0c674
+#color12 = #87afaf
+#color13 = #b294bb
+#color14 = #3e999f
+#color15 = #fafafa
+
+#solarized-dark
+#color0 = #073642
+#color1 = #dc322f
+#color2 = #859900
+#color3 = #b58900
+#color4 = #268bd2
+#color5 = #d33682
+#color6 = #2aa198
+#color7 = #eee8d5
+#color8 = #002b36
+#color9 = #cb4b16
+#color10 = #586e75
+#color11 = #657b83
+#color12 = #839496
+#color13 = #6c71c4
+#color14 = #93a1a1
+#color15 = #fdf6e3
+
+##solarized-light
+#color0 = #073642
+#color1 = #dc322f
+#color2 = #859900
+#color3 = #b58900
+#color4 = #268bd2
+#color5 = #d33682
+#color6 = #2aa198
+#color7 = #eee8d5
+#color8 = #002b36
+#color9 = #cb4b16
+#color10 = #586e75
+#color11 = #657b83
+#color12 = #839496
+#color13 = #6c71c4
+#color14 = #93a1a1
+#color15 = #fdf6e3
+
+# For the base 16 Default Dark
+#foreground = #d0d0d0
+#background = #151515
+#cursor = #505050
+#color0 =#151515
+#color1 =#ac4142
+#color2 =#99cc99
+#color3 =#f4bf75
+#color4 =#6a9fb5
+#color5 =#aa759f
+#color6 =#75b5aa
+#color7 =#d0d0d0
+#color8 =#505050
+#color9 =#ac4142
+#color10 =#99cc99
+#color11 =#f4bf75
+#color12 =#6a9fb5
+#color13 =#aa759f
+#color14 =#75b5aa
+#color15 =#f5f5f5
+#color16 =#d28445
+#color17 =#8f5536
+#color18 =#202020
+#color19 =#303030
+#color20 =#b0b0b0
+#color21 =#e0e0e0
+
+[hints]
+font = ubuntu mono 12
+foreground = #FFFFFF
+background = #6751A6
+padding = 2
+border = #FFA7F6
+border_width = 2.0
+roundness = 5.0
+
+# vim: ft=dosini

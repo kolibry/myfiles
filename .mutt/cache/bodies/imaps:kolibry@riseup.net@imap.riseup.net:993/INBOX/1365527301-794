@@ -1,0 +1,67 @@
+Return-Path: <jjk@jjacky.com>
+X-Spam-Checker-Version: SpamAssassin 3.3.2 (2011-06-06) on spamd3.riseup.net
+X-Spam-Level: **
+X-Spam-Pyzor: 
+X-Spam-Status: No, score=2.1 required=8.0 tests=AM_TRUNCATED,CK_419SIZE,
+	CK_KARD_SIZE,CK_NAIVER_NO_DNS,CK_NAIVE_NO_DNS,NOMATCH_NICK_FROM,RDNS_NONE
+	shortcircuit=no autolearn=disabled version=3.3.2
+Delivered-To: kolibry@riseup.net
+Received: from mx1.riseup.net (mx1-pn.riseup.net [10.0.1.33])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client CN "*.riseup.net", Issuer "Gandi Standard SSL CA" (not verified))
+	by vireo.riseup.net (Postfix) with ESMTPS id 55B2B7D
+	for <kolibry@riseup.net>; Tue, 25 Feb 2014 15:42:10 +0000 (UTC)
+Received: from mail.jjacky.com (unknown [23.29.69.116])
+	by mx1.riseup.net (Postfix) with ESMTP id 2117D43E0A
+	for <kolibry@riseup.net>; Tue, 25 Feb 2014 07:42:10 -0800 (PST)
+Received: from arch.local (arch.tks [10.42.0.6])
+	by mail.jjacky.com (Postfix) with ESMTP id CF483180F4E
+	for <kolibry@riseup.net>; Tue, 25 Feb 2014 16:41:49 +0100 (CET)
+Message-ID: <530CB9C0.9090708@jjacky.com>
+Date: Tue, 25 Feb 2014 16:41:52 +0100
+From: Olivier Brunel <jjk@jjacky.com>
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:17.0) Gecko/20130806 Thunderbird/17.0.8
+MIME-Version: 1.0
+To: Jonathan <kolibry@riseup.net>
+Subject: Re: Upcoming kalu 2.4.0
+References: <5308FD91.4040001@jjacky.com> <530C702E.1040100@riseup.net>
+In-Reply-To: <530C702E.1040100@riseup.net>
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: 8bit
+X-Virus-Scanned: clamav-milter 0.97.8 at mx1
+X-Virus-Status: Clean
+
+
+Thanks a lot!
+-j
+
+On 02/25/14 11:27, Jonathan wrote:
+> Hey :)
+> 
+> Here are my homework for the new version.
+> 
+> Take care,
+> 
+> Jonathan
+> 
+> Le 22/02/2014 20:42, Olivier Brunel a écrit :
+>> Hey,
+>>
+>> I'm hoping to release kalu 2.4.0 next week (March 2nd), the branch next
+>> on github has all the latest changes.
+>>
+>> If you want the updated translation included, please send it back to me
+>> March 1st at the latest, thanks. Attached is the merged fr.po :
+>>
+>> fr.po: 399 translated messages, 38 fuzzy translations, 17 untranslated
+>> messages.
+>>
+>> In case it helps, you can find the fuzzy/untranslated messages using
+>> msgattrib, e.g:
+>> $ msgattrib --only-fuzzy fr.po
+>> $ msgattrib --untranslated fr.po
+>>
+>> Thanks,
+>> -j
+> 
+

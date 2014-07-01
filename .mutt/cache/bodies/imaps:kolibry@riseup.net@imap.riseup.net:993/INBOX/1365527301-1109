@@ -1,0 +1,82 @@
+Return-Path: <claudiusrolland@yahoo.fr>
+X-Spam-Checker-Version: SpamAssassin 3.3.2 (2011-06-06) on spamd3.riseup.net
+X-Spam-Level: 
+X-Spam-Pyzor: Reported 0 times.
+X-Spam-Status: No, score=0.1 required=8.0 tests=AM_TRUNCATED,CK_419SIZE,
+	CK_KARD_SIZE,DKIM_SIGNED,DKIM_VALID,DKIM_VALID_AU,FORWARD_RELAY,FREEMAIL_FROM,
+	HAS_REPLY_TO,HTML_MESSAGE,RCVD_IN_DNSWL_NONE,REPLY_TO_TEMP,RISEUP_SPEAR_C
+	shortcircuit=no autolearn=disabled version=3.3.2
+Delivered-To: kolibry@riseup.net
+Received: from mx1.riseup.net (mx1-pn.riseup.net [10.0.1.33])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client CN "*.riseup.net", Issuer "Gandi Standard SSL CA" (not verified))
+	by vireo.riseup.net (Postfix) with ESMTPS id 2C204BB
+	for <kolibry@riseup.net>; Wed,  7 May 2014 18:53:15 +0000 (UTC)
+Received: from nm10-vm4.bullet.mail.ir2.yahoo.com (nm10-vm4.bullet.mail.ir2.yahoo.com [212.82.96.156])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by mx1.riseup.net (Postfix) with ESMTPS id 8873C553C6
+	for <kolibry@riseup.net>; Wed,  7 May 2014 11:53:14 -0700 (PDT)
+Received: from [212.82.98.124] by nm10.bullet.mail.ir2.yahoo.com with NNFMP; 07 May 2014 18:53:07 -0000
+Received: from [212.82.98.81] by tm17.bullet.mail.ir2.yahoo.com with NNFMP; 07 May 2014 18:53:07 -0000
+Received: from [127.0.0.1] by omp1018.mail.ir2.yahoo.com with NNFMP; 07 May 2014 18:53:07 -0000
+X-Yahoo-Newman-Property: ymail-3
+X-Yahoo-Newman-Id: 579021.51545.bm@omp1018.mail.ir2.yahoo.com
+Received: (qmail 36814 invoked by uid 60001); 7 May 2014 18:53:07 -0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.fr; s=s1024; t=1399488787; bh=x/lYcjixKxPTbbevUH6KhKusSKngfE4xvuxBwe2i8yU=; h=References:Message-ID:Date:From:Reply-To:Subject:To:In-Reply-To:MIME-Version:Content-Type; b=exUKrUHBF43NqtMXg5gUOYIkWnGFRJUQlWdXDv6Be66vqOHOHTUzdcu1eteJbxo5nCAC5yKcabNYWTAkPp2jxN89CkUkIfEbPJ5sE1B8/vXTXLYEeH7KF9N7jYV0BUaTUefTvFgVSmRSZIrDtCIMueKdegALaMYJdVYV+rdF9Hs=
+X-YMail-OSG: ChjdpxgVM1mSaQT6pu67Wld_fdGm2gs2geoLTYggOq37jff
+ zOlMlHZnAEeeA3NKIsOmAV3a_im60udIzNluOnzX7YuAkyBsQg4ReJFTPZTD
+ AT_QfdmtF2gaBVj2nrT3j5hzKltJXfrsaNY6wY08abZ.A5HFCI6LYI59uhqq
+ jdyqyLk7DI0fk4FzjsbMcVdWZjlWTDlVDoMuL5spTCxNNgE2BaxEpI5Wq79T
+ WixZhH.jXdw7Ygh6FQ6xyZ8VyEQch6_JIaVmJ8SOTUJMz_y08NmMvDloMGDY
+ xtCF2jooWRc3ouhQ8ja96e4V9C3v.nQJSKq1neOG0CkMXjfGQfUfaCjzp8Nb
+ dRdGj1vYJNchXj72h.hfhtfQLEiy9JY7duv2bNhb.W44a7EGhNbVVZ7DKqbJ
+ 1VKcOTDDoeRKfpNIOszR3kfeHMKO6tR_2u5dOUOuyJ7kk1Avl5FDuzC8iYxt
+ M76S2B6BEs8PD7aY9QbYMdglXcgMJ4l2N7f68xA5rpVnvYqdfUokDWr3drX0
+ E2S.BBeFBYT7qBvpbmmvU3P6D7XRzOBZG8Z.iq1BY1iu0ePvDcuq8_ogJ9Oj
+ eMA--
+Received: from [78.243.148.239] by web171702.mail.ir2.yahoo.com via HTTP; Wed, 07 May 2014 19:53:07 BST
+X-Rocket-MIMEInfo: 002.001,dHUgcGV1eCB2ZW5pciBkZW1haW4gbWF0aW4gZXTCoCBwb3VyIGxlcyBoZXVyZXMgcGFzIGRlIHByb2Jsw6htZQoKCkxlIE1lcmNyZWRpIDcgbWFpIDIwMTQgMTVoNDUsIEpvbmF0aGFuIDxrb2xpYnJ5QHJpc2V1cC5uZXQ.IGEgw6ljcml0IDoKIApTYWx1dCBDbGF1ZGUsCgpKZSB2b3VkcmFpcyBxdWUgdHUgbWUgY29uZmlybWVzIHF1ZSBqZSB2aWVucyBkZW1haW4gbWF0aW4uCgpBdXNzaSwgYXByw6hzIHkgYXZvaXIgcsOpZmzDqWNoaSwgb24gdmEgZMOpY2xhcmVyIG5vcm1hbGVtZW50IHRvdXRlcyBtZXMgaGUBMAEBAQE-
+X-Mailer: YahooMailWebService/0.8.188.663
+References: <20140507134505.GA30237@arch>
+Message-ID: <1399488787.14335.YahooMailNeo@web171702.mail.ir2.yahoo.com>
+Date: Wed, 7 May 2014 19:53:07 +0100 (BST)
+From: ROLLAND Claude <claudiusrolland@yahoo.fr>
+Reply-To: ROLLAND Claude <claudiusrolland@yahoo.fr>
+Subject: Re: 
+To: Jonathan <kolibry@riseup.net>
+In-Reply-To: <20140507134505.GA30237@arch>
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="-494387269-225581952-1399488787=:14335"
+
+---494387269-225581952-1399488787=:14335
+Content-Type: text/plain; charset=iso-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+tu peux venir demain matin et=A0 pour les heures pas de probl=E8me=0A=0A=0A=
+Le Mercredi 7 mai 2014 15h45, Jonathan <kolibry@riseup.net> a =E9crit :=0A =
+=0ASalut Claude,=0A=0AJe voudrais que tu me confirmes que je viens demain m=
+atin.=0A=0AAussi, apr=E8s y avoir r=E9fl=E9chi, on va d=E9clarer normalemen=
+t toutes mes heures =E0 partir de ce mois-ci, ce=0Asera plus simple de cett=
+e mani=E8re.=0A=0ABonne apr=E8s midi,=0A=0AJonathan
+---494387269-225581952-1399488787=:14335
+Content-Type: text/html; charset=iso-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<html><body><div style=3D"color:#000; background-color:#fff; font-family:He=
+lveticaNeue, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;fo=
+nt-size:12pt">tu peux venir demain matin et&nbsp; pour les heures pas de pr=
+obl=E8me<br><div><span></span></div><div style=3D"display: block;" class=3D=
+"yahoo_quoted"> <div style=3D"font-family: HelveticaNeue, Helvetica Neue, H=
+elvetica, Arial, Lucida Grande, sans-serif; font-size: 12pt;"> <div style=
+=3D"font-family: HelveticaNeue, Helvetica Neue, Helvetica, Arial, Lucida Gr=
+ande, sans-serif; font-size: 12pt;"> <div dir=3D"ltr"> <font face=3D"Arial"=
+ size=3D"2"> Le Mercredi 7 mai 2014 15h45, Jonathan &lt;kolibry@riseup.net&=
+gt; a =E9crit :<br> </font> </div>  <div class=3D"y_msg_container">Salut Cl=
+aude,<br><br>Je voudrais que tu me confirmes que je viens demain matin.<br>=
+<br>Aussi, apr=E8s y avoir r=E9fl=E9chi, on va d=E9clarer normalement toute=
+s mes heures =E0 partir de ce mois-ci, ce<br>sera plus simple de cette mani=
+=E8re.<br><br>Bonne
+ apr=E8s midi,<br><br>Jonathan<br><br><br></div>  </div> </div>  </div> </d=
+iv></body></html>
+---494387269-225581952-1399488787=:14335--

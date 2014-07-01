@@ -1,0 +1,178 @@
+Return-Path: <bilou37@gmail.com>
+X-Spam-Checker-Version: SpamAssassin 3.3.2 (2011-06-06) on spamd2.riseup.net
+X-Spam-Level: **
+X-Spam-Pyzor: Reported 0 times.
+X-Spam-Status: No, score=2.6 required=8.0 tests=AM_TRUNCATED,CK_419SIZE,
+	DKIM_SIGNED,DKIM_VALID,DKIM_VALID_AU,FORWARD_RELAY,FREEMAIL_ENVFROM_END_DIGIT,
+	FREEMAIL_FROM,HTML_MESSAGE,ODD_PUNCTUATION2,SUSPICIOUS_RECIPS shortcircuit=no
+	autolearn=disabled version=3.3.2
+Delivered-To: kolibry@riseup.net
+Received: from mx1.riseup.net (mx1-pn.riseup.net [10.0.1.33])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client CN "*.riseup.net", Issuer "Gandi Standard SSL CA" (not verified))
+	by vireo.riseup.net (Postfix) with ESMTPS id 6DF5CC0
+	for <kolibry@riseup.net>; Sun,  4 May 2014 19:23:15 +0000 (UTC)
+Received: from jeudego.org (jeudego.org [5.135.164.19])
+	by mx1.riseup.net (Postfix) with ESMTP id DC27E51648
+	for <kolibry@riseup.net>; Sun,  4 May 2014 12:23:14 -0700 (PDT)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by jeudego.org (Postfix) with ESMTP id A1BAC2EC27BB;
+	Sun,  4 May 2014 21:23:07 +0200 (CEST)
+Received: from jeudego.org ([127.0.0.1])
+	by localhost (jeudego.org [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id yWAU-psTlbcK; Sun,  4 May 2014 21:23:04 +0200 (CEST)
+Received: from mail-wg0-f48.google.com (mail-wg0-f48.google.com [74.125.82.48])
+	(using TLSv1 with cipher RC4-SHA (128/128 bits))
+	(No client certificate requested)
+	by jeudego.org (Postfix) with ESMTPS;
+	Sun,  4 May 2014 21:23:04 +0200 (CEST)
+Received: by mail-wg0-f48.google.com with SMTP id b13so1324347wgh.31
+        for <multiple recipients>; Sun, 04 May 2014 12:23:04 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=message-id:date:from:user-agent:mime-version:to:subject:references
+         :in-reply-to:content-type;
+        bh=28sZjd4pkyrlYsWYDRQi5VP/pb2uVqhfmALyIjENBSc=;
+        b=t8vSwt19/sGLt28GuKy4mkAkOnco+By8KVwqobQv7GiKAxkDyKgFey6/dPrjvyXUUw
+         YaYljbkTBJYlFWL+cUu7YlJPb/I4pWjGomjayAR/HMhVf5zEWUd0aW9YzCNLA/fuQDrb
+         H1gmpGTMXm9rH/EjQhWBFFiRfj/37lrwPWzti5Dp/yOfhV302UMUUuVu7KLVjJPIkaCm
+         QmCyK2V2vqd4R2bYLE63s/hUtRV7oBTYOKbC4Z+f3sQXZqth2u1urkUB7iOBhPnh7rbu
+         OtPeFxCn/hRTgpeqczRtJitforfFiSMlhitrVcAkfK3+Y+Dz+Q1AnUtOcQWXLmtN4hfk
+         Ni1Q==
+X-Received: by 10.180.104.5 with SMTP id ga5mr12498142wib.47.1399231384147;
+        Sun, 04 May 2014 12:23:04 -0700 (PDT)
+Received: from [192.168.0.13] (lns-bzn-20-82-64-22-245.adsl.proxad.net. [82.64.22.245])
+        by mx.google.com with ESMTPSA id lb4sm13262771wjb.14.2014.05.04.12.23.02
+        for <multiple recipients>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Sun, 04 May 2014 12:23:03 -0700 (PDT)
+Message-ID: <53669395.2060101@gmail.com>
+Date: Sun, 04 May 2014 21:23:01 +0200
+From: bilou37 <bilou37@gmail.com>
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:24.0) Gecko/20100101 Thunderbird/24.2.0
+MIME-Version: 1.0
+To: joueurs-ouest@jeudego.org, joueurs-centre@jeudego.org, 
+ joueurs-iledefrance@jeudego.org, joueurs-normandie@jeudego.org, 
+ joueurs-sudouest@jeudego.org
+Subject: Tournoi de Go de Touraine 2014 *** LES 17 ET 18 MAI
+References: <534B0139.6080500@gmail.com>
+In-Reply-To: <534B0139.6080500@gmail.com>
+Content-Type: multipart/alternative;
+ boundary="------------050006040204080808040409"
+X-Virus-Scanned: clamav-milter 0.98.1 at mx1
+X-Virus-Status: Clean
+
+This is a multi-part message in MIME format.
+--------------050006040204080808040409
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 8bit
+
+Bonsoir à toutes et tous,
+
+Dans ma première annonce j'avais oublié l'essentiel : Le tournoi aura 
+lieu TRES BIENTOT : LES 17 ET 18 MAI.
+
+Alors n'hesitez pas à vous inscrire dès maintenant !
+
+Bonne semaine , et à bientôt en Touraine !
+
+William Branchut
+Club de go de Touraine.
+Le 13/04/2014 23:27, bilou37 a écrit :
+> Bonjour à toutes et à tous,
+>
+>
+> nous sommes heureux de vous convier à notre nouvelle édition 
+> du*Tournoi de Go de Touraine 2014 *qui se déroulera (à proximité de 
+> Tours).
+>
+> Vous retrouverez le programme en pièce  jointe !
+> A noter pour l'édition 2014 :
+> - Plus de _750 Euros de lots._
+> - _Un invité spécial_ participera au tournoi! Je vous laisse le 
+> découvrir dans le fichier joint :).
+> /Indice :  "N'oubliez pas de venir avec votre livre de Yose préféré"./
+>
+> - Venez nombreux ... _4ème inscription gratuite pour les joueurs d'un 
+> même club_ !
+> - Inscrivez-vous vite: Possibilité d' _hébergement gratuit chez 
+> l'habitant_ (dans la limite des places disponibles - environ 20).
+>
+> Retrouvez toutes les infos du tournoi et nos bulletins d'inscription 
+> sur le site :
+> *http://touraine.jeudego.org/*
+>
+> Bonne semaine , et à bientôt en Touraine !
+>
+> William Branchut
+> Club de go de Touraine.
+>
+>
+>
+
+
+--------------050006040204080808040409
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <head>
+    <meta content="text/html; charset=ISO-8859-1"
+      http-equiv="Content-Type">
+  </head>
+  <body bgcolor="#FFFFFF" text="#000000">
+    Bonsoir &agrave; toutes et tous,<br>
+    <br>
+    Dans ma premi&egrave;re annonce j'avais oubli&eacute; l'essentiel : Le tournoi
+    aura lieu TRES BIENTOT : LES 17 ET 18 MAI.<br>
+    <br>
+    Alors n'hesitez pas &agrave; vous inscrire d&egrave;s maintenant !<br>
+    <br>
+    Bonne semaine , et &agrave; bient&ocirc;t en Touraine !<br>
+    <br>
+    William Branchut<br>
+    Club de go de Touraine.<br>
+    <div class="moz-cite-prefix">Le 13/04/2014 23:27, bilou37 a &eacute;crit&nbsp;:<br>
+    </div>
+    <blockquote cite="mid:534B0139.6080500@gmail.com" type="cite">
+      <meta http-equiv="content-type" content="text/html;
+        charset=ISO-8859-1">
+      Bonjour &agrave; toutes et &agrave; tous,<br>
+      <br>
+      <br>
+      nous sommes heureux de vous convier &agrave; notre nouvelle &eacute;dition du<b>
+        Tournoi de Go de Touraine 2014 </b>qui se d&eacute;roulera&nbsp;(&agrave;
+      proximit&eacute; de Tours).<br>
+      <br>
+      Vous retrouverez le programme en pi&egrave;ce&nbsp; jointe !<br>
+      A noter pour l'&eacute;dition 2014 : <br>
+      - Plus de <u>750 Euros de lots.</u><br>
+      - <u>Un invit&eacute; sp&eacute;cial</u> participera au tournoi! Je vous laisse
+      le d&eacute;couvrir dans le fichier joint :). <br>
+      <i>Indice :&nbsp; "N'oubliez pas de venir avec votre livre de Yose
+        pr&eacute;f&eacute;r&eacute;".</i><br>
+      <br>
+      - Venez nombreux ... <u>4&egrave;me inscription gratuite pour les
+        joueurs d'un m&ecirc;me club</u> !<br>
+      - Inscrivez-vous vite: Possibilit&eacute; d' <u>h&eacute;bergement gratuit chez
+        l'habitant</u> (dans la limite des places disponibles - environ
+      20).<br>
+      <br>
+      Retrouvez toutes les infos du tournoi et nos bulletins
+      d'inscription sur le site : <br>
+      <b><a moz-do-not-send="true" class="moz-txt-link-freetext"
+          href="http://touraine.jeudego.org/">http://touraine.jeudego.org/</a></b><br>
+      <br>
+      Bonne semaine , et &agrave; bient&ocirc;t en Touraine !<br>
+      <br>
+      William Branchut<br>
+      Club de go de Touraine.<br>
+      <br>
+      <br>
+      <br>
+    </blockquote>
+    <br>
+  </body>
+</html>
+
+--------------050006040204080808040409--

@@ -1,0 +1,170 @@
+Return-Path: <tenuki-brest-bounces@jeudego.org>
+X-Spam-Checker-Version: SpamAssassin 3.3.2 (2011-06-06) on spamd2.riseup.net
+X-Spam-Level: 
+X-Spam-Pyzor: Reported 0 times.
+X-Spam-Status: No, score=-0.4 required=8.0 tests=AM_TRUNCATED,CK_419SIZE,
+	DKIM_ADSP_CUSTOM_MED,DKIM_SIGNED,ENV_FROM_DIFF0,FORWARD_RELAY,FREEMAIL_FROM,
+	HAS_REPLY_TO,HTML_MESSAGE,KHOP_THREADED,MAILPHISH4,PSTOCK_PART,
+	SUBJ_CONTAINS_TO,T_DKIM_INVALID,T_RP_MATCHES_RCVD shortcircuit=no
+	autolearn=disabled version=3.3.2
+Delivered-To: kolibry@riseup.net
+Received: from mx1.riseup.net (mx1-pn.riseup.net [10.0.1.33])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client CN "*.riseup.net", Issuer "Gandi Standard SSL CA" (not verified))
+	by vireo.riseup.net (Postfix) with ESMTPS id D99C8AA
+	for <kolibry@riseup.net>; Tue, 18 Mar 2014 17:37:47 +0000 (UTC)
+Received: from jeudego.org (jeudego.org [5.135.164.19])
+	by mx1.riseup.net (Postfix) with ESMTP id 3C2364B0E4
+	for <kolibry@riseup.net>; Tue, 18 Mar 2014 10:37:47 -0700 (PDT)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by jeudego.org (Postfix) with ESMTP id 10FFF2EC39A0;
+	Tue, 18 Mar 2014 18:37:46 +0100 (CET)
+Received: from jeudego.org ([127.0.0.1])
+	by localhost (jeudego.org [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id Pi4dkCp-MHbv; Tue, 18 Mar 2014 18:37:46 +0100 (CET)
+Received: from ns3311974.ovh.net (localhost.localdomain [127.0.0.1])
+	by jeudego.org (Postfix) with ESMTP;
+	Tue, 18 Mar 2014 18:37:46 +0100 (CET)
+X-Original-To: tenuki-brest@jeudego.org
+Delivered-To: tenuki-brest@jeudego.org
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by jeudego.org (Postfix) with ESMTP id F35CE2EC39A0
+	for <tenuki-brest@jeudego.org>; Tue, 18 Mar 2014 18:37:44 +0100 (CET)
+Received: from jeudego.org ([127.0.0.1])
+	by localhost (jeudego.org [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id H0kO4F6bkPW0 for <tenuki-brest@jeudego.org>;
+	Tue, 18 Mar 2014 18:37:40 +0100 (CET)
+Received: from mail-pa0-f47.google.com (mail-pa0-f47.google.com
+	[209.85.220.47]) (using TLSv1 with cipher RC4-SHA (128/128 bits))
+	(No client certificate requested)
+	by jeudego.org (Postfix) with ESMTPS
+	for <tenuki-brest@jeudego.org>; Tue, 18 Mar 2014 18:37:40 +0100 (CET)
+Received: by mail-pa0-f47.google.com with SMTP id lj1so7597752pab.6
+	for <tenuki-brest@jeudego.org>; Tue, 18 Mar 2014 10:37:38 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=20120113;
+	h=mime-version:in-reply-to:references:date:message-id:subject:from:to
+	:content-type; bh=DWL4yUDMa1DuiXW5BSBRevIse5DLMEJSLJkm7B1BT9M=;
+	b=MuCxHZtrDxaeYOCpQHt1KI/OxXSRfuGQD20TWsNBpD8ACrZL5T63fk9cnTvmN9BRSE
+	+tsTTxH4dIbjBOxBYGU+rbOv6PZJ7+BpJB1BYoUorakPGiJsvIgn8QpVZHCW1sagnHd/
+	2/mSeDhZNMXjnxewSYvQ340fj+fWq/Veite3ykWzAX94NC8iVAAxV2j6pTkE10Ks7Gp5
+	zOGnB2ZKfCr/hFPm0AsKtqDQOubpPwWo8GNAA1mjZLl12H8ROMVmdWbSA4D0k/KU30AA
+	QPeVifyjpM4RXAx6/g5aLvUfE0SFKjWFuCklI12n4fSs9eyYLzX6vDKaX27hNdchs9KM
+	0dmw==
+MIME-Version: 1.0
+X-Received: by 10.68.36.41 with SMTP id n9mr33475706pbj.99.1395164258522; Tue,
+	18 Mar 2014 10:37:38 -0700 (PDT)
+Received: by 10.68.118.166 with HTTP; Tue, 18 Mar 2014 10:37:38 -0700 (PDT)
+Received: by 10.68.118.166 with HTTP; Tue, 18 Mar 2014 10:37:38 -0700 (PDT)
+In-Reply-To: <DUB127-W400CE687AA8737D4F670E1EE7C0@phx.gbl>
+References: <DUB127-W400CE687AA8737D4F670E1EE7C0@phx.gbl>
+Date: Tue, 18 Mar 2014 18:37:38 +0100
+Message-ID: <CAHCdiMqEU7jgAi-L-HZy6Uv_v_v5nZZiaqQ85Nr3U7o4TDFr9A@mail.gmail.com>
+From: Louis Gueguen <louisgueguen@gmail.com>
+To: tenuki-brest@jeudego.org
+Subject: Re: [Tenuki-brest] Les rendez-vous du Printemps
+X-BeenThere: tenuki-brest@jeudego.org
+X-Mailman-Version: 2.1.13
+Precedence: list
+Reply-To: tenuki-brest@jeudego.org
+List-Id: <tenuki-brest.jeudego.org>
+List-Unsubscribe: <https://admin.jeudego.org/mailman/options/tenuki-brest>,
+	<mailto:tenuki-brest-request@jeudego.org?subject=unsubscribe>
+List-Archive: <https://admin.jeudego.org/mailman/private/tenuki-brest>
+List-Post: <mailto:tenuki-brest@jeudego.org>
+List-Help: <mailto:tenuki-brest-request@jeudego.org?subject=help>
+List-Subscribe: <https://admin.jeudego.org/mailman/listinfo/tenuki-brest>,
+	<mailto:tenuki-brest-request@jeudego.org?subject=subscribe>
+Content-Type: multipart/mixed; boundary="===============7426584187056768414=="
+Sender: tenuki-brest-bounces@jeudego.org
+Errors-To: tenuki-brest-bounces@jeudego.org
+X-Virus-Scanned: clamav-milter 0.98.1 at mx1
+X-Virus-Status: Clean
+
+--===============7426584187056768414==
+Content-Type: multipart/alternative; boundary=bcaec51f969f0859d804f4e4fec3
+
+--bcaec51f969f0859d804f4e4fec3
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+Pas disponible non plus.
+
+Louis G
+Le 18 mars 2014 17:38, "Tenuki Club de Go Brest" <brest.tenuki@hotmail.fr>
+a =E9crit :
+
+> Bonjour =E0 tous,
+>
+> La MPT Pen ar Cr=E9ac'h organise une apr=E8s-midi animations pour f=EAter=
+ le
+> Printemps ce samedi 22 mars. Le club est invit=E9 pour y tenir un stand d=
+e Go
+> afin de faire des initiations en plein air.
+>
+> Samedi 22 mars / 14h -17h / Place de Strasbourg
+>
+> En cas de mauvais temps, nous pourrons nous abriter dans un gymnase.
+>
+> Qui est int=E9ress=E9 pour venir faire des initiations ?
+>
+> Kevin
+>
+> _______________________________________________
+> Tenuki-brest mailing list
+> Tenuki-brest@jeudego.org
+> https://admin.jeudego.org/mailman/listinfo/tenuki-brest
+>
+>
+
+--bcaec51f969f0859d804f4e4fec3
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<p dir=3D"ltr">Pas disponible non plus. </p>
+<p dir=3D"ltr">Louis G</p>
+<div class=3D"gmail_quote">Le 18 mars 2014 17:38, &quot;Tenuki Club de Go B=
+rest&quot; &lt;<a href=3D"mailto:brest.tenuki@hotmail.fr">brest.tenuki@hotm=
+ail.fr</a>&gt; a =E9crit :<br type=3D"attribution"><blockquote class=3D"gma=
+il_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-lef=
+t:1ex">
+
+
+
+<div><div dir=3D"ltr"><font face=3D"Times New Roman">Bonjour =E0 tous,</fon=
+t><div><font face=3D"Times New Roman"><br></font></div><div><font face=3D"T=
+imes New Roman">La MPT Pen ar Cr=E9ac&#39;h organise une apr=E8s-midi anima=
+tions pour f=EAter le Printemps ce samedi 22 mars. Le club est invit=E9 pou=
+r y tenir un stand de Go afin de faire des initiations en plein air.</font>=
+</div>
+<div><font face=3D"Times New Roman"><br></font></div><div><font face=3D"Tim=
+es New Roman">Samedi 22 mars / 14h -17h / Place de Strasbourg</font></div><=
+div><font face=3D"Times New Roman"><br></font></div><div><font face=3D"Time=
+s New Roman">En cas de mauvais temps, nous pourrons nous abriter dans un gy=
+mnase.</font></div>
+<div><font face=3D"Times New Roman"><br></font></div><div><font face=3D"Tim=
+es New Roman">Qui est int=E9ress=E9 pour venir faire des initiations ?</fon=
+t></div><div><font face=3D"Times New Roman"><br></font></div><div><font fac=
+e=3D"Times New Roman">Kevin</font></div>
+ 		 	   		  </div></div>
+<br>_______________________________________________<br>
+Tenuki-brest mailing list<br>
+<a href=3D"mailto:Tenuki-brest@jeudego.org">Tenuki-brest@jeudego.org</a><br=
+>
+<a href=3D"https://admin.jeudego.org/mailman/listinfo/tenuki-brest" target=
+=3D"_blank">https://admin.jeudego.org/mailman/listinfo/tenuki-brest</a><br>
+<br></blockquote></div>
+
+--bcaec51f969f0859d804f4e4fec3--
+
+--===============7426584187056768414==
+Content-Type: text/plain; charset="iso-8859-1"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Content-Disposition: inline
+
+_______________________________________________
+Tenuki-brest mailing list
+Tenuki-brest@jeudego.org
+https://admin.jeudego.org/mailman/listinfo/tenuki-brest
+
+--===============7426584187056768414==--

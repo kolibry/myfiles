@@ -1,0 +1,121 @@
+Return-Path: <typhaine.gaillard@laposte.net>
+X-Spam-Checker-Version: SpamAssassin 3.3.2 (2011-06-06) on spamd2.riseup.net
+X-Spam-Level: 
+X-Spam-Pyzor: Reported 0 times.
+X-Spam-Status: No, score=-0.5 required=8.0 tests=AM_TRUNCATED,CK_419SIZE,
+	FREEMAIL_FROM,HTML_MESSAGE,KHOP_THREADED,ODD_PUNCTUATION2,RCVD_IN_DNSWL_NONE,
+	RCVD_IN_HOSTKARMA_YE,RP_MATCHES_RCVD,TO_NOREAL shortcircuit=no
+	autolearn=disabled version=3.3.2
+Delivered-To: kolibry@riseup.net
+Received: from mx1.riseup.net (mx1-pn.riseup.net [10.0.1.33])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client CN "*.riseup.net", Issuer "Gandi Standard SSL CA" (not verified))
+	by vireo.riseup.net (Postfix) with ESMTPS id 26CFC8F
+	for <kolibry@riseup.net>; Mon,  3 Mar 2014 19:10:00 +0000 (UTC)
+Received: from smtpout.laposte.net (smtpout2.laposte.net [193.253.67.227])
+	by mx1.riseup.net (Postfix) with ESMTP id 52AEE50042
+	for <kolibry@riseup.net>; Mon,  3 Mar 2014 11:09:58 -0800 (PST)
+Received: from [78.241.84.90] ([78.241.84.90])
+	by mwinf8504-out with ME
+	id Z79u1n00E1wwGjy0379w9i; Mon, 03 Mar 2014 20:09:57 +0100
+Message-ID: <5314D381.6030305@laposte.net>
+Date: Mon, 03 Mar 2014 20:09:53 +0100
+From: Typhaine <typhaine.gaillard@laposte.net>
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:24.0) Gecko/20100101 Thunderbird/24.3.0
+MIME-Version: 1.0
+To: kolibry@riseup.net
+Subject: Fwd: texte article
+References: <947B5D71-9FF8-4AF9-9BB2-6EAFA6EB37EA@laposte.net>
+In-Reply-To: <947B5D71-9FF8-4AF9-9BB2-6EAFA6EB37EA@laposte.net>
+X-Forwarded-Message-Id: <947B5D71-9FF8-4AF9-9BB2-6EAFA6EB37EA@laposte.net>
+Content-Type: multipart/alternative;
+ boundary="------------030904080208080007090905"
+X-Virus-Scanned: clamav-milter 0.97.8 at mx1
+X-Virus-Status: Clean
+
+This is a multi-part message in MIME format.
+--------------030904080208080007090905
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 8bit
+
+
+
+
+-------- Message original --------
+Sujet: 	texte article
+Date : 	Mon, 3 Mar 2014 18:19:04 +0100
+De : 	le LIEU <le.lieu@laposte.net>
+Pour : 	Typhaine <typhaine.gaillard@laposte.net>, "j.fournier1987" 
+<j.fournier1987@laposte.net>
+
+
+
+Coucou les amis
+Pourriez vous faire un article à la une ? J'ai pas d'idée de texte
+marrant mais en gros dire que nous avons commencé la chantier yourte.
+1ère étape, couper chacune des 116 perches de murs et y percer 9
+trous, puis les poncer.
+Cette étape devrait être finie ds la semaine. Ensuite nous attaquerons
+les perches de toit...
+
+Gros bisous
+Chacha
+
+
+
+
+--------------030904080208080007090905
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <head>
+
+    <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+  </head>
+  <body bgcolor="#FFFFFF" text="#000000">
+    <br>
+    <div class="moz-forward-container"><br>
+      <br>
+      -------- Message original --------
+      <table class="moz-email-headers-table" border="0" cellpadding="0"
+        cellspacing="0">
+        <tbody>
+          <tr>
+            <th align="RIGHT" nowrap="nowrap" valign="BASELINE">Sujet: </th>
+            <td>texte article</td>
+          </tr>
+          <tr>
+            <th align="RIGHT" nowrap="nowrap" valign="BASELINE">Date&nbsp;: </th>
+            <td>Mon, 3 Mar 2014 18:19:04 +0100</td>
+          </tr>
+          <tr>
+            <th align="RIGHT" nowrap="nowrap" valign="BASELINE">De&nbsp;: </th>
+            <td>le LIEU <a class="moz-txt-link-rfc2396E" href="mailto:le.lieu@laposte.net">&lt;le.lieu@laposte.net&gt;</a></td>
+          </tr>
+          <tr>
+            <th align="RIGHT" nowrap="nowrap" valign="BASELINE">Pour&nbsp;: </th>
+            <td>Typhaine <a class="moz-txt-link-rfc2396E" href="mailto:typhaine.gaillard@laposte.net">&lt;typhaine.gaillard@laposte.net&gt;</a>,
+              "j.fournier1987" <a class="moz-txt-link-rfc2396E" href="mailto:j.fournier1987@laposte.net">&lt;j.fournier1987@laposte.net&gt;</a></td>
+          </tr>
+        </tbody>
+      </table>
+      <br>
+      <br>
+      <pre>Coucou les amis
+Pourriez vous faire un article &agrave; la une ? J'ai pas d'id&eacute;e de texte  
+marrant mais en gros dire que nous avons commenc&eacute; la chantier yourte.  
+1&egrave;re &eacute;tape, couper chacune des 116 perches de murs et y percer 9  
+trous, puis les poncer.
+Cette &eacute;tape devrait &ecirc;tre finie ds la semaine. Ensuite nous attaquerons  
+les perches de toit...
+
+Gros bisous
+Chacha</pre>
+      <br>
+    </div>
+    <br>
+  </body>
+</html>
+
+--------------030904080208080007090905--

@@ -1,0 +1,73 @@
+Return-Path: <diffusion@jeudego.org>
+X-Spam-Checker-Version: SpamAssassin 3.3.2 (2011-06-06) on spamd2.riseup.net
+X-Spam-Level: 
+X-Spam-Pyzor: Reported 0 times.
+X-Spam-Status: No, score=-0.3 required=8.0 tests=AM_TRUNCATED,CK_419SIZE,
+	CK_KARD_SIZE,FORWARD_RELAY,NOMATCH_NICK_FROM,RP_MATCHES_RCVD shortcircuit=no
+	autolearn=disabled version=3.3.2
+Delivered-To: kolibry@riseup.net
+Received: from mx1.riseup.net (mx1-pn.riseup.net [10.0.1.33])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client CN "*.riseup.net", Issuer "Gandi Standard SSL CA" (not verified))
+	by vireo.riseup.net (Postfix) with ESMTPS id EDEF7AF
+	for <kolibry@riseup.net>; Fri,  4 Apr 2014 09:44:44 +0000 (UTC)
+Received: from jeudego.org (jeudego.org [5.135.164.19])
+	by mx1.riseup.net (Postfix) with ESMTP id 9ECF84B106
+	for <kolibry@riseup.net>; Fri,  4 Apr 2014 02:44:44 -0700 (PDT)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by jeudego.org (Postfix) with ESMTP id 7664E2EC25F9
+	for <ffginfo@jeudego.org>; Fri,  4 Apr 2014 11:44:43 +0200 (CEST)
+Received: from jeudego.org ([127.0.0.1])
+	by localhost (jeudego.org [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id Zqq3oCixHw8C for <ffginfo@jeudego.org>;
+	Fri,  4 Apr 2014 11:44:39 +0200 (CEST)
+Received: from [192.168.1.57] (104.18.100.84.rev.sfr.net [84.100.18.104])
+	(using TLSv1 with cipher DHE-RSA-AES128-SHA (128/128 bits))
+	(No client certificate requested)
+	by jeudego.org (Postfix) with ESMTPSA
+	for <ffginfo@jeudego.org>; Fri,  4 Apr 2014 11:44:39 +0200 (CEST)
+Message-ID: <533E7F06.4020006@jeudego.org>
+Date: Fri, 04 Apr 2014 11:44:38 +0200
+From: ffg <diffusion@jeudego.org>
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:24.0) Gecko/20100101 Thunderbird/24.3.0
+MIME-Version: 1.0
+To: ffginfo@jeudego.org
+Subject: =?UTF-8?B?W0ZGR10gQ291cnMgZXQgY29tbWVudGFpcmVzIGRlIHBhcnRpZXMgZGU=?=
+ =?UTF-8?B?IEZhbiBIdWkgcG91ciB0b3VzIGxlcyBsaWNlbmNpw6lzIHN1ciBLR1M=?=
+Content-Type: text/plain; charset=UTF-8; format=flowed
+Content-Transfer-Encoding: 8bit
+X-Virus-Scanned: clamav-milter 0.98.1 at mx1
+X-Virus-Status: Clean
+
+Bonjour.
+Les cours et commentaires de Fan Hui destinés à tous les licenciés 
+continuent.
+
+Le programme d'avril à juin :
+
+★★★ Tous les cours ont lieu à 20h30 en salle "Cours FFG" ★★★
+
+• Avril
+Mercredi 9 avril : le fuseki Kobayashi (4)
+Mercredi 23 avril : Commentaire de parties*
+
+• Mai
+Mercredi 14 mai : le fuseki Kobayashi (5)
+Mercredi 28 mai : Commentaire de parties*
+
+• Juin
+Mercredi 11 juin : le fuseki Kobayashi (6)
+Mercredi 25 juin : Commentaire de parties*
+
+
+* N'hésitez pas à envoyer à Fan, le jour du cours, les parties que vous 
+souhaiteriez voir commentées pendant ces cours, en précisant votre 
+pseudo KGS et votre niveau : oragefan@yahoo.fr.
+
+Toutes les infos sur ces cours sont disponibles ici :
+http://www.gokgs.com/help/kgs_ffg.html?helpLocale=fr_FR
+
+Pour toute question vous pouvez me contacter ici : kgs@jeudego.org
+
+-- Paul Piriou aka bolbi
+

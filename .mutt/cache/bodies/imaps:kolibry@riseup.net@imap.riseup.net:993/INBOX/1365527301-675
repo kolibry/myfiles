@@ -1,0 +1,86 @@
+Return-Path: <claudiusrolland@yahoo.fr>
+X-Spam-Checker-Version: SpamAssassin 3.3.2 (2011-06-06) on spamd3.riseup.net
+X-Spam-Level: 
+X-Spam-Pyzor: Reported 0 times.
+X-Spam-Status: No, score=-0.0 required=8.0 tests=AM_TRUNCATED,CK_419SIZE,
+	CK_KARD_SIZE,DKIM_SIGNED,DKIM_VALID,DKIM_VALID_AU,FORWARD_RELAY,FREEMAIL_FROM,
+	HAS_REPLY_TO,HTML_MESSAGE,ODD_PUNCTUATION2,RCVD_IN_DNSWL_NONE,REPLY_TO_TEMP
+	shortcircuit=no autolearn=disabled version=3.3.2
+Delivered-To: kolibry@riseup.net
+Received: from mx1.riseup.net (mx1-pn.riseup.net [10.0.1.33])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client CN "*.riseup.net", Issuer "Gandi Standard SSL CA" (not verified))
+	by vireo.riseup.net (Postfix) with ESMTPS id 8AD1079
+	for <kolibry@riseup.net>; Wed, 22 Jan 2014 14:44:19 +0000 (UTC)
+Received: from nm2-vm1.bullet.mail.ird.yahoo.com (nm2-vm1.bullet.mail.ird.yahoo.com [77.238.189.200])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by mx1.riseup.net (Postfix) with ESMTPS id CD50B523D0
+	for <kolibry@riseup.net>; Wed, 22 Jan 2014 06:44:18 -0800 (PST)
+Received: from [77.238.189.52] by nm2.bullet.mail.ird.yahoo.com with NNFMP; 22 Jan 2014 14:44:17 -0000
+Received: from [212.82.98.89] by tm5.bullet.mail.ird.yahoo.com with NNFMP; 22 Jan 2014 14:44:17 -0000
+Received: from [127.0.0.1] by omp1026.mail.ir2.yahoo.com with NNFMP; 22 Jan 2014 14:44:17 -0000
+X-Yahoo-Newman-Property: ymail-3
+X-Yahoo-Newman-Id: 218576.17512.bm@omp1026.mail.ir2.yahoo.com
+Received: (qmail 36439 invoked by uid 60001); 22 Jan 2014 14:44:17 -0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.fr; s=s1024; t=1390401857; bh=keVkBmx2OZRe9H2ZewOi9tK44STHLnFu2PhGPpBJZ6w=; h=X-YMail-OSG:Received:X-Rocket-MIMEInfo:X-Mailer:References:Message-ID:Date:From:Reply-To:Subject:To:In-Reply-To:MIME-Version:Content-Type; b=Bo0LSUiWTI7o7ivG7oscjFz3MGvgeuIpJwQRhqceEToMsCvHhjWGVCGiUP3neNsip0NbtpCDTjZv2WqeeCnHt/9702b9XR2h7xasC9ZY5/hH/SA2ICH0wclDZuTQJgYlCqOUadoP2aSkJn7gLlKtt6wPbQzfP+jDcgc4k5j/k1c=
+DomainKey-Signature:a=rsa-sha1; q=dns; c=nofws;
+  s=s1024; d=yahoo.fr;
+  h=X-YMail-OSG:Received:X-Rocket-MIMEInfo:X-Mailer:References:Message-ID:Date:From:Reply-To:Subject:To:In-Reply-To:MIME-Version:Content-Type;
+  b=xBLkPDO96VEGY7dXxzBq1LJMBF/01on52kqk/bipRJm1bpd7O9xYj4dk5fDbClBH25ZAu6t7TkXcziMtIBp1xsd0e+G32HVMDMFuQgxgBTiK4orb6lUCaGXXNZVlrozz0upqNHZKmmnnBKAlY/w26zBPxiF7GOUC8iHIBBq9z/w=;
+X-YMail-OSG: LXH5aSIVM1mOC34kkmTNsv_kwN8137NA6nhFhoonEv8PYLF
+ wf6ahxA_9MuKozVRZ0EEKkC3ob1SrgiBGNXIE4tpao8uOT4B2B82g5vWN2yc
+ LzlAq_BLDVaHyp7P0e.SnnEwi7HLPOn2jvnceA0tdLk9QfuRE1fNAl1tfupL
+ wD.du6mX8kV0zCipD7JeR4XQ1SDyK2sveGz_SVEonu8tECbCUl_XiQ_Qu6Eu
+ rHI8c9gL3FzaNEa4oouUfebaxeTAVzrNiHnj3xEx2g.M3dpBA19_3k0gIPN6
+ B12EWtomFvV25FYNMsTenauYq9Ox6gUU8Wd.vrgNA.2B_gPPiLUImZICBq7e
+ VQNGNHOVZqxQIwYDx1vfEaVmQJeCKp6wGM3Jeh5V1h0pInpk.3fzTEKsYWIo
+ t1q3mp7QS2RRicXjw4YHVQU6oWPIMO6hQs74cXicr6bENFSYLIWSlKr59E8c
+ OxeZDgJ6BfZ60D_H2q6c35tbmcW.X1vd34_IRHDfZb4i9mZXQ08MRDw3JwdS
+ gfcGDw3yzW05hSSwqCyqmsOK_K4h640ExhVbgz4t3aGqAWg2prTfQFcuzE4o
+ -
+Received: from [78.241.84.159] by web171701.mail.ir2.yahoo.com via HTTP; Wed, 22 Jan 2014 14:44:17 GMT
+X-Rocket-MIMEInfo: 002.001,c2FsdXQgam9uYXRoYW4gLCAKcGV1eCB0dSB0cmF2YWlsbGVyIGRlbWFpbiBhcHJlcyBtaWRpID8gw6AgMTNoIDMwIGF1IGhhbmdhciAuIApBKyAsIGNsYXVkZQoKCgoKCkxlIEx1bmRpIDIwIGphbnZpZXIgMjAxNCAxOGgyMiwgSm9uYXRoYW4gPGtvbGlicnlAcmlzZXVwLm5ldD4gYSDDqWNyaXQgOgogClNhbHV0IENsYXVkZSwKCk9rIHBvdXIgZGVtYWluIG1hdGluLgoKQm9ubmUgc29pcsOpZS4BMAEBAQE-
+X-Mailer: YahooMailWebService/0.8.173.622
+References: <1389627403.55017.YahooMailNeo@web171704.mail.ir2.yahoo.com> <1423146.coSjmd3zYv@chakra> <1390233001.7980.YahooMailNeo@web171701.mail.ir2.yahoo.com> <52DD5B3E.9010602@riseup.net>
+Message-ID: <1390401857.32926.YahooMailNeo@web171701.mail.ir2.yahoo.com>
+Date: Wed, 22 Jan 2014 14:44:17 +0000 (GMT)
+From: ROLLAND Claude <claudiusrolland@yahoo.fr>
+Reply-To: ROLLAND Claude <claudiusrolland@yahoo.fr>
+Subject: Re: 
+To: Jonathan <kolibry@riseup.net>
+In-Reply-To: <52DD5B3E.9010602@riseup.net>
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="-75644646-380877964-1390401857=:32926"
+X-Virus-Scanned: clamav-milter 0.97.8 at mx1
+X-Virus-Status: Clean
+
+---75644646-380877964-1390401857=:32926
+Content-Type: text/plain; charset=iso-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+salut jonathan , =0Apeux tu travailler demain apres midi ? =E0 13h 30 au ha=
+ngar . =0AA+ , claude=0A=0A=0A=0A=0A=0ALe Lundi 20 janvier 2014 18h22, Jona=
+than <kolibry@riseup.net> a =E9crit :=0A =0ASalut Claude,=0A=0AOk pour dema=
+in matin.=0A=0ABonne soir=E9e.
+---75644646-380877964-1390401857=:32926
+Content-Type: text/html; charset=iso-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<html><body><div style=3D"color:#000; background-color:#fff; font-family:He=
+lveticaNeue, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;fo=
+nt-size:12pt">salut jonathan , <br>peux tu travailler demain apres midi ? =
+=E0 13h 30 au hangar . <br>A+ , claude<br><div><span><br></span></div><div =
+style=3D"display: block;" class=3D"yahoo_quoted"> <br> <br> <div style=3D"f=
+ont-family: HelveticaNeue, Helvetica Neue, Helvetica, Arial, Lucida Grande,=
+ sans-serif; font-size: 12pt;"> <div style=3D"font-family: HelveticaNeue, H=
+elvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif; font-size: 12pt=
+;"> <div dir=3D"ltr"> <font face=3D"Arial" size=3D"2"> Le Lundi 20 janvier =
+2014 18h22, Jonathan &lt;kolibry@riseup.net&gt; a =E9crit :<br> </font> </d=
+iv>  <div class=3D"y_msg_container"><div class=3D"yqt4621805192" id=3D"yqtf=
+d07717">Salut Claude,</div><br clear=3D"none"><br clear=3D"none">Ok pour de=
+main matin.<br clear=3D"none"><br clear=3D"none">Bonne soir=E9e.<div class=
+=3D"yqt4621805192"
+ id=3D"yqtfd83872"><br clear=3D"none"></div><br><br></div>  </div> </div>  =
+</div> </div></body></html>
+---75644646-380877964-1390401857=:32926--

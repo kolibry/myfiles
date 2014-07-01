@@ -1,0 +1,54 @@
+Return-Path: <noreply@forumactif.com>
+X-Spam-Checker-Version: SpamAssassin 3.3.2 (2011-06-06) on spamd2.riseup.net
+X-Spam-Level: **
+X-Spam-Pyzor: Reported 0 times.
+X-Spam-Status: No, score=3.0 required=8.0 tests=AM_TRUNCATED,CK_419SIZE,
+	CK_KARD_SIZE,DKIM_SIGNED,DKIM_VALID,DKIM_VALID_AU,FREEMAIL_FORGED_REPLYTO,
+	GAPPY_LET,HAS_REPLY_TO,LINK_NR_TOP,REPLYTO_DIFF,REPLYTO_DIFF_DOMAIN,
+	REPLY_TO_TEMP shortcircuit=no autolearn=disabled version=3.3.2
+Delivered-To: kolibry@riseup.net
+Received: from mx1.riseup.net (mx1-pn.riseup.net [10.0.1.33])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client CN "*.riseup.net", Issuer "Gandi Standard SSL CA" (not verified))
+	by vireo.riseup.net (Postfix) with ESMTPS id 169D3AA
+	for <kolibry@riseup.net>; Thu,  1 May 2014 16:38:00 +0000 (UTC)
+Received: from f68.mail.dnspro.org (f68.mail.dnspro.org [74.86.217.140])
+	by mx1.riseup.net (Postfix) with ESMTP id D6A165B716
+	for <kolibry@riseup.net>; Thu,  1 May 2014 09:37:59 -0700 (PDT)
+Received: by f68.mail.dnspro.org (ESMTP, from userid 510)
+	id BAC2715827B; Thu,  1 May 2014 18:33:54 +0200 (CEST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=forumactif.com;
+	s=default; t=1398962273;
+	bh=iWh4xNW8C37TWPz5HRDcnzLBfvg4oUNQyxL1bmYxyns=;
+	h=To:Subject:From:Reply-to:Date;
+	b=TvQCncFuYAXcgNdGk23tGWJ4gB5mwA4blBz+lLy3vvc8qxb7hDAnykQ6cbjuiqzo3
+	 hRmvPJqhqi5QNH0N16M7Q4IKSqfWtrZzo6mpnYrPESsbTkJKoEFVYl6nQRrWbWsSwx
+	 J4mWi9pY+Xfl67NPt42giMO199Tq8N4c5HCQGujk=
+To: "=?utf-8?B?S29saWJyeQ==?=" <kolibry@riseup.net>
+Subject: =?utf-8?B?VW4gbm91dmVhdSBtZXNzYWdlIHByaXbDqSB2aWVudCBkJ2Fycml2ZXIgc3VyIEdPLk9OIGwgTGUgZm9ydW0gZGUgbGEgY29tbXVuYXV0w6kgZnJhbsOnYWlzZSBkZSBHbw==?=
+Content-type: text/plain; charset="utf-8"
+Content-transfer-encoding: 8bit
+From: "=?utf-8?B?R08uT04gbCBMZSBmb3J1bSBkZSBsYSBjb21tdW5hdXTDqSBmcmFuw6dhaXNlIGRlIEdv?=" <noreply@forumactif.com>
+Reply-to: "=?utf-8?B?R08uT04gbCBMZSBmb3J1bSBkZSBsYSBjb21tdW5hdXTDqSBmcmFuw6dhaXNlIGRlIEdv?=" <ldlretouching@hotmail.com>
+Message-ID: <20140501163354.6a98611e80@go-on.forumactif.com>
+MIME-Version: 1.0
+Date: Thu,  1 May 2014 18:33:54 +0200 (CEST)
+
+Bonjour Kolibry,
+
+Vous avez reçu un nouveau message privé de la part de Admin
+sur "GO.ON l Le forum de la communauté française de Go" - http://go-on.forumactif.com et avez demandé à être averti dans ce cas.
+
+Vous pouvez voir votre nouveau message et y répondre en cliquant simplement sur le lien suivant :
+http://go-on.forumactif.com/privmsg?folder=inbox
+
+Rappelez-vous que :
+	1. Vous ne serez plus averti des nouveaux messages privés tant que vous ne vous serez pas connecté sur "GO.ON l Le forum de la communauté française de Go"
+	2. Vous pouvez choisir de ne plus être averti de l'arrivée de nouveaux messages privés en modifiant l'option appropriée dans votre profil.
+
+____________________
+_____________________________________________________________________________
+
+L'Administrateur.
+GO.ON l Le forum de la communauté française de Go.
+http://goon-forum.com/

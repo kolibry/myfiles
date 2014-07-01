@@ -1,0 +1,92 @@
+Return-Path: <ne_pas_repondre@dgfip.finances.gouv.fr>
+X-Spam-Checker-Version: SpamAssassin 3.3.2 (2011-06-06) on spamd2.riseup.net
+X-Spam-Level: 
+X-Spam-Pyzor: Reported 0 times.
+X-Spam-Status: No, score=-0.6 required=8.0 tests=AM_TRUNCATED,CK_419SIZE,
+	DKIM_SIGNED,DKIM_VALID,DKIM_VALID_AU,HTML_MESSAGE,NO_REAL_NAME,
+	RP_MATCHES_RCVD,TO_NOREAL shortcircuit=no autolearn=disabled version=3.3.2
+Delivered-To: kolibry@riseup.net
+Received: from mx1.riseup.net (mx1-pn.riseup.net [10.0.1.33])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client CN "*.riseup.net", Issuer "Gandi Standard SSL CA" (not verified))
+	by vireo.riseup.net (Postfix) with ESMTPS id 723B5AA
+	for <kolibry@riseup.net>; Sun, 20 Apr 2014 16:22:16 +0000 (UTC)
+Received: from pf2pusi003.dgfip.finances.gouv.fr (pf2pusi003.dgfip.finances.gouv.fr [145.242.11.105])
+	by mx1.riseup.net (Postfix) with ESMTP id 1FC8B4B692
+	for <kolibry@riseup.net>; Sun, 20 Apr 2014 09:22:15 -0700 (PDT)
+Received: from syrpua01 (syrpua01 [192.168.34.31])
+	by pf2pusi003.dgfip.finances.gouv.fr (Postfix) with ESMTP id 155A480259
+	for <kolibry@riseup.net>; Sun, 20 Apr 2014 18:22:09 +0200 (CEST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple;
+	d=dgfip.finances.gouv.fr; s=default; t=1398010929;
+	bh=tL1YfiKd9ajM7ZVaa1nGr+ZDMIBzTXbd9+CRnaFL0O8=;
+	h=Date:From:To:Subject;
+	b=od+vpqfWHrvIxKn0x7eivLtKE6+rJ5vBlvr47n7a4dUkA1Rx+5P/g0FAg+2rjTn7T
+	 YBk4chISqttnSIJEO0OaDWG1pYtLj/kYExeucs1whqvATu4/vo12rEeAt/4FarFhhD
+	 Bh058JEAJ3tLZxofAsdwYjGN8Y6Vy0kQEMHR3k9uGsoCx7UXVCnhd9iCaFZZwcWUey
+	 CbYJdVexQT8tA1gNl0L07R99UtB1h4Lg2oWcPB6LdIWvKRoDK9S5l8jFHR69q6K4V9
+	 iP/0YSW4GdsEuLCfRmlWjSkpw97/2OLhXuO/u+EL/xJGjmzzj5ird47mbkkZdcqhgQ
+	 GmxhWDw41A6AA==
+Message-ID: <3369146.1398010929083.JavaMail.dynamo@syrpua01>
+Date: Sun, 20 Apr 2014 18:22:09 +0200 (CEST)
+From: ne_pas_repondre@dgfip.finances.gouv.fr
+To: kolibry@riseup.net
+Subject: =?ISO-8859-1?Q?impots.gouv.fr_-_activation_d?=
+ =?ISO-8859-1?Q?e_votre_acc=E8s_par_mot_de_passe?=
+Mime-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_31155_1488059.1398010929078"
+X-Virus-Scanned: clamav-milter 0.98.1 at mx1
+X-Virus-Status: Clean
+
+------=_Part_31155_1488059.1398010929078
+Content-Type: text/plain; charset=iso-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+Monsieur JONATHAN FOURNIER (N=B0 fiscal 1668257857245)
+Vous venez de choisir un mot de passe pour acc=E9der =E0 votre espace
+Particulier sur impots.gouv.fr.
+Pour activer votre nouvel acc=E8s, veuillez cliquer sur le lien
+ci-dessous (ou le recopier dans votre navigateur).
+https://cfspart.impots.gouv.fr/portal/dgi/public/prefsna0/validemail?p=3DqX=
+6z9A44XgwAoax8IEKELFDn1OXlAeqtpnflenaC2Dha5nlcgM%2FVxzIVP4LqZ2NSaLZODUx3hw%=
+2Fo28hfaouS6A%3D%3D&t=3Dm [https://cfspart.impots.gouv.fr/portal/dgi/public=
+/prefsna0/validemail?p=3DqX6z9A44XgwAoax8IEKELFDn1OXlAeqtpnflenaC2Dha5nlcgM=
+%2FVxzIVP4LqZ2NSaLZODUx3hw%2Fo28hfaouS6A%3D%3D&t=3Dm]=20
+Attention, ce lien est valable pour une dur=E9e de 24 heures. Au-del=E0,
+vous devrez recommencer la proc=E9dure sur le site impots.gouv.fr.
+En vous remerciant pour votre confiance,
+La direction g=E9n=E9rale des finances publiques
+Recommandations
+Pour votre s=E9curit=E9, nous vous recommandons de ne jamais r=E9pondre =E0=
+ un
+courriel vous demandant vos coordonn=E9es bancaires.
+Pour en savoir plus, rendez vous sur impots.gouv.fr.
+------=_Part_31155_1488059.1398010929078
+Content-Type: text/html; charset=iso-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+ <html><head><title></title><head><body>Monsieur JONATHAN FOURNIER (N=B0 fi=
+scal 1668257857245)<br/><br/>
+Vous venez de choisir un mot de passe pour acc=E9der =E0 votre espace Parti=
+culier sur impots.gouv.fr.<br/>
+Pour activer votre nouvel acc=E8s, veuillez cliquer sur le lien ci-dessous =
+(ou le recopier dans votre navigateur).<br/><br/><a href=3D"https://cfspart=
+.impots.gouv.fr/portal/dgi/public/prefsna0/validemail?p=3DqX6z9A44XgwAoax8I=
+EKELFDn1OXlAeqtpnflenaC2Dha5nlcgM%2FVxzIVP4LqZ2NSaLZODUx3hw%2Fo28hfaouS6A%3=
+D%3D&t=3Dm" target=3D"_blank">https://cfspart.impots.gouv.fr/portal/dgi/pub=
+lic/prefsna0/validemail?p=3DqX6z9A44XgwAoax8IEKELFDn1OXlAeqtpnflenaC2Dha5nl=
+cgM%2FVxzIVP4LqZ2NSaLZODUx3hw%2Fo28hfaouS6A%3D%3D&t=3Dm</a><!--@ [https://c=
+fspart.impots.gouv.fr/portal/dgi/public/prefsna0/validemail?p=3DqX6z9A44Xgw=
+Aoax8IEKELFDn1OXlAeqtpnflenaC2Dha5nlcgM%2FVxzIVP4LqZ2NSaLZODUx3hw%2Fo28hfao=
+uS6A%3D%3D&t=3Dm] --><br/><br/>
+Attention, ce lien est valable pour une dur=E9e de 24 heures. Au-del=E0, vo=
+us devrez recommencer la proc=E9dure sur le site impots.gouv.fr.<br/><br/>
+En vous remerciant pour votre confiance,<br/><br/>
+La direction g=E9n=E9rale des finances publiques
+<br/><br/><font color=3D"red"><b>Recommandations</b><br/>Pour votre s=E9cur=
+it=E9, nous vous recommandons de ne jamais r=E9pondre =E0 un courriel vous =
+demandant vos coordonn=E9es bancaires.</font><br/><br/><b>Pour en savoir pl=
+us, rendez vous sur impots.gouv.fr.</b></body></html>
+------=_Part_31155_1488059.1398010929078--
+

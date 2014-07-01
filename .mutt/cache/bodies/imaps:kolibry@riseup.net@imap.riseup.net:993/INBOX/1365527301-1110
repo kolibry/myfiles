@@ -1,0 +1,47 @@
+Return-Path: <noreply@forumactif.com>
+Delivered-To: kolibry@riseup.net
+Received: from mx1.riseup.net (mx1-pn.riseup.net [10.0.1.33])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client CN "*.riseup.net", Issuer "Gandi Standard SSL CA" (not verified))
+	by vireo.riseup.net (Postfix) with ESMTPS id 70E1AD7
+	for <kolibry@riseup.net>; Thu,  8 May 2014 16:15:18 +0000 (UTC)
+Received: from f56.mail.dnspro.org (f56.mail.dnspro.org [173.192.27.200])
+	by mx1.riseup.net (Postfix) with ESMTP id 7D5F069277
+	for <kolibry@riseup.net>; Thu,  8 May 2014 09:14:04 -0700 (PDT)
+Received: by f56.mail.dnspro.org (ESMTP, from userid 510)
+	id 0123C14817E; Thu,  8 May 2014 18:13:40 +0200 (CEST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=forumactif.com;
+	s=default; t=1399565621;
+	bh=ZkBPwgraNAx5/kr/qNL4vZo97f0kWyM92pWYbuKdgSw=;
+	h=To:Subject:From:Reply-to:Date;
+	b=x8ZL0WBWgfZORf7Biv9thdSXq6dgJ+YPoWBlHPYTCOpoLqTG3qBnlPaoQdunfphVj
+	 gjBVuqy3auokoBxWgWjObSJP7rvM/OKn1AB3vQ7ht2ophpo+vWDQy/Eh/MpYuNe0fU
+	 i9uzLekp5UdMAWYleL40HZNxtclntAgDREfkXKGo=
+To: "=?utf-8?B?S29saWJyeQ==?=" <kolibry@riseup.net>
+Subject: =?utf-8?B?VW4gbm91dmVhdSBtZXNzYWdlIHByaXbDqSB2aWVudCBkJ2Fycml2ZXIgc3VyIEdPLk9OIGwgTGUgZm9ydW0gZGUgbGEgY29tbXVuYXV0w6kgZnJhbsOnYWlzZSBkZSBHbw==?=
+Content-type: text/plain; charset="utf-8"
+Content-transfer-encoding: 8bit
+From: "=?utf-8?B?R08uT04gbCBMZSBmb3J1bSBkZSBsYSBjb21tdW5hdXTDqSBmcmFuw6dhaXNlIGRlIEdv?=" <noreply@forumactif.com>
+Reply-to: "=?utf-8?B?R08uT04gbCBMZSBmb3J1bSBkZSBsYSBjb21tdW5hdXTDqSBmcmFuw6dhaXNlIGRlIEdv?=" <ldlretouching@hotmail.com>
+Message-ID: <20140508161340.022aae2a86@go-on.forumactif.com>
+MIME-Version: 1.0
+Date: Thu,  8 May 2014 18:13:40 +0200 (CEST)
+
+Bonjour Kolibry,
+
+Vous avez reçu un nouveau message privé de la part de hortens
+sur "GO.ON l Le forum de la communauté française de Go" - http://go-on.forumactif.com et avez demandé à être averti dans ce cas.
+
+Vous pouvez voir votre nouveau message et y répondre en cliquant simplement sur le lien suivant :
+http://go-on.forumactif.com/privmsg?folder=inbox
+
+Rappelez-vous que :
+	1. Vous ne serez plus averti des nouveaux messages privés tant que vous ne vous serez pas connecté sur "GO.ON l Le forum de la communauté française de Go"
+	2. Vous pouvez choisir de ne plus être averti de l'arrivée de nouveaux messages privés en modifiant l'option appropriée dans votre profil.
+
+____________________
+_____________________________________________________________________________
+
+L'Administrateur.
+GO.ON l Le forum de la communauté française de Go.
+http://goon-forum.com/

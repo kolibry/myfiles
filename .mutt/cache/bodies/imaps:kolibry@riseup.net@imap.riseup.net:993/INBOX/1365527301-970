@@ -1,0 +1,170 @@
+Return-Path: <jGwc7EwsHLSsLIxsHBxsjLRGtExM7IzsrCyc@smtp-coi-g16-047.aweber.com>
+X-Spam-Checker-Version: SpamAssassin 3.3.2 (2011-06-06) on spamd2.riseup.net
+X-Spam-Level: 
+X-Spam-Pyzor: Reported 0 times.
+X-Spam-Status: No, score=0.1 required=8.0 tests=AM_TRUNCATED,CK_419SIZE,
+	DKIM_SIGNED,DKIM_VALID,ENV_FROM_DIFF0,HTML_MESSAGE,LINK_NR_TOP,PHISH_ACC6,
+	RCVD_IN_DNSWL_NONE,RDNS_DYNAMIC,RP_MATCHES_RCVD,SPF_HELO_PASS,WEB_MAILER15
+	shortcircuit=no autolearn=disabled version=3.3.2
+Delivered-To: kolibry@riseup.net
+Received: from mx1.riseup.net (mx1-pn.riseup.net [10.0.1.33])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client CN "*.riseup.net", Issuer "Gandi Standard SSL CA" (not verified))
+	by vireo.riseup.net (Postfix) with ESMTPS id C10CCAA
+	for <kolibry@riseup.net>; Thu,  3 Apr 2014 17:19:42 +0000 (UTC)
+Received: from smtp-coi-g16-047.aweber.com (smtp-coi-g16-047.aweber.com [204.194.223.47])
+	by mx1.riseup.net (Postfix) with ESMTP id AFFD45129B
+	for <kolibry@riseup.net>; Thu,  3 Apr 2014 10:19:41 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha1; d=aweber.com; s=dkim_s1024; c=relaxed/simple;
+	q=dns/txt; i=@aweber.com; t=1396545580;
+	h=Sender:Subject:Date:From:List-Unsubscribe:To:MIME-version:Content-type;
+	bh=PK0vvZecqqBKfSVQuozpfqjaDeQ=;
+	b=NBUE73TM2nu9IUnniE2mI8XsJt/yW2AjcMhmBUXsaS2toF7I5nYhiAqSe85rsBz0
+	lNmZzOnWO5gYFa21tsYw8GHW/yxzX1shzqKxzPIwNP/OFX2I/qMSf9+7WWBe0J41
+	Mrr/1HBeYf/Mt1HkhtbPNwwmOa7XHk2tKzwZ8z0QZvg=;
+Received: (qmail 25978 invoked by uid 0); 3 Apr 2014 17:19:40 -0000
+Message-ID: <83.B5.09006.C289D335@ec2>
+MIME-version: 1.0
+Content-type: multipart/alternative; boundary="_----------=_1396545543256430"
+To: kolibry@riseup.net
+From: "Go Game Guru" <news@gogameguru.com>
+Sender: ggg-newsletter@aweber.com
+X-Loop: ggg-newsletter@aweber.com
+X-Mailer: AWeber 4.1
+X-Subscription: Subscribed on 04/11/2013, via web form, by 78.200.24.99, from http://gogameguru.com/
+X-Verification: Verified by 78.200.24.99
+X_Id: 1687248:04-03-2014-12-33-39:kolibry@riseup.net/1687248
+Date: Thu, 3 Apr 2014 13:19:40 -0400
+List-Unsubscribe: <mailto:ggg-newsletter@aweber.com?subject=unsubscribe;jGwc7EwsHLSsLIxsHBxsjLRGtExM7IzsrCyc>, <http://www.aweber.com/z/r/?jGwc7EwsHLSsLIxsHBxsjLRGtExM7IzsrCyc>
+Subject: Go Game Guru: The 10th Chunlan Cup begins in China
+X-Virus-Scanned: clamav-milter 0.98.1 at mx1
+X-Virus-Status: Clean
+
+This is a multi-part message in MIME format.
+
+--_----------=_1396545543256430
+Content-Disposition: inline
+Content-Length: 1809
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+Hi,
+
+Here are Go Game Guru's weekly updates for Thursday, April 3, 2014.
+
+(please note: you can quit receiving these emails any time 
+you want: http://www.aweber.com/z/r/?jGwc7EwsHLSsLIxsHBxsjLRGtExM7IzsrCyc)
+
+
+
+The 10th Chunlan Cup begins in China
+The 10th Chunlan Cup kicked off on March 26, 2014, in Taezhou, China. The Chunlan Cup is an invitational tournament for 24 top players from around the world. This year's North American and European representatives - Jiang Mingjiu 7p and Fan Hui 2p - are certainly no strangers to the Western Go community...
+
+Read more: http://gogameguru.com/10th-chunlan-cup-begins/
+
+
+
+Gu Li strikes back: Gu Li vs Lee Sedol jubango – Game 3
+Gu Li 9p chalked up his first win in the MLily Gu vs Lee jubango, forcing Lee Sedol 9p to resign in game 3, on March 30, 2014. Lee and Gu faced one another in Chengdu - the capital city of Sichuan, China - having traveled straight there after their game at the 10th Chunlan Cup two days earlier...
+
+Read more: http://gogameguru.com/gu-li-strikes-back-gu-li-vs-lee-sedol-jubango-game-3/
+
+
+
+Enjoy the articles and if you like them, 
+feel free to share this email with friends.
+
+Regards,
+
+David
+
+Go Game Guru
+http://gogameguru.com/
+
+Looking for a Go board? Get great boards and free shipping 
+at the Go Game Shop: http://shop.gogameguru.com/
+
+Follow Go Game Guru on: 
+    - Facebook http://www.facebook.com/gogameguru
+    - Google+ http://gplus.to/gogameguru
+    - Twitter https://twitter.com/gogameguru/
+
+This email was sent to you at kolibry@riseup.net because you 
+subscribed to free updates from Go Game Guru at: 
+http://gogameguru.com/.
+
+
+Go Game Guru, Suite 5013, 92 Wattle Street, Lyneham, ACT 2602, AUSTRALIA
+
+
+To unsubscribe or change subscriber options visit:
+http://www.aweber.com/z/r/?jGwc7EwsHLSsLIxsHBxsjLRGtExM7IzsrCyc
+
+
+--_----------=_1396545543256430
+Content-Disposition: inline
+Content-Length: 4206
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+</head>
+<body style="margin: 0px">
+<div><span style="font-size: 15px">Hi,</span></div>
+<div><span style="font-size: 15px"><br />
+</span></div>
+<div><span style="font-size: 15px">Here are Go Game Guru's weekly updates for Thursday, April 3, 2014.</span></div>
+<div><span style="font-size: 15px"><br />
+</span></div>
+<div><span style="font-size: 15px">(please note: you can&nbsp;<a title="" href="http://www.aweber.com/z/r/?jGwc7EwsHLSsLIxsHBxsjLRGtExM7IzsrCyc">quit receiving these emails</a>&nbsp;any time you want)</span></div>
+<div><span style="font-size: 15px">
+<ol>
+<li><a href="http://gogameguru.com/10th-chunlan-cup-begins/"><strong>The 10th Chunlan Cup begins in China</strong></a><br />
+<br />
+The 10th Chunlan Cup kicked off on March 26, 2014, in Taezhou, China. The Chunlan Cup is an invitational tournament for 24 top players from around the world. This year's North American and European representatives - Jiang Mingjiu 7p and Fan Hui 2p - are certainly no strangers to the Western Go community... <a href="http://gogameguru.com/10th-chunlan-cup-begins/"><em>Click here to read more...</em></a><br />
+<br /></li>
+
+<li><a href="http://gogameguru.com/gu-li-strikes-back-gu-li-vs-lee-sedol-jubango-game-3/"><strong>Gu Li strikes back: Gu Li vs Lee Sedol jubango – Game 3</strong></a><br />
+<br />
+Gu Li 9p chalked up his first win in the MLily Gu vs Lee jubango, forcing Lee Sedol 9p to resign in game 3, on March 30, 2014. Lee and Gu faced one another in Chengdu - the capital city of Sichuan, China - having traveled straight there after their game at the 10th Chunlan Cup two days earlier... <a href="http://gogameguru.com/gu-li-strikes-back-gu-li-vs-lee-sedol-jubango-game-3/"><em>Click here to read more...</em></a><br />
+<br /></li>
+</ol></span></div>
+<div><span style="font-size: 15px">Enjoy the articles and if you like them, feel free to share this email with friends.</span></div>
+<div><span style="font-size: 15px"><br />
+</span></div>
+<div><span style="font-size: 15px">Regards,</span></div>
+<div><span style="font-size: 15px"><br />
+</span></div>
+<div><span style="font-size: 15px">David</span></div>
+<div><span style="font-size: 15px"><br />
+</span></div>
+<div><span style="font-size: 15px">Go Game Guru</span></div>
+<div><span style="font-size: 15px"><a title="" href="http://gogameguru.com/">http://gogameguru.com/</a></span></div>
+<div><span style="font-size: 15px">&nbsp;</span></div>
+<div><span style="font-size: 15px">Looking for a Go board? Get great boards and free shipping at the <a title="" href="http://shop.gogameguru.com/">Go Game Shop</a>.</span></div>
+<div><span style="font-size: 15px">&nbsp;</span></div>
+<div><span style="font-size: 15px">Follow Go Game Guru on: <a title="" href="http://www.facebook.com/gogameguru">Facebook</a> | <a title="" href="https://plus.google.com/111715774215148787136">Google+</a> | <a title="" href="http://twitter.com/gogameguru/">Twitter</a></span></div>
+<div><span style="font-size: 15px">&nbsp;</span></div>
+<div><span style="font-size: 15px">This email was sent to you at kolibry@riseup.net because you subscribed to free updates from Go Game Guru at http://gogameguru.com/.</span></div>
+<div><span style="font-size: 15px"><br />
+</span></div>
+<div><span style="font-size: 15px"><br />
+</span></div>
+<div><span style="font-size: 15px">Go Game Guru, Suite 5013, 92 Wattle Street, Lyneham, ACT 2602, AUSTRALIA</span></div>
+
+<center>
+<div style="background-color:#ffffff !important; color:#000000 !important; font-family:Verdana !important; font-size:10px !important; max-width:600px; padding:8px !important; text-align:left; width:100%;">
+   
+   <br/>
+   <a href="http://www.aweber.com/z/r/?jGwc7EwsHLSsLIxsHBxsjLRGtExM7IzsrCyc" style="color: #00f !important;">Unsubscribe</a> | <a href="http://www.aweber.com/z/r/?jGwc7EwsHLSsLIxsHBxsjLRGtExM7IzsrCyc" style="color: #00f !important;">Change Subscriber Options</a>
+   <br/><br/>
+   <img src="https://openrate.aweber.com/y/o/?l=MIyww&m=3V_eByGn4MQNJ.U" width="1" height="1">
+</div>
+</center>
+</body>
+</html>
+
+--_----------=_1396545543256430--
+

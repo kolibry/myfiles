@@ -1,0 +1,595 @@
+Return-Path: <newsletter-owner@lists.riseup.net>
+X-Spam-Checker-Version: SpamAssassin 3.3.2 (2011-06-06) on spamd3.riseup.net
+X-Spam-Level: 
+X-Spam-Pyzor: 
+X-Spam-Status: No, score=-121.0 required=8.0 tests=ALL_TRUSTED,SC_HAM,
+	SHORTCIRCUIT shortcircuit=ham autolearn=disabled version=3.3.2
+Delivered-To: kolibry@riseup.net
+Received: from mx2.riseup.net (mx2-pn.riseup.net [10.0.1.44])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client CN "*.riseup.net", Issuer "Gandi Standard SSL CA" (not verified))
+	by vireo.riseup.net (Postfix) with ESMTPS id 5B30D372;
+	Tue,  1 Apr 2014 06:23:30 +0000 (UTC)
+Received: from willet.riseup.net (willet-pn.riseup.net [10.0.1.41])
+	by mx2.riseup.net (Postfix) with ESMTP id 676BDA4787;
+	Mon, 31 Mar 2014 23:20:35 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple; d=lists.riseup.net;
+	s=chirp; t=1396333239;
+	bh=+9kcx+mIMIZhT4bfC3b8jOWE+MUfLh4Kvk3qRJpMTEY=;
+	h=Date:To:From:Subject:Reply-To:List-Id:List-Archive:List-Help:
+	 List-Owner:List-Post:List-Subscribe:List-Unsubscribe:From;
+	b=canlzCxYanmmWPekj1OFQPN8/QvprrEnB8z9Nmuw1XlAVP6jNSwoGolTjv6hNgAwT
+	 X2Ss91JK/kjILQliWd0imCLbFvEwCKGAkquBz0edD/0phWxRW2RkQSW4MtGuIDYakO
+	 650qxXhWZbvqDye5yQHEq2XpwlpBz7d2m0Gq/pbw=
+Received: by willet.riseup.net (Postfix, from userid 1000)
+	id 1ED71A2D; Mon, 31 Mar 2014 23:19:40 -0700 (PDT)
+X-Original-To: newsletter@lists.riseup.net
+Delivered-To: newsletter@lists.riseup.net
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Date: Mon, 31 Mar 2014 23:10:37 -0700
+To: newsletter@lists.riseup.net
+Mime-Version: 1.0 (Apple Message framework v1085)
+X-Mailer: Apple Mail (2.1085)
+X-Virus-Scanned: clamav-milter 0.98.1 at willet
+X-Virus-Status: Clean
+From: newsletter@lists.riseup.net
+Message-id: <newsletter.82@anonymous>
+Subject: [riseup] =?UTF-8?B?bmV3c2xldHRlciAvICDOlc69zrfOvM61z4HPic+Ezrk=?=
+ =?UTF-8?B?zrrPjCDOtM61zrvPhM6vzr8gLyBidWxsZXRpbiAvIGJvbGxldHRpbm8gLyBi?=
+ =?UTF-8?B?b2xldGltIC8=?=
+Reply-To: newsletter@lists.riseup.net
+X-Loop: newsletter@lists.riseup.net
+X-Sequence: 82
+Errors-to: newsletter-owner@lists.riseup.net
+Precedence: list
+Precedence: bulk
+Sender: newsletter-request@lists.riseup.net
+X-no-archive: yes
+List-Id: <newsletter.lists.riseup.net>
+List-Archive: <https://lists.riseup.net/www/arc/newsletter>
+List-Help: <mailto:sympa@lists.riseup.net?subject=help>
+List-Owner: <mailto:newsletter-request@lists.riseup.net>
+List-Post: <mailto:newsletter@lists.riseup.net>
+List-Subscribe: <mailto:sympa@lists.riseup.net?subject=subscribe%20newsletter>
+List-Unsubscribe: <mailto:sympa@lists.riseup.net?subject=unsubscribe%20newsletter>
+
+
+[en]  This newsletter is for all riseup.net list admins and mail account =
+users. It contains vital information, technical tips, and news about =
+Riseup.
+[el]  =CE=91=CF=85=CF=84=CF=8C =CF=84=CE=BF =CE=B5=CE=BD=CE=B7=CE=BC=CE=B5=
+=CF=81=CF=89=CF=84=CE=B9=CE=BA=CF=8C =CE=B4=CE=B5=CE=BB=CF=84=CE=AF=CE=BF =
+=CE=B5=CE=AF=CE=BD=CE=B1=CE=B9 =CE=B3=CE=B9=CE=B1 =CF=8C=CE=BB=CE=BF=CF=85=
+=CF=82 =CF=84=CE=BF=CF=85=CF=82 =CE=B4=CE=B9=CE=B1=CF=87=CE=B5=CE=B9=CF=81=
+=CE=B9=CF=83=CF=84=CE=AD=CF=82 =CE=BB=CE=B9=CF=83=CF=84=CF=8E=CE=BD =
+=CF=84=CE=BF=CF=85 riseup.net =CE=BA=CE=B1=CE=B9 =CF=84=CE=BF=CF=85=CF=82 =
+=CF=87=CF=81=CE=AE=CF=83=CF=84=CE=B5=CF=82 =CE=BB=CE=BF=CE=B3=CE=B1=CF=81=CE=
+=B9=CE=B1=CF=83=CE=BC=CF=8E=CE=BD =CE=B7=CE=BB=CE=B5=CE=BA=CF=84=CF=81=CE=BF=
+=CE=BD=CE=B9=CE=BA=CE=BF=CF=8D =CF=84=CE=B1=CF=87=CF=85=CE=B4=CF=81=CE=BF=CE=
+=BC=CE=B5=CE=AF=CE=BF=CF=85. =CE=A0=CE=B5=CF=81=CE=B9=CE=AD=CF=87=CE=B5=CE=
+=B9 =CF=87=CF=81=CE=AE=CF=83=CE=B9=CE=BC=CE=B5=CF=82 =
+=CF=80=CE=BB=CE=B7=CF=81=CE=BF=CF=86=CE=BF=CF=81=CE=AF=CE=B5=CF=82, =
+=CF=84=CE=B5=CF=87=CE=BD=CE=B9=CE=BA=CE=AD=CF=82 =CF=83=CF=85=CE=BC=CE=B2=CE=
+=BF=CF=85=CE=BB=CE=AD=CF=82 =CE=BA=CE=B1=CE=B9 =CE=BD=CE=AD=CE=B1 =
+=CF=83=CF=87=CE=B5=CF=84=CE=B9=CE=BA=CE=AC =CE=BC=CE=B5 =CF=84=CE=BF =
+Riseup.
+[fr]  Ce bulletin est adress=C3=A9 aux admins des listes de diffusion de =
+riseup.net, ainsi qu'aux utilisateurs et aux utilisatrices de courriel. =
+Il contient des informations importantes, des tuyaux techniques et des =
+nouvelles de Riseup.
+[it] Questo bollettino =C3=A8 per gli amministratori delle liste di =
+riseup.net e per tutti gli utenti. Contiene informazioni vitali, =
+suggerimenti tecnici e notizie su Riseup.=20
+[pt] Este boletim =C3=A9 para todas as pessoas que administram listas e =
+usam os servi=C3=A7os de riseup.net.  Ele cont=C3=A9m informa=C3=A7=C3=B5e=
+s importantes, dicas t=C3=A9cnicas e novidades do Riseup.
+
+
+
+[en] english
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D
+
+March 2014 Contents
+
+* Security Fire Drill
+* Riseup is for Activists
+* Big News
+* Money
+
+Security Fire Drill
+---------------------------------------------------
+Let's pretend you just accidentally pasted your Riseup password in a =
+non-retractable public place (twitter, facebook, tattoo, etc). Oops!
+
+How will this affect you? Do you use that password for sites other than =
+Riseup? (Not a good idea.) Do you keep all your passwords in a secure =
+place so you can check to see if that password is used elsewhere? Do you =
+know how to change your password? If not, check out =
+https://help.riseup.net/en/email/settings/mail-passwords#how-do-i-change-m=
+y-password. Are you storing information in your email that might be a =
+problem for other people, not just you? Do you need to keep those =
+emails?
+
+And while you're thinking about this panic-inducing question, why =
+don=E2=80=99t you fix anything you can right now to make such a mistake =
+less of a catastrophe.
+
+Riseup is for Activists
+---------------------------------------------------
+Riseup exists to provide free and secure online services for activists. =
+To those of you that are working on projects big and small for the =
+betterment of people, animals, and this beautiful green-blue planet, we =
+love you and hope that it is all going splendidly.
+Now some of you might be saying, I am a political bird, but I am not =
+much of an activist these days. Life is busy and it's been a while since =
+I've, you know, done something. We hear you. Really truly. This is a =
+friendly reminder, from our busy lives to yours, that one way to be an =
+excellent activist is to do a small amount of work consistently and =
+well. What are you good at? How can that help some project you love?
+
+Big News
+---------------------------------------------------
+For the first time in forever, Riseup is bringing a new system =
+administrator on board to work on our plans to deploy the amazing LEAP =
+platform in the coming year. This is a ton of work, and we are grateful =
+and excited to have the capacity to fund this coming deployment. For the =
+geeks among you, feel free to check out https://leap.se (English only) =
+to get a sense of the awesomeness of where we are going.
+
+Money
+---------------------------------------------------
+Alas, we still need it, since the computers have yet again failed to =
+gain sentience, rise up, get pissed off at the NSA, and change all our =
+online communications to secure and free models.
+
+https://help.riseup.net/donate
+
+
+
+[el] =CE=95=CE=BB=CE=BB=CE=B7=CE=BD=CE=B9=CE=BA=CE=AC
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+=CE=9C=CE=AC=CF=81=CF=84=CE=B7=CF=82 2014, =CE=A0=CE=B5=CF=81=CE=B9=CE=B5=CF=
+=87=CF=8C=CE=BC=CE=B5=CE=BD=CE=B1
+
+=CE=86=CF=83=CE=BA=CE=B7=CF=83=CE=B7 =CE=91=CF=83=CF=86=CE=B1=CE=BB=CE=B5=CE=
+=AF=CE=B1=CF=82
+=CE=97 Riseup =CE=B5=CE=AF=CE=BD=CE=B1=CE=B9 =CE=B3=CE=B9=CE=B1 =
+=CE=B1=CE=BA=CF=84=CE=B9=CE=B2=CE=B9=CF=83=CF=84=CE=AD=CF=82
+=CE=9C=CE=B5=CE=B3=CE=AC=CE=BB=CE=B1 =CE=9D=CE=AD=CE=B1
+=CE=A7=CF=81=CE=AE=CE=BC=CE=B1=CF=84=CE=B1
+
+=CE=86=CF=83=CE=BA=CE=B7=CF=83=CE=B7 =CE=91=CF=83=CF=86=CE=B1=CE=BB=CE=B5=CE=
+=AF=CE=B1=CF=82
+----------------
+=CE=91=CF=82 =CF=85=CF=80=CE=BF=CE=B8=CE=AD=CF=83=CE=BF=CF=85=CE=BC=CE=B5 =
+=CF=8C=CF=84=CE=B9 =CE=BA=CE=B1=CF=84=CE=B1=CE=BB=CE=AC=CE=B8=CE=BF=CF=82 =
+=CE=B3=CF=81=CE=AC=CF=88=CE=B1=CF=84=CE=B5 =CF=84=CE=BF=CE=BD =
+=CE=BA=CF=89=CE=B4=CE=B9=CE=BA=CF=8C =CF=80=CE=BF=CF=85 =
+=CF=87=CF=81=CE=B7=CF=83=CE=B9=CE=BC=CE=BF=CF=80=CE=BF=CE=B9=CE=B5=CE=AF=CF=
+=84=CE=B5 =CF=83=CF=84=CE=BF=CE=BD Riseup =CE=BB=CE=BF=CE=B3=CE=B1=CF=81=CE=
+=B9=CE=B1=CF=83=CE=BC=CF=8C =CF=83=CE=B1=CF=82 =CF=83=CE=B5 =CE=AD=CE=BD=CE=
+=B1 =CE=B4=CE=B7=CE=BC=CF=8C=CF=83=CE=B9=CE=BF =CE=BC=CE=AD=CF=81=CE=BF=CF=
+=82 (twitter, facebook, tattoo, =CE=BA=CE=BB=CF=80). =CE=8F=CF=87!
+
+=CE=A0=CF=8E=CF=82 =CE=B8=CE=B1 =CF=83=CE=B1=CF=82 =CE=B5=CF=80=CE=B7=CF=81=
+=CE=B5=CE=AC=CF=83=CE=B5=CE=B9 =CE=B1=CF=85=CF=84=CF=8C; =
+=CE=A7=CF=81=CE=B7=CF=83=CE=B9=CE=BC=CE=BF=CF=80=CE=BF=CE=B9=CE=B5=CE=AF=CF=
+=84=CE=B5 =CE=B1=CF=85=CF=84=CF=8C=CE=BD =CF=84=CE=BF=CE=BD =CE=BA=CF=89=CE=
+=B4=CE=B9=CE=BA=CF=8C =CF=83=CE=B5 =CE=AC=CE=BB=CE=BB=CE=B5=CF=82 =
+=CF=83=CE=B5=CE=BB=CE=AF=CE=B4=CE=B5=CF=82 =CE=B5=CE=BA=CF=84=CF=8C=CF=82 =
+=CF=84=CE=B7=CF=82 Riseup; (=CE=94=CE=B5=CE=BD =CE=B5=CE=AF=CE=BD=CE=B1=CE=
+=B9 =CE=BA=CE=B1=CE=B9 =CF=80=CE=BF=CE=BB=CF=8D =CE=BA=CE=B1=CE=BB=CE=AE =
+=CE=B9=CE=B4=CE=AD=CE=B1 =CE=B1=CF=85=CF=84=CF=8C.) =CE=9A=CF=81=CE=B1=CF=84=
+=CE=AC=CF=84=CE=B5 =CF=8C=CE=BB=CE=BF=CF=85=CF=82 =CF=83=CE=B1=CF=82 =
+=CF=84=CE=BF=CF=85=CF=82 =CE=BA=CF=89=CE=B4=CE=B9=CE=BA=CE=BF=CF=8D=CF=82 =
+=CF=83=CE=B5 =CE=AD=CE=BD=CE=B1 =CE=B1=CF=83=CF=86=CE=B1=CE=BB=CE=AD=CF=82=
+ =CE=BC=CE=AD=CF=81=CE=BF=CF=82 =CF=8E=CF=83=CF=84=CE=B5 =CE=BD=CE=B1 =
+=CE=BC=CF=80=CE=BF=CF=81=CE=B5=CE=AF=CF=84=CE=B5 =CE=BD=CE=B1 =
+=CE=B5=CE=BB=CE=AD=CE=B3=CE=BE=CE=B5=CF=84=CE=B5 =CE=B1=CE=BD =CE=BF =
+=CF=83=CF=85=CE=B3=CE=BA=CE=B5=CE=BA=CF=81=CE=B9=CE=BC=CE=AD=CE=BD=CE=BF=CF=
+=82 =CE=BA=CF=89=CE=B4=CE=B9=CE=BA=CF=8C=CF=82 =
+=CF=87=CF=81=CE=B7=CF=83=CE=B9=CE=BC=CE=BF=CF=80=CE=BF=CE=B9=CE=B5=CE=AF=CF=
+=84=CE=B1=CE=B9 =CE=B1=CE=BB=CE=BB=CE=BF=CF=8D; =CE=93=CE=BD=CF=89=CF=81=CE=
+=AF=CE=B6=CE=B5=CF=84=CE=B5 =CF=80=CF=8E=CF=82 =CE=BD=CE=B1 =
+=CE=B1=CE=BB=CE=BB=CE=AC=CE=BE=CE=B5=CF=84=CE=B5 =CF=84=CE=BF=CE=BD =
+=CE=BA=CF=89=CE=B4=CE=B9=CE=BA=CF=8C =CF=83=CE=B1=CF=82; =CE=91=CE=BD =
+=CF=8C=CF=87=CE=B9 =CE=B5=CE=BB=CE=AD=CE=B3=CE=BE=CF=84=CE=B5 =CF=84=CE=B9=
+=CF=82 =CE=BF=CE=B4=CE=B7=CE=B3=CE=AF=CE=B5=CF=82 =CE=B5=CE=B4=CF=8E =
+https://help.riseup.net/el/email/settings/mail-passwords#=CE=A0=CF=8E=CF=82=
+-=CE=B1=CE=BB=CE=BB=CE=AC=CE=B6=CF=89-=CF=84=CE=BF=CE=BD-=CE=BA=CF=89=CE=B4=
+=CE=B9=CE=BA=CF=8C-=CE=BC=CE=BF=CF=85 . =CE=9C=CE=AE=CF=80=CF=89=CF=82 =
+=CE=B1=CF=80=CE=BF=CE=B8=CE=B7=CE=BA=CE=B5=CF=8D=CF=84=CE=B5 =
+=CF=80=CE=BB=CE=B7=CF=81=CE=BF=CF=86=CE=BF=CF=81=CE=AF=CE=B5=CF=82 =
+=CF=83=CF=84=CE=BF email =CF=83=CE=B1=CF=82 =CF=80=CE=BF=CF=85 =
+=CF=80=CE=B9=CE=B8=CE=B1=CE=BD=CF=8C=CE=BD =CE=BD=CE=B1 =
+=CF=80=CF=81=CE=BF=CE=BA=CE=B1=CE=BB=CE=AD=CF=83=CE=BF=CF=85=CE=BD =
+=CF=80=CF=81=CF=8C=CE=B2=CE=BB=CE=B7=CE=BC=CE=B1 =CE=BA=CE=B1=CE=B9 =CF=83=
+=CE=B5 =CE=AC=CE=BB=CE=BB=CE=BF=CF=85=CF=82 =CE=B1=CE=BD=CE=B8=CF=81=CF=8E=
+=CF=80=CE=BF=CF=85=CF=82 =CF=80=CE=AD=CF=81=CE=B1 =CE=B1=CF=80=CF=8C =
+=CE=B5=CF=83=CE=AC=CF=82; =CE=A7=CF=81=CE=B5=CE=B9=CE=AC=CE=B6=CE=B5=CF=84=
+=CE=B1=CE=B9 =CF=80=CF=81=CE=B1=CE=B3=CE=BC=CE=B1=CF=84=CE=B9=CE=BA=CE=AC =
+=CE=BD=CE=B1 =CE=BA=CF=81=CE=B1=CF=84=CE=AC=CF=84=CE=B5 =CE=B1=CF=85=CF=84=
+=CE=AC =CF=84=CE=B1 emails;
+
+=CE=9A=CE=B1=CE=B9 =CE=BA=CE=B1=CE=B8=CF=8E=CF=82 =CF=83=CE=BA=CE=AD=CF=86=
+=CF=84=CE=B5=CF=83=CF=84=CE=B5 =CE=B1=CF=85=CF=84=CE=AD=CF=82 =CF=84=CE=B9=
+=CF=82 =CE=B5=CF=81=CF=89=CF=84=CE=AE=CF=83=CE=B5=CE=B9=CF=82 =CF=80=CE=BF=
+=CF=85 =CF=80=CF=81=CE=BF=CE=BA=CE=B1=CE=BB=CE=BF=CF=8D=CE=BD =
+=CF=80=CE=B1=CE=BD=CE=B9=CE=BA=CF=8C, =CE=B3=CE=B9=CE=B1=CF=84=CE=AF =
+=CE=B4=CE=B5=CE=BD =CE=B4=CE=B9=CE=BF=CF=81=CE=B8=CF=8E=CE=BD=CE=B5=CF=84=CE=
+=B5 =CE=BF,=CF=84=CE=B9 =CE=BC=CF=80=CE=BF=CF=81=CE=B5=CE=AF=CF=84=CE=B5 =
+=CF=84=CF=8E=CF=81=CE=B1 =CF=8E=CF=83=CF=84=CE=B5 =CE=AD=CE=BD=CE=B1 =
+=CE=B1=CF=81=CF=87=CE=B9=CE=BA=CF=8C =CF=85=CF=80=CE=BF=CE=B8=CE=B5=CF=84=CE=
+=B9=CE=BA=CF=8C =CE=BB=CE=AC=CE=B8=CE=BF=CF=82 =CE=BD=CE=B1 =CE=B5=CE=AF=CE=
+=BD=CE=B1=CE=B9 =CE=BB=CE=B9=CE=B3=CF=8C=CF=84=CE=B5=CF=81=CE=BF =
+=CE=BA=CE=B1=CF=84=CE=B1=CF=83=CF=84=CF=81=CE=BF=CF=86=CE=B9=CE=BA=CF=8C.
+
+
+=CE=97 Riseup =CE=B5=CE=AF=CE=BD=CE=B1=CE=B9 =CE=B3=CE=B9=CE=B1 =
+=CE=B1=CE=BA=CF=84=CE=B9=CE=B2=CE=B9=CF=83=CF=84=CE=AD=CF=82
+-----------------------
+=CE=97 Riseup =CF=85=CF=80=CE=AC=CF=81=CF=87=CE=B5=CE=B9 =CE=B3=CE=B9=CE=B1=
+ =CE=BD=CE=B1 =CF=80=CF=81=CE=BF=CF=83=CF=86=CE=AD=CF=81=CE=B5=CE=B9 =
+=CE=B5=CE=BB=CE=B5=CF=8D=CE=B8=CE=B5=CF=81=CE=B5=CF=82 =CE=BA=CE=B1=CE=B9 =
+=CE=B1=CF=83=CF=86=CE=B1=CE=BB=CE=B5=CE=AF=CF=82 =
+=CE=B4=CE=B9=CE=B1=CE=B4=CE=B9=CE=BA=CF=84=CF=85=CE=B1=CE=BA=CE=AD=CF=82 =
+=CF=85=CF=80=CE=B7=CF=81=CE=B5=CF=83=CE=AF=CE=B5=CF=82 =CF=83=CE=B5 =
+=CE=B1=CE=BA=CF=84=CE=B9=CE=B2=CE=B9=CF=83=CF=84=CE=AD=CF=82. =CE=93=CE=B9=
+=CE=B1 =CE=B5=CF=83=CE=AC=CF=82 =CF=80=CE=BF=CF=85 =CE=B4=CE=BF=CF=85=CE=BB=
+=CE=B5=CF=8D=CE=B5=CF=84=CE=B5 =CF=83=CE=B5 =CE=BC=CE=B9=CE=BA=CF=81=CE=AC=
+ =CE=BA=CE=B1=CE=B9 =CE=BC=CE=B5=CE=B3=CE=AC=CE=BB=CE=B1 =
+=CE=B5=CE=B3=CF=87=CE=B5=CE=B9=CF=81=CE=AE=CE=BC=CE=B1=CF=84=CE=B1 =
+=CE=B3=CE=B9=CE=B1 =CF=84=CE=BF =CE=BA=CE=B1=CE=BB=CF=8C =CF=84=CF=89=CE=BD=
+ =CE=B1=CE=BD=CE=B8=CF=81=CF=8E=CF=80=CF=89=CE=BD, =CF=84=CF=89=CE=BD =
+=CE=B6=CF=8E=CF=89=CE=BD =CE=BA=CE=B1=CE=B9 =CE=B1=CF=85=CF=84=CE=BF=CF=8D=
+ =CF=84=CE=BF=CF=85 =CF=80=CF=81=CE=B1=CF=83=CE=B9=CE=BD=CE=BF-=CE=B3=CE=AC=
+=CE=BB=CE=B1=CE=B6=CE=BF=CF=85 =CF=80=CE=BB=CE=B1=CE=BD=CE=AE=CF=84=CE=B7,=
+ =CF=83=CE=B1=CF=82 =CE=B1=CE=B3=CE=B1=CF=80=CE=AC=CE=BC=CE=B5 =CE=BA=CE=B1=
+=CE=B9 =CE=B5=CE=BB=CF=80=CE=AF=CE=B6=CE=BF=CF=85=CE=BC=CE=B5 =CF=8C=CF=84=
+=CE=B9 =CF=8C=CE=BB=CE=B1 =CF=80=CE=AC=CE=BD=CE=B5 =CE=BA=CE=B1=CE=BB=CE=AC=
+.
+
+=CE=9A=CE=AC=CF=80=CE=BF=CE=B9=CE=B5=CF=82/=CE=BA=CE=AC=CF=80=CE=BF=CE=B9=CE=
+=BF=CE=B9 =CE=B1=CF=80=CF=8C =CE=B5=CF=83=CE=AC=CF=82 =CE=BC=CF=80=CE=BF=CF=
+=81=CE=B5=CE=AF =CE=BD=CE=B1 =CE=BB=CE=AD=CF=84=CE=B5, =CE=B5=CE=BD=CF=84=CE=
+=AC=CE=BE=CE=B5=CE=B9 =CE=B5=CE=AF=CE=BC=CE=B1=CE=B9 =CE=AD=CE=BD=CE=B1 =
+=CF=80=CE=BF=CE=BB=CE=B9=CF=84=CE=B9=CE=BA=CF=8C =CF=80=CE=BF=CF=85=CE=BB=CE=
+=AF, =CE=B1=CE=BB=CE=BB=CE=AC =CE=B4=CE=B5=CE=BD =CE=B5=CE=AF=CE=BC=CE=B1=CE=
+=B9 =CE=BA=CE=B1=CE=B9 =CF=84=CF=8C=CF=83=CE=BF =CE=B1=CE=BA=CF=84=CE=B9=CE=
+=B2=CE=B9=CF=83=CF=84=CE=AE=CF=82 =CE=B1=CF=85=CF=84=CE=AE =CF=84=CE=B7=CE=
+=BD =CE=B5=CF=80=CE=BF=CF=87=CE=AE. =CE=97 =CE=B6=CF=89=CE=AE =CE=B5=CE=AF=
+=CE=BD=CE=B1=CE=B9 =CE=B3=CE=B5=CE=BC=CE=AC=CF=84=CE=B7 =
+=CF=85=CF=80=CE=BF=CF=87=CF=81=CE=B5=CF=8E=CF=83=CE=B5=CE=B9=CF=82 =
+=CE=BA=CE=B1=CE=B9 =CF=80=CE=AC=CE=B5=CE=B9 =CE=BB=CE=AF=CE=B3=CE=BF=CF=82=
+ =CE=BA=CE=B1=CE=B9=CF=81=CF=8C=CF=82 =CE=B1=CF=80=CF=8C =CF=84=CF=8C=CF=84=
+=CE=B5 =CF=80=CE=BF=CF=85, =CE=BE=CE=AD=CF=81=CE=B5=CF=84=CE=B5 =
+=CF=84=CF=8E=CF=81=CE=B1, =CE=AD=CF=87=CF=89 =CE=BA=CE=AC=CE=BD=CE=B5=CE=B9=
+ =CE=BA=CE=AC=CF=84=CE=B9. =CE=A3=CE=B1=CF=82 =
+=CE=BA=CE=B1=CF=84=CE=B1=CE=BB=CE=B1=CE=B2=CE=B1=CE=AF=CE=BD=CE=BF=CF=85=CE=
+=BC=CE=B5. =CE=A0=CF=81=CE=B1=CE=B3=CE=BC=CE=B1=CF=84=CE=B9=CE=BA=CE=AC. =
+=CE=91=CF=85=CF=84=CE=AE =CE=B5=CE=AF=CE=BD=CE=B1=CE=B9 =CE=BC=CE=B9=CE=B1=
+ =CF=86=CE=B9=CE=BB=CE=B9=CE=BA=CE=AE =CF=85=CF=80=CE=B5=CE=BD=CE=B8=CF=8D=
+=CE=BC=CE=B9=CF=83=CE=B7, =CE=B1=CF=80=CF=8C =CF=84=CE=B9=CF=82 =
+=CE=B4=CE=B9=CE=BA=CE=AD=CF=82 =CE=BC=CE=B1=CF=82 =CF=80=CE=BF=CE=BB=CF=85=
+=CE=AC=CF=83=CF=87=CE=BF=CE=BB=CE=B5=CF=82 =CE=B6=CF=89=CE=AD=CF=82 =
+=CF=83=CF=84=CE=B9=CF=82 =CE=B4=CE=B9=CE=BA=CE=AD=CF=82 =CF=83=CE=B1=CF=82=
+, =CF=8C=CF=84=CE=B9 =CE=AD=CE=BD=CE=B1 =CF=84=CF=81=CF=8C=CF=80=CE=BF=CF=82=
+ =CE=BD=CE=B1 =CE=B5=CE=AF=CF=83=CE=B1=CE=B9 =CE=BA=CE=B1=CE=BB=CF=8C=CF=82=
+ =CE=B1=CE=BA=CF=84=CE=B9=CE=B2=CE=B9=CF=83=CF=84=CE=AE=CF=82 =CE=B5=CE=AF=
+=CE=BD=CE=B1=CE=B9 =CE=BD=CE=B1 =CE=BA=CE=AC=CE=BD=CE=B5=CE=B9=CF=82 =
+=CE=BB=CE=AF=CE=B3=CE=B7 =CE=B4=CE=BF=CF=85=CE=BB=CE=B5=CE=B9=CE=AC =
+=CE=BC=CE=B5=CE=BD, =CE=B1=CE=BB=CE=BB=CE=AC =CE=BC=CE=B5 =
+=CF=83=CF=85=CE=BD=CE=AD=CF=80=CE=B5=CE=B9=CE=B1 =CE=BA=CE=B1=CE=B9 =CE=BD=
+=CE=B1 =CF=84=CE=B7=CE=BD =CE=BA=CE=AC=CE=BD=CE=B5=CE=B9=CF=82 =CE=BA=CE=B1=
+=CE=BB=CE=AC. =CE=A3=CE=B5 =CF=84=CE=B9 =CE=B5=CE=AF=CF=83=CF=84=CE=B5 =
+=CE=BA=CE=B1=CE=BB=CE=BF=CE=AF; =CE=A0=CF=8E=CF=82 =CE=B1=CF=85=CF=84=CF=8C=
+ =CE=BC=CF=80=CE=BF=CF=81=CE=B5=CE=AF =CE=BD=CE=B1 =CE=B2=CE=BF=CE=B7=CE=B8=
+=CE=AE=CF=83=CE=B5=CE=B9 =CE=AD=CE=BD=CE=B1 =CE=B5=CE=B3=CF=87=CE=B5=CE=AF=
+=CF=81=CE=B7=CE=BC=CE=B1 =CF=80=CE=BF=CF=85 =CF=83=CE=B1=CF=82 =
+=CE=B1=CF=81=CE=AD=CF=83=CE=B5=CE=B9;
+
+
+=CE=9C=CE=B5=CE=B3=CE=AC=CE=BB=CE=B1 =CE=9D=CE=AD=CE=B1
+---------
+=CE=93=CE=B9=CE=B1 =CF=80=CF=81=CF=8E=CF=84=CE=B7 =CF=86=CE=BF=CF=81=CE=AC=
+ =CF=83=CF=84=CE=B1 =CF=87=CF=81=CE=BF=CE=BD=CE=B9=CE=BA=CE=AC, =CE=B7 =
+Riseup =CE=B8=CE=B1 =CE=AD=CF=87=CE=B5=CE=B9 =CE=AD=CE=BD=CE=B1=CE=BD =
+=CE=BD=CE=AD=CE=BF =CE=B4=CE=B9=CE=B1=CF=87=CE=B5=CE=B9=CF=81=CE=B9=CF=83=CF=
+=84=CE=AE =CF=83=CF=85=CF=83=CF=84=CE=B7=CE=BC=CE=AC=CF=84=CF=89=CE=BD =
+=CE=B3=CE=B9=CE=B1 =CE=BD=CE=B1 =CE=B5=CF=81=CE=B3=CE=B1=CF=83=CF=84=CE=B5=
+=CE=AF =CF=83=CF=84=CE=B1 =CF=83=CF=87=CE=AD=CE=B4=CE=B9=CE=B1 =CF=80=CE=BF=
+=CF=85 =CE=AD=CF=87=CE=BF=CF=85=CE=BC=CE=B5 =CE=B3=CE=B9=CE=B1 =CE=BD=CE=B1=
+ =CF=87=CF=81=CE=B7=CF=83=CE=B9=CE=BC=CE=BF=CF=80=CE=BF=CE=B9=CE=AE=CF=83=CE=
+=BF=CF=85=CE=BC=CE=B5 =CF=84=CE=B7=CE=BD =CF=85=CF=80=CE=AD=CF=81=CE=BF=CF=
+=87=CE=B7 =CF=80=CE=BB=CE=B1=CF=84=CF=86=CF=8C=CF=81=CE=BC=CE=B1 =CF=84=CE=
+=BF=CF=85 LEAP =CF=84=CE=B7=CE=BD =CE=B5=CF=80=CF=8C=CE=BC=CE=B5=CE=BD=CE=B7=
+ =CF=87=CF=81=CE=BF=CE=BD=CE=B9=CE=AC. =CE=91=CF=85=CF=84=CF=8C =
+=CE=B5=CE=AF=CE=BD=CE=B1=CE=B9 =CE=AD=CE=BD=CE=B1 =CF=84=CE=B5=CF=81=CE=AC=
+=CF=83=CF=84=CE=B9=CE=BF=CF=82 =CF=8C=CE=B3=CE=BA=CE=BF=CF=82 =
+=CE=B5=CF=81=CE=B3=CE=B1=CF=83=CE=AF=CE=B1=CF=82 =CE=BA=CE=B1=CE=B9 =
+=CE=B5=CE=AF=CE=BC=CE=B1=CF=83=CF=84=CE=B5 =CE=B5=CF=85=CE=B3=CE=BD=CF=8E=CE=
+=BC=CE=BF=CE=BD=CE=B5=CF=82 =CE=BA=CE=B1=CE=B9 =
+=CE=B5=CE=BD=CE=B8=CE=BF=CF=85=CF=83=CE=B9=CE=B1=CF=83=CE=BC=CE=AD=CE=BD=CE=
+=BF=CE=B9 =CF=80=CE=BF=CF=85 =CE=AD=CF=87=CE=BF=CF=85=CE=BC=CE=B5 =CF=84=CE=
+=B7=CE=BD =CE=BF=CE=B9=CE=BA=CE=BF=CE=BD=CE=BF=CE=BC=CE=B9=CE=BA=CE=AE =
+=CE=B4=CF=85=CE=BD=CE=B1=CF=84=CF=8C=CF=84=CE=B7=CF=84=CE=B1 =CE=BD=CE=B1 =
+=CF=85=CE=BB=CE=BF=CF=80=CE=BF=CE=B9=CE=AE=CF=83=CE=BF=CF=85=CE=BC=CE=B5 =
+=CE=BA=CE=AC=CF=84=CE=B9 =CF=84=CE=AD=CF=84=CE=BF=CE=B9=CE=BF. =CE=93=CE=B9=
+=CE=B1 =CF=84=CE=BF=CF=85=CF=82 geeks =CE=BC=CE=B5=CF=84=CE=B1=CE=BE=CF=8D=
+ =CE=BC=CE=B1=CF=82, =CF=83=CE=B1=CF=82 =CF=80=CF=81=CE=BF=CF=84=CE=B5=CE=AF=
+=CE=BD=CE=BF=CF=85=CE=BC=CE=B5 =CE=BD=CE=B1 =CF=84=CF=83=CE=B5=CE=BA=CE=AC=
+=CF=81=CE=B5=CF=84=CE=B5 =CF=84=CE=BF leap.se (=CE=91=CE=B3=CE=B3=CE=BB=CE=
+=B9=CE=BA=CE=AC =CE=BC=CF=8C=CE=BD=CE=BF) =CE=B3=CE=B9=CE=B1 =CE=BD=CE=B1 =
+=CF=80=CE=AC=CF=81=CE=B5=CF=84=CE=B5 =CE=BC=CE=B9=CE=B1 =CE=B9=CE=B4=CE=AD=
+=CE=B1 =CF=84=CE=BF=CF=85 =CF=84=CE=B9 =CF=86=CE=B1=CE=BD=CF=84=CE=B1=CF=83=
+=CF=84=CE=B9=CE=BA=CE=AC =CF=80=CF=81=CE=AC=CE=B3=CE=BC=CE=B1=CF=84=CE=B1 =
+=CF=86=CF=84=CE=B9=CE=AC=CF=87=CE=BD=CE=BF=CF=85=CE=BC=CE=B5.
+
+
+=CE=A7=CF=81=CE=AE=CE=BC=CE=B1=CF=84=CE=B1
+-------
+=CE=91=CE=BB=CE=AF=CE=BC=CE=BF=CE=BD=CE=BF, =CF=84=CE=B1 =
+=CF=87=CF=81=CE=B5=CE=B9=CE=B1=CE=B6=CF=8C=CE=BC=CE=B1=CF=83=CF=84=CE=B5 =
+=CE=B1=CE=BA=CF=8C=CE=BC=CE=B1. =CE=91=CF=86=CE=BF=CF=8D =CE=BF=CE=B9 =
+=CF=85=CF=80=CE=BF=CE=BB=CE=BF=CE=B3=CE=B9=CF=83=CF=84=CE=AD=CF=82 =
+=CE=B3=CE=B9=CE=B1 =CE=BC=CE=B9=CE=B1 =CE=B1=CE=BA=CF=8C=CE=BC=CE=B7 =
+=CF=86=CE=BF=CF=81=CE=AC =CE=B1=CF=80=CE=AD=CF=84=CF=85=CF=87=CE=B1=CE=BD =
+=CE=BD=CE=B1 =CE=B1=CF=80=CE=BF=CE=BA=CF=84=CE=AE=CF=83=CE=BF=CF=85=CE=BD =
+=CF=83=CF=85=CE=BD=CE=B5=CE=AF=CE=B4=CE=B7=CF=83=CE=B7, =
+=CE=B5=CE=BE=CE=B5=CE=B3=CE=B5=CF=81=CE=B8=CE=B5=CE=AF=CF=84=CE=B5, =
+=CF=84=CF=83=CE=B1=CE=BD=CF=84=CE=B9=CF=83=CF=84=CE=B5=CE=AF=CF=84=CE=B5 =
+=CE=BC=CE=B5 =CF=84=CE=B7=CE=BD NSA, =CE=BA=CE=B1=CE=B9 =CE=B1=CE=BB=CE=BB=
+=CE=AC=CE=BE=CF=84=CE=B5 =CF=8C=CE=BB=CE=B5=CF=82 =CF=84=CE=B9=CF=82 =
+=CF=88=CE=B7=CF=86=CE=B9=CE=B1=CE=BA=CE=AD=CF=82 =
+=CE=B5=CF=80=CE=B9=CE=BA=CE=BF=CE=B9=CE=BD=CF=89=CE=BD=CE=AF=CE=B5=CF=82 =
+=CF=83=CE=B5 =CE=B1=CF=83=CF=86=CE=B1=CE=BB=CE=AE =CE=BA=CE=B1=CE=B9 =
+=CE=B5=CE=BB=CE=B5=CF=8D=CE=B8=CE=B5=CF=81=CE=B1 =CE=BC=CE=BF=CE=BD=CF=84=CE=
+=AD=CE=BB=CE=B1.
+
+https://help.riseup.net/el/about-us/donate
+
+
+
+[fr] fran=C3=A7ais
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D
+
+Au sommaire ce mois de mars 2014
+
+* Exercice d'incendie
+* Riseup est pour les militant-e-s
+* De grandes nouvelles
+* Argent
+
+
+Exercice d'incendie
+----------------------
+Pr=C3=A9tendons que vous venez de copier votre mot de passe Riseup par =
+erreur sur un site public (twitter, facebook, tattoo, etc.). Oups=E2=80=AF=
+!
+
+Comment cela vous affecte-t-il=E2=80=AF? Utilisez-vous ce mot de passe =
+pour d'autres sites que Riseup=E2=80=AF? (Ce n'est pas une bonne id=C3=A9e=
+). Gardez-vous l'ensemble de vos mots de passes dans un endroit =
+s=C3=A9curitaire qui vous permet de v=C3=A9rifier si vous utilisez le =
+m=C3=AAme mot de passe ailleurs=E2=80=AF? Si ce n'est pas le cas, allez =
+faire un tour au =
+https://help.riseup.net/fr/email/settings/mail-passwords#how-do-i-change-m=
+y-password. Y a-t-il des informations dans votre bo=C3=AEte courriel qui =
+pourraient compromettre une personne autre que vous-m=C3=AAme=E2=80=AF? =
+Devez-vous vraiment garder ces courriels=E2=80=AF?
+
+Pendant que vous r=C3=A9fl=C3=A9chissez =C3=A0 cette effrayante =
+question, pourquoi ne pas agir d=C3=A8s maintenant pour qu'une =
+potentielle erreur de ce genre ait des cons=C3=A9quences franchement =
+moins graves=E2=80=AF?
+
+
+Riseup est pour les militant-e-s
+-----------------------
+Riseup existe pour fournir des services gratuits et s=C3=A9curitaires =
+aux militant-e-s. =C3=80 ceux et celles d=E2=80=99entre vous qui =
+travaillez sur des projets - petits et grands - qui am=C3=A9liorent la =
+vie d'=C3=AAtres humains, d'animaux et de cette belle plan=C3=A8te bleue =
+et verte, nous souhaitons vous exprimer notre amour et nous esp=C3=A9rons =
+que tout va pour le mieux.
+
+Certain-e-s d=E2=80=99entre vous se disent peut-=C3=AAtre, =C2=AB=E2=80=AF=
+ Je suis un oiseau politique, mais je ne suis pas un-e incroyable =
+militant-e ces temps-ci. Ma vie est occup=C3=A9e et cela fait un bout de =
+temps que je n'ai fait quelque chose de significatif=E2=80=AF=C2=BB. =
+Nous comprenons. Vraiment. Ceci est un rappel amical, de nos vies =
+occup=C3=A9es =C3=A0 la v=C3=B4tre=E2=80=AF: la vraie mani=C3=A8re =
+d'=C3=AAtre une excellente militante ou un excellent militant est de =
+bien faire de petites quantit=C3=A9s de travail de mani=C3=A8re =
+r=C3=A9guli=C3=A8re. Dans quoi =C3=AAtes-vous bon-ne=E2=80=AF? Comme =
+cela peux-t-il aider les projets qui vous tiennent =C3=A0 c=C5=93ur=E2=80=AF=
+?
+
+
+De grandes nouvelles
+-----------------------------
+Pour la premi=C3=A8re fois depuis une =C3=A9ternit=C3=A9, Riseup =
+accueille une nouvelle personne comme administrateur syst=C3=A8me pour =
+travailler sur notre projet de d=C3=A9ployer la plateforme LEAP dans =
+l'ann=C3=A9e qui vient. C'est une tonne de travail et nous sommes =
+reconnaissant-e-s et excit=C3=A9-e-s d'avoir les ressources pour =
+financer ce d=C3=A9ploiement. Pour les geeks parmi vous, l'information =
+disponible au https://leap.se (anglais seulement) vous permettra de =
+comprendre dans quelle direction incroyable nous nous dirigeons.
+
+
+Argent
+-----
+H=C3=A9las, nous en avons encore besoin. Voyez-vous, les ordinateurs ne =
+sont pas encore conscients et ne se rebellent pas encore contre la NSA =
+dans le but de rendre toutes nos communications =C3=A9lectroniques =
+s=C3=A9curitaires et gratuites.
+
+https://help.riseup.net/donate
+
+
+
+[it] italiano
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+Marzo 2014 - Indice
+
+* Esercitazione di sicurezza
+* Riseup =C3=A8 per attivist*
+* Grandi notizie
+* Soldi
+* Traduttori e traduttrici cercasi!
+
+
+Esercitazione di sicurezza
+--------------------------------------------
+
+Immaginiamo che tu abbia appena reso pubblica la tua password di Riseup =
+in uno spazio pubblico da cui non pu=C3=B2 essere ritrattata (twitter, =
+facebook, un tatuaggio, etc.). Ops!
+
+In che modo questo ha effetto su di te? Usi quella password per altri =
+siti oltre a Riseup? (Non una buona idea.) Hai tutte le tue password in =
+un luogo sicuro, di modo da poter controllare se la password =C3=A8 =
+usata da altre parti? Sai come modificare la tua password? Se non lo =
+sai, dai uno sguardo a =
+https://help.riseup.net/en/email/settings/mail-passwords#how-do-i-change-m=
+y-password (in inglese). Hai informazioni salvate sulla tua mail che =
+potrebbero essere causa di problemi per altre persone, e non solo per =
+te? =C3=88 necessario conservare quelle e-mails?
+
+E gi=C3=A0 ci siamo, e che stai riflettendo su questa domanda che =C3=A8 =
+in grado di gettarti nel panico, perch=C3=A8 non aggiusti tutto il =
+possibile fin da ora, di modo che un errore del genere si riveli meno =
+catastrofale?
+
+
+Riseup =C3=A8 per attivist*
+-------------------------------------
+
+Riseup esiste per fornire servizi online sicuri e liberi ad attivisti e =
+attiviste. A tutte quelle persone che lavorano su progetti grandi o =
+piccoli per migliorare la vita di altre persone, degli animali o di =
+questo bel pianeta verde e azzurro: vi adoriamo e speriamo che tutto =
+stia andando per il meglio.
+
+Ora, alcune persone tra voi staranno forse dicendo "Sono un uccellino =
+politico, ma non sono un attivista di questi tempi. La vita =C3=A8 un =
+casino e ne =C3=A8 passato di tempo da quando, sai, da quando ho fatto =
+qualcosa". Ti capiamo. Davvero. Questo =C3=A8 un promemoria amichevole, =
+dalle nostre vite incasinate alla tua, per dirti che un modo per essere =
+un'attivista eccellente =C3=A8 quello di svolgere bene una piccola =
+quantit=C3=A0 di lavoro in maniera costante. In cosa sei abile? In che =
+modo questa tua abilit=C3=A0 pu=C3=B2 aiutare un progetto che tieni a =
+cuore?
+
+
+Grandi notizie
+--------------------
+
+Per la prima volta in... sempre, Riseup sta facendo salire a bordo un =
+nuovo amministratore/amministratrice di sistema, che lavorer=C3=A0 sui =
+nostri piani per dispiegare la meravigliosa piattaforma LEAP nell'anno =
+che verr=C3=A0. Si tratta di un mucchio di lavoro, e siamo grati e =
+contente di avere la possibilit=C3=A0 di finanziare questo nuovo =
+sviluppo. Per i fanatici e le fanatiche della tecnologia, sentitevi =
+liberi e libere di dare uno sguardo a https://leap.se (solo in inglese) =
+per avere un'idea della meraviglia verso cui ci stiamo dirigendo.
+
+
+Soldi
+-----------------
+
+Ahinoi, ne abbiamo ancora bisogno, dato che i computer, ancora un volta, =
+hanno fallito nel diventare senzienti, insorgere, arrabbiarsi con la NSA =
+e cambiare tutta la nostra comunicazione online in modelli sicuri e =
+liberi.
+
+https://help.riseup.net/donate (in inglese)
+
+
+Traduttori e traduttrici cercasi!
+---------------------------------
+
+Abbiamo bisogno di nuovi traduttori e traduttrici per l'italiano. Se =
+vuoi unirti al gruppo traduzione di Riseup, per favore scrivi a =
+gadfly@riseup.net
+
+
+
+[pt] portugu=C3=AAs
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D
+
+Conte=C3=BAdo de Mar=C3=A7o de 2014
+
+* Teste de seguran=C3=A7a em caso de inc=C3=AAndio
+* Riseup =C3=A9 para ativistas
+* Boa nova
+* Dinheiro
+
+
+Teste de seguran=C3=A7a em caso de inc=C3=AAndio
+---------------------------------------------------
+Digamos que voc=C3=AA acidentalmente acabou de copiar sua senha de =
+Riseup em um local p=C3=BAblico (twitter, facebook, tattoo, etc). Ops!
+
+Como isso te afeta? Voc=C3=AA usa essa senha para outros sites al=C3=A9m =
+de Riseup? (N=C3=A3o =C3=A9 uma boa ideia). Voc=C3=AA guarda todas as =
+suas senhas em um local seguro para voc=C3=AA checar onde mais voc=C3=AA =
+usa essa senha? Voc=C3=AA sabe trocar sua senha? Caso negativo, veja =
+como fazer neste link =
+https://help.riseup.net/pt/email/settings/mail-passwords (ainda em =
+ingl=C3=AAs). Voc=C3=AA guarda informa=C3=A7=C3=B5es no seu email Riseup =
+que podem comprometer outras pessoas, al=C3=A9m de voc=C3=AA? Voc=C3=AA =
+precisa guardar esses emails?
+
+E enquanto voc=C3=AA pensa nessas quest=C3=B5es indutoras-de-p=C3=A2nico, =
+porque n=C3=A3o ajeitar as coisas agora mesmo para fazer com que um erro =
+desses seja menos catastr=C3=B3fico?
+
+Riseup =C3=A9 para ativistas
+---------------------------------------------------
+Riseup existe para prover servi=C3=A7os online seguros e gratuitos para =
+ativistas. Para voc=C3=AAs que trabalham em projetos grandes ou pequenos =
+que visam o bem das pessoas, animais e deste lindo planeta azul e verde, =
+n=C3=B3s amamos voc=C3=AAs e esperamos que tudo esteja indo =
+esplendidamente bem.
+
+Agora, alguns de voc=C3=AAs podem estar dizendo "eu sou um p=C3=A1ssaro =
+pol=C3=ADtico, mas n=C3=A3o sou mais um ativista ultimamente. A vida =
+est=C3=A1 agitada e faz tempo desde que, voc=C3=AA sabe, eu tenho feito =
+algo". N=C3=B3s te ouvimos. De verdade, pode crer. Este =C3=A9 um recado =
+amig=C3=A1vel, de nossa vida agitada para a sua, uma forma de ser um =
+excelente ativista =C3=A9 fazer um pequeno trabalho consistente e bem =
+feito. No que voc=C3=AA =C3=A9 bom? Como isso pode ajudar um projeto que =
+voc=C3=AA curte?
+
+Boa nova
+---------------------------------------------------
+Pela primeira vez desde sempre, Riseup est=C3=A1 trazendo um novo =
+administrador de sistemas a bordo para trabalhar em nossos planos de =
+implantar a incr=C3=ADvel plataforma LEAP no ano que vem. =C3=89 um =
+trabalho enorme, e estamos agradecidas e empolgados de ter capacidade de =
+financiar este novo empreendimento. Para os geeks entre voc=C3=AAs, =
+sintam-se =C3=A0 vontade de visitar o link https://leap.se (somente em =
+ingl=C3=AAs) para ter no=C3=A7=C3=A3o da grandiosidade onde estamos nos =
+metendo.
+
+Dinheiro
+---------------------------------------------------
+Ai, n=C3=B3s ainda precisamos, j=C3=A1 que os computadores mais uma vez =
+fracassaram em ganharem consci=C3=AAncia, insurgirem, ficarem irados com =
+a NSA, e trocarem todas as nossas comunica=C3=A7=C3=B5es online para =
+modelos livres e seguros.
+
+Fa=C3=A7a sua doa=C3=A7=C3=A3o ent=C3=A3o em =
+https://help.riseup.net/pt/about-us/donate (ainda em ingl=C3=AAs)

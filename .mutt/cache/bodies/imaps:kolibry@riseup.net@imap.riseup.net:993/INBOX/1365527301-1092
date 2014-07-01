@@ -1,0 +1,56 @@
+Return-Path: <noreply@forumactif.com>
+X-Spam-Checker-Version: SpamAssassin 3.3.2 (2011-06-06) on spamd2.riseup.net
+X-Spam-Level: **
+X-Spam-Pyzor: Reported 0 times.
+X-Spam-Status: No, score=3.0 required=8.0 tests=AM_TRUNCATED,CK_419SIZE,
+	CK_KARD_SIZE,DKIM_SIGNED,DKIM_VALID,DKIM_VALID_AU,FREEMAIL_FORGED_REPLYTO,
+	GAPPY_LET,HAS_REPLY_TO,LINK_NR_TOP,REPLYTO_DIFF,REPLYTO_DIFF_DOMAIN,
+	REPLY_TO_TEMP shortcircuit=no autolearn=disabled version=3.3.2
+Delivered-To: kolibry@riseup.net
+Received: from mx1.riseup.net (mx1-pn.riseup.net [10.0.1.33])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client CN "*.riseup.net", Issuer "Gandi Standard SSL CA" (not verified))
+	by vireo.riseup.net (Postfix) with ESMTPS id 4048DBB
+	for <kolibry@riseup.net>; Sun,  4 May 2014 22:32:10 +0000 (UTC)
+Received: from f59.mail.dnspro.org (f59.mail.dnspro.org [173.192.27.204])
+	by mx1.riseup.net (Postfix) with ESMTP id B5ADC51A07
+	for <kolibry@riseup.net>; Sun,  4 May 2014 15:32:09 -0700 (PDT)
+Received: by f59.mail.dnspro.org (ESMTP, from userid 510)
+	id 88284F039C; Mon,  5 May 2014 00:31:59 +0200 (CEST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=forumactif.com;
+	s=default; t=1399242719;
+	bh=YRcHbQM27r6HDJcezb1FlxjpJ604xPd4IvDFbIzhHTE=;
+	h=To:Subject:From:Reply-to:Date;
+	b=QjpJwSsPHD11VDheyoNjnbz+4ZsqpALUybowRgL3dIIV/a1UIIH+Fh9u8aFpZPUpF
+	 JFoBp4xG3toQGu2bMcJoO7dZnM/jf94hzDGejwa788BhnmnkEjpoqQqc+toARBmf4i
+	 araAMtnOGBbV/SPPI6r/vKjquhNeyPZMZ3NY0LbQ=
+To: "=?utf-8?B?S29saWJyeQ==?=" <kolibry@riseup.net>
+Subject: =?utf-8?B?VW4gbm91dmVhdSBtZXNzYWdlIHByaXbDqSB2aWVudCBkJ2Fycml2ZXIgc3VyIEdPLk9OIGwgTGUgZm9ydW0gZGUgbGEgY29tbXVuYXV0w6kgZnJhbsOnYWlzZSBkZSBHbw==?=
+Content-type: text/plain; charset="utf-8"
+Content-transfer-encoding: 8bit
+From: "=?utf-8?B?R08uT04gbCBMZSBmb3J1bSBkZSBsYSBjb21tdW5hdXTDqSBmcmFuw6dhaXNlIGRlIEdv?=" <noreply@forumactif.com>
+Reply-to: "=?utf-8?B?R08uT04gbCBMZSBmb3J1bSBkZSBsYSBjb21tdW5hdXTDqSBmcmFuw6dhaXNlIGRlIEdv?=" <ldlretouching@hotmail.com>
+Message-ID: <20140504223159.dde7108db6@go-on.forumactif.com>
+MIME-Version: 1.0
+Date: Mon,  5 May 2014 00:31:59 +0200 (CEST)
+X-Virus-Scanned: clamav-milter 0.98.1 at mx1
+X-Virus-Status: Clean
+
+Bonjour Kolibry,
+
+Vous avez reçu un nouveau message privé de la part de LDL
+sur "GO.ON l Le forum de la communauté française de Go" - http://go-on.forumactif.com et avez demandé à être averti dans ce cas.
+
+Vous pouvez voir votre nouveau message et y répondre en cliquant simplement sur le lien suivant :
+http://go-on.forumactif.com/privmsg?folder=inbox
+
+Rappelez-vous que :
+	1. Vous ne serez plus averti des nouveaux messages privés tant que vous ne vous serez pas connecté sur "GO.ON l Le forum de la communauté française de Go"
+	2. Vous pouvez choisir de ne plus être averti de l'arrivée de nouveaux messages privés en modifiant l'option appropriée dans votre profil.
+
+____________________
+_____________________________________________________________________________
+
+L'Administrateur.
+GO.ON l Le forum de la communauté française de Go.
+http://goon-forum.com/

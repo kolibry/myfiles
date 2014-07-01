@@ -1,0 +1,77 @@
+Return-Path: <pascaletmarie@free.fr>
+X-Spam-Checker-Version: SpamAssassin 3.3.2 (2011-06-06) on spamd2.riseup.net
+X-Spam-Level: 
+X-Spam-Pyzor: Reported 0 times.
+X-Spam-Status: No, score=0.2 required=8.0 tests=AM_TRUNCATED,CK_419SIZE,
+	CK_KARD_SIZE,FREEMAIL_FROM,HAS_REPLY_TO,LINK_NR_TOP,NO_REAL_NAME
+	shortcircuit=no autolearn=disabled version=3.3.2
+Delivered-To: kolibry@riseup.net
+Received: from mx1.riseup.net (mx1-pn.riseup.net [10.0.1.33])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client CN "*.riseup.net", Issuer "Gandi Standard SSL CA" (not verified))
+	by vireo.riseup.net (Postfix) with ESMTPS id D3A2CC0
+	for <kolibry@riseup.net>; Mon,  5 May 2014 08:56:38 +0000 (UTC)
+Received: from mx1a.lautre.net (mx1a.lautre.net [80.67.160.71])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client CN "*.lautre.net", Issuer "StartCom Class 2 Primary Intermediate Server CA" (not verified))
+	by mx1.riseup.net (Postfix) with ESMTPS id 8B5725118D
+	for <kolibry@riseup.net>; Mon,  5 May 2014 01:56:38 -0700 (PDT)
+Received: from emma.lautre.net (ella.admin.lautre.net [10.0.0.76])
+	(using TLSv1 with cipher ADH-AES256-SHA (256/256 bits))
+	(No client certificate requested)
+	by mx1a.lautre.net (Postfix) with ESMTPS id ED07741039
+	for <kolibry@riseup.net>; Mon,  5 May 2014 10:56:36 +0200 (CEST)
+Received: by ella.lautre.net (Postfix, from userid 33)
+	id C393B1C6086D; Mon,  5 May 2014 10:56:36 +0200 (CEST)
+To: =?UTF-8?B?a29saWJyeQ==?= <kolibry@riseup.net>
+Subject: =?UTF-8?B?QmllbnZlbnVlIHN1ciDCqyBGb3J1bSBmcmFuY29waG9uZSBkZSBwZXJtYWN1?= =?UTF-8?B?bHR1cmUgwrs=?=
+X-PHP-Originating-Script: 33:functions_messenger.php
+From: <pascaletmarie@free.fr>
+Reply-To: <pascaletmarie@free.fr>
+Sender: <pascaletmarie@free.fr>
+MIME-Version: 1.0
+Message-ID: <2aac36554ecba76ce384f4fb828e7678@forum.permaculture.fr>
+Date: Mon, 05 May 2014 10:56:36 +0200
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: phpBB3
+X-MimeOLE: phpBB3
+X-phpBB-Origin: phpbb://forum.permaculture.fr
+X-AntiAbuse: Board servername - =?UTF-8?B?Zm9ydW0ucGVybWFjdWx0dXJlLmZy?=
+X-AntiAbuse: User_id - 1
+X-AntiAbuse: Username - =?UTF-8?B?QW5vbnltb3Vz?=
+X-AntiAbuse: User IP - 78.241.84.90
+X-RealFrom: brindepaille@lautre.net
+X-Dir: /var/alternc/html/b/brindepaille
+X-Virus-Scanned: clamav-milter 0.98.1 at mx1
+X-Virus-Status: Clean
+
+Bienvenue sur les forums de Forum francophone de permaculture
+
+Veuillez conserver ce courriel dans vos archives. Les informations
+concernant votre compte sont les suivantes :
+
+----------------------------
+Nom d’utilisateur : kolibry
+
+Lien du forum : http://forum.permaculture.fr
+----------------------------
+
+Veuillez vous rendre sur le lien suivant afin d’activer votre compte :
+
+http://forum.permaculture.fr/ucp.php?mode=activate&u=5487&k=8EIUO31Y
+
+Votre mot de passe a été stocké en toute sécurité dans notre base de
+données et ne pourra pas être retrouvé. Dans le cas où vous l’oubliez, vous
+pourrez le réinitialiser en utilisant l’adresse de courrier électronique
+associée à votre compte.
+
+Nous vous remercions de votre inscription.
+
+-- 
+Durablement,
+
+http://brindepaille.permaculturefrance.com
+http://www.permaculturefrance.com

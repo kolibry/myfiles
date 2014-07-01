@@ -1,0 +1,65 @@
+Return-Path: <tenuki-brest-bounces@jeudego.org>
+X-Spam-Checker-Version: SpamAssassin 3.3.2 (2011-06-06) on spamd2.riseup.net
+X-Spam-Level: 
+X-Spam-Pyzor: Reported 0 times.
+X-Spam-Status: No, score=-0.4 required=8.0 tests=AM_TRUNCATED,CK_419SIZE,
+	CK_KARD_SIZE,FORWARD_RELAY,NO_REAL_NAME,RISEUP_SPEAR_C,RP_MATCHES_RCVD
+	shortcircuit=no autolearn=disabled version=3.3.2
+Delivered-To: kolibry@riseup.net
+Received: from mx1.riseup.net (mx1-pn.riseup.net [10.0.1.33])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client CN "*.riseup.net", Issuer "Gandi Standard SSL CA" (not verified))
+	by vireo.riseup.net (Postfix) with ESMTPS id 0306579
+	for <kolibry@riseup.net>; Thu, 20 Feb 2014 11:24:16 +0000 (UTC)
+Received: from jeudego.org (jeudego.org [5.135.164.19])
+	by mx1.riseup.net (Postfix) with ESMTP id 5D62E50FB3
+	for <kolibry@riseup.net>; Thu, 20 Feb 2014 03:24:15 -0800 (PST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by jeudego.org (Postfix) with ESMTP id 8F0582EC2BBC
+	for <kolibry@riseup.net>; Thu, 20 Feb 2014 12:24:14 +0100 (CET)
+Received: from jeudego.org ([127.0.0.1])
+	by localhost (jeudego.org [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id c1n2zVh4rbSI for <kolibry@riseup.net>;
+	Thu, 20 Feb 2014 12:24:14 +0100 (CET)
+Received: from ns3311974.ovh.net (localhost.localdomain [127.0.0.1])
+	by jeudego.org (Postfix) with ESMTP
+	for <kolibry@riseup.net>; Thu, 20 Feb 2014 12:24:14 +0100 (CET)
+MIME-Version: 1.0
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Subject: =?iso-8859-1?q?Votre_message_=E0_la_liste_Tenuki-brest_est_en_at?=
+ =?iso-8859-1?q?tente_d=27approbation?=
+From: tenuki-brest-bounces@jeudego.org
+To: kolibry@riseup.net
+Message-ID: <mailman.1320.1392895453.7033.tenuki-brest@jeudego.org>
+Date: Thu, 20 Feb 2014 12:24:13 +0100
+Precedence: bulk
+X-BeenThere: tenuki-brest@jeudego.org
+X-Mailman-Version: 2.1.13
+List-Id: <tenuki-brest.jeudego.org>
+X-List-Administrivia: yes
+Sender: tenuki-brest-bounces@jeudego.org
+Errors-To: tenuki-brest-bounces@jeudego.org
+X-Virus-Scanned: clamav-milter 0.97.8 at mx1
+X-Virus-Status: Clean
+
+Votre courrier =E0 'Tenuki-brest' dont l'objet est
+
+    Re: [Tenuki-brest] RE : Re: 1er tour championnat de France
+
+est en attente jusqu'=E0 ce que le mod=E9rateur de la liste puisse le
+consulter pour approbation.
+
+La raison de cette mise en attente :
+
+    La taille du corps du message est trop importante : 44400 octets
+avec
+une limite de 40 kb
+
+Le message sera soit envoy=E9 =E0 la liste, soit vous recevrez une
+indication de la d=E9cision du mod=E9rateur. Si vous souhaitez annuler le
+message, veuillez consulter l'URL suivante:
+
+	 https://admin.jeudego.org/mailman/confirm/tenuki-brest/a1f23415c474e425fb=
+6c566f39585c8cd98eedc6
+

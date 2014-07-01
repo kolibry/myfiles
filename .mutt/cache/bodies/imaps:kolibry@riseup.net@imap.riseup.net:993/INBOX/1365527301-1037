@@ -1,0 +1,105 @@
+Return-Path: <ne_pas_repondre@dgfip.finances.gouv.fr>
+X-Spam-Checker-Version: SpamAssassin 3.3.2 (2011-06-06) on spamd2.riseup.net
+X-Spam-Level: 
+X-Spam-Pyzor: Reported 0 times.
+X-Spam-Status: No, score=-0.6 required=8.0 tests=AM_TRUNCATED,CK_419SIZE,
+	DKIM_SIGNED,DKIM_VALID,DKIM_VALID_AU,HTML_MESSAGE,NO_REAL_NAME,
+	RP_MATCHES_RCVD,TO_NOREAL shortcircuit=no autolearn=disabled version=3.3.2
+Delivered-To: kolibry@riseup.net
+Received: from mx1.riseup.net (mx1-pn.riseup.net [10.0.1.33])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client CN "*.riseup.net", Issuer "Gandi Standard SSL CA" (not verified))
+	by vireo.riseup.net (Postfix) with ESMTPS id 6DEFDAA
+	for <kolibry@riseup.net>; Sun, 20 Apr 2014 16:22:35 +0000 (UTC)
+Received: from pf2pusi003.dgfip.finances.gouv.fr (pf2pusi003.dgfip.finances.gouv.fr [145.242.11.105])
+	by mx1.riseup.net (Postfix) with ESMTP id DAA334B692
+	for <kolibry@riseup.net>; Sun, 20 Apr 2014 09:22:34 -0700 (PDT)
+Received: from syrpua02 (syrpua02 [192.168.34.32])
+	by pf2pusi003.dgfip.finances.gouv.fr (Postfix) with ESMTP id 2689580259
+	for <kolibry@riseup.net>; Sun, 20 Apr 2014 18:22:34 +0200 (CEST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple;
+	d=dgfip.finances.gouv.fr; s=default; t=1398010954;
+	bh=hw50yX4oVvtPL7tRKFASIqVxxIJxJuSk/WSu6UNjcgw=;
+	h=Date:From:To:Subject;
+	b=MPGmQ26RW6VLpsJ7zsRKOhyPMfdJAv+HNqqZ/nIWPlY3FoiTWVs0/KKkXmS7VM/sx
+	 EbtlKN7aQtAmhSEskcKJPWoAIflE5hFsXgSjjII820l5UJ8RMDX8KBmkDnZP+w2Z0S
+	 G6rgDMQJBSw+Z/A+x+3aThkQl8fULbLRvz7T0s2P9X31H+OyO1dHy4/npoD5ocCFbr
+	 FQQCO63naF5d1tAQqS/hR23wvRiamf6DCpUKA7iai6CKR2B8F+4loX5f740VNnzAC2
+	 F32kM63PdKqMHOqk85JfE8bIdORaPXFCLhJYQN9TUWpZ7dm/d4DvqwujWnHD07FfLk
+	 tG9gOy9xH0KOg==
+Message-ID: <6631656.1398010954154.JavaMail.dynamo@syrpua02>
+Date: Sun, 20 Apr 2014 18:22:34 +0200 (CEST)
+From: ne_pas_repondre@dgfip.finances.gouv.fr
+To: kolibry@riseup.net
+Subject: =?ISO-8859-1?Q?D=E9claration_de_revenus_-_Avis_d'imp?=
+ =?ISO-8859-1?Q?=F4t_-_Vos_options_sur_impots.gouv.fr?=
+Mime-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_31707_1752284.1398010954149"
+X-Virus-Scanned: clamav-milter 0.98.1 at mx1
+X-Virus-Status: Clean
+
+------=_Part_31707_1752284.1398010954149
+Content-Type: text/plain; charset=iso-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+Bonjour,
+Vous avez choisi de ne plus recevoir le (ou les) document(s)
+suivant(s) par courrier :
+- d=E9claration de revenus.
+- avis d'imp=F4t sur le revenu (vous devrez payer par pr=E9l=E8vement
+mensuel ou =E0 l'=E9ch=E9ance, ou par paiement en ligne).
+- avis de taxe d'habitation principale (vous devrez payer par
+pr=E9l=E8vement mensuel ou =E0 l'=E9ch=E9ance, ou par paiement en ligne).
+Le ou les documents correspondant =E0 votre choix seront consultables
+dans votre espace Particulier et un courriel vous sera
+syst=E9matiquement adress=E9 pour vous informer de chaque mise en ligne
+d'un nouveau document.
+Vous pouvez modifier =E0 tout moment votre option dans votre espace
+Particulier du site impots.gouv.fr, =E0 la rubrique "G=E9rer mon profil".
+Nous vous remercions pour votre confiance,
+La direction g=E9n=E9rale des finances publiques
+A titre pratique
+Le calendrier de mise =E0 disposition de vos avis d'imp=F4t est d=E8s =E0
+pr=E9sent port=E9 dans votre espace Particulier du site impots.gouv.fr, =E0
+la rubrique "Consulter ma situation fiscale personnelle, en savoir
+plus sur les dates de mise =E0 jour".
+Recommandations
+Pour votre s=E9curit=E9, nous vous recommandons de ne jamais r=E9pondre =E0=
+ un
+courriel vous demandant vos coordonn=E9es bancaires.
+Pour en savoir plus, rendez vous sur impots.gouv.fr.
+------=_Part_31707_1752284.1398010954149
+Content-Type: text/html; charset=iso-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+ <html><head><title></title><head><body>
+Bonjour,<br/><br/>
+Vous avez choisi de ne plus recevoir le (ou les) document(s) suivant(s) par=
+ courrier :
+<br/>- d=E9claration de revenus.
+<br/>- avis d'imp=F4t sur le revenu (vous devrez payer par pr=E9l=E8vement =
+mensuel ou =E0 l'=E9ch=E9ance, ou par paiement en ligne).
+<br/>- avis de taxe d'habitation principale (vous devrez payer par pr=E9l=
+=E8vement mensuel ou =E0 l'=E9ch=E9ance, ou par paiement en ligne).
+<br/><br/>
+Le ou les documents correspondant =E0 votre choix seront consultables dans =
+votre espace Particulier et un courriel vous sera syst=E9matiquement adress=
+=E9 pour vous informer de chaque mise en ligne d'un nouveau document.
+<br/><br/>
+Vous pouvez modifier =E0 tout moment votre option dans votre espace Particu=
+lier du site impots.gouv.fr, =E0 la rubrique "G=E9rer mon profil".
+<br/><br/>
+Nous vous remercions pour votre confiance,
+<br/><br/>
+La direction g=E9n=E9rale des finances publiques
+<br/><br/><b>A titre pratique</b><br/>Le calendrier de mise =E0 disposition=
+ de vos avis d'imp=F4t est d=E8s =E0 pr=E9sent port=E9 dans votre espace Pa=
+rticulier du site impots.gouv.fr, =E0 la rubrique "Consulter ma situation f=
+iscale personnelle, en savoir plus sur les dates de mise =E0 jour".
+<br/><br/><font color=3D"red"><b>Recommandations</b><br/>Pour votre s=E9cur=
+it=E9, nous vous recommandons de ne jamais r=E9pondre =E0 un courriel vous =
+demandant vos coordonn=E9es bancaires.</font><br/><br/><b>Pour en savoir pl=
+us, rendez vous sur impots.gouv.fr.</b></body></html>
+------=_Part_31707_1752284.1398010954149--
+

@@ -1,0 +1,50 @@
+shell mv %s /media/go/Jonathan
+open_with 1
+shell mv %s /me
+shell mv %s /media/go
+cd /usr/share/radiotray/
+shell sudo rm %f
+shell sudo mv %f /usr/share/radiotray
+cd .local
+cd ~/.local
+
+shell sudo mv /usr/share/radiotray/bookmarks.xml /home/kolibry/.local/share/radiotray
+cd /usr/bin
+search radio
+rradio
+rename radio
+shell ./ %f
+shell ./colors-hex
+shell ./crunchcolor
+shell ./newyear
+shell ./rnd-wall
+shell ./ytp
+cd .mozilla
+cd /home/kolibry/.moc
+cd /home/kolibry/.mozilla/
+shell vim userChrome.css
+shell vim panel
+shell chmod +x %f
+search finder
+shell ./finder
+shell ./spotlight
+shell ./wallpaper
+rename icons
+shell mkdir .dzen2
+shell mv %f .dzen2
+shell ./dzconky
+shell ./panel
+cd .dzen2
+open_with thunar
+shell ./panel | dzen2
+shell vim .conkyrc
+shell mv .conkyrc conkyrc
+cd .dzen2/
+shell mv %f ~/.conkyrc
+shell mv .conkyrc ~/Bureau/conkyrc
+shell mv .conkyrc ~/
+shell ./statusbar
+shell mv %F Vidéos
+cd 
+shell ./dzen
+rename .dzen_conkyrc

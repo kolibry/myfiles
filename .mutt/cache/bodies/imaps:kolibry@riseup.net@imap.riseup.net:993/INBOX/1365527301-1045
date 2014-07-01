@@ -1,0 +1,98 @@
+Return-Path: <tanguylecalve@gmail.com>
+X-Spam-Checker-Version: SpamAssassin 3.3.2 (2011-06-06) on spamd2.riseup.net
+X-Spam-Level: 
+X-Spam-Pyzor: Reported 0 times.
+X-Spam-Status: No, score=-0.2 required=8.0 tests=AM_TRUNCATED,CK_419SIZE,
+	DKIM_SIGNED,DKIM_VALID,DKIM_VALID_AU,FORWARD_RELAY,FREEMAIL_FROM,HTML_MESSAGE,
+	MAILPHISH4,ODD_PUNCTUATION2 shortcircuit=no autolearn=disabled version=3.3.2
+Delivered-To: kolibry@riseup.net
+Received: from mx1.riseup.net (mx1-pn.riseup.net [10.0.1.33])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client CN "*.riseup.net", Issuer "Gandi Standard SSL CA" (not verified))
+	by vireo.riseup.net (Postfix) with ESMTPS id 43DA1AF
+	for <kolibry@riseup.net>; Tue, 22 Apr 2014 12:23:27 +0000 (UTC)
+Received: from jeudego.org (jeudego.org [5.135.164.19])
+	by mx1.riseup.net (Postfix) with ESMTP id DB7494A77F
+	for <kolibry@riseup.net>; Tue, 22 Apr 2014 05:23:26 -0700 (PDT)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by jeudego.org (Postfix) with ESMTP id 5A2C82EC4E45
+	for <joueurs-ouest@jeudego.org>; Tue, 22 Apr 2014 14:23:19 +0200 (CEST)
+Received: from jeudego.org ([127.0.0.1])
+	by localhost (jeudego.org [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id NMVhj3hsLeqR for <joueurs-ouest@jeudego.org>;
+	Tue, 22 Apr 2014 14:23:14 +0200 (CEST)
+Received: from mail-wi0-f182.google.com (mail-wi0-f182.google.com [209.85.212.182])
+	(using TLSv1 with cipher RC4-SHA (128/128 bits))
+	(No client certificate requested)
+	by jeudego.org (Postfix) with ESMTPS
+	for <joueurs-ouest@jeudego.org>; Tue, 22 Apr 2014 14:23:11 +0200 (CEST)
+Received: by mail-wi0-f182.google.com with SMTP id d1so3145867wiv.15
+        for <joueurs-ouest@jeudego.org>; Tue, 22 Apr 2014 05:23:10 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:from:date:message-id:subject:to:content-type;
+        bh=cUThsx9pdcJBnaB95ZWRvU3MA49a691c3zFsh0qVu7k=;
+        b=KPbSSgYOWu7PzuZVvy4CubKyQ4ijpnz8+ATsI4xPmByAYTvziO7XSbNYznDyC47jl3
+         Qz00OafLc2IoK0/Mj8RJ+SdJJo6a1YxIgbQ6e2Fs16v4p/qJNYrobIu+eobT/injTtT0
+         Ya59znjeR7ESKs+dbW1EH/OVyH2rblel2erUvil6iF5ErTwD6QzJGGBlVakGGgfPafut
+         c5iS+fhRgYYz+KxivEmZhtV1gF8DmkTnKt6mUJxQzafR+AGS6PoPjx/kNsYgXgNQ8Ety
+         X8T504th5SJGe+gP6UdLliaNcCgNI8F/Yz+2n4hokC6I/JGRSw8BPX4pH8juoorWSOTV
+         /pzA==
+X-Received: by 10.194.63.196 with SMTP id i4mr2600221wjs.50.1398169390561;
+ Tue, 22 Apr 2014 05:23:10 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.227.231.197 with HTTP; Tue, 22 Apr 2014 05:22:50 -0700 (PDT)
+From: =?UTF-8?Q?tanguy_le_calv=C3=A9?= <tanguylecalve@gmail.com>
+Date: Tue, 22 Apr 2014 14:22:50 +0200
+Message-ID: <CABwBYngxh7YXJfEu6uO+4U58adWEx0ntRdcBzZPPcz2O52dagw@mail.gmail.com>
+Subject: Des partants pour Grenoble ? (no troll)
+To: joueurs-ouest@jeudego.org
+Content-Type: multipart/alternative; boundary=047d7b86dd00dc3dcd04f7a0add0
+X-Virus-Scanned: clamav-milter 0.98.1 at mx1
+X-Virus-Status: Clean
+
+--047d7b86dd00dc3dcd04f7a0add0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Salut =C3=A0 tous,
+
+est-ce que certains joueurs de la ligue de l'ouest vont, ou voudraient
+aller au tournoi de Grenoble (du 1mai ou 4 mai).
+
+=C3=89tant donn=C3=A9 les prix de la sncf, et que je n'ai pas envie de vend=
+re un rein
+pour acheter un billet de train, est-ce qu'il y a une voiture de pr=C3=A9vu=
+e, ou
+certains seraient partant pour y aller en voiture ? On r=C3=A9duirait les c=
+o=C3=BBts
+de moiti=C3=A9, le tout dans la bonne humeur :)
+
+Merci de vos r=C3=A9ponses...
+Je sais pas pourquoi je sens que je vais me faire lyncher sur ce coup l=C3=
+=A0,
+surtout par les rennais :D.
+
+A+
+
+--=20
+Tanguy Le Calv=C3=A9
+
+--047d7b86dd00dc3dcd04f7a0add0
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div><div>Salut =C3=A0 tous,<br><br></div><div>est-ce que =
+certains joueurs de la ligue de l&#39;ouest vont, ou voudraient aller au to=
+urnoi de Grenoble (du 1mai ou 4 mai).<br><br></div><div>=C3=89tant donn=C3=
+=A9 les prix de la sncf, et que je n&#39;ai pas envie de vendre un rein pou=
+r acheter un billet de train, est-ce qu&#39;il y a une voiture de pr=C3=A9v=
+ue, ou certains seraient partant pour y aller en voiture ? On r=C3=A9duirai=
+t les co=C3=BBts de moiti=C3=A9, le tout dans la bonne humeur :)<br>
+
+<br></div><div>Merci de vos r=C3=A9ponses...<br>Je sais pas pourquoi je sen=
+s que je vais me faire lyncher sur ce coup l=C3=A0, surtout par les rennais=
+ :D.<br></div><br></div>A+<br><div><br>-- <br>Tanguy Le Calv=C3=A9<br></div=
+></div>
+
+--047d7b86dd00dc3dcd04f7a0add0--

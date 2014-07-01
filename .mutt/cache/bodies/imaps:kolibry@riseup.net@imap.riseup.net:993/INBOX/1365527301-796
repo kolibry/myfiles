@@ -1,0 +1,597 @@
+Return-Path: <bounces-mc-11-2317-25f0-29f-2728ac-10b8e@todaysfinancialnews.net>
+X-Spam-Checker-Version: SpamAssassin 3.3.2 (2011-06-06) on spamd2.riseup.net
+X-Spam-Level: 
+X-Spam-Pyzor: Reported 0 times.
+X-Spam-Status: No, score=-5.2 required=8.0 tests=AM_TRUNCATED,DKIM_SIGNED,
+	DKIM_VALID,DKIM_VALID_AU,ENV_FROM_DIFF0,HAS_REPLY_TO,HTML_LINK_NR_TOP,
+	HTML_MESSAGE,LINK_NR_TOP,MARKOV_ODD,ODD_PUNCTUATION2,OFFWHITE,
+	RCVD_IN_DNSWL_NONE,RCVD_IN_HOSTKARMA_NO,RCVD_IN_HOSTKARMA_W,
+	RCVD_IN_HOSTKARMA_WL,RCVD_IN_RP_CERTIFIED,RCVD_IN_RP_SAFE,REPLY_TO_EMPTY,
+	RISEUP_SPEAR_C,RP_MATCHES_RCVD,SRC_HTTP shortcircuit=no autolearn=disabled
+	version=3.3.2
+Delivered-To: kolibry@riseup.net
+Received: from mx1.riseup.net (mx1-pn.riseup.net [10.0.1.33])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client CN "*.riseup.net", Issuer "Gandi Standard SSL CA" (not verified))
+	by vireo.riseup.net (Postfix) with ESMTPS id 2D3C47D
+	for <kolibry@riseup.net>; Wed, 26 Feb 2014 09:20:37 +0000 (UTC)
+Received: from mail.todaysfinancialnews.net (mail.todaysfinancialnews.net [208.250.48.92])
+	by mx1.riseup.net (Postfix) with ESMTP id 132804AB03
+	for <KOLIBRY@riseup.net>; Wed, 26 Feb 2014 01:20:35 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; d=institutprotectionsantenaturelle.eu; s=dkim1024; c=relaxed/simple;
+	q=dns/txt; i=@institutprotectionsantenaturelle.eu; t=1393406435;
+	h=From:Subject:Date:To:MIME-Version:Content-Type;
+	bh=QEmEc2nICe5m8qowNgt5Nh358DKPTVHS8wbUqz4Fews=;
+	b=O5GO7nqG+SUQx+ZFhwnHeMSi2zksnqNv71QyE6HDzxsoembBHzn6a9OmhZOxOwXV
+	kWMRStz780fxj9mqPnaSE2aon2vSp8rpLJPmf47UpCgUTgdR7QskNyamX3RgGIPn
+	PvJYJg2EYHCqwF0nUuOmd2LDinflW343No+DqIC8Xpw=;
+X-MSFBL: S09MSUJSWUByaXNldXAubmV0QGZyYW5jZS1oZWFsdGhAZGVmYXVsdEA=
+List-Unsubscribe: <mailto:unsubscribe-mc-11-2317-25f0-29f-2728ac-10b8e@todaysfinancialnews.net>, <http://service.institutprotectionsantenaturelle.eu/unsubscribeProcess.php?mid=8983&cid=2566316&oid=17&sid=9712&vid=OJ3jMp&coreg=&listName=SF1PET01&changeSub=remove>
+Received: from [172.16.9.202] ([172.16.9.202:57151] helo=gonzo)
+	by fender (envelope-from <bounces-mc-11-2317-25f0-29f-2728ac-10b8e@todaysfinancialnews.net>)
+	(ecelerity 3.4.1.33768 r(MessageSystems/Momo-dev:4870f92e9d2c)) with ESMTP
+	id 9E/E8-14990-3E1BD035; Wed, 26 Feb 2014 04:20:35 -0500
+Date: Wed, 26 Feb 2014 04:20:35 -0500
+Message-ID: <9E.E8.14990.3E1BD035@fender>
+To: =?ascii?B?Sk9OQVRIQU4gRk9VUk5JRVI=?= <KOLIBRY@riseup.net>
+From: "Protection Sante Naturelle" <newsletter@institutprotectionsantenaturelle.eu>
+X-rpcampaign: agoraSF1_008983000671
+X-Binding: FRANCE-HEALTH
+Subject: Jugement le 7 avril
+Reply-To: 
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="-----=530d195f55881"
+X-Virus-Scanned: clamav-milter 0.97.8 at mx1
+X-Virus-Status: Clean
+
+
+-------=530d195f55881
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Vous recevez ce message car vous avez sign=C3=A9 l'appel de soutien au viti=
+culteur Emmanuel Giboulot. Vous ne souhaitez plus appara=C3=AEtre sur cette=
+ liste ? Alors <a href=3D"http://service.institutprotectionsantenaturelle.e=
+u//unsubscribe.php?mid=3D8983&cid=3D2566316&oid=3D17&sid=3D9712&vid=3DOJ3jM=
+p">rendez-vous ici</a>.
+
+
+
+
+
+Jugement le 7 avril
+
+
+
+Madame, Monsieur,
+
+
+
+Comme vous l'avez sans doute entendu =C3=A0 la radio ou =C3=A0 la t=C3=A9l=
+=C3=A9vision, le viticulteur Emmanuel Giboulot, poursuivi pour avoir refus=
+=C3=A9 un dangereux pesticide, est pass=C3=A9 hier au tribunal correctionne=
+l de Dijon, comme pr=C3=A9vu.
+
+
+
+Nous =C3=A9tions plus de mille personnes =C3=A0 ses c=C3=B4t=C3=A9s. De nom=
+breuses associations, locales et nationales, =C3=A9taient pr=C3=A9sentes. N=
+ous lui avons remis pr=C3=A8s de 500 000 p=C3=A9titions de soutien, dans un=
+e atmosph=C3=A8re d'enthousiasme extraordinaire. Gr=C3=A2ce =C3=A0 vous, je=
+ peux t=C3=A9moigner que cette =C3=A9preuve a =C3=A9t=C3=A9 transform=C3=A9=
+e pour Emmanuel et sa compagne en un grand moment de chaleur et de convivia=
+lit=C3=A9.
+
+
+
+Vous pouvez consulter sur la page Facebook de soutien nos photos du pique-n=
+ique festif organis=C3=A9 devant le tribunal, et de la remise de notre p=C3=
+=A9tition, juste avant l'audience. (1)
+
+
+
+Mais malgr=C3=A9 cette mobilisation, la Procureure a insist=C3=A9 sur sa cu=
+lpabilit=C3=A9. Elle a requis 1000 euros d'amende, dont la moiti=C3=A9 avec=
+ sursis, avec inscription =C3=A0 son casier judiciaire .
+
+
+
+Le jugement sera rendu le 7 avril.
+
+
+
+Nul ne sait aujourd'hui de quel c=C3=B4t=C3=A9 pencheront les juges. Mais u=
+ne condamnation, m=C3=AAme symbolique, serait un terrible d=C3=A9saveu envo=
+y=C3=A9 au monde de l'agriculture bio, et une tr=C3=A8s mauvaise nouvelle p=
+our l'environnement.
+
+
+
+Car, ne l'oublions pas, Emmanuel Giboulot entrerait alors juridiquement dan=
+s la cat=C3=A9gorie des d=C3=A9linquants. Un homme qui m=C3=A9riterait au c=
+ontraire d'=C3=AAtre d=C3=A9cor=C3=A9 pour son courage !
+
+
+
+Cette condamnation, si elle a lieu, contribuera de fa=C3=A7on grave =C3=A0 =
+amplifier le climat de peur , et =C3=A0 d=C3=A9courager les bonnes volont=
+=C3=A9s parmi les personnes tent=C3=A9es par l'approche biologique.
+
+
+
+Elle confirmera les agriculteurs biologiques dans l'id=C3=A9e que, quelles =
+que soient leurs convictions personnelles, c'est au bout du compte les auto=
+rit=C3=A9s administratives et leurs m=C3=A9thodes chimiques qui s'imposent =
+sur leur propre terrain !
+
+
+
+La d=C3=A9cision du tribunal n'a pas encore =C3=A9t=C3=A9 prise. Mais si no=
+tre mouvement s'essouffle maintenant, cela pourrait =C3=AAtre consid=C3=A9r=
+=C3=A9 par les juges comme le signe que l'opinion publique se d=C3=A9sint=
+=C3=A9resse du probl=C3=A8me !
+
+
+
+Ne commettons pas cette erreur strat=C3=A9gique . Poussons maintenant notre=
+ mobilisation encore plus loin. Nous avons encore 5 semaines et nous pouvon=
+s atteindre un million de signatures !
+
+
+
+Je compte donc sur vous pour continuer =C3=A0 r=C3=A9colter des p=C3=A9titi=
+ons de soutien autour de vous en transf=C3=A9rant l'appel d'Emmanuel Giboul=
+ot (=C3=A0 voir ici) http://clic.institutprotectionsantenaturelle.eu/t/EQ/I=
+xc/JfA/ACcorA/AAELjg/MTk5OTd8aHR0cDovL2lwc24uZXUvcGV0aXRpb24vdml0aWN1bHRldX=
+IucGhwLzcwNA./AQ/4jK9 .
+
+
+
+Parmi bien d'autres, la radio Europe 1 a relev=C3=A9 l'exceptionnel mouveme=
+nt de soutien autour d'Emmanuel, et indiqu=C3=A9 que =C2=AB cette mobilisat=
+ion pourrait jouer en la faveur du vigneron lundi =C2=BB. (2)
+
+
+
+C'est certainement vrai car, sans cela, la Procureure aurait tr=C3=A8s prob=
+ablement requis une peine beaucoup plus grave.
+
+
+
+Mais en continuant =C3=A0 r=C3=A9colter des p=C3=A9titions, nous pouvons ob=
+tenir qu'Emmanuel Giboulot soit relax=C3=A9 et sorte du tribunal sans la mo=
+indre condamnation le 7 avril. Et c'est =C3=A7a qui est, de tr=C3=A8s loin,=
+ le plus important.
+
+
+
+Face =C3=A0 nous, de puissants r=C3=A9seaux se mobilisent. Certains accusen=
+t Emmanuel Giboulot d'=C3=AAtre un =C2=AB int=C3=A9griste du bio =C2=BB. Il=
+ a pourtant d=C3=A9clar=C3=A9 lui-m=C3=AAme =C3=A0 l'audience qu'il aurait =
+accept=C3=A9 de traiter sa vigne si la menace de le maladie avait =C3=A9t=
+=C3=A9 r=C3=A9elle. Mais la maladie, la flavescence dor=C3=A9e, n'est m=C3=
+=AAme pas pr=C3=A9sente dans son d=C3=A9partement, la C=C3=B4te-d'Or ! Il n=
+'y en a pas =C3=A0 l'heure actuelle =C3=A0 des kilom=C3=A8tres autour de se=
+s vignes. Traiter avec un pesticide ne servirait strictement =C3=A0 rien.
+
+
+
+D'autres font courir le bruit un peu partout sur Internet que le traitement=
+ par pesticide est indispensable et b=C3=A9n=C3=A9fique. Ceci alors que l'I=
+nstitut National de la Recherche Agronomique (INRA), a lui-m=C3=AAme publi=
+=C3=A9 un rapport sur cette maladie, expliquant que les traitements actuels=
+ impos=C3=A9s aux agriculteurs sont :
+
+
+
+=C2=AB polluants, co=C3=BBteux, et contrecarrent la d=C3=A9marche de r=C3=
+=A9duction de pesticides de la fili=C3=A8re viticole. Ces plans de lutte ob=
+ligatoire posent en outre d=E2=80=99=C3=A9normes probl=C3=A8mes aux viticul=
+teurs engag=C3=A9s en Agriculture Biologique ou en processus de conversion =
+vers celle-ci. =C2=A0=C2=BB=C2=A0(3)
+
+
+
+Encore une fois, nul ne sait aujourd'hui de quel c=C3=B4t=C3=A9 pencheront =
+les juges. Mais apr=C3=A8s tout ce que nous avons fait jusqu'=C3=A0 pr=C3=
+=A9sent, n'abandonnons pas Emmanuel maintenant, alors que le danger d'une c=
+ondamnation p=C3=A8se plus que jamais sur sa t=C3=AAte .
+
+
+
+Continuez =C3=A0 rassembler des signatures de soutien autour de vous.
+
+
+
+Transf=C3=A9rez la p=C3=A9tition =C3=A0 toutes les personnes que vous conna=
+issez, en leur indiquant qu'elles ont encore jusqu'au 7 avril pour signer !
+
+
+
+ http://clic.institutprotectionsantenaturelle.eu/t/EQ/Ixc/JfA/ACcorA/AAELjg=
+/MjAwMTZ8aHR0cDovL2lwc24uZXUvcGV0aXRpb24vdml0aWN1bHRldXIucGhwLzcwNCxMZXZpdG=
+ljdWx0ZXVycG91cnN1aXZpcGFybGU./AQ/SZ6b
+
+Lien ici http://clic.institutprotectionsantenaturelle.eu/t/EQ/Ixc/JfA/ACcor=
+A/AAELjg/MTk5OTB8aHR0cDovL2lwc24uZXUvcGV0aXRpb24vdml0aWN1bHRldXIucGhwLzcwNA=
+./AQ/sxFG .
+
+
+
+Un grand merci,
+
+
+
+Augustin de Livois
+
+Pr=C3=A9sident de l' Institut pour la Protection de la Sant=C3=A9 Naturelle
+
+
+
+Sources :
+
+
+
+1 Notre page Facebook http://clic.institutprotectionsantenaturelle.eu/t/EQ/=
+Ixc/JfA/ACcorA/AAELjg/MTk5OTF8aHR0cHM6Ly93d3cuZmFjZWJvb2suY29tL2VtbWFudWVsd=
+ml0aWN1bHRldXJiaW9wcmlzb24./AQ/_kqa
+
+2 Europe 1, Un agriculteur bio poursuivi pour avoir dit non aux pesticides =
+http://clic.institutprotectionsantenaturelle.eu/t/EQ/Ixc/JfA/ACcorA/AAELjg/=
+MTk5OTJ8aHR0cDovL3d3dy5ldXJvcGUxLmZyL0ZyYW5jZS9Vbi12aXRpY3VsdGV1ci1iaW8tcG9=
+1cnN1aXZpLXBvdXItYXZvaXItZGl0LW5vbi1hdXgtcGVzdGljaWRlcy0xODA4OTIz./AQ/gwJF
+
+3 INRA, Flavescence dor=C3=A9e de la vigne http://clic.institutprotectionsa=
+ntenaturelle.eu/t/EQ/Ixc/JfA/ACcorA/AAELjg/MTk5OTN8aHR0cDovL3d3dy5pbnJhLmZy=
+L0NoZXJjaGV1cnMtZXR1ZGlhbnRzL0Jpb2xvZ2llLXZlZ2V0YWxlL1RvdXMtbGVzLWRvc3NpZXJ=
+zL2ZsYXZlc2NlbmNlLWRvcmVlLWRlLWxhLXZpZ25l./AQ/dp23
+
+
+
+
+
+
+
+Soutenez l'IPSN
+
+Vous souhaitez soutenir les actions de l'IPSN et faire un don : visitez la =
+page ici http://clic.institutprotectionsantenaturelle.eu/t/EQ/Ixc/JfA/ACcor=
+A/AAELjg/MTA5fGh0dHBzOi8vd3d3LnBheXBhbC5jb20vY2dpLWJpbi93ZWJzY3I-Y21kPV9zLX=
+hjbGljayZob3N0ZWRfYnV0dG9uX2lkPTNaV0RXUzJBRlY0VjI./AQ/iUIA .
+
+
+
+
+
+
+
+Si vous souhaitez recevoir la newsletter de l'IPSN, il vous suffit de vous =
+inscrire ici http://clic.institutprotectionsantenaturelle.eu/t/EQ/Ixc/JfA/A=
+CcorA/AAELjg/MjAwNDB8aHR0cDovL2lwc24uZXUvcnVicmlxdWUvbmV3c2xldHRlcg./AQ/ukj=
+7 .
+
+
+
+Votre adresse ne sera jamais transmise =C3=A0 aucun tiers et vous pourrez v=
+ous d=C3=A9sinscrire gr=C3=A2ce =C3=A0 un lien se trouvant sur toutes nos n=
+ewsletters, en fin de message.
+
+
+
+
+
+
+
+Institut pour la Protection de la Sant=C3=A9 Naturelle
+
+Association sans but lucratif
+
+Rue du vieux March=C3=A9 au grain, 48
+
+1000 BRUXELLES
+
+IPSN http://clic.institutprotectionsantenaturelle.eu/t/EQ/Ixc/JfA/ACcorA/AA=
+ELjg/MjAwMjN8aHR0cDovL3d3dy5pcHNuLmV1./AQ/tSo2
+
+
+
+
+
+
+
+Vous recevez ce message car vous avez sign=C3=A9 l'appel de soutien au viti=
+culteur Emmanuel Giboulot. Vous ne souhaitez plus appara=C3=AEtre sur cette=
+ liste ? Alors <a href=3D"http://service.institutprotectionsantenaturelle.e=
+u//unsubscribe.php?mid=3D8983&cid=3D2566316&oid=3D17&sid=3D9712&vid=3DOJ3jM=
+p">rendez-vous ici</a>.
+
+
+-------=530d195f55881
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+
+    <body>
+        <table style=3D"max-width: 600px;" align=3D"center" border=3D"0" he=
+ight=3D"auto" bgcolor=3D"#aecb57">
+            <tbody>
+                <tr>
+
+                </tr>
+                <tr height=3D"10">
+                    <td width=3D"10"></td>
+                    <td style=3D"max-width: 580px;"></td>
+                    <td width=3D"10"></td>
+                </tr>
+
+                <tr>
+                    <td width=3D"10"></td>
+                    <td style=3D"max-width: 580px;" bgcolor=3D"#FFFDF9">
+                        <img src=3D"http://www.ipsn.eu/impressions/Logo_IPS=
+N_FFFAF0_500_64.jpg" width=3D"100%" alt=3D"Institut pour la Protection de l=
+a Sante Naturelle" />
+                    </td>
+                    <td width=3D"10">
+                    </td>
+                </tr>
+
+                <tr>
+
+                    <td width=3D"10">
+                  <td style=3D"max-width: 580px; padding:10px;" bgcolor=3D"=
+#FFFDF9">
+
+
+<font face=3D"Verdana, Arial, Helvetica, sans-serif" color=3D"#373737">
+<em>
+<font face=3D"Verdana, Arial, Helvetica, sans-serif" size=3D"1" color=3D"#3=
+73737">Vous recevez ce message car vous avez sign=C3=A9 l'appel de soutien =
+au viticulteur Emmanuel Giboulot. Vous ne souhaitez plus appara=C3=AEtre su=
+r cette liste ? Alors <a href=3D"http://service.institutprotectionsantenatu=
+relle.eu//unsubscribe.php?mid=3D8983&cid=3D2566316&oid=3D17&sid=3D9712&vid=
+=3DOJ3jMp">rendez-vous ici</a>.</em></font>
+<br />
+<br />
+
+
+
+
+
+<h2>Jugement le 7 avril</h2>
+<br />
+Madame, Monsieur,<br />
+<br />Comme vous l'avez sans doute entendu =C3=A0 la radio ou =C3=A0 la t=
+=C3=A9l=C3=A9vision, le viticulteur Emmanuel Giboulot, poursuivi pour avoir=
+ refus=C3=A9 un dangereux pesticide, est pass=C3=A9 hier au tribunal correc=
+tionnel de Dijon, comme pr=C3=A9vu.<br />
+<br />Nous =C3=A9tions plus de mille personnes =C3=A0 ses c=C3=B4t=C3=A9s. =
+De nombreuses associations, locales et nationales, =C3=A9taient pr=C3=A9sen=
+tes. Nous lui avons remis pr=C3=A8s de 500 000 p=C3=A9titions de soutien, d=
+ans une atmosph=C3=A8re d'enthousiasme extraordinaire. Gr=C3=A2ce =C3=A0 vo=
+us, je peux t=C3=A9moigner que cette =C3=A9preuve a =C3=A9t=C3=A9 transform=
+=C3=A9e pour Emmanuel et sa compagne en un grand moment de chaleur et de co=
+nvivialit=C3=A9.<br />
+<br />Vous pouvez consulter sur la page Facebook de soutien nos photos du p=
+ique-nique festif organis=C3=A9 devant le tribunal, et de la remise de notr=
+e p=C3=A9tition, juste avant l'audience. (1)<br />
+<br />Mais malgr=C3=A9 cette mobilisation, <u>la Procureure a insist=C3=A9 =
+sur sa culpabilit=C3=A9. Elle a requis 1000 euros d'amende, dont la moiti=
+=C3=A9 avec sursis, avec inscription =C3=A0 son casier judiciaire</u>.<br />
+<br />Le jugement sera rendu le 7 avril.<br />
+<br />Nul ne sait aujourd'hui de quel c=C3=B4t=C3=A9 pencheront les juges. =
+Mais une condamnation, m=C3=AAme symbolique, serait un terrible d=C3=A9save=
+u envoy=C3=A9 au monde de l'agriculture bio, et une tr=C3=A8s mauvaise nouv=
+elle pour l'environnement.<br />
+<br />Car, ne l'oublions pas, Emmanuel Giboulot entrerait alors juridiqueme=
+nt dans la cat=C3=A9gorie des d=C3=A9linquants. Un homme qui m=C3=A9riterai=
+t au contraire d'=C3=AAtre d=C3=A9cor=C3=A9 pour son courage !<br />
+<br />Cette condamnation, si elle a lieu, contribuera de fa=C3=A7on grave =
+=C3=A0 amplifier le <u>climat de peur</u>, et =C3=A0 d=C3=A9courager les bo=
+nnes volont=C3=A9s parmi les personnes tent=C3=A9es par l'approche biologiq=
+ue.<br />
+<br />Elle confirmera les agriculteurs biologiques dans l'id=C3=A9e que, qu=
+elles que soient leurs convictions personnelles, c'est au bout du compte le=
+s autorit=C3=A9s administratives et leurs m=C3=A9thodes chimiques qui s'imp=
+osent sur leur propre terrain !<br />
+<br />La d=C3=A9cision du tribunal n'a pas encore =C3=A9t=C3=A9 prise. Mais=
+ si notre mouvement s'essouffle maintenant, cela pourrait =C3=AAtre consid=
+=C3=A9r=C3=A9 par les juges comme le signe que l'opinion publique se d=C3=
+=A9sint=C3=A9resse du probl=C3=A8me !<br />
+<br />
+<u>Ne commettons pas cette erreur strat=C3=A9gique</u>. Poussons maintenant=
+ notre mobilisation encore plus loin. Nous avons encore 5 semaines et nous =
+pouvons atteindre un million de signatures !<br />
+<br />Je compte donc sur vous pour continuer =C3=A0 r=C3=A9colter des p=C3=
+=A9titions de soutien autour de vous en <a href=3D"http://clic.institutprot=
+ectionsantenaturelle.eu/t/EQ/Ixc/JfA/ACcorA/AAELjg/MTk5OTd8aHR0cDovL2lwc24u=
+ZXUvcGV0aXRpb24vdml0aWN1bHRldXIucGhwLzcwNA./AQ/4jK9"><strong>transf=C3=A9ra=
+nt l'appel d'Emmanuel Giboulot (=C3=A0 voir ici)</strong></a>.<br />
+<br />Parmi bien d'autres, la radio <em>Europe 1</em> a relev=C3=A9 l'excep=
+tionnel mouvement de soutien autour d'Emmanuel, et indiqu=C3=A9 que =C2=AB =
+cette mobilisation pourrait jouer en la faveur du vigneron lundi =C2=BB. (2=
+)<br />
+<br />
+  C'est certainement vrai car, sans cela, la Procureure aurait tr=C3=A8s pr=
+obablement requis une peine beaucoup plus grave.<br />
+<br />Mais en continuant =C3=A0 r=C3=A9colter des p=C3=A9titions, nous pouv=
+ons obtenir qu'Emmanuel Giboulot soit <u>relax=C3=A9 et sorte du tribunal s=
+ans la moindre condamnation le 7 avril. Et c'est =C3=A7a qui est, de tr=C3=
+=A8s loin, le plus important.</u>
+<br />
+<br />Face =C3=A0 nous, de puissants r=C3=A9seaux se mobilisent. Certains a=
+ccusent Emmanuel Giboulot d'=C3=AAtre un =C2=AB int=C3=A9griste du bio =C2=
+=BB. Il a pourtant d=C3=A9clar=C3=A9 lui-m=C3=AAme =C3=A0 l'audience qu'il =
+aurait accept=C3=A9 de traiter sa vigne si la menace de le maladie avait =
+=C3=A9t=C3=A9 r=C3=A9elle. Mais la maladie, la flavescence dor=C3=A9e, n'es=
+t m=C3=AAme pas pr=C3=A9sente dans son d=C3=A9partement, la C=C3=B4te-d'Or =
+! Il n'y en a pas =C3=A0 l'heure actuelle =C3=A0 des kilom=C3=A8tres autour=
+ de ses vignes. Traiter avec un pesticide ne servirait strictement =C3=A0 r=
+ien.<br />
+<br />D'autres font courir le bruit un peu partout sur Internet que le trai=
+tement par pesticide est indispensable et b=C3=A9n=C3=A9fique. Ceci alors q=
+ue l'Institut National de la Recherche Agronomique (INRA), a lui-m=C3=AAme =
+publi=C3=A9 un rapport sur cette maladie, expliquant que les traitements ac=
+tuels impos=C3=A9s aux agriculteurs sont :
+<br />
+<blockquote>=C2=AB <em>polluants, co=C3=BBteux, et contrecarrent la d=C3=A9=
+marche de r=C3=A9duction de pesticides de la fili=C3=A8re viticole. Ces pla=
+ns de lutte obligatoire posent en outre d=E2=80=99=C3=A9normes probl=C3=A8m=
+es aux viticulteurs engag=C3=A9s en Agriculture Biologique ou en processus =
+de conversion vers celle-ci.</em>=C2=A0=C2=BB=C2=A0(3)
+</blockquote>
+<br />
+Encore une fois, nul ne sait aujourd'hui de quel c=C3=B4t=C3=A9 pencheront =
+les juges. Mais apr=C3=A8s tout ce que nous avons fait jusqu'=C3=A0 pr=C3=
+=A9sent, <u>n'abandonnons pas Emmanuel maintenant, alors que le danger d'un=
+e condamnation p=C3=A8se plus que jamais sur sa t=C3=AAte</u>.
+<br />
+<br />Continuez =C3=A0 rassembler des signatures de soutien autour de vous.=
+<br />
+<br />Transf=C3=A9rez la p=C3=A9tition =C3=A0 toutes les personnes que vous=
+ connaissez, en leur indiquant qu'elles ont encore jusqu'au 7 avril pour si=
+gner !<br />
+<br />
+<center>
+<a href=3D"http://clic.institutprotectionsantenaturelle.eu/t/EQ/Ixc/JfA/ACc=
+orA/AAELjg/MjAwMTZ8aHR0cDovL2lwc24uZXUvcGV0aXRpb24vdml0aWN1bHRldXIucGhwLzcw=
+NCxMZXZpdGljdWx0ZXVycG91cnN1aXZpcGFybGU./AQ/SZ6b"><img src=3D"http://ipsn.e=
+u/impressions/video_viticulteur_bio.jpg" width=3D"514" style=3D"border:2px"=
+ alt=3D"Le viticulteur poursuivi parle"></a><br />
+<a href=3D"http://clic.institutprotectionsantenaturelle.eu/t/EQ/Ixc/JfA/ACc=
+orA/AAELjg/MTk5OTB8aHR0cDovL2lwc24uZXUvcGV0aXRpb24vdml0aWN1bHRldXIucGhwLzcw=
+NA./AQ/sxFG"><strong>Lien ici</strong></a>.
+</center>
+<br />
+<br />Un grand merci,<br />
+<br />Augustin de Livois<br />
+Pr=C3=A9sident de l'<em>Institut pour la Protection de la Sant=C3=A9 Nature=
+lle</em>
+<br />
+<br />
+Sources :
+<br />
+<br />
+1 <a href=3D"http://clic.institutprotectionsantenaturelle.eu/t/EQ/Ixc/JfA/A=
+CcorA/AAELjg/MTk5OTF8aHR0cHM6Ly93d3cuZmFjZWJvb2suY29tL2VtbWFudWVsdml0aWN1bH=
+RldXJiaW9wcmlzb24./AQ/_kqa">Notre page Facebook</a>
+<br />
+2 <a href=3D"http://clic.institutprotectionsantenaturelle.eu/t/EQ/Ixc/JfA/A=
+CcorA/AAELjg/MTk5OTJ8aHR0cDovL3d3dy5ldXJvcGUxLmZyL0ZyYW5jZS9Vbi12aXRpY3VsdG=
+V1ci1iaW8tcG91cnN1aXZpLXBvdXItYXZvaXItZGl0LW5vbi1hdXgtcGVzdGljaWRlcy0xODA4O=
+TIz./AQ/gwJF">Europe 1, Un agriculteur bio poursuivi pour avoir dit non aux=
+ pesticides</a>
+<br />
+3 <a href=3D"http://clic.institutprotectionsantenaturelle.eu/t/EQ/Ixc/JfA/A=
+CcorA/AAELjg/MTk5OTN8aHR0cDovL3d3dy5pbnJhLmZyL0NoZXJjaGV1cnMtZXR1ZGlhbnRzL0=
+Jpb2xvZ2llLXZlZ2V0YWxlL1RvdXMtbGVzLWRvc3NpZXJzL2ZsYXZlc2NlbmNlLWRvcmVlLWRlL=
+WxhLXZpZ25l./AQ/dp23">INRA, Flavescence dor=C3=A9e de la vigne</a>
+</font>
+                      <br />
+                            <br />
+                  </td>
+                        <td width=3D"10"></td>
+              </tr>
+
+                <tr>
+                    <td width=3D"10">
+                        <td style=3D"max-width: 580px;" bgcolor=3D"#aecb57"=
+><font face=3D"Verdana, Arial, Helvetica, sans-serif" size=3D"2" color=3D"#=
+373737">
+
+  <h4><font face=3D"Verdana, Arial, Helvetica, sans-serif" size=3D"2" color=
+=3D"#373737"><br />
+        Soutenez l'IPSN</font>
+                            </h4>
+                             <font face=3D"Verdana, Arial, Helvetica, sans-=
+serif" size=3D"2" color=3D"#373737">Vous souhaitez soutenir les actions de =
+l'IPSN et faire un don : <a href=3D"http://clic.institutprotectionsantenatu=
+relle.eu/t/EQ/Ixc/JfA/ACcorA/AAELjg/MTA5fGh0dHBzOi8vd3d3LnBheXBhbC5jb20vY2d=
+pLWJpbi93ZWJzY3I-Y21kPV9zLXhjbGljayZhbXA7aG9zdGVkX2J1dHRvbl9pZD0zWldEV1MyQU=
+ZWNFYy./AQ/5Txu" target=3D"_blank"><strong>visitez la page ici</strong></a>=
+.<br />
+        <br />
+        <hr align=3D"center" style=3D"max-width: 580px;" color=3D"#FFFDF9" =
+size=3D"2">
+        <br />
+        <font face=3D"Verdana, Arial, Helvetica, sans-serif" size=3D"2" col=
+or=3D"#373737">Si vous souhaitez recevoir la newsletter de l'IPSN, il vous =
+suffit de <a href=3D"http://clic.institutprotectionsantenaturelle.eu/t/EQ/I=
+xc/JfA/ACcorA/AAELjg/MjAwNDB8aHR0cDovL2lwc24uZXUvcnVicmlxdWUvbmV3c2xldHRlcg=
+./AQ/ukj7"><strong>vous inscrire ici</strong></a>. </font>
+                            <br />
+                            <br />
+                             <font face=3D"Verdana, Arial, Helvetica, sans-=
+serif" size=3D"2" color=3D"#373737">Votre adresse  ne sera jamais transmise=
+ =C3=A0 aucun tiers et vous pourrez vous d=C3=A9sinscrire gr=C3=A2ce =C3=A0=
+  un lien se trouvant sur toutes nos newsletters, en fin de message.</font>
+                            <br />
+                            <br />
+                            <hr align=3D"center" style=3D"max-width: 580px;=
+" color=3D"#FFFDF9" size=3D"2">
+                            <br />Institut pour la Protection de la Sant=C3=
+=A9 Naturelle
+                            <br />Association sans but lucratif
+                            <br />Rue du vieux March=C3=A9 au grain, 48
+                            <br />1000 BRUXELLES
+                            <br />
+                             <a target=3D"_blank" href=3D"http://clic.insti=
+tutprotectionsantenaturelle.eu/t/EQ/Ixc/JfA/ACcorA/AAELjg/MjAwMjN8aHR0cDovL=
+3d3dy5pcHNuLmV1./AQ/tSo2"><strong>IPSN</strong></a>
+                            <br />
+                            <br />
+                            </font>
+                            <hr align=3D"center" style=3D"max-width: 580px;=
+" color=3D"#FFFDF9" size=3D"2">
+                            <br />
+
+<font face=3D"Verdana, Arial, Helvetica, sans-serif" size=3D"2" color=3D"#3=
+73737">Vous recevez ce message car vous avez sign=C3=A9 l'appel de soutien =
+au viticulteur Emmanuel Giboulot. Vous ne souhaitez plus appara=C3=AEtre su=
+r cette liste ? Alors <a href=3D"http://service.institutprotectionsantenatu=
+relle.eu//unsubscribe.php?mid=3D8983&cid=3D2566316&oid=3D17&sid=3D9712&vid=
+=3DOJ3jMp">rendez-vous ici</a>.</font>
+
+                        </td>
+                        <td width=3D"10">
+                </tr>
+                <tr>
+
+                    <tr height=3D"10">
+                        <td width=3D"10">
+                            <td style=3D"max-width: 580px;"></td>
+                            <td width=3D"10"></td>
+                    </tr>
+            </tbody>
+        </table>
+
+
+
+<img src=3D"http://clic.institutprotectionsantenaturelle.eu/t/EQ/Ixc/JfA/AC=
+corA/AAELjg/AQ/AQ/N0cX" />
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-------=530d195f55881--
+

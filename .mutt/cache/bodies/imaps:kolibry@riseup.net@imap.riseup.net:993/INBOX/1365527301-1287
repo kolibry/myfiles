@@ -1,0 +1,36 @@
+Return-Path: <noreply@github.com>
+X-Spam-Checker-Version: SpamAssassin 3.3.2 (2011-06-06) on spamd2.riseup.net
+X-Spam-Level: 
+X-Spam-Pyzor: Reported 0 times.
+X-Spam-Status: No, score=-4.7 required=8.0 tests=AM_TRUNCATED,CK_419SIZE,
+	CK_KARD_SIZE,MAILPHISH3,PHISH_ACC1,PHISH_ACC6,RCVD_IN_DNSWL_HI,RISEUP_SPEAR_C,
+	RISEUP_SPEAR_P shortcircuit=no autolearn=disabled version=3.3.2
+Delivered-To: kolibry@riseup.net
+Received: from mx1.riseup.net (mx1-pn.riseup.net [10.0.1.33])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client CN "*.riseup.net", Issuer "Gandi Standard SSL CA" (not verified))
+	by vireo.riseup.net (Postfix) with ESMTPS id CF7157D
+	for <kolibry@riseup.net>; Tue,  1 Jul 2014 06:05:23 +0000 (UTC)
+Received: from github-smtp2a-ext-cp1-prd.iad.github.net (github-smtp2-ext5.iad.github.net [192.30.252.196])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client CN "*.iad.github.net", Issuer "DigiCert SHA2 High Assurance Server CA" (not verified))
+	by mx1.riseup.net (Postfix) with ESMTPS id 93FA451D74
+	for <kolibry@riseup.net>; Mon, 30 Jun 2014 23:05:23 -0700 (PDT)
+Date: Mon, 30 Jun 2014 23:05:22 -0700
+From: GitHub <noreply@github.com>
+To: kolibry <kolibry@riseup.net>
+Message-ID: <53b24fa2d5e5b_5a3b3fc70836d29c201b4@github-highworker1-cp1-prd.iad.github.net.mail>
+Subject: [GitHub] Please verify your email 'kolibry@riseup.net'
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+X-Auto-Response-Suppress: All
+X-Virus-Scanned: clamav-milter 0.98.1 at mx1
+X-Virus-Status: Clean
+
+Hey, we want to verify that you are indeed "kolibry".  Verifying this address will let you receive notifications and password resets from GitHub.  If you wish to continue, please follow the link below:
+
+https://github.com/users/kolibry/emails/9271969/confirm_verification/869e97fb6702d24b251571333c84baef0527c657
+
+If you're not kolibry or didn't request verification, you can ignore this email.

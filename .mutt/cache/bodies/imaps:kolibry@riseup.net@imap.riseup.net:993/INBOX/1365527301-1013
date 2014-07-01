@@ -1,0 +1,136 @@
+Return-Path: <cuello.kevin@gmail.com>
+X-Spam-Checker-Version: SpamAssassin 3.3.2 (2011-06-06) on spamd2.riseup.net
+X-Spam-Level: 
+X-Spam-Pyzor: Reported 0 times.
+X-Spam-Status: No, score=0.1 required=8.0 tests=AM_TRUNCATED,CK_419SIZE,
+	DKIM_SIGNED,DKIM_VALID,DKIM_VALID_AU,FORWARD_RELAY,FREEMAIL_FROM,HTML_MESSAGE,
+	LINK_NR_TOP,MAILPHISH4,MARKOV_ODD,PHISH_CGI shortcircuit=no
+	autolearn=disabled version=3.3.2
+Delivered-To: kolibry@riseup.net
+Received: from mx1.riseup.net (mx1-pn.riseup.net [10.0.1.33])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client CN "*.riseup.net", Issuer "Gandi Standard SSL CA" (not verified))
+	by vireo.riseup.net (Postfix) with ESMTPS id EB19CB0
+	for <kolibry@riseup.net>; Thu, 10 Apr 2014 21:51:07 +0000 (UTC)
+Received: from jeudego.org (jeudego.org [5.135.164.19])
+	by mx1.riseup.net (Postfix) with ESMTP id 7A36751073
+	for <kolibry@riseup.net>; Thu, 10 Apr 2014 14:51:07 -0700 (PDT)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by jeudego.org (Postfix) with ESMTP id 870E12EC2FE1
+	for <joueurs-ouest@jeudego.org>; Thu, 10 Apr 2014 23:51:06 +0200 (CEST)
+X-Virus-Scanned: Debian amavisd-new at jeudego.org
+Received: from jeudego.org ([127.0.0.1])
+	by localhost (jeudego.org [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id uW4EGp7mug6L for <joueurs-ouest@jeudego.org>;
+	Thu, 10 Apr 2014 23:51:02 +0200 (CEST)
+Received: from mail-qc0-f169.google.com (mail-qc0-f169.google.com [209.85.216.169])
+	(using TLSv1 with cipher RC4-SHA (128/128 bits))
+	(No client certificate requested)
+	by jeudego.org (Postfix) with ESMTPS
+	for <joueurs-ouest@jeudego.org>; Thu, 10 Apr 2014 23:51:01 +0200 (CEST)
+Received: by mail-qc0-f169.google.com with SMTP id i17so5138241qcy.0
+        for <joueurs-ouest@jeudego.org>; Thu, 10 Apr 2014 14:51:01 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:date:message-id:subject:from:to:content-type;
+        bh=pCAlh9C9TtZZfOQYp6v2af21esB9VqTmWBpGj1Qb930=;
+        b=SYdtp6Qcb4CBrz8tfwnV2K3Xb0oE5SILuyC5vAm2Plc+RDuRDOfcPj5B10Srg30lvu
+         Xq0fKRw4Z7RmFir+raokkt2A3qRpMP/pG8YLZQnE1/hyAbFQ2XAv4xoefNEXq73iI5Nz
+         avKEyFHoNDBPq2E+nw5SKSj3i+unmuyGqnTJjnBFKI3HvA8ZFKujh4bFrdNC71st8r2H
+         9uxBuVsQRxArIqumbPWDoMp2iNnNQNSwv+EQxoetQaim7XYtJxAiQ0ZVbwePCzN1CX5z
+         7VTXnbUB3KP1hnJ3PwQKlhL7Yyr6Xoge6id5Gp349CiySfxb1C/A2qrjcY7Lpm9o8DJa
+         GJAA==
+MIME-Version: 1.0
+X-Received: by 10.140.80.209 with SMTP id c75mr22573000qgd.79.1397166661032;
+ Thu, 10 Apr 2014 14:51:01 -0700 (PDT)
+Received: by 10.229.148.131 with HTTP; Thu, 10 Apr 2014 14:51:00 -0700 (PDT)
+Date: Thu, 10 Apr 2014 23:51:00 +0200
+Message-ID: <CAGd1wT2tqam=bfXE3hq7W1iS8chEefp9J22DWLTwCaTmcn_1Ag@mail.gmail.com>
+Subject: Championnat de France Jeune - subventions Ligue Ouest
+From: Kevin Cuello <cuello.kevin@gmail.com>
+To: joueurs-ouest@jeudego.org
+Content-Type: multipart/alternative; boundary=001a11c1244c85e25504f6b73644
+
+--001a11c1244c85e25504f6b73644
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+Bonsoir =E0 nouveau,
+
+Suite au mail pr=E9c=E9dent, la Ligue propose une subvention de 300 EURO au=
+x jeunes
+qualifi=E9s pour le *2nd tour du Championnat de France Jeunes*. Cette
+subvention a pour but d'aider les joueurs =E0 se rendre sur le lieu du 2nd
+tour, et sera partag=E9e =E9galement entre toutes les demandes valid=E9es p=
+ar le
+Bureau.
+
+La comp=E9tition aura lieu =E0 Cachan le weekend du 10 et 11 mai 2014.
+http://ffg-jeunes.jeudego.org/competitions/pdf/CFJ_2014.pdf
+
+Conditions de la subvention :
+- la somme allou=E9e par la Ligue est de *300 EURO*, avec un plafond maxima=
+l de
+100 EURO par joueur qualifi=E9.
+- la demande de subvention doit =EAtre faite par un responsable club ou
+parental du joueur qualifi=E9.
+- la demande ne concerne que les frais de d=E9placement du joueur qualifi=
+=E9,
+et *doit =EAtre accompagn=E9e d'un justificatif* (facture, e-billet...)
+- date limite du d=E9p=F4t des demandes : *mardi 29 avril* =E0 minuit. Au-d=
+el=E0 de
+cette date, aucune demande ne sera =E9tudi=E9e.
+- le remboursement des frais de transport sera effectu=E9 par la Ligue dans
+le mois suivant le weekend de la comp=E9tition.
+
+Les demandes sont =E0 d=E9poser par mail =E0 bureau-ouest@jeudego.org, avec=
+ le
+justificatif en pi=E8ce jointe.
+
+Cf document d'aide
+financi=E8re<http://ligue-ouest.jeudego.org/wp-content/uploads/2014/02/LDO-=
+r%C3%A8glementation-subventions.pdf>
+.
+
+Go=EFquement,
+
+--=20
+Kevin Cuello
+Vice-pr=E9sident de la Ligue de l'Ouest
+
+--001a11c1244c85e25504f6b73644
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Bonsoir =E0 nouveau,<div><br></div><div>Suite au mail pr=
+=E9c=E9dent, la Ligue propose une subvention de 300&euro; aux jeunes qualif=
+i=E9s pour le <b>2nd tour du Championnat de France Jeunes</b>. Cette subven=
+tion a pour but d&#39;aider les joueurs =E0 se rendre sur le lieu du 2nd to=
+ur, et sera partag=E9e =E9galement entre toutes les demandes valid=E9es par=
+ le Bureau.&nbsp;</div>
+<div><br></div><div>La comp=E9tition aura lieu =E0 Cachan le weekend du 10 =
+et 11 mai 2014.&nbsp;<a href=3D"http://ffg-jeunes.jeudego.org/competitions/=
+pdf/CFJ_2014.pdf">http://ffg-jeunes.jeudego.org/competitions/pdf/CFJ_2014.p=
+df</a></div>
+<div><br></div><div>Conditions de la subvention :</div><div>- la somme allo=
+u=E9e par la Ligue est de <b>300&euro;</b>, avec un plafond maximal de 100&=
+euro; par joueur qualifi=E9.</div><div>- la demande de subvention doit =EAt=
+re faite par un responsable club ou parental du joueur qualifi=E9.</div>
+<div>- la demande ne concerne que les frais de d=E9placement du joueur qual=
+ifi=E9, et <b>doit =EAtre accompagn=E9e d&#39;un justificatif</b> (facture,=
+ e-billet...)</div><div>- date limite du d=E9p=F4t des demandes : <b>mardi =
+29 avril</b>&nbsp;=E0 minuit. Au-del=E0 de cette date, aucune demande ne se=
+ra =E9tudi=E9e.</div>
+<div>- le remboursement des frais de transport sera effectu=E9 par la Ligue=
+ dans le mois suivant le weekend de la comp=E9tition.&nbsp;</div><div><br><=
+/div><div>Les demandes sont =E0 d=E9poser par mail =E0 <a href=3D"mailto:bu=
+reau-ouest@jeudego.org">bureau-ouest@jeudego.org</a>, avec le justificatif =
+en pi=E8ce jointe.</div>
+<div><br></div><div><a href=3D"http://ligue-ouest.jeudego.org/wp-content/up=
+loads/2014/02/LDO-r%C3%A8glementation-subventions.pdf">Cf document d&#39;ai=
+de financi=E8re</a>.</div><div><br></div><div>Go=EFquement,<br clear=3D"all=
+"><div>
+<br></div>-- <br>Kevin Cuello<br>
+</div><div>Vice-pr=E9sident de la Ligue de l&#39;Ouest</div></div>
+
+--001a11c1244c85e25504f6b73644--

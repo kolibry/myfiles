@@ -1,0 +1,1334 @@
+Return-Path: <newsletter-owner@lists.riseup.net>
+X-Spam-Checker-Version: SpamAssassin 3.3.2 (2011-06-06) on spamd2.riseup.net
+X-Spam-Level: 
+X-Spam-Pyzor: 
+X-Spam-Status: No, score=-121.0 required=8.0 tests=ALL_TRUSTED,SC_HAM,
+	SHORTCIRCUIT shortcircuit=ham autolearn=disabled version=3.3.2
+Delivered-To: kolibry@riseup.net
+Received: from mx2.riseup.net (mx2-pn.riseup.net [10.0.1.44])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client CN "*.riseup.net", Issuer "Gandi Standard SSL CA" (not verified))
+	by vireo.riseup.net (Postfix) with ESMTPS id E13E347D;
+	Sat, 31 May 2014 15:58:07 -0700 (PDT)
+Received: from whimbrel.riseup.net (whimbrel-pn.riseup.net [10.0.1.39])
+	by mx2.riseup.net (Postfix) with ESMTP id 160BEA7678;
+	Sat, 31 May 2014 15:49:36 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple; d=lists.riseup.net;
+	s=chirp; t=1401576606;
+	bh=+d3g2VRTWp0AwWTkBFCoQ4uvFWPrqH0zCerOg0y10PI=;
+	h=From:Date:To:Subject:Reply-To:List-Id:List-Archive:List-Help:
+	 List-Owner:List-Post:List-Subscribe:List-Unsubscribe:From;
+	b=EnGpp3Hn0vElum2ymv8zu43Cw3kw+OqPIuAoEDJhNkoVOuL1M3i71qWjO7QlYnJHy
+	 rkDMmWLINmTGQaAZq16uVEc16b9vQMpItLZTVmYzg8JtKQX/yNaWg6XsdmWM+KZQNr
+	 EST/8WYJ8QQs0ctqauQn4CN0YUh+oX8r9fcvHYI0=
+Received: by whimbrel.riseup.net (Postfix, from userid 1000)
+	id 0F549FFCDE; Sat, 31 May 2014 15:48:18 -0700 (PDT)
+X-Original-To: newsletter@lists.riseup.net
+Delivered-To: newsletter@lists.riseup.net
+From: newsletter@lists.riseup.net
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Date: Sat, 31 May 2014 15:41:21 -0700
+Message-Id: <newsletter.82@anonymous>
+To: newsletter@lists.riseup.net
+Mime-Version: 1.0 (Apple Message framework v1085)
+X-Mailer: Apple Mail (2.1085)
+X-Virus-Scanned: clamav-milter 0.98.1 at whimbrel
+X-Virus-Status: Clean
+Subject: [riseup] =?UTF-8?B?bmV3c2xldHRlciAvIFJ1bmRzY2hyZWliZW4gLyDOlc69?=
+ =?UTF-8?B?zrfOvM61z4HPic+EzrnOus+MIM60zrXOu8+Ezq/OvyAvIGJvbGV0w61uIGRl?=
+ =?UTF-8?B?IG5vdGljaWFzIC8gYnVsbGV0aW4gLyAg4KSo4KWN4KSv4KWC4KSc4KS84KSy?=
+ =?UTF-8?B?4KWH4KSf4KSwIC8gYm9sbGV0dGlubyAvIGJvbGV0aW0gLw==?=
+Reply-To: newsletter@lists.riseup.net
+X-Loop: newsletter@lists.riseup.net
+X-Sequence: 82
+Errors-to: newsletter-owner@lists.riseup.net
+Precedence: list
+Precedence: bulk
+Sender: newsletter-request@lists.riseup.net
+X-no-archive: yes
+List-Id: <newsletter.lists.riseup.net>
+List-Archive: <https://lists.riseup.net/www/arc/newsletter>
+List-Help: <mailto:sympa@lists.riseup.net?subject=help>
+List-Owner: <mailto:newsletter-request@lists.riseup.net>
+List-Post: <mailto:newsletter@lists.riseup.net>
+List-Subscribe: <mailto:sympa@lists.riseup.net?subject=subscribe%20newsletter>
+List-Unsubscribe: <mailto:sympa@lists.riseup.net?subject=unsubscribe%20newsletter>
+
+[en]  This newsletter is for all riseup.net list admins and mail account =
+users. It contains vital information, technical tips, and news about =
+Riseup.
+[de] Dieses Rundschreiben ist f=C3=BCr alle riseup.net =
+Verteiler-Administrator_innen und eMail-Benutzer_innen. Es enth=C3=A4lt =
+wichtige Informationen, technische Tipps und Neuigkeiten =C3=BCber =
+Riseup.
+[el]  =CE=91=CF=85=CF=84=CF=8C =CF=84=CE=BF =CE=B5=CE=BD=CE=B7=CE=BC=CE=B5=
+=CF=81=CF=89=CF=84=CE=B9=CE=BA=CF=8C =CE=B4=CE=B5=CE=BB=CF=84=CE=AF=CE=BF =
+=CE=B5=CE=AF=CE=BD=CE=B1=CE=B9 =CE=B3=CE=B9=CE=B1 =CF=8C=CE=BB=CE=BF=CF=85=
+=CF=82 =CF=84=CE=BF=CF=85=CF=82 =CE=B4=CE=B9=CE=B1=CF=87=CE=B5=CE=B9=CF=81=
+=CE=B9=CF=83=CF=84=CE=AD=CF=82 =CE=BB=CE=B9=CF=83=CF=84=CF=8E=CE=BD =
+=CF=84=CE=BF=CF=85 riseup.net =CE=BA=CE=B1=CE=B9 =CF=84=CE=BF=CF=85=CF=82 =
+=CF=87=CF=81=CE=AE=CF=83=CF=84=CE=B5=CF=82 =CE=BB=CE=BF=CE=B3=CE=B1=CF=81=CE=
+=B9=CE=B1=CF=83=CE=BC=CF=8E=CE=BD =CE=B7=CE=BB=CE=B5=CE=BA=CF=84=CF=81=CE=BF=
+=CE=BD=CE=B9=CE=BA=CE=BF=CF=8D =CF=84=CE=B1=CF=87=CF=85=CE=B4=CF=81=CE=BF=CE=
+=BC=CE=B5=CE=AF=CE=BF=CF=85. =CE=A0=CE=B5=CF=81=CE=B9=CE=AD=CF=87=CE=B5=CE=
+=B9 =CF=87=CF=81=CE=AE=CF=83=CE=B9=CE=BC=CE=B5=CF=82 =
+=CF=80=CE=BB=CE=B7=CF=81=CE=BF=CF=86=CE=BF=CF=81=CE=AF=CE=B5=CF=82, =
+=CF=84=CE=B5=CF=87=CE=BD=CE=B9=CE=BA=CE=AD=CF=82 =CF=83=CF=85=CE=BC=CE=B2=CE=
+=BF=CF=85=CE=BB=CE=AD=CF=82 =CE=BA=CE=B1=CE=B9 =CE=BD=CE=AD=CE=B1 =
+=CF=83=CF=87=CE=B5=CF=84=CE=B9=CE=BA=CE=AC =CE=BC=CE=B5 =CF=84=CE=BF =
+Riseup.
+[es]  Este bolet=C3=ADn es para todxs lxs administradorxs de listas y =
+usuarixs de cuentas de correo. Contiene informaci=C3=B3n vital, consejos =
+t=C3=A9cnicos y noticias sobre Riseup.
+[fr]  Ce bulletin est adress=C3=A9 aux admins des listes de diffusion de =
+riseup.net, ainsi qu'aux utilisateurs et aux utilisatrices de courriel. =
+Il contient des informations importantes, des tuyaux techniques et des =
+nouvelles de Riseup.
+[hi]  =E0=A4=AF=E0=A4=B9 =E0=A4=A8=E0=A5=8D=E0=A4=AF=E0=A5=82=E0=A4=9C=E0=A4=
+=BC=E0=A4=B2=E0=A5=87=E0=A4=9F=E0=A4=B0 =E0=A4=B8=E0=A4=AD=E0=A5=80 =
+riseup.net =E0=A4=B2=E0=A4=BF=E0=A4=B8=E0=A5=8D=E0=A4=9F =E0=A4=8F=E0=A4=A1=
+=E0=A4=AE=E0=A4=BF=E0=A4=A8 =E0=A4=94=E0=A4=B0 =E0=A4=88=E0=A4=AE=E0=A5=87=
+=E0=A4=B2 =E0=A4=85=E0=A4=95=E0=A4=BE=E0=A4=89=E0=A4=82=E0=A4=9F =
+=E0=A4=89=E0=A4=AA=E0=A4=AF=E0=A5=8B=E0=A4=97=E0=A4=95=E0=A4=B0=E0=A5=8D=E0=
+=A4=A4=E0=A4=BE=E0=A4=93=E0=A4=82 =E0=A4=95=E0=A5=87 =E0=A4=B2=E0=A4=BF=E0=
+=A4=8F =E0=A4=B9=E0=A5=88=E0=A5=A4 =E0=A4=87=E0=A4=B8=E0=A4=AE=E0=A5=87=E0=
+=A4=82 =E0=A4=AE=E0=A4=B9=E0=A4=A4=E0=A5=8D=E0=A4=B5=E0=A4=AA=E0=A5=82=E0=A4=
+=B0=E0=A5=8D=E0=A4=A3 =E0=A4=9C=E0=A4=BE=E0=A4=A8=E0=A4=95=E0=A4=BE=E0=A4=B0=
+=E0=A5=80, =E0=A4=A4=E0=A4=95=E0=A4=A8=E0=A5=80=E0=A4=95=E0=A5=80 =
+=E0=A4=9F=E0=A4=BF=E0=A4=AA=E0=A5=8D=E0=A4=B8 =E0=A4=94=E0=A4=B0 Riseup =
+=E0=A4=95=E0=A5=87 =E0=A4=AC=E0=A4=BE=E0=A4=B0=E0=A5=87 =E0=A4=AE=E0=A5=87=
+=E0=A4=82 =E0=A4=96=E0=A4=AC=E0=A4=B0=E0=A5=87=E0=A4=82 =E0=A4=A6=E0=A5=80=
+ =E0=A4=97=E0=A4=88 =E0=A4=B9=E0=A5=88=E0=A4=82=E0=A5=A4
+[it] Questo bollettino =C3=A8 per gli amministratori delle liste di =
+riseup.net e per tutti gli utenti. Contiene informazioni vitali, =
+suggerimenti tecnici e notizie su Riseup.=20
+[pt] Este boletim =C3=A9 para todas as pessoas que administram listas e =
+usam os servi=C3=A7os de riseup.net.  Ele cont=C3=A9m informa=C3=A7=C3=B5e=
+s importantes, dicas t=C3=A9cnicas e novidades do Riseup.
+
+
+
+[en] english
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D
+
+May 2014 Contents
+
+* Our Security Statement
+* Yahoo and Lists
+* Money!
+
+Our Security Statement
+-------------------------------
+If you would like updates on Riseup's interaction with the state =
+surveillance apparatus, go to:
+
+https://help.riseup.net/canary
+
+We will be updating it roughly quarterly.
+
+It currently states:
+As of April 21, 2014, Riseup has not received any National Security =
+Letters or FISA court orders, and we have not been subject to any gag =
+order by a FISA court. Riseup has never placed any back-doors in our =
+software and have not received any requests to do so. Riseup has never =
+disclosed any user communications to any third party.
+
+Regarding server seizures, in a widely-reported incident, the FBI seized =
+one of Riseup's servers in April 2012. This incident happened in New =
+York. The machine was encrypted and contained no user data. The server =
+was returned, but it was not placed back in service. Other than this =
+incident, as of April 21, 2014, Riseup confirms that it has never had =
+any hardware seized or taken by any third party.
+
+Yahoo and Lists
+-----------------------
+You may have been seeing some bounces from yahoo.com and aol.com. They =
+are due to those corporation's changes in policy. They published a DMARC =
+record (an anti-spam technology) which
+effectively says "if any server other than our official servers sends =
+mail with a sender using a yahoo.com (or aol.com) address, assume the =
+mail is spam and reject it". The DMARC record is then used by other =
+sites (like hotmail.com, comcast.net, and many others) to decide what
+to do when mail arrives.
+
+The problem with this is that mailing list software, like =
+lists.riseup.net, retransmits messages to others. So when a yahoo.com or =
+aol.com user sends mail to a list and it gets redistributed (with the =
+yahoo.com/aol.com address still as the sender) then receiving mail =
+servers say "this message wasn't sent from one of yahoo/aol's servers, =
+it must be spam, reject!" and bounce the message. This is why you may be =
+were seeing lots of bounces, and not just from yahoo.com/aol.com but =
+other
+sites as well.
+
+There is a full explanation at http://jrl.guru/Email/yahoobomb.html
+
+The easiest thing that can fix this is yahoo/aol changing their policy. =
+But until then here is what riseup is doing:
+
+* In order to limit the damage, we are now blocking all senders to =
+lists.riseup.net that are using a yahoo.com or aol.com address. Upon =
+sending, yahoo.com and aol.com senders will immediately get an error =
+that explains things. This is bad for the senders, but it will prevent =
+the mass bounces and bounce related unsubscriptions.
+* We encourage everyone to move away from yahoo.com/aol.com to an email =
+provider that protects your privacy and doesn't make it impossible to =
+run mailing lists
+* We're investigating other ways we can hack around this problem, we =
+hope to have a fix soon.
+
+Money!
+------
+Money getting you down? Us too. If you can donate a bit to Riseup, every =
+small amount goes a long way to supporters thousands of groups and =
+activists around the world.
+https://help.riseup.net/donate
+
+And, wepay, one of the ways people donate to Riseup, has stopped =
+accepting donations. For anyone who had set up reoccurring donations =
+with them, it would be mighty awesome if you could set up some other =
+form of reoccurring payment. Thanks!
+
+
+
+[de] deutsch
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D
+
+Inhalte des Mai-Newsletters 2014
+*Unser Sicherheits-Statement
+*Yahoo und Listen
+*Geld!
+
+Unser Sicherheits-Statement
+------------------------------------------
+Falls Dich Nachrichten =C3=BCber die Interaktionen Riseups mit dem =
+=C3=9Cberwachungsapparates des Staates interessieren, folge diesem Link: =
+help.riseup.net/canary
+
+Wir werden ungef=C3=A4hr einen Bericht pro Quartal ver=C3=B6ffentlichen.
+
+Der aktuelle Bericht sieht folgenderma=C3=9Fen aus:
+
+Stand 21.April, 2014, hat Riseup weder einen =E2=80=9ENational Security =
+Letter=E2=80=9C (deutsch w=C3=B6rtlich: Brief zur Nationalen =
+Sicherheit), noch eine gerichtliche FISA-Anordnung (FISA: Gesetz zum =
+Abh=C3=B6ren in der Auslandsaufkl=C3=A4rung in den Vereinigten Staaten) =
+erhalten. Riseup hat genauso wenig back-doors in seine Software =
+eingebaut und wir haben auch keine Aufforderung erhalten dies zu tun. =
+Wir haben niemals Benutzer_innen-Daten an Dritte weitergegeben.
+
+Was unsere Server betrifft, wurde in einem Fall, der viel mediale =
+Aufmerksamkeit bekam, im April 2012 ein Server vom FBI beschlagnahmt. =
+Dieser Vorfall hat in New York stattgefunden. Die Daten auf dem Server =
+waren verschl=C3=BCsselt und es waren keine Nutzer_innen-Daten auf dem =
+Server gespeichert. Der Server wurde uns zur=C3=BCckgegeben, wir setzen =
+ihn aber nicht mehr ein. Von diesem Vorfall abgesehen beskr=C3=A4ftigt =
+Riseup Stand 21.April 2014, dass keine unserer Hardware in die H=C3=A4nde =
+Dritter gelangt ist.
+
+Yahoo und Listen
+---------------------------------
+Manche Eurer emails an Adressen von yahoo.com und aol.com sind =
+m=C3=B6glicherweise mit einer Nachricht =C3=BCber die Nichtzustellung =
+zur=C3=BCckgekommen. Das lieft daran, dass diese Unternehmen ihre =
+Richtlinien ver=C3=A4ndert haben. Sie haben einen =E2=80=9EDMARC-Bericht=E2=
+=80=9C (eine Anti-Spam-Technologie) ver=C3=B6ffentlicht, der praktisch =
+folgendes aussagt: =E2=80=9CFalls irgendein fremder Server, der nicht zu =
+unseren offiziellen geh=C3=B6rt, eine Nachricht verschickt, die =
+yahoo.com (oder aol.com) enth=C3=A4lt, ist anzunehmen, dass es sich um =
+Spam handelt und die email ist daher als Spam zu behandeln.=E2=80=9D =
+Dieser =E2=80=9EDMARC-Bericht=E2=80=9C wird dann von anderen =
+email-Anbietern (zB hotmail.com, comcast.net etc.) verwendet um zu =
+entscheiden was mit eingehenden emails umgegangen wird.
+
+Das Problem, das deswegen auftreten kann, ist, dass Listensoftware, so =
+wie die von lists.riseup.net, von Nachrichten an die Liste auch eine =
+Kopie an die Absendeadresse schickt. Das bedeutet, dass wenn ein_e =
+Benutzer_in (mit einer yahoo.com/aol.com Absendeadresse) eine Nachricht =
+an die Liste schickt und die Kopie dieser email selbst erh=C3=A4lt, der =
+Mail-Server sagt: =E2=80=9EDiese Nachricht wurde nicht von unseren =
+eigenen Servern verschickt, es muss sich folglich um Spam handeln, =
+verweigern!=E2=80=9C und die Nachricht schlie=C3=9Flich zur=C3=BCckschickt=
+. Daher kann es sein, dass Du viele Fehlermeldungen bekommst, und dass =
+nicht nur von yahoo.com/aol.com, sondern genauso von vielen anderen =
+Mail-Anbietern.
+
+Eine ausf=C3=BChrliche Erkl=C3=A4rung, auf Englisch, ist hier zu finden: =
+jrl.guru/Email/yahoobomb.html
+
+Die einfachste L=C3=B6sung des Problemes w=C3=A4re wenn yahoo/aol ihre =
+Einstellungen anpassen w=C3=BCrden.
+
+Bis dies geschieht tut Riseup folgendes:
+
+*Um den Schaden zu begrenzen, blockieren wir alle eMails an =
+Riseup-Listen, die von yahoo.com oder aol.com -Absendern kommen. Beim =
+Absenden einer email an eine Riseup-Liste wird umgehend eine Nachricht =
+zur=C3=BCckgeschickt, die das Problem erkl=C3=A4rt. Das ist schlecht =
+f=C3=BCr die Absender, aber es vermeidet massenhafte Fehlermeldungen und =
+Abmeldungen von Listen wegen dieses Problemes.
+*Wir m=C3=B6chten alle dazu ermutigen anstelle von yahoo.com/aol.com =
+andere email-Anbieter zu verwenden, die die Privatsph=C3=A4re ihrer =
+Nutzer_innen sch=C3=BCtzen und es nicht verunm=C3=B6glichen email-Listen =
+zu unterhalten.
+*Wir suchen ebenso nach anderen wegen dieses Problem zu umgehen, wir =
+hoffen bald eine M=C3=B6glichkeit zu finden.
+
+Geld!
+-------
+Deprimiert Dich der Gedanke ans Geld? Uns auch. Wenn Du ein wenig an =
+Riseup spenden kannst, sei Dir gewiss, dass jeder noch so kleine Betrag =
+hilfreich ist um tausende Gruppen und Aktivist_innen auf der ganzen Welt =
+zu unterst=C3=BCtzen.
+
+help.riseup.net/donate
+
+Au=C3=9Ferdem hat =E2=80=9Ewepay=E2=80=9C, eine der m=C3=B6glichen =
+Transfermethoden um Geld an Riseup zu =C3=BCberweisen, aufgeh=C3=B6rt =
+Spenden zu akzeptieren. F=C3=BCr alle, die regelm=C3=A4=C3=9Fige Spenden =
+=C3=BCber diesen Dienst aufgesetzt hatten, w=C3=A4re es verdammt cool =
+wenn ihr einen anderen Weg um regelm=C3=A4=C3=9Fig zu spenden einrichten =
+k=C3=B6nntet. Vielen Dank!
+
+
+
+[el] =CE=B5=CE=BB=CE=BB=CE=B7=CE=BD=CE=B9=CE=BA=CE=AC
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D
+
+=CE=9C=CE=AC=CE=B9=CE=BF=CF=82 2014, =CE=A0=CE=B5=CF=81=CE=B9=CE=B5=CF=87=CF=
+=8C=CE=BC=CE=B5=CE=BD=CE=B1
+* =CE=97 =CE=BA=CE=B1=CF=84=CE=AC=CF=83=CF=84=CE=B1=CF=83=CE=B7 =
+=CE=B1=CF=83=CF=86=CE=B1=CE=BB=CE=B5=CE=AF=CE=B1=CF=82 =CE=BC=CE=B1=CF=82
+* Yahoo =CE=BA=CE=B1=CE=B9 =CE=BB=CE=AF=CF=83=CF=84=CE=B5=CF=82 =
+=CF=84=CE=B1=CF=87=CF=85=CE=B4=CF=81=CE=BF=CE=BC=CE=B5=CE=AF=CE=BF=CF=85
+* =CE=A7=CF=81=CE=AE=CE=BC=CE=B1=CF=84=CE=B1!
+
+=CE=97 =CE=BA=CE=B1=CF=84=CE=AC=CF=83=CF=84=CE=B1=CF=83=CE=B7 =
+=CE=B1=CF=83=CF=86=CE=B1=CE=BB=CE=B5=CE=AF=CE=B1=CF=82 =CE=BC=CE=B1=CF=82
+----------------------------------------
+=CE=91=CE=BD =CE=B8=CE=AD=CE=BB=CE=B5=CF=84=CE=B5 =CE=BD=CE=B1 =
+=CE=AD=CF=87=CE=B5=CF=84=CE=B5 =CE=B5=CE=BD=CE=B7=CE=BC=CE=AD=CF=81=CF=89=CF=
+=83=CE=B7 =CE=B3=CE=B9=CE=B1 =CF=84=CE=B7=CE=BD =
+=CE=B1=CE=BB=CE=BB=CE=B7=CE=BB=CE=B5=CF=80=CE=AF=CE=B4=CF=81=CE=B1=CF=83=CE=
+=B7 =CF=84=CE=B7=CF=82 Riseup =CE=BC=CE=B5 =CF=84=CE=BF=CE=BD =
+=CE=BC=CE=B7=CF=87=CE=B1=CE=BD=CE=B9=CF=83=CE=BC=CF=8C =CF=84=CE=BF=CF=85 =
+=CE=BA=CF=81=CE=AC=CF=84=CE=BF=CF=85=CF=82 =CE=B5=CF=80=CE=B9=CF=84=CE=AE=CF=
+=81=CE=B7=CF=83=CE=B7=CF=82, =CE=B5=CF=80=CE=B9=CF=83=CE=BA=CE=B5=CF=86=CE=
+=B8=CE=B5=CE=AF=CF=84=CE=B5 =CF=84=CE=BF: https://help.riseup.net/canary
+=CE=98=CE=B1 =CF=84=CE=BF =CE=B1=CE=BD=CE=B1=CE=BD=CE=B5=CF=8E=CE=BD=CE=BF=
+=CF=85=CE=BC=CE=B5 =CF=80=CE=B5=CF=81=CE=AF=CF=80=CE=BF=CF=85 =CE=BC=CE=B9=
+=CE=B1 =CF=86=CE=BF=CF=81=CE=AC =CF=84=CE=BF =CF=84=CF=81=CE=AF=CE=BC=CE=B7=
+=CE=BD=CE=BF.
+
+=CE=91=CF=85=CF=84=CE=AE =CF=84=CE=B7 =CF=83=CF=84=CE=B9=CE=B3=CE=BC=CE=AE=
+ =CE=B1=CE=BD=CE=B1=CF=86=CE=AD=CF=81=CE=B5=CE=B9:
+=CE=9C=CE=AD=CF=87=CF=81=CE=B9 =CF=83=CE=AE=CE=BC=CE=B5=CF=81=CE=B1 21 =
+=CE=91=CF=80=CF=81=CE=AF=CE=BB=CE=B7, 2014, =CE=B7 Riseup =CE=B4=CE=B5=CE=BD=
+ =CE=AD=CF=87=CE=B5=CE=B9 =CE=B4=CE=B5=CF=87=CF=84=CE=B5=CE=AF =
+=CE=BA=CE=B1=CE=BD=CE=AD=CE=BD=CE=B1 =CE=93=CF=81=CE=AC=CE=BC=CE=BC=CE=B1 =
+=CE=95=CE=B8=CE=BD=CE=B9=CE=BA=CE=AE=CF=82 =CE=91=CF=83=CF=86=CE=AC=CE=BB=CE=
+=B5=CE=B9=CE=B1=CF=82 (=CF=83=CF=84=CE=BC =CE=BA=CE=BB=CE=AE=CF=83=CE=B5=CE=
+=B9=CF=82 =CF=84=CE=BF=CF=85 FBI) =CE=AE =CE=B4=CE=B9=CE=BA=CE=B1=CF=83=CF=
+=84=CE=B9=CE=BA=CE=AE =CE=B4=CE=B9=CE=B1=CF=84=CE=B1=CE=B3=CE=AE =
+=CF=83=CF=8D=CE=BC=CF=86=CF=89=CE=BD=CE=B1 =CE=BC=CE=B5 =CF=84=CE=BF=CE=BD=
+ =CE=BD=CF=8C=CE=BC=CE=BF FISA (=CF=83=CF=84=CE=BC =CE=BD=CF=8C=CE=BC=CE=BF=
+=CF=82 =CF=80=CE=BF=CF=85 =CE=B1=CE=BD=CE=B1=CF=86=CE=AD=CF=81=CE=B5=CF=84=
+=CE=B1=CE=B9 =CF=83=CE=B5 =CF=86=CF=85=CF=83=CE=B9=CE=BA=CE=AE =CE=BA=CE=B1=
+=CE=B9 =CE=B7=CE=BB=CE=B5=CE=BA=CF=84=CF=81=CE=BF=CE=BD=CE=B9=CE=BA=CE=AE =
+=CF=80=CE=B1=CF=81=CE=B1=CE=BA=CE=BF=CE=BB=CE=BF=CF=8D=CE=B8=CE=B7=CF=83=CE=
+=B7 =CF=85=CF=80=CF=8C=CF=80=CF=84=CF=89=CE=BD =CE=B3=CE=B9=CE=B1 =
+=CE=BA=CE=B1=CF=84=CE=B1=CF=83=CE=BA=CE=BF=CF=80=CE=AF=CE=B1 =CE=AE =
+=CF=84=CF=81=CE=BF=CE=BC=CE=BF=CE=BA=CF=81=CE=B1=CF=84=CE=AF=CE=B1) =
+=CE=BA=CE=B1=CE=B9 =CE=B4=CE=B5=CE=BD =CE=AD=CF=87=CE=BF=CF=85=CE=BC=CE=B5=
+ =CE=BB=CE=AC=CE=B2=CE=B5=CE=B9 =CE=BF=CF=8D=CF=84=CE=B5 =CE=BA=CE=AC=CF=80=
+=CE=BF=CE=B9=CE=B1 =CE=B4=CE=B9=CE=B1=CF=84=CE=B1=CE=B3=CE=AE =CE=B1=CF=80=
+=CF=8C =CE=B4=CE=B9=CE=BA=CE=B1=CF=83=CF=84=CE=AE=CF=81=CE=B9=CE=BF FISA =
+=CF=80=CE=BF=CF=85 =CE=BD=CE=B1 =CE=B5=CE=AF=CE=BC=CE=B1=CF=83=CF=84=CE=B5=
+ =CF=85=CF=80=CE=BF=CF=87=CF=81=CE=B5=CF=89=CE=BC=CE=AD=CE=BD=CE=BF=CE=B9 =
+=CE=BD=CE=B1 =CF=84=CE=B7=CE=BD =CE=BA=CF=81=CE=B1=CF=84=CE=AE=CF=83=CE=BF=
+=CF=85=CE=BC=CE=B5 =CE=BA=CF=81=CF=85=CF=86=CE=AE. =CE=97 Riseup =CE=B4=CE=
+=B5=CE=BD =CE=AD=CF=87=CE=B5=CE=B9 =CE=B2=CE=AC=CE=BB=CE=B5=CE=B9 =
+=CF=80=CE=BF=CF=84=CE=AD "=CF=80=CE=AF=CF=83=CF=89 =CF=80=CF=8C=CF=81=CF=84=
+=CE=B5=CF=82" =CF=83=CF=84=CE=BF =CE=BB=CE=BF=CE=B3=CE=B9=CF=83=CE=BC=CE=B9=
+=CE=BA=CF=8C =CE=BA=CE=B1=CE=B9 =CE=B4=CE=B5=CE=BD =CE=AD=CF=87=CE=B5=CE=B9=
+ =CE=BB=CE=AC=CE=B2=CE=B5=CE=B9 =CF=80=CE=BF=CF=84=CE=AD =CE=B1=CE=AF=CF=84=
+=CE=B7=CE=BC=CE=B1 =CE=BD=CE=B1 =CF=80=CF=81=CE=AC=CE=BE=CE=B5=CE=B9 =
+=CE=BA=CE=AC=CF=84=CE=B9 =CF=84=CE=AD=CF=84=CE=BF=CE=B9=CE=BF. =CE=97 =
+Riseup =CE=B4=CE=B5=CE=BD =CE=AD=CF=87=CE=B5=CE=B9 =CF=80=CE=B1=CF=81=CE=B1=
+=CE=B4=CF=8E=CF=83=CE=B5=CE=B9 =CF=80=CE=BF=CF=84=CE=AD =CE=B4=CE=B5=CE=B4=
+=CE=BF=CE=BC=CE=AD=CE=BD=CE=B1 =CE=B5=CF=80=CE=B9=CE=BA=CE=BF=CE=B9=CE=BD=CF=
+=89=CE=BD=CE=AF=CE=B1=CF=82 =CF=87=CF=81=CE=AE=CF=83=CF=84=CE=B7 =CF=83=CE=
+=B5 =CE=BA=CE=AC=CF=80=CE=BF=CE=B9=CE=B1 =CF=84=CF=81=CE=AF=CF=84=CE=B7 =
+=CE=BF=CE=BD=CF=84=CF=8C=CF=84=CE=B7=CF=84=CE=B1.
+
+=CE=8C=CF=83=CE=BF=CE=BD =CE=B1=CF=86=CE=BF=CF=81=CE=AC =CF=84=CE=B9=CF=82=
+ =CE=BA=CE=B1=CF=84=CE=B1=CF=83=CF=87=CE=AD=CF=83=CE=B5=CE=B9=CF=82 =
+=CE=BC=CE=B7=CF=87=CE=B1=CE=BD=CE=B7=CE=BC=CE=AC=CF=84=CF=89=CE=BD, =CF=83=
+=CE=B5 =CE=AD=CE=BD=CE=B1 =CE=B3=CE=B5=CE=B3=CE=BF=CE=BD=CF=8C=CF=82 =
+=CF=80=CE=BF=CF=85 =CE=B5=CE=AF=CF=87=CE=B5 =CE=B3=CE=AF=CE=BD=CE=B5=CE=B9=
+ =CE=B5=CF=85=CF=81=CE=B5=CE=AF=CE=B1 =CE=B1=CE=BD=CE=B1=CF=86=CE=BF=CF=81=
+=CE=AC, =CF=84=CE=BF FBI =CE=BA=CE=B1=CF=84=CE=AD=CF=83=CF=87=CE=B5=CF=83=CE=
+=B5 =CE=AD=CE=BD=CE=B1 server =CF=84=CE=B7=CF=82 Riseup =CF=84=CE=BF=CE=BD=
+ =CE=91=CF=80=CF=81=CE=AF=CE=BB=CE=B9=CE=BF =CF=84=CE=BF=CF=85 2012. =
+=CE=A4=CE=BF =CF=80=CE=B5=CF=81=CE=B9=CF=83=CF=84=CE=B1=CF=84=CE=B9=CE=BA=CF=
+=8C =CE=AD=CE=B3=CE=B9=CE=BD=CE=B5 =CF=83=CF=84=CE=B7 =CE=9D=CE=AD=CE=B1 =
+=CE=A5=CF=8C=CF=81=CE=BA=CE=B7. =CE=A4=CE=BF =CE=BC=CE=B7=CF=87=CE=AC=CE=BD=
+=CE=B7=CE=BC=CE=B1 =CE=AE=CF=84=CE=B1=CE=BD =
+=CE=BA=CF=81=CF=85=CF=80=CF=84=CE=BF=CE=B3=CF=81=CE=B1=CF=86=CE=B7=CE=BC=CE=
+=AD=CE=BD=CE=BF =CE=BA=CE=B1=CE=B9 =CE=B4=CE=B5=CE=BD =CF=80=CE=B5=CF=81=CE=
+=B9=CE=B5=CE=AF=CF=87=CE=B5 =CE=B4=CE=B5=CE=B4=CE=BF=CE=BC=CE=AD=CE=BD=CE=B1=
+ =CF=87=CF=81=CE=B7=CF=83=CF=84=CF=8E=CE=BD. =CE=9F server =
+=CE=B5=CF=80=CE=B9=CF=83=CF=84=CF=81=CE=AC=CF=86=CE=B7=CE=BA=CE=B5, =
+=CE=B1=CE=BB=CE=BB=CE=AC =CE=B4=CE=B5=CE=BD =CE=BC=CF=80=CE=AE=CE=BA=CE=B5=
+ =CF=80=CE=AC=CE=BB=CE=B9 =CF=83=CE=B5 =CE=BB=CE=B5=CE=B9=CF=84=CE=BF=CF=85=
+=CF=81=CE=B3=CE=AF=CE=B1. =CE=95=CE=BA=CF=84=CF=8C=CF=82 =CE=B1=CF=80=CF=8C=
+ =CE=B1=CF=85=CF=84=CF=8C =CF=84=CE=BF =CF=80=CE=B5=CF=81=CE=B9=CF=83=CF=84=
+=CE=B1=CF=84=CE=B9=CE=BA=CF=8C, =CE=BC=CE=AD=CF=87=CF=81=CE=B9 =
+=CF=83=CE=AE=CE=BC=CE=B5=CF=81=CE=B1 21 =CE=91=CF=80=CF=81=CE=AF=CE=BB=CE=B7=
+ 2014, =CE=B7 Riseup =CE=B5=CF=80=CE=B9=CE=B2=CE=B5=CE=B2=CE=B1=CE=B9=CF=8E=
+=CE=BD=CE=B5=CE=B9 =CF=8C=CF=84=CE=B9 =CF=80=CE=BF=CF=84=CE=AD =
+=CE=BA=CE=B1=CE=BD=CE=AD=CE=BD=CE=B1 =CE=BC=CE=B7=CF=87=CE=AC=CE=BD=CE=B7=CE=
+=BC=CE=AC =CF=84=CE=B7=CF=82 =CE=B4=CE=B5=CE=BD =CE=AD=CF=87=CE=B5=CE=B9 =
+=CE=BA=CE=B1=CF=84=CE=B1=CF=83=CF=87=CE=B5=CE=B8=CE=B5=CE=AF =CE=AE =
+=CF=80=CE=B1=CF=81=CE=B8=CE=B5=CE=AF =CE=B1=CF=80=CF=8C =
+=CE=BF=CF=80=CE=BF=CE=B9=CE=B1=CE=B4=CE=AE=CF=80=CE=BF=CF=84=CE=B5 =
+=CF=84=CF=81=CE=AF=CF=84=CE=B7 =CE=BF=CE=BD=CF=84=CF=8C=CF=84=CE=B7=CF=84=CE=
+=B1.
+
+Yahoo =CE=BA=CE=B1=CE=B9 =CE=BB=CE=AF=CF=83=CF=84=CE=B5=CF=82 =
+=CF=84=CE=B1=CF=87=CF=85=CE=B4=CF=81=CE=BF=CE=BC=CE=B5=CE=AF=CE=BF=CF=85
+------
+
+=CE=9C=CF=80=CE=BF=CF=81=CE=B5=CE=AF =CE=BD=CE=B1 =CE=AD=CF=87=CE=B5=CF=84=
+=CE=B5 =CE=B4=CE=B5=CE=B9 =CE=BD=CE=B1 =CF=83=CE=B1=CF=82 =
+=CE=B5=CF=80=CE=B9=CF=83=CF=84=CF=81=CE=AD=CF=86=CE=BF=CE=BD=CF=84=CE=B1=CE=
+=B9 email =CE=B1=CF=80=CF=8C =CF=84=CE=BF yahoo.com =CE=BA=CE=B1=CE=B9 =
+aol.com. =CE=91=CF=85=CF=84=CF=8C =CE=BF=CF=86=CE=B5=CE=AF=CE=BB=CE=B5=CF=84=
+=CE=B1=CE=B9 =CF=83=CE=B5 =CE=B1=CE=BB=CE=BB=CE=AC=CE=B3=CE=B5=CF=82 =
+=CF=83=CF=84=CE=B7=CE=BD =CF=80=CE=BF=CE=BB=CE=B9=CF=84=CE=B9=CE=BA=CE=AE =
+=CE=B1=CF=85=CF=84=CF=8E=CE=BD =CF=84=CF=89=CE=BD =CE=B5=CF=84=CE=B1=CE=B9=
+=CF=81=CE=B5=CE=B9=CF=8E=CE=BD. =CE=94=CE=B7=CE=BC=CE=BF=CF=83=CE=AF=CE=B5=
+=CF=85=CF=83=CE=B1=CE=BD =CE=BC=CE=B9=CE=B1 =CE=B5=CE=B3=CE=B3=CF=81=CE=B1=
+=CF=86=CE=AE =CF=80=CE=BF=CF=85 =CE=BB=CE=AD=CE=B3=CE=B5=CF=84=CE=B1=CE=B9=
+ DMARC (=CE=BC=CE=B9=CE=B1 =CF=84=CE=B5=CF=87=CE=BD=CE=BF=CE=BB=CE=BF=CE=B3=
+=CE=AF=CE=B1 =CE=B1=CE=BD=CF=84=CE=B9-=CF=83=CF=80=CE=B1=CE=BC) =CE=B7 =
+=CE=BF=CF=80=CE=BF=CE=AF=CE=B1 =CF=83=CF=84=CE=B7=CE=BD =CE=BF=CF=85=CF=83=
+=CE=AF=CE=B1 =CE=BB=CE=AD=CE=B5=CE=B9 "=CE=B5=CE=AC=CE=BD =CE=BA=CE=AC=CF=80=
+=CE=BF=CE=B9=CE=BF=CF=82 server =CF=80=CE=AD=CF=81=CE=B1 =CE=B1=CF=80=CF=8C=
+ =CF=84=CE=BF=CF=85=CF=82 =CE=B4=CE=B9=CE=BA=CE=BF=CF=8D=CF=82 =CE=BC=CE=B1=
+=CF=82 =CE=B5=CF=80=CE=AF=CF=83=CE=B7=CE=BC=CE=BF=CF=85=CF=82 server =
+=CF=83=CF=84=CE=B5=CE=AF=CE=BB=CE=B5=CE=B9 email =CE=BC=CE=B5 =
+=CE=B1=CF=80=CE=BF=CF=83=CF=84=CE=BF=CE=BB=CE=AD=CE=B1 =CF=80=CE=BF=CF=85 =
+=CE=AD=CF=87=CE=B5=CE=B9 =CE=B4=CE=B9=CE=B5=CF=8D=CE=B8=CF=85=CE=BD=CF=83=CE=
+=B7 yahoo.com (=CE=AE aol.com), =CE=B8=CE=B5=CF=89=CF=81=CE=AE=CF=83=CF=84=
+=CE=B5 =CF=8C=CF=84=CE=B9 =CF=84=CE=BF mail =CE=B1=CF=85=CF=84=CF=8C =
+=CE=B5=CE=AF=CE=BD=CE=B1=CE=B9 spam =CE=BA=CE=B1=CE=B9 =
+=CE=B1=CF=80=CE=BF=CF=81=CF=81=CE=AF=CF=88=CF=84=CE=B5 =CF=84=CE=BF". =CE=97=
+ =CE=B5=CE=B3=CE=B3=CF=81=CE=B1=CF=86=CE=AE DMARC =
+=CF=87=CF=81=CE=B7=CF=83=CE=B9=CE=BC=CE=BF=CF=80=CE=BF=CE=B9=CE=B5=CE=AF=CF=
+=84=CE=B1=CE=B9 =CF=83=CF=84=CE=B7 =CF=83=CF=85=CE=BD=CE=AD=CF=87=CE=B5=CE=
+=B9=CE=B1 =CE=B1=CF=80=CF=8C =CE=AC=CE=BB=CE=BB=CE=B5=CF=82 =
+=CF=83=CE=B5=CE=BB=CE=AF=CE=B4=CE=B5=CF=82 (=CF=8C=CF=80=CF=89=CF=82 =
+hotmail.com, comcast.net, =CE=BA=CE=B1=CE=B9 =CE=AC=CE=BB=CE=BB=CE=B5=CF=82=
+) =CE=B3=CE=B9=CE=B1 =CE=BD=CE=B1 =CE=B1=CF=80=CE=BF=CF=86=CE=B1=CF=83=CE=AF=
+=CF=83=CE=BF=CF=85=CE=BD =CF=84=CE=B9 =CE=BD=CE=B1 =CE=BA=CE=AC=CE=BD=CE=BF=
+=CF=85=CE=BD =CE=BC=CE=B5 =CF=84=CE=B1 email =CF=80=CE=BF=CF=85 =
+=CE=BB=CE=B1=CE=BC=CE=B2=CE=AC=CE=BD=CE=BF=CF=85=CE=BD.
+
+=CE=A4=CE=BF =CF=80=CF=81=CF=8C=CE=B2=CE=BB=CE=B7=CE=BC=CE=B1 =CE=B5=CE=AF=
+=CE=BD=CE=B1=CE=B9 =CF=8C=CF=84=CE=B9 =CF=84=CE=BF =CE=BB=CE=BF=CE=B3=CE=B9=
+=CF=83=CE=BC=CE=B9=CE=BA=CF=8C =CF=80=CE=BF=CF=85 =
+=CF=87=CF=81=CE=B7=CF=83=CE=B9=CE=BC=CE=BF=CF=80=CE=BF=CE=B9=CE=B5=CE=AF=CF=
+=84=CE=B1=CE=B9 =CF=83=CF=84=CE=B9=CF=82 =CE=BB=CE=AF=CF=83=CF=84=CE=B5=CF=
+=82 =CF=84=CE=B1=CF=87=CF=85=CE=B4=CF=81=CE=BF=CE=BC=CE=B5=CE=AF=CE=BF=CF=85=
+, =CF=8C=CF=80=CF=89=CF=82 =CE=BF=CE=B9 lists.riseup.net, =
+=CE=B1=CE=BD=CE=B1=CE=BC=CE=B5=CF=84=CE=B1=CE=B4=CE=AF=CE=B4=CE=BF=CF=85=CE=
+=BD =CE=BC=CE=B7=CE=BD=CF=8D=CE=BC=CE=B1=CF=84=CE=B1 =CE=AC=CE=BB=CE=BB=CF=
+=89=CE=BD. =CE=9F=CF=80=CF=8C=CF=84=CE=B5 =CF=8C=CF=84=CE=B1=CE=BD =
+=CE=AD=CE=BD=CE=B1=CF=82 =CF=87=CF=81=CE=AE=CF=83=CE=B7=CF=82 =CE=BC=CE=B5=
+ yahoo.com =CE=AE aol.com =CF=83=CF=84=CE=AD=CE=BB=CE=BD=CE=B5=CE=B9 =
+=CE=AD=CE=BD=CE=B1 email =CF=83=CF=84=CE=B7 =CE=BB=CE=AF=CF=83=CF=84=CE=B1=
+ =CE=BA=CE=B1=CE=B9 =CE=B1=CF=85=CF=84=CF=8C =CE=B1=CE=BD=CE=B1=CE=B4=CE=B9=
+=CE=B1=CE=BD=CE=AD=CE=BC=CE=B5=CF=84=CE=B1=CE=B9 (=CE=BA=CF=81=CE=B1=CF=84=
+=CF=8E=CE=BD=CF=84=CE=B1=CF=82 =CF=84=CE=B7=CE=BD yahoo.com/aol.com =
+=CE=B4=CE=B9=CE=B5=CF=8D=CE=B8=CF=85=CE=BD=CF=83=CE=B7 =
+=CE=B1=CF=80=CE=BF=CF=83=CF=84=CE=BF=CE=BB=CE=AD=CE=B1) =CF=84=CF=8C=CF=84=
+=CE=B5 =CE=BF=CE=B9 server =CF=84=CE=B1=CF=87=CF=85=CE=B4=CF=81=CE=BF=CE=BC=
+=CE=B5=CE=AF=CE=BF=CF=85 =CF=80=CE=BF=CF=85 =CF=84=CE=BF =
+=CE=BB=CE=B1=CE=BC=CE=B2=CE=AC=CE=BD=CE=BF=CF=85=CE=BD =CE=BB=CE=AD=CE=BD=CE=
+=B5 "=CE=B1=CF=85=CF=84=CF=8C =CF=84=CE=BF email =CE=B4=CE=B5=CE=BD =
+=CE=B5=CF=83=CF=84=CE=AC=CE=BB=CE=B7 =CE=B1=CF=80=CF=8C =CE=AD=CE=BD=CE=B1=
+=CE=BD yahoo/aol server, =CF=80=CF=81=CE=AD=CF=80=CE=B5=CE=B9 =CE=BD=CE=B1=
+ =CE=B5=CE=AF=CE=BD=CE=B1=CE=B9 spam, =CE=B1=CF=80=CE=BF=CF=81=CF=81=CE=AF=
+=CF=88=CF=84=CE=B5 =CF=84=CE=BF! =CE=BA=CE=B1=CE=B9 =
+=CE=B5=CF=80=CE=B9=CF=83=CF=84=CF=81=CE=AD=CF=86=CE=BF=CF=85=CE=BD =CF=84=CE=
+=BF =CE=BC=CE=AE=CE=BD=CF=85=CE=BC=CE=B1 =CF=80=CE=AF=CF=83=CF=89". =
+=CE=91=CF=85=CF=84=CF=8C=CF=82 =CE=B5=CE=AF=CE=BD=CE=B1=CE=B9 =CE=BF =
+=CE=BB=CF=8C=CE=B3=CE=BF=CF=82 =CF=80=CE=BF=CF=85 =CE=B2=CE=BB=CE=AD=CF=80=
+=CE=B5=CF=84=CE=B5 =CF=84=CF=8C=CF=83=CE=B5=CF=82 =CE=B5=CF=80=CE=B9=CF=83=
+=CF=84=CF=81=CE=BF=CF=86=CE=AD=CF=82 email, =CE=BA=CE=B1=CE=B9 =CF=8C=CF=87=
+=CE=B9 =CE=BC=CF=8C=CE=BD=CE=BF =CE=B1=CF=80=CF=8C yahoo.com/aol.com =
+=CE=B1=CE=BB=CE=BB=CE=AC =CE=BA=CE=B1=CE=B9 =CE=B1=CF=80=CF=8C =
+=CE=AC=CE=BB=CE=BB=CE=B5=CF=82 =CF=83=CE=B5=CE=BB=CE=AF=CE=B4=CE=B5=CF=82.=
+
+
+=CE=A5=CF=80=CE=AC=CF=81=CF=87=CE=B5=CE=B9 =CE=BC=CE=B9=CE=B1 =
+=CF=80=CE=BB=CE=AE=CF=81=CE=B7=CF=82 =CE=B5=CE=BE=CE=AE=CE=B3=CE=B7=CF=83=CE=
+=B7 =CF=83=CF=84=CE=BF jrl.guru/Email/yahoobomb.html
+
+=CE=A4=CE=BF =CF=80=CE=B9=CE=BF =CE=B5=CF=8D=CE=BA=CE=BF=CE=BB=CE=BF =
+=CE=B8=CE=B1 =CE=AE=CF=84=CE=B1=CE=BD =CE=BF=CE=B9 yahoo/aol =CE=BD=CE=B1 =
+=CE=B1=CE=BB=CE=BB=CE=AC=CE=BE=CE=BF=CF=85=CE=BD =CF=84=CE=B7=CE=BD =
+=CF=80=CE=BF=CE=BB=CE=B9=CF=84=CE=B9=CE=BA=CE=AE =CF=84=CE=BF=CF=85=CF=82.=
+
+
+=CE=91=CE=BB=CE=BB=CE=AC =CE=BC=CE=AD=CF=87=CF=81=CE=B9 =CF=84=CF=8C=CF=84=
+=CE=B5 =CE=BD=CE=B1 =CF=84=CE=B9 =CE=BA=CE=AC=CE=BD=CE=B5=CE=B9 =CF=84=CE=BF=
+ riseup:
+=CE=93=CE=B9=CE=B1 =CE=BD=CE=B1 =CF=80=CE=B5=CF=81=CE=B9=CE=BF=CF=81=CE=AF=
+=CF=83=CE=BF=CF=85=CE=BC=CE=B5 =CF=84=CE=B7=CE=BD =CE=B6=CE=B7=CE=BC=CE=B9=
+=CE=AC, =CE=BC=CF=80=CE=BB=CE=BF=CE=BA=CE=AC=CF=81=CE=BF=CF=85=CE=BC=CE=B5=
+ =CF=8C=CE=BB=CE=BF=CF=85=CF=82 =CF=84=CE=BF=CF=85=CF=82 =
+=CE=B1=CF=80=CE=BF=CF=83=CF=84=CE=BF=CE=BB=CE=B5=CE=AF=CF=82 =CF=80=CF=81=CE=
+=BF=CF=82 =CF=84=CE=B9=CF=82 =CE=BB=CE=AF=CF=83=CF=84=CE=B5=CF=82 =
+lists.riseup.net =CF=80=CE=BF=CF=85 =CF=87=CF=81=CE=B7=CF=83=CE=B9=CE=BC=CE=
+=BF=CF=80=CE=BF=CE=B9=CE=BF=CF=8D=CE=BD yahoo.com =CE=AE aol.com =
+=CE=B4=CE=B9=CE=B5=CF=85=CE=B8=CF=8D=CE=BD=CF=83=CE=B5=CE=B9=CF=82. =
+=CE=9A=CE=B1=CF=84=CE=AC =CF=84=CE=B7=CE=BD =CE=B1=CF=80=CE=BF=CF=83=CF=84=
+=CE=BF=CE=BB=CE=AE, =CE=BF=CE=B9 =CF=87=CF=81=CE=AE=CF=83=CF=84=CE=B5=CF=82=
+ =CE=BC=CE=B5 yahoo.com =CE=AE aol.com =CE=B8=CE=B1 =CE=BB=CE=AC=CE=B2=CE=BF=
+=CF=85=CE=BD =CE=B1=CE=BC=CE=AD=CF=83=CF=89=CF=82 =CE=BC=CE=B9=CE=B1 =
+=CE=B5=CE=B9=CE=B4=CE=BF=CF=80=CE=BF=CE=AF=CE=B7=CF=83=CE=B7 =
+=CF=83=CF=86=CE=AC=CE=BB=CE=BC=CE=B1=CF=84=CE=BF=CF=82 =CF=80=CE=BF=CF=85 =
+=CE=B8=CE=B1 =CE=B5=CE=BE=CE=B7=CE=B3=CE=B5=CE=AF =CF=84=CE=B7=CE=BD =
+=CE=BA=CE=B1=CF=84=CE=AC=CF=83=CF=84=CE=B1=CF=83=CE=B7. =CE=91=CF=85=CF=84=
+=CF=8C =CE=B5=CE=AF=CE=BD=CE=B1=CE=B9 =CE=BA=CE=B1=CE=BA=CF=8C =CE=B3=CE=B9=
+=CE=B1 =CF=84=CE=BF=CF=85=CF=82 =CE=B1=CF=80=CE=BF=CF=83=CF=84=CE=BF=CE=BB=
+=CE=B5=CE=AF=CF=82 =CE=B1=CE=BB=CE=BB=CE=B1 =CE=B8=CE=B1 =
+=CE=B1=CF=80=CE=BF=CF=84=CF=81=CE=AD=CF=88=CE=B5=CE=B9 =CF=84=CE=B9=CF=82 =
+=CE=BC=CE=B1=CE=B6=CE=B9=CE=BA=CE=AD=CF=82 =CE=B5=CF=80=CE=B9=CF=83=CF=84=CF=
+=81=CE=BF=CF=86=CE=AD=CF=82 email =CE=BA=CE=B1=CE=B9 =CF=84=CE=B9=CF=82 =
+=CF=83=CF=87=CE=B5=CF=84=CE=B9=CE=BA=CE=AD=CF=82 =CE=B4=CE=B9=CE=B1=CE=B3=CF=
+=81=CE=B1=CF=86=CE=AD=CF=82 =CE=BC=CE=B5=CE=BB=CF=8E=CE=BD =CE=B1=CF=80=CF=
+=8C =CE=BB=CE=AF=CF=83=CF=84=CE=B5=CF=82.
+
+=CE=A3=CE=B1=CF=82 =CE=B5=CE=BD=CE=B8=CE=B1=CF=81=CF=81=CF=8D=CE=BD=CE=BF=CF=
+=85=CE=BC=CE=B5 =CF=8C=CE=BB=CE=B5=CF=82 =CE=BA=CE=B1=CE=B9 =CF=8C=CE=BB=CE=
+=BF=CF=85=CF=82 =CE=BD=CE=B1 =CE=B1=CF=86=CE=AE=CF=83=CE=B5=CF=84=CE=B5 =
+=CF=84=CE=B1 yahoo.com/aol.com =CE=B3=CE=B9=CE=B1 =CE=AD=CE=BD=CE=B1=CE=BD=
+ =CF=80=CE=AC=CF=81=CE=BF=CF=87=CE=BF email =CF=80=CE=BF=CF=85 =CE=B8=CE=B1=
+ =CF=80=CF=81=CE=BF=CF=83=CF=84=CE=B1=CF=84=CE=B5=CF=8D=CE=B5=CE=B9 =
+=CF=84=CE=B7=CE=BD =CE=B9=CE=B4=CE=B9=CF=89=CF=84=CE=B9=CE=BA=CF=8C=CF=84=CE=
+=B7=CF=84=CE=AC =CF=83=CE=B1=CF=82 =CE=BA=CE=B1=CE=B9 =CE=B4=CE=B5 =CE=B8=CE=
+=B1 =CE=BA=CE=AC=CE=BD=CE=B5=CE=B9 =CE=B1=CE=B4=CF=8D=CE=BD=CE=B1=CF=84=CE=
+=B7 =CF=84=CE=B7 =CE=BB=CE=B5=CE=B9=CF=84=CE=BF=CF=85=CF=81=CE=B3=CE=AF=CE=
+=B1 =CE=BB=CE=B9=CF=83=CF=84=CF=8E=CE=BD =CF=84=CE=B1=CF=87=CF=85=CE=B4=CF=
+=81=CE=BF=CE=BC=CE=B5=CE=AF=CE=BF=CF=85.
+
+=CE=95=CF=81=CE=B5=CF=85=CE=BD=CE=BF=CF=8D=CE=BC=CE=B5 =CE=AC=CE=BB=CE=BB=CE=
+=BF=CF=85=CF=82 =CF=84=CF=81=CF=8C=CF=80=CE=BF=CF=85=CF=82 =CE=B3=CE=B9=CE=
+=B1 =CE=BD=CE=B1 =CF=80=CE=B1=CF=81=CE=B1=CE=BA=CE=AC=CE=BC=CF=88=CE=BF=CF=
+=85=CE=BC=CE=B5 =CF=84=CE=BF =CF=80=CF=81=CF=8C=CE=B2=CE=BB=CE=B7=CE=BC=CE=
+=B1 =CE=B1=CF=85=CF=84=CF=8C, =CE=B5=CE=BB=CF=80=CE=AF=CE=B6=CE=BF=CF=85=CE=
+=BC=CE=B5 =CE=BD=CE=B1 =CE=B2=CF=81=CE=BF=CF=8D=CE=BC=CE=B5 =CE=BC=CE=B9=CE=
+=B1 =CE=BB=CF=8D=CF=83=CE=B7 =CF=83=CF=8D=CE=BD=CF=84=CE=BF=CE=BC=CE=B1.
+
+=CE=A7=CF=81=CE=AE=CE=BC=CE=B1=CF=84=CE=B1!
+-------------
+=CE=A3=CE=B1=CF=82 =CF=80=CE=BF=CE=BD=CE=BF=CE=BA=CE=B5=CF=86=CE=B1=CE=BB=CE=
+=B9=CE=AC=CE=B6=CE=BF=CF=85=CE=BD =CF=84=CE=B1 =CF=87=CF=81=CE=AE=CE=BC=CE=
+=B1=CF=84=CE=B1; =CE=9A=CE=B9 =CE=B5=CE=BC=CE=AC=CF=82. =CE=91=CE=BD =
+=CE=BC=CF=80=CE=BF=CF=81=CE=B5=CE=AF=CF=84=CE=B5 =CE=BD=CE=B1 =
+=CF=83=CF=85=CE=BD=CE=B5=CE=B9=CF=83=CF=86=CE=AD=CF=81=CE=B5=CF=84=CE=B5 =
+=CE=BA=CE=AC=CF=84=CE=B9 =CF=83=CF=84=CE=B7 Riseup, =CE=BA=CE=AC=CE=B8=CE=B5=
+ =CE=BC=CE=B9=CE=BA=CF=81=CF=8C =CF=80=CE=BF=CF=83=CF=8C =CE=BA=CE=AC=CE=BD=
+=CE=B5=CE=B9 =CE=AD=CE=BD=CE=B1 =CE=BC=CE=B5=CE=B3=CE=AC=CE=BB=CE=BF =
+=CE=B4=CF=81=CF=8C=CE=BC=CE=BF =CE=B3=CE=B9=CE=B1 =CE=BD=CE=B1 =
+=CF=83=CF=84=CE=B7=CF=81=CE=AF=CE=BE=CE=B5=CE=B9 =CF=87=CE=B9=CE=BB=CE=B9=CE=
+=AC=CE=B4=CE=B5=CF=82 =CE=BF=CE=BC=CE=AC=CE=B4=CE=B5=CF=82 =CE=BA=CE=B1=CE=
+=B9 =CE=B1=CE=BA=CF=84=CE=B9=CE=B2=CE=B9=CF=83=CF=84=CE=AD=CF=82 =CF=83=CE=
+=B5 =CF=8C=CE=BB=CE=BF =CF=84=CE=BF=CE=BD =CE=BA=CF=8C=CF=83=CE=BC=CE=BF.
+
+https://help.riseup.net/el/about-us/donate
+
+=CE=9A=CE=B1=CE=B9, =CF=84=CE=BF wepay, =CE=AD=CE=BD=CE=B1=CF=82 =CE=B1=CF=
+=80=CF=8C =CF=84=CE=BF=CF=85=CF=82 =CF=84=CF=81=CF=8C=CF=80=CE=BF=CF=85=CF=
+=82 =CE=B3=CE=B9=CE=B1 =CF=84=CE=B1=CE=BA=CF=84=CE=B9=CE=BA=CE=AE =
+=CF=83=CF=85=CE=BD=CE=B5=CE=B9=CF=83=CF=86=CE=BF=CF=81=CE=AC =CF=83=CF=84=CE=
+=B7 Riseup, =CF=83=CF=84=CE=B1=CE=BC=CE=AC=CF=84=CE=B7=CF=83=CE=B5 =CE=BD=CE=
+=B1 =CE=B4=CE=AD=CF=87=CE=B5=CF=84=CE=B1=CE=B9 =CE=B4=CF=89=CF=81=CE=B5=CE=
+=AD=CF=82. =CE=93=CE=B9=CE=B1 =CF=8C=CF=80=CE=BF=CE=B9=CE=B1/=CF=8C=CF=80=CE=
+=BF=CE=B9=CE=BF=CE=BD =CE=B5=CE=AF=CF=87=CE=B5 =CF=81=CF=85=CE=B8=CE=BC=CE=
+=AF=CF=83=CE=B5=CE=B9 =CF=84=CE=B1=CE=BA=CF=84=CE=B9=CE=BA=CE=AD=CF=82 =
+=CE=B4=CF=89=CF=81=CE=B5=CE=AD=CF=82 =CE=BC=CE=B5 =CF=84=CE=BF wepay, =
+=CE=B8=CE=B1 =CE=AE=CF=84=CE=B1=CE=BD =CE=B3=CE=B1=CE=BC=CE=AC=CF=84=CE=BF=
+ =CE=BD=CE=B1 =CE=AD=CF=83=CF=84=CE=B7=CE=BD=CE=B5 =CE=AD=CE=BD=CE=B1=CE=BD=
+ =CE=AC=CE=BB=CE=BB=CE=BF =CF=84=CF=81=CF=8C=CF=80=CE=BF =
+=CE=B5=CF=80=CE=B1=CE=BD=CE=B1=CE=BB=CE=B1=CE=BC=CE=B2=CE=B1=CE=BD=CF=8C=CE=
+=BC=CE=B5=CE=BD=CE=B7=CF=82 =CE=B4=CF=89=CF=81=CE=B5=CE=AC=CF=82.
+
+
+
+[es] espa=C3=B1ol
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D
+Contenidos Mayo 2014
+
+* Nuestra declaraci=C3=B3n sobre seguridad
+* Yahoo y las listas
+* =C2=A1Dinero!
+
+
+Nuestra declaraci=C3=B3n sobre seguridad
+-------------------------------
+Si quieres recibir actualizaciones sobre la interacci=C3=B3n de Riseup =
+con el aparato de vigilancia estatal, por favor ve a:
+https://help.riseup.net/canary
+
+Lo estaremos actualizando al menos trimestralmente.
+
+Lo que dice actualmente:
+A 21 de abril de 2014, Riseup no ha recibido ninguna carta de Seguridad =
+Nacional u =C3=B3rdenes de alguna corte FISA, ni tampoco hemos sido =
+objeto de ninguna orden de acallamiento por parte de alguna corte FISA. =
+Riseup nunca ha puesto puertas traseras ('backdoors') en nuestro =
+software, ni ha recibido peticiones para hacerlo. Riseup nunca ha =
+revelado comunicaciones de usuarias a terceros.
+
+Respecto a incautaciones de servidores, en un incidente ampliamente =
+reportado, el FBI incaut=C3=B3 uno de los servidores de Riseup en abril =
+de 2012. Este incidente sucedi=C3=B3 en Nueva York. La m=C3=A1quina =
+estaba encriptada y no conten=C3=ADa informaci=C3=B3n alguna de =
+usuarias. El servidor fue devuelto, pero no fue puesto en servicio =
+nuevamente. Adem=C3=A1s de este incidente, a 21 de abril de 2014, Riseup =
+confirma que nunca ha sido incautado ning=C3=BAn tipo de hardware ni =
+tampoco ha sido obtenido por parte de terceros.
+
+Yahoo y las listas
+-----------------------
+Puede que hayas visto algunos rebotes desde yahoo.com y aol.com. Estos =
+son debido a cambios de pol=C3=ADticas en dichas corporaciones. Ellos =
+han publicado un registro DMARC (una tecnolog=C3=ADa anti-spam) que =
+efectivamente dice que "si cualquier servidor distinto de nuestros =
+servidores oficiales env=C3=ADa correo con remitente proveniente de una =
+direcci=C3=B3n yahoo.com (o aol.com), asume que el correo es spam y lo =
+rechaza". El registro DMARC es posteriormente usado por otros sitios =
+(como hotmail.com, comcast.net, y varios otros) para decidir qu=C3=A9 =
+hacer cuando el correo llega.
+
+El problema con esto es que el software de listas de correo, como =
+lists.riseup.net, retransmite mensajes a otros. As=C3=AD, cuando una =
+usuaria de yahoo.com o aol.com env=C3=ADa un correo a una lista y =C3=A9st=
+e se redistribuye (con la direcci=C3=B3n yahoo.com/aol.com a=C3=BAn como =
+remitente), entonces el servidor que recibe el correo dice "este mensaje =
+no fue enviado de un servidor yahoo/aol, por lo que debe ser spam; =
+=C2=A1rechazado!", y rebota el mensaje. Es por esto que puedes haber =
+visto muchos rebotes, y no s=C3=B3lo de yahoo.com/aol.com, sino de otros =
+sitios tambi=C3=A9n.
+
+Aqu=C3=AD hay una explicaci=C3=B3n detallada: =
+http://jrl.guru/Email/yahoobomb.html
+
+Lo m=C3=A1s f=C3=A1cil para arreglar esto es que yahoo/aol cambien sus =
+pol=C3=ADticas. Hasta que esto suceda, lo que Riseup hace es lo =
+siguiente:
+
+* Para reducir el da=C3=B1o estamos bloqueando todos los remitentes en =
+lists.riseup.net que tienen una direcci=C3=B3n yahoo.com/aol.com. Al =
+momento de enviar, los remitentes yahoo.com/aol.com obtendr=C3=A1n =
+inmediantamente un mensaje de error explicando lo sucedido. Esto es malo =
+para los remitentes, pero prevendr=C3=A1 los rebotes masivos y las dadas =
+de baja relacionadas a los rebotes.
+* Alentamos a que todos se cambien de yahoo.com/aol.com a un proveedor =
+de correo que proteja tu privacidad y que no haga imposible manejar =
+listas de correo.
+* Estamos investigando otras maneras de enfrentar este problema. =
+Esperamos encontrar un arreglo pronto.
+
+=C2=A1Dinero!
+-----------
+=C2=BFTe hace falta dinero? A nosotras tambi=C3=A9n. Si puedes donar un =
+poco a Riseup, cualquier monto, por peque=C3=B1o que sea, va en apoyo de =
+partidarios de miles de grupos y activistas alrededor del mundo.
+https://help.riseup.net/donate
+
+Adem=C3=A1s, wepay, una de las maneras que la gente dona a Riseup, ha =
+dejado de aceptar donaciones. Para cualquiera que haya donado =
+reiteradamente a trav=C3=A9s de ellos, ser=C3=ADa genial si pudieran =
+establecer otra manera de realizar los pagos. =C2=A1Gracias!
+
+
+
+[fr] fran=C3=A7ais
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D
+
+Sommaire du mois de mai 2014
+
+* Notre d=C3=A9claration sur la s=C3=A9curit=C3=A9
+* Yahoo et les listes
+* L'argent!
+
+Notre d=C3=A9claration sur la s=C3=A9curit=C3=A9
+--------------------------------------------
+Si vous souhaitez avoir des mises =C3=A0 jour sur la relation entre =
+Riseup et le syst=C3=A8me de surveillance de l'=C3=89tat, allez au=E2=80=AF=
+:
+
+https://help.riseup.net/canary
+
+Nous mettrons =C3=A0 jour la d=C3=A9claration environ =C3=A0 chaque =
+trimestres.
+
+En ce moment, elle contient le texte suivant=E2=80=AF:
+
+Au moment du 21 avril 2014, Riseup n'a re=C3=A7u aucune lettre de =
+s=C3=A9curit=C3=A9 nationale ni aucune ordonnance judiciaire de la FISA. =
+Nous ne sommes pas non plus restraint-e-s par une obligation de silence =
+de la FISA. Riseup n'a jamais plac=C3=A9 de portes d=C3=A9rob=C3=A9es =
+(back-doors) dans nos programmes et n'a jamais re=C3=A7u de requ=C3=AAte =
+en ce sens. Riseup n'a jamais d=C3=A9voil=C3=A9 de communication =C3=A0 =
+une tierce partie.
+
+En ce qui a trait =C3=A0 la saisie de serveurs, le FBI a saisi un des =
+serveurs de Riseup en avril 2012 lors d'un =C3=A9v=C3=A9nement largement =
+diffus=C3=A9. Cet incident est arriv=C3=A9 =C3=A0 New York. La machine =
+=C3=A9tait encrypt=C3=A9e et ne contenait pas de donn=C3=A9es sur les =
+utilisatrices et les utilisateurs. Le serveur a =C3=A9t=C3=A9 retourn=C3=A9=
+, mais il n'a pas =C3=A9t=C3=A9 remis en service. Mis =C3=A0 part cet =
+incident, au moment du 21 avril 2014, Riseup confirme qu'aucun mat=C3=A9ri=
+el n'a =C3=A9t=C3=A9 saisi ou pris par une tierce partie.
+
+Yahoo et les listes
+-------------------------
+Vous avez peut-=C3=AAtre vu des messages rejet=C3=A9s (bounces) de =
+yahoo.com et aol.com. Cela est caus=C3=A9 par un changement dans les =
+politiques de ces compagnies. Elles ont publi=C3=A9es une publication =
+DMARC (une technologie anti-spam) qui dit: =C2=ABsi un serveur autre que =
+nos serveurs officiels envoient un message en utilisant une adresse =
+yahoo.com (ou aol.com), assumez que ce message est du spam et rejeter =
+le=C2=BB. La publication DMARC est alors utilis=C3=A9e par d'autres =
+sites (comme hotmail.com, comcast.net, et bien d'autres) pour d=C3=A9cider=
+ quoi faire quand le message arrive.
+
+Le probl=C3=A8me est que les programmes de liste courriel, comme =
+lists.riseup.net, retransmettent les messages aux autres. Quand une =
+personne utilisant une adresse yahoo.com ou aol.com envoie un message =C3=A0=
+ la liste et que cette derni=C3=A8re la redistribue (en gardant =
+l'adresse yahoo.com/aol.com intacte), les serveurs qui re=C3=A7oivent =
+ces messages se disent=E2=80=AF: =C2=ABce message n'a pas =C3=A9t=C3=A9 =
+envoy=C3=A9 des serveurs de yahoo.com/aol.com, ce doit =C3=AAtre du =
+spam, rejetons-le!=C2=BB. C'est pourquoi vous avez peut-=C3=AAtre vu =
+beaucoup de messages rejet=C3=A9s, pas seulement de yahoo.com/aol.com, =
+mais de biens d'autres =C3=A9galement.
+
+Une explication en d=C3=A9tails est disponible au =
+http://jrl.guru/Email/yahoobomb.html (anglais seulement)
+
+La chose la plus simple pour r=C3=A9gler le probl=C3=A8me est que =
+yahoo/aol changent leur politique. D'ici l=C3=A0, voici ce que Riseup =
+fait=E2=80=AF:
+
+* Pour limiter les d=C3=A9g=C3=A2ts, nous bloquons maintenant toutes les =
+personnes qui envoient des messages sur lists.riseup.net avec une =
+adresse yahoo.com ou aol.com. Quand elles tentent d'envoyer une message, =
+ces personnes recevront automatiquement un message qui explique la =
+situation. Ce n'est pas agr=C3=A9able, mais cela emp=C3=AAche les =
+messages rejet=C3=A9s et les d=C3=A9sinscriptions que cela peut =
+entra=C3=AEner.
+* Nous encourageons tout le monde =C3=A0 quitter yahoo.com/aol.com pour =
+un fournisseur de courriel qui prot=C3=A8ge votre vie priv=C3=A9e et qui =
+ne rend pas l'utilisation de programmes de listes impossible.
+* Nous sommes en train de regarder s'il n'y aurait pas moyen de =
+contourner le probl=C3=A8me et nous esp=C3=A9rons avoir une solution =
+rapidement.
+
+L'argent!
+-----------
+L'argent vous d=C3=A9prime=E2=80=AF? Nous aussi. Si vous pouvez donner =
+un peu =C3=A0 Riseup, m=C3=AAme les petits dons nous permettent de faire =
+un grand bout de chemin pour supporter des milliers de groupes et de =
+militant-e-s =C3=A0 travers le monde.
+https://help.riseup.net/fr/about-us/donate
+
+Wepay - une des mani=C3=A8re de faire des dons =C3=A0 Riseup - a =
+arr=C3=AAt=C3=A9 d'accepter les dons. Si vous avez configur=C3=A9 un don =
+r=C3=A9current avec eux, il serait vraiment incroyable si vous pouviez =
+utiliser une autre mani=C3=A8re de nous faire parvenir vos dons =
+r=C3=A9currents. Merci=E2=80=AF!
+
+
+
+[Hi] =E0=A4=B9=E0=A4=BF=E0=A4=82=E0=A4=A6=E0=A5=80
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D
+
+=E0=A4=AE=E0=A4=88 2014 =E0=A4=95=E0=A5=80 =E0=A4=B5=E0=A4=BF=E0=A4=B7=E0=A4=
+=AF=E0=A4=B8=E0=A5=82=E0=A4=9A=E0=A5=80
+
+* =E0=A4=B9=E0=A4=AE=E0=A4=BE=E0=A4=B0=E0=A4=BE =E0=A4=B8=E0=A5=81=E0=A4=B0=
+=E0=A4=95=E0=A5=8D=E0=A4=B7=E0=A4=BE =E0=A4=B8=E0=A4=82=E0=A4=AC=E0=A4=82=E0=
+=A4=A7=E0=A5=80 =E0=A4=AC=E0=A4=AF=E0=A4=BE=E0=A4=A8
+* =E0=A4=AF=E0=A4=BE=E0=A4=B9=E0=A5=82 =E0=A4=94=E0=A4=B0 =
+=E0=A4=AE=E0=A5=87=E0=A4=B2=E0=A4=BF=E0=A4=82=E0=A4=97 =
+=E0=A4=B2=E0=A4=BF=E0=A4=B8=E0=A5=8D=E2=80=8D=E0=A4=9F
+* =E0=A4=AA=E0=A5=88=E0=A4=B8=E0=A4=BE!
+
+=E0=A4=B9=E0=A4=AE=E0=A4=BE=E0=A4=B0=E0=A4=BE =E0=A4=B8=E0=A5=81=E0=A4=B0=E0=
+=A4=95=E0=A5=8D=E0=A4=B7=E0=A4=BE =E0=A4=B8=E0=A4=82=E0=A4=AC=E0=A4=82=E0=A4=
+=A7=E0=A5=80 =E0=A4=AC=E0=A4=AF=E0=A4=BE=E0=A4=A8
+-------------------------------------------------------------
+=E0=A4=AF=E0=A4=A6=E0=A4=BF =E0=A4=86=E0=A4=AA =E0=A4=B0=E0=A4=BE=E0=A4=9C=
+=E0=A5=8D=E2=80=8D=E0=A4=AF =E0=A4=95=E0=A5=87 =E0=A4=A8=E0=A4=BF=E0=A4=97=
+=E0=A4=B0=E0=A4=BE=E0=A4=A8=E0=A5=80 =E0=A4=A4=E0=A4=82=E0=A4=A4=E0=A5=8D=E0=
+=A4=B0 =E0=A4=95=E0=A5=87 =E0=A4=B8=E0=A4=BE=E0=A4=A5 Riseup =E0=A4=95=E0=A5=
+=87 =E0=A4=B8=E0=A4=82=E0=A4=AA=E0=A4=B0=E0=A5=8D=E0=A4=95 =E0=A4=AF=E0=A4=
+=BE =E0=A4=AA=E0=A4=A4=E0=A5=8D=E0=A4=B0-=E0=A4=B5=E0=A5=8D=E2=80=8D=E0=A4=
+=AF=E0=A4=B5=E0=A4=B9=E0=A4=BE=E0=A4=B0 =E0=A4=95=E0=A5=87 =E0=A4=AC=E0=A4=
+=BE=E0=A4=B0=E0=A5=87 =E0=A4=AE=E0=A5=87=E0=A4=82 =E0=A4=85=E0=A4=AA=E0=A4=
+=A1=E0=A5=87=E0=A4=9F =E0=A4=AA=E0=A5=8D=E0=A4=B0=E0=A4=BE=E0=A4=AA=E0=A5=8D=
+=E2=80=8D=E0=A4=A4 =E0=A4=95=E0=A4=B0=E0=A4=A8=E0=A4=BE =E0=A4=9A=E0=A4=BE=
+=E0=A4=B9=E0=A4=A4=E0=A5=87 =E0=A4=B9=E0=A5=88=E0=A4=82, =E0=A4=A4=E0=A5=8B=
+ =E0=A4=87=E0=A4=B8 =E0=A4=B2=E0=A4=BF=E0=A4=82=E0=A4=95 =E0=A4=95=E0=A5=8B=
+ =E0=A4=9A=E0=A5=87=E0=A4=95 =E0=A4=95=E0=A4=B0=E0=A5=87=E0=A4=82:
+
+https://help.riseup.net/canary
+
+=E0=A4=B9=E0=A4=AE =E0=A4=B2=E0=A4=97=E0=A4=AD=E0=A4=97 =E0=A4=B9=E0=A4=B0=
+ =E0=A4=A4=E0=A5=80=E0=A4=A8 =E0=A4=AE=E0=A4=B9=E0=A5=80=E0=A4=A8=E0=A5=87=
+ =E0=A4=AA=E0=A4=B0 =E0=A4=87=E0=A4=B8=E0=A5=87 =E0=A4=85=E0=A4=AA=E0=A4=A1=
+=E0=A5=87=E0=A4=9F =E0=A4=95=E0=A4=B0=E0=A4=A4=E0=A5=87 =
+=E0=A4=B0=E0=A4=B9=E0=A5=87=E0=A4=82=E0=A4=97=E0=A5=87=E0=A5=A4
+
+=E0=A4=AB=E0=A4=BF=E0=A4=B2=E0=A4=B9=E0=A4=BE=E0=A4=B2 =E0=A4=87=E0=A4=B8=E0=
+=A4=AE=E0=A5=87=E0=A4=82 =E0=A4=B2=E0=A4=BF=E0=A4=96=E0=A4=BE =E0=A4=97=E0=
+=A4=AF=E0=A4=BE =E0=A4=B9=E0=A5=88:
+21 =E0=A4=85=E0=A4=AA=E0=A5=8D=E0=A4=B0=E0=A5=88=E0=A4=B2, 2014 =E0=A4=A4=E0=
+=A4=95 Riseup =E0=A4=95=E0=A5=8B =E0=A4=95=E0=A5=8B=E0=A4=88 =
+=E0=A4=A8=E0=A5=87=E0=A4=B6=E0=A4=A8=E0=A4=B2 =
+=E0=A4=B8=E0=A4=BF=E0=A4=95=E0=A5=8D=E2=80=8D=E0=A4=AF=E0=A5=8B=E0=A4=B0=E0=
+=A4=BF=E0=A4=9F=E0=A5=80 =E0=A4=B2=E0=A5=87=E0=A4=9F=E0=A4=B0 =E0=A4=AF=E0=
+=A4=BE FISA =E0=A4=95=E0=A5=8B=E0=A4=B0=E0=A5=8D=E0=A4=9F =
+=E0=A4=91=E0=A4=B0=E0=A5=8D=E0=A4=A1=E0=A4=B0 =E0=A4=A8=E0=A4=B9=E0=A5=80=E0=
+=A4=82 =E0=A4=AE=E0=A4=BF=E0=A4=B2=E0=A4=BE =E0=A4=B9=E0=A5=88, =E0=A4=94=E0=
+=A4=B0 =E0=A4=AB=E0=A4=BF=E0=A4=B2=E0=A4=B9=E0=A4=BE=E0=A4=B2 =
+=E0=A4=B9=E0=A4=AE=E0=A5=87=E0=A4=82 FISA =E0=A4=95=E0=A5=8B=E0=A4=B0=E0=A5=
+=8D=E0=A4=9F =E0=A4=95=E0=A5=87 =E0=A4=AE=E0=A4=BE=E0=A4=A7=E0=A5=8D=E2=80=
+=8D=E0=A4=AF=E0=A4=AE =E0=A4=95=E0=A4=BF=E0=A4=B8=E0=A5=80 =
+=E0=A4=AA=E0=A5=8D=E0=A4=B0=E0=A4=A4=E0=A4=BF=E0=A4=AC=E0=A4=82=E0=A4=A7 =
+=E0=A4=86=E0=A4=A6=E0=A5=87=E0=A4=B6 =E0=A4=95=E0=A4=BE =E0=A4=B6=E0=A4=BF=
+=E0=A4=95=E0=A4=BE=E0=A4=B0 =E0=A4=A8=E0=A4=B9=E0=A5=80=E0=A4=82 =
+=E0=A4=AC=E0=A4=A8=E0=A4=BE=E0=A4=AF=E0=A4=BE =E0=A4=97=E0=A4=AF=E0=A4=BE =
+=E0=A4=B9=E0=A5=88=E0=A5=A4 Riseup =E0=A4=A8=E0=A5=87 =E0=A4=95=E0=A4=AD=E0=
+=A5=80 =E0=A4=85=E0=A4=AA=E0=A4=A8=E0=A5=87 =E0=A4=B8=E0=A5=89=E0=A4=AB=E0=
+=A5=8D=E0=A4=9F=E0=A4=B5=E0=A5=87=E0=A4=AF=E0=A4=B0 =E0=A4=AE=E0=A5=87=E0=A4=
+=82 =E0=A4=95=E0=A5=8B=E0=A4=88 =E0=A4=AC=E0=A5=88=E0=A4=95-=E0=A4=A1=E0=A5=
+=8B=E0=A4=B0 =E0=A4=B8=E0=A5=89=E0=A4=AB=E0=A5=8D=E0=A4=9F=E0=A4=B5=E0=A5=87=
+=E0=A4=AF=E0=A4=B0 =E0=A4=A8=E0=A4=B9=E0=A5=80=E0=A4=82 =E0=A4=B2=E0=A4=97=
+=E0=A4=BE=E0=A4=AF=E0=A4=BE =E0=A4=B9=E0=A5=88 =E0=A4=94=E0=A4=B0 =E0=A4=A8=
+=E0=A4=BE =E0=A4=B9=E0=A5=80 =E0=A4=90=E0=A4=B8=E0=A4=BE =E0=A4=95=E0=A4=B0=
+=E0=A4=A8=E0=A5=87 =E0=A4=95=E0=A4=BE =E0=A4=95=E0=A5=8B=E0=A4=88 =
+=E0=A4=85=E0=A4=A8=E0=A5=81=E0=A4=B0=E0=A5=8B=E0=A4=A7 =E0=A4=B9=E0=A4=AE=E0=
+=A5=87=E0=A4=82 =E0=A4=AE=E0=A4=BF=E0=A4=B2=E0=A4=BE =E0=A4=B9=E0=A5=88=E0=
+=A5=A4 Riseup =E0=A4=A8=E0=A5=87 =E0=A4=95=E0=A4=AD=E0=A5=80 =
+=E0=A4=95=E0=A4=BF=E0=A4=B8=E0=A5=80 =E0=A4=A4=E0=A5=80=E0=A4=B8=E0=A4=B0=E0=
+=A5=87 =E0=A4=AA=E0=A4=95=E0=A5=8D=E0=A4=B7 =E0=A4=95=E0=A5=8B =
+=E0=A4=95=E0=A4=BF=E0=A4=B8=E0=A5=80 =E0=A4=AD=E0=A5=80 =
+=E0=A4=89=E0=A4=AA=E0=A4=AF=E0=A5=8B=E0=A4=97=E0=A4=95=E0=A4=B0=E0=A5=8D=E0=
+=A4=A4=E0=A4=BE =E0=A4=95=E0=A5=87 =E0=A4=B8=E0=A4=82=E0=A4=A6=E0=A5=87=E0=
+=A4=B6 =E0=A4=A8=E0=A4=B9=E0=A5=80=E0=A4=82 =E0=A4=B8=E0=A5=8C=E0=A4=82=E0=
+=A4=AA=E0=A5=87 =E0=A4=94=E0=A4=B0 =E0=A4=A8=E0=A4=BE =E0=A4=B9=E0=A5=80 =
+=E0=A4=89=E0=A4=9C=E0=A4=BE=E0=A4=97=E0=A4=B0 =E0=A4=95=E0=A4=BF=E0=A4=8F =
+=E0=A4=B9=E0=A5=88=E0=A4=82=E0=A5=A4
+
+=E0=A4=8F=E0=A4=95 =E0=A4=B5=E0=A5=8D=E2=80=8D=E0=A4=AF=E0=A4=BE=E0=A4=AA=E0=
+=A4=95 =E0=A4=AA=E0=A5=8D=E0=A4=B0=E0=A4=9A=E0=A4=BE=E0=A4=B0=E0=A4=BF=E0=A4=
+=A4 =E0=A4=98=E0=A4=9F=E0=A4=A8=E0=A4=BE =E0=A4=AE=E0=A5=87=E0=A4=82, =
+=E0=A4=B8=E0=A4=B0=E0=A5=8D=E0=A4=B5=E0=A4=B0 =E0=A4=9C=E0=A4=AC=E0=A5=8D=E2=
+=80=8D=E0=A4=A4 =E0=A4=95=E0=A4=B0=E0=A4=A8=E0=A5=87 =E0=A4=95=E0=A5=87 =
+=E0=A4=B8=E0=A4=82=E0=A4=AC=E0=A4=82=E0=A4=A7 =E0=A4=AE=E0=A5=87=E0=A4=82 =
+=E0=A4=B9=E0=A4=AE =E0=A4=AC=E0=A4=A4=E0=A4=BE=E0=A4=A8=E0=A4=BE =
+=E0=A4=9A=E0=A4=BE=E0=A4=B9=E0=A4=A4=E0=A5=87 =E0=A4=B9=E0=A5=88=E0=A4=82 =
+=E0=A4=95=E0=A4=BF =E0=A4=8F=E0=A4=AB=E0=A4=AC=E0=A5=80=E0=A4=86=E0=A4=88 =
+=E0=A4=A8=E0=A5=87 =E0=A4=85=E0=A4=AA=E0=A5=8D=E0=A4=B0=E0=A5=88=E0=A4=B2 =
+2012 =E0=A4=AE=E0=A5=87=E0=A4=82 Riseup =E0=A4=95=E0=A4=BE =E0=A4=8F=E0=A4=
+=95 =E0=A4=B8=E0=A4=B0=E0=A5=8D=E0=A4=B5=E0=A4=B0 =E0=A4=9C=E0=A4=AC=E0=A5=
+=8D=E2=80=8D=E0=A4=A4 =E0=A4=95=E0=A4=BF=E0=A4=AF=E0=A4=BE =E0=A4=A5=E0=A4=
+=BE=E0=A5=A4 =E0=A4=AF=E0=A4=B9 =E0=A4=98=E0=A4=9F=E0=A4=A8=E0=A4=BE =
+=E0=A4=A8=E0=A5=8D=E2=80=8D=E0=A4=AF=E0=A5=82=E0=A4=AF=E0=A5=89=E0=A4=B0=E0=
+=A5=8D=E0=A4=95 =E0=A4=95=E0=A5=80 =E0=A4=B9=E0=A5=88=E0=A5=A4 =E0=A4=B5=E0=
+=A4=B9 =E0=A4=AE=E0=A4=B6=E0=A5=80=E0=A4=A8 =
+=E0=A4=8F=E0=A4=A8=E0=A5=8D=E0=A4=95=E0=A5=8D=E0=A4=B0=E0=A4=BF=E0=A4=AA=E0=
+=A5=8D=E2=80=8D=E0=A4=9F =E0=A4=95=E0=A5=80 =E0=A4=B9=E0=A5=81=E0=A4=88 =
+=E0=A4=A5=E0=A5=80 =E0=A4=94=E0=A4=B0 =E0=A4=89=E0=A4=B8=E0=A4=AE=E0=A5=87=
+=E0=A4=82 =E0=A4=89=E0=A4=AA=E0=A4=AF=E0=A5=8B=E0=A4=97=E0=A4=95=E0=A4=B0=E0=
+=A5=8D=E0=A4=A4=E0=A4=BE=E0=A4=93=E0=A4=82 =E0=A4=B8=E0=A4=82=E0=A4=AC=E0=A4=
+=82=E0=A4=A7=E0=A5=80 =E0=A4=95=E0=A5=8B=E0=A4=88 =E0=A4=A1=E0=A5=87=E0=A4=
+=9F=E0=A4=BE =E0=A4=A8=E0=A4=B9=E0=A5=80=E0=A4=82 =E0=A4=A5=E0=A4=BE=E0=A5=
+=A4 =E0=A4=B5=E0=A4=B9 =E0=A4=B8=E0=A4=B0=E0=A5=8D=E0=A4=B5=E0=A4=B0 =
+=E0=A4=B9=E0=A4=AE=E0=A5=87=E0=A4=82 =E0=A4=B2=E0=A5=8C=E0=A4=9F=E0=A4=BE =
+=E0=A4=A6=E0=A4=BF=E0=A4=AF=E0=A4=BE =E0=A4=97=E0=A4=AF=E0=A4=BE =E0=A4=A5=
+=E0=A4=BE =E0=A4=B2=E0=A5=87=E0=A4=95=E0=A4=BF=E0=A4=A8 =E0=A4=B9=E0=A4=AE=
+=E0=A4=A8=E0=A5=87 =E0=A4=A6=E0=A5=8B=E0=A4=AC=E0=A4=BE=E0=A4=B0=E0=A4=BE =
+=E0=A4=89=E0=A4=B8=E0=A4=95=E0=A4=BE =E0=A4=87=E0=A4=B8=E0=A5=8D=E2=80=8D=E0=
+=A4=A4=E0=A5=87=E0=A4=AE=E0=A4=BE=E0=A4=B2 =E0=A4=A8=E0=A4=B9=E0=A5=80=E0=A4=
+=82 =E0=A4=95=E0=A4=BF=E0=A4=AF=E0=A4=BE=E0=A5=A4 Riseup =
+=E0=A4=AA=E0=A5=81=E0=A4=B7=E0=A5=8D=E0=A4=9F=E0=A4=BF =E0=A4=95=E0=A4=B0=E0=
+=A4=A4=E0=A4=BE =E0=A4=B9=E0=A5=88 =E0=A4=95=E0=A4=BF =E0=A4=87=E0=A4=B8 =
+=E0=A4=98=E0=A4=9F=E0=A4=A8=E0=A4=BE =E0=A4=95=E0=A5=87 =E0=A4=B8=E0=A4=BF=
+=E0=A4=B5=E0=A4=BE=E0=A4=AF, 21 =E0=A4=85=E0=A4=AA=E0=A5=8D=E0=A4=B0=E0=A5=
+=88=E0=A4=B2 2014 =E0=A4=A4=E0=A4=95 =E0=A4=87=E0=A4=B8=E0=A4=95=E0=A4=BE =
+=E0=A4=95=E0=A5=8B=E0=A4=88 =E0=A4=B9=E0=A4=BE=E0=A4=B0=E0=A5=8D=E0=A4=A1=E0=
+=A4=B5=E0=A5=87=E0=A4=AF=E0=A4=B0 =E0=A4=95=E0=A4=BF=E0=A4=B8=E0=A5=80 =
+=E0=A4=A4=E0=A5=80=E0=A4=B8=E0=A4=B0=E0=A5=87 =E0=A4=AA=E0=A4=95=E0=A5=8D=E0=
+=A4=B7 =E0=A4=A8=E0=A5=87 =E0=A4=9C=E0=A4=AC=E0=A5=8D=E2=80=8D=E0=A4=A4 =
+=E0=A4=A8=E0=A4=B9=E0=A5=80=E0=A4=82 =E0=A4=95=E0=A4=BF=E0=A4=AF=E0=A4=BE,=
+ =E0=A4=A8 =E0=A4=B9=E0=A5=80 =E0=A4=95=E0=A5=8B=E0=A4=88 =E0=A4=87=E0=A4=B8=
+=E0=A5=87 =E0=A4=B2=E0=A5=87 =E0=A4=97=E0=A4=AF=E0=A4=BE=E0=A5=A4
+
+
+=E0=A4=AF=E0=A4=BE=E0=A4=B9=E0=A5=82 =E0=A4=94=E0=A4=B0 =
+=E0=A4=AE=E0=A5=87=E0=A4=B2=E0=A4=BF=E0=A4=82=E0=A4=97 =
+=E0=A4=B2=E0=A4=BF=E0=A4=B8=E0=A5=8D=E2=80=8D=E0=A4=9F
+-----------------------------------
+yahoo.com =E0=A4=94=E0=A4=B0 aol.com =E0=A4=AA=E0=A4=B0 =E0=A4=AD=E0=A5=87=
+=E0=A4=9C=E0=A5=80 =E0=A4=97=E0=A4=AF=E0=A5=80=E0=A4=82 =E0=A4=86=E0=A4=AA=
+=E0=A4=95=E0=A5=80 =E0=A4=AE=E0=A5=87=E0=A4=B2 =E0=A4=B5=E0=A4=BE=E0=A4=AA=
+=E0=A4=B8 =E0=A4=B2=E0=A5=8C=E0=A4=9F =E0=A4=B0=E0=A4=B9=E0=A5=80 =
+=E0=A4=B9=E0=A5=8B=E0=A4=82=E0=A4=97=E0=A5=80=E0=A5=A4 =E0=A4=87=E0=A4=B8=E0=
+=A4=95=E0=A4=BE =E0=A4=95=E0=A4=BE=E0=A4=B0=E0=A4=A3 =E0=A4=87=E0=A4=A8 =
+=E0=A4=95=E0=A5=89=E0=A4=B0=E0=A4=AA=E0=A5=8B=E0=A4=B0=E0=A5=87=E0=A4=B6=E0=
+=A4=A8 =E0=A4=95=E0=A5=80 =E0=A4=A8=E0=A5=80=E0=A4=A4=E0=A4=BF =E0=A4=AE=E0=
+=A5=87=E0=A4=82 =E0=A4=95=E0=A4=BF=E0=A4=8F =E0=A4=97=E0=A4=8F =
+=E0=A4=AC=E0=A4=A6=E0=A4=B2=E0=A4=BE=E0=A4=B5 =E0=A4=B9=E0=A5=88=E0=A4=82=E0=
+=A5=A4 =E0=A4=89=E0=A4=A8=E0=A5=8D=E2=80=8D=E0=A4=B9=E0=A5=8B=E0=A4=82=E0=A4=
+=A8=E0=A5=87 DMARC =E0=A4=B0=E0=A4=BF=E0=A4=95=E0=A5=89=E0=A4=B0=E0=A5=8D=E0=
+=A4=A1 (=E0=A4=8F=E0=A4=95 =E0=A4=8F=E0=A4=82=E0=A4=9F=E0=A5=80-=E0=A4=B8=E0=
+=A5=8D=E2=80=8D=E0=A4=AA=E0=A5=88=E0=A4=AE =E0=A4=A4=E0=A4=95=E0=A4=A8=E0=A5=
+=8B=E0=A4=B2=E0=A5=89=E0=A4=9C=E0=A5=80) =E0=A4=AA=E0=A5=8D=E0=A4=B0=E0=A4=
+=95=E0=A4=BE=E0=A4=B6=E0=A4=BF=E0=A4=A4 =E0=A4=95=E0=A4=BF=E0=A4=AF=E0=A4=BE=
+ =E0=A4=A5=E0=A4=BE =E0=A4=9C=E0=A5=8B =E0=A4=95=E0=A4=B9=E0=A4=A4=E0=A4=BE=
+ =E0=A4=B9=E0=A5=88 =E0=A4=95=E0=A4=BF ''=E0=A4=AF=E0=A4=A6=E0=A4=BF =
+=E0=A4=B9=E0=A4=AE=E0=A4=BE=E0=A4=B0=E0=A5=87 =E0=A4=86=E0=A4=A7=E0=A4=BF=E0=
+=A4=95=E0=A4=BE=E0=A4=B0=E0=A4=BF=E0=A4=95 =E0=A4=B8=E0=A4=B0=E0=A5=8D=E0=A4=
+=B5=E0=A4=B0=E0=A5=8B=E0=A4=82 =E0=A4=95=E0=A5=87 =
+=E0=A4=85=E0=A4=A4=E0=A4=BF=E0=A4=B0=E0=A4=BF=E0=A4=95=E0=A5=8D=E2=80=8D=E0=
+=A4=A4 =E0=A4=95=E0=A5=8B=E0=A4=88 =E0=A4=AD=E0=A5=80 =E0=A4=B8=E0=A4=B0=E0=
+=A5=8D=E0=A4=B5=E0=A4=B0 =E0=A4=95=E0=A4=BF=E0=A4=B8=E0=A5=80 =
+=E0=A4=AA=E0=A5=8D=E0=A4=B0=E0=A5=87=E0=A4=B7=E0=A4=95 =E0=A4=95=E0=A5=80 =
+=E0=A4=AE=E0=A5=87=E0=A4=B2 yahoo.com (=E0=A4=AF=E0=A4=BE aol.com) =
+=E0=A4=95=E0=A5=87 =E0=A4=AA=E0=A4=A4=E0=A5=87 =E0=A4=95=E0=A4=BE =
+=E0=A4=87=E0=A4=B8=E0=A5=8D=E2=80=8D=E0=A4=A4=E0=A5=87=E0=A4=AE=E0=A4=BE=E0=
+=A4=B2 =E0=A4=95=E0=A4=B0=E0=A4=95=E0=A5=87 =E0=A4=AD=E0=A5=87=E0=A4=9C=E0=
+=A4=A4=E0=A4=BE =E0=A4=B9=E0=A5=88, =E0=A4=A4=E0=A5=8B =E0=A4=89=E0=A4=B8=E0=
+=A5=87 =E0=A4=B8=E0=A5=8D=E2=80=8D=E0=A4=AA=E0=A5=88=E0=A4=AE =
+=E0=A4=AE=E0=A4=BE=E0=A4=A8=E0=A4=BE =E0=A4=9C=E0=A4=BE=E0=A4=8F=E0=A4=97=E0=
+=A4=BE =E0=A4=94=E0=A4=B0 =E0=A4=85=E0=A4=B8=E0=A5=8D=E2=80=8D=E0=A4=B5=E0=
+=A5=80=E0=A4=95=E0=A5=83=E0=A4=A4 =E0=A4=95=E0=A4=B0 =E0=A4=A6=E0=A4=BF=E0=
+=A4=AF=E0=A4=BE =E0=A4=9C=E0=A4=BE=E0=A4=8F=E0=A4=97=E0=A4=BE=E0=A5=A4'' =
+DMARC =E0=A4=B0=E0=A4=BF=E0=A4=95=E0=A5=89=E0=A4=B0=E0=A5=8D=E0=A4=A1 =
+=E0=A4=87=E0=A4=B8=E0=A4=95=E0=A5=87 =E0=A4=AC=E0=A4=BE=E0=A4=A6 =E0=A4=B8=
+=E0=A5=87 =E0=A4=95=E0=A5=8B=E0=A4=88 =E0=A4=AE=E0=A5=87=E0=A4=B2 =
+=E0=A4=AE=E0=A4=BF=E0=A4=B2=E0=A4=A8=E0=A5=87 =E0=A4=AA=E0=A4=B0 =
+=E0=A4=95=E0=A5=8D=E2=80=8D=E0=A4=AF=E0=A4=BE =E0=A4=95=E0=A4=B0=E0=A4=A8=E0=
+=A4=BE =E0=A4=87=E0=A4=B8=E0=A4=95=E0=A4=BE =E0=A4=A8=E0=A4=BF=E0=A4=B0=E0=
+=A5=8D=E0=A4=A3=E0=A4=AF =E0=A4=95=E0=A4=B0=E0=A4=A8=E0=A5=87 =E0=A4=95=E0=
+=A5=87 =E0=A4=B2=E0=A4=BF=E0=A4=8F =E0=A4=85=E0=A4=A8=E0=A5=8D=E2=80=8D=E0=
+=A4=AF =E0=A4=B8=E0=A4=BE=E0=A4=87=E0=A4=9F=E0=A5=8B=E0=A4=82 =
+=E0=A4=A6=E0=A5=8D=E0=A4=B5=E0=A4=BE=E0=A4=B0=E0=A4=BE =E0=A4=AD=E0=A5=80 =
+=E0=A4=87=E0=A4=B8=E0=A5=8D=E2=80=8D=E0=A4=A4=E0=A5=87=E0=A4=AE=E0=A4=BE=E0=
+=A4=B2 =E0=A4=95=E0=A4=BF=E0=A4=AF=E0=A4=BE =E0=A4=9C=E0=A4=BE=E0=A4=A4=E0=
+=A4=BE =E0=A4=B9=E0=A5=88 (=E0=A4=9C=E0=A5=88=E0=A4=B8=E0=A5=87 =
+=E0=A4=B9=E0=A5=89=E0=A4=9F=E0=A4=AE=E0=A5=87=E0=A4=B2 =E0=A4=A1=E0=A5=89=E0=
+=A4=9F =E0=A4=95=E0=A5=89=E0=A4=AE, =E0=A4=95=E0=A5=89=E0=A4=AE=E0=A4=95=E0=
+=A4=BE=E0=A4=B8=E0=A5=8D=E2=80=8D=E0=A4=9F =E0=A4=A1=E0=A5=89=E0=A4=9F =
+=E0=A4=A8=E0=A5=87=E0=A4=9F, =E0=A4=94=E0=A4=B0 =E0=A4=85=E0=A4=A8=E0=A5=8D=
+=E2=80=8D=E0=A4=AF =E0=A4=AC=E0=A4=B9=E0=A5=81=E0=A4=A4-=E0=A4=B8=E0=A5=80=
+ =E0=A4=95=E0=A4=82=E0=A4=AA=E0=A4=A8=E0=A4=BF=E0=A4=AF=E0=A4=BE=E0=A4=82)=
+=E0=A5=A4
+
+=E0=A4=87=E0=A4=B8=E0=A4=AE=E0=A5=87=E0=A4=82 =E0=A4=B8=E0=A4=AE=E0=A4=B8=E0=
+=A5=8D=E2=80=8D=E0=A4=AF=E0=A4=BE =E0=A4=AF=E0=A4=B9 =E0=A4=B9=E0=A5=88 =
+=E0=A4=95=E0=A4=BF, lists.riseup.net =E0=A4=9C=E0=A5=88=E0=A4=B8=E0=A5=87 =
+=E0=A4=AE=E0=A5=87=E0=A4=B2=E0=A4=BF=E0=A4=82=E0=A4=97 =
+=E0=A4=B2=E0=A4=BF=E0=A4=B8=E0=A5=8D=E2=80=8D=E0=A4=9F =
+=E0=A4=B8=E0=A5=89=E0=A4=AB=E0=A5=8D=E0=A4=9F=E0=A4=B5=E0=A5=87=E0=A4=AF=E0=
+=A4=B0 =E0=A4=B8=E0=A4=82=E0=A4=A6=E0=A5=87=E0=A4=B6=E0=A5=8B=E0=A4=82 =
+=E0=A4=95=E0=A5=8B =E0=A4=85=E0=A4=A8=E0=A5=8D=E2=80=8D=E0=A4=AF =
+=E0=A4=88=E0=A4=AE=E0=A5=87=E0=A4=B2 =E0=A4=AA=E0=A4=A4=E0=A5=8B=E0=A4=82 =
+=E0=A4=AA=E0=A4=B0 =E0=A4=A6=E0=A5=8B=E0=A4=AC=E0=A4=BE=E0=A4=B0=E0=A4=BE =
+=E0=A4=AD=E0=A5=87=E0=A4=9C=E0=A4=A4=E0=A5=87 =E0=A4=B9=E0=A5=88=E0=A4=82=E0=
+=A5=A4 =E0=A4=87=E0=A4=B8=E0=A4=B2=E0=A4=BF=E0=A4=8F =E0=A4=9C=E0=A4=AC =
+=E0=A4=AF=E0=A4=BE=E0=A4=B9=E0=A5=82 =E0=A4=AF=E0=A4=BE =E0=A4=8F=E0=A4=93=
+=E0=A4=8F=E0=A4=B2 =E0=A4=95=E0=A5=87 =E0=A4=89=E0=A4=AA=E0=A4=AF=E0=A5=8B=
+=E0=A4=97=E0=A4=95=E0=A4=B0=E0=A5=8D=E0=A4=A4=E0=A4=BE =
+=E0=A4=B2=E0=A4=BF=E0=A4=B8=E0=A5=8D=E2=80=8D=E0=A4=9F =E0=A4=AA=E0=A4=B0 =
+=E0=A4=B8=E0=A4=82=E0=A4=A6=E0=A5=87=E0=A4=B6 =E0=A4=AD=E0=A5=87=E0=A4=9C=E0=
+=A4=A4=E0=A5=87 =E0=A4=B9=E0=A5=88=E0=A4=82 =E0=A4=94=E0=A4=B0 =E0=A4=B5=E0=
+=A4=B9 =E0=A4=B8=E0=A4=82=E0=A4=A6=E0=A5=87=E0=A4=B6 =
+=E0=A4=AA=E0=A5=81=E0=A4=A8=E0=A4=B0=E0=A5=8D=E0=A4=B5=E0=A4=BF=E0=A4=A4=E0=
+=A4=B0=E0=A4=BF=E0=A4=A4 =E0=A4=B9=E0=A5=8B=E0=A4=A4=E0=A4=BE =E0=A4=B9=E0=
+=A5=88, =E0=A4=A4=E0=A5=8B =E0=A4=AA=E0=A5=8D=E0=A4=B0=E0=A4=BE=E0=A4=AA=E0=
+=A5=8D=E2=80=8D=E0=A4=A4=E0=A4=95=E0=A4=B0=E0=A5=8D=E0=A4=A4=E0=A4=BE =
+=E0=A4=AE=E0=A5=87=E0=A4=B2 =E0=A4=B8=E0=A4=B0=E0=A5=8D=E0=A4=B5=E0=A4=B0 =
+=E0=A4=AC=E0=A4=A4=E0=A4=BE=E0=A4=A4=E0=A4=BE =E0=A4=B9=E0=A5=88 =E0=A4=95=
+=E0=A4=BF ''=E0=A4=AF=E0=A4=B9 =E0=A4=B8=E0=A4=82=E0=A4=A6=E0=A5=87=E0=A4=B6=
+ =E0=A4=95=E0=A4=BF=E0=A4=B8=E0=A5=80 =E0=A4=AF=E0=A4=BE=E0=A4=B9=E0=A5=82=
+/=E0=A4=8F=E0=A4=93=E0=A4=8F=E0=A4=B2 =E0=A4=B8=E0=A4=B0=E0=A5=8D=E0=A4=B5=
+=E0=A4=B0 =E0=A4=B8=E0=A5=87 =E0=A4=A8=E0=A4=B9=E0=A5=80=E0=A4=82 =
+=E0=A4=AD=E0=A5=87=E0=A4=9C=E0=A4=BE =E0=A4=97=E0=A4=AF=E0=A4=BE =E0=A4=A5=
+=E0=A4=BE, =E0=A4=AF=E0=A4=B9 =E0=A4=B8=E0=A5=8D=E2=80=8D=E0=A4=AA=E0=A5=88=
+=E0=A4=AE =E0=A4=B9=E0=A5=8B =E0=A4=B8=E0=A4=95=E0=A4=A4=E0=A4=BE =
+=E0=A4=B9=E0=A5=88, =E0=A4=87=E0=A4=B8=E0=A5=87 =
+=E0=A4=85=E0=A4=B8=E0=A5=8D=E2=80=8D=E0=A4=B5=E0=A5=80=E0=A4=95=E0=A5=83=E0=
+=A4=A4 =E0=A4=95=E0=A4=B0=E0=A5=87=E0=A4=82!'' =E0=A4=94=E0=A4=B0 =
+=E0=A4=B8=E0=A4=82=E0=A4=A6=E0=A5=87=E0=A4=B6 =E0=A4=95=E0=A5=8B =
+=E0=A4=B5=E0=A4=BE=E0=A4=AA=E0=A4=B8 =E0=A4=AD=E0=A5=87=E0=A4=9C =
+=E0=A4=A6=E0=A5=87=E0=A4=A4=E0=A4=BE =E0=A4=B9=E0=A5=88 =E0=A4=AF=E0=A4=BE=
+=E0=A4=A8=E0=A5=80 =E0=A4=AC=E0=A4=BE=E0=A4=89=E0=A4=82=E0=A4=B8 =E0=A4=95=
+=E0=A4=B0 =E0=A4=A6=E0=A5=87=E0=A4=A4=E0=A4=BE =E0=A4=B9=E0=A5=88=E0=A5=A4=
+ =E0=A4=87=E0=A4=B8=E0=A5=80=E0=A4=B2=E0=A4=BF=E0=A4=8F=E0=A4=86=E0=A4=AA=E0=
+=A4=95=E0=A5=8B =E0=A4=95=E0=A5=87=E0=A4=B5=E0=A4=B2 =E0=A4=AF=E0=A4=BE=E0=
+=A4=B9=E0=A5=82 =E0=A4=AF=E0=A4=BE =E0=A4=8F=E0=A4=93=E0=A4=8F=E0=A4=B2 =
+=E0=A4=B9=E0=A5=80 =E0=A4=A8=E0=A4=B9=E0=A5=80=E0=A4=82 =E0=A4=AC=E0=A4=B2=
+=E0=A5=8D=E0=A4=95=E0=A4=BF =E0=A4=85=E0=A4=A8=E0=A5=8D=E2=80=8D=E0=A4=AF =
+=E0=A4=B8=E0=A4=BE=E0=A4=87=E0=A4=9F=E0=A5=8B=E0=A4=82 =E0=A4=B8=E0=A5=87 =
+=E0=A4=AD=E0=A5=80 =E0=A4=A2=E0=A5=87=E0=A4=B0=E0=A5=8B=E0=A4=82 =
+=E0=A4=AC=E0=A4=BE=E0=A4=89=E0=A4=82=E0=A4=B8 =E0=A4=B8=E0=A4=82=E0=A4=A6=E0=
+=A5=87=E0=A4=B6 =E0=A4=AE=E0=A4=BF=E0=A4=B2 =E0=A4=B0=E0=A4=B9=E0=A5=87 =
+=E0=A4=B9=E0=A5=8B=E0=A4=82=E0=A4=97=E0=A5=87=E0=A5=A4j
+
+=E0=A4=87=E0=A4=B8=E0=A4=95=E0=A5=87 =E0=A4=AC=E0=A4=BE=E0=A4=B0=E0=A5=87 =
+=E0=A4=AE=E0=A5=87=E0=A4=82 =E0=A4=B5=E0=A4=BF=E0=A4=B8=E0=A5=8D=E2=80=8D=E0=
+=A4=A4=E0=A4=BE=E0=A4=B0 =E0=A4=B8=E0=A5=87 =E0=A4=AF=E0=A4=B9=E0=A4=BE=E0=
+=A4=82 =E0=A4=AA=E0=A4=A2=E0=A4=BC =E0=A4=B8=E0=A4=95=E0=A4=A4=E0=A5=87 =
+=E0=A4=B9=E0=A5=88=E0=A4=82: http://jrl.guru/Email/yahoobomb.html
+
+=E0=A4=87=E0=A4=B8=E0=A5=87 =E0=A4=A0=E0=A5=80=E0=A4=95 =E0=A4=95=E0=A4=B0=
+=E0=A4=A8=E0=A5=87 =E0=A4=95=E0=A4=BE =E0=A4=B8=E0=A4=AC=E0=A4=B8=E0=A5=87=
+ =E0=A4=86=E0=A4=B8=E0=A4=BE=E0=A4=A8 =E0=A4=A4=E0=A4=B0=E0=A5=80=E0=A4=95=
+=E0=A4=BE =E0=A4=AF=E0=A4=B9 =E0=A4=B9=E0=A5=88 =E0=A4=95=E0=A4=BF =
+=E0=A4=AF=E0=A4=BE=E0=A4=B9=E0=A5=82/=E0=A4=8F=E0=A4=93=E0=A4=8F=E0=A4=B2 =
+=E0=A4=85=E0=A4=AA=E0=A4=A8=E0=A5=80 =E0=A4=A8=E0=A5=80=E0=A4=A4=E0=A4=BF =
+=E0=A4=AE=E0=A5=87=E0=A4=82 =E0=A4=AC=E0=A4=A6=E0=A4=B2=E0=A4=BE=E0=A4=B5 =
+=E0=A4=95=E0=A4=B0=E0=A5=87=E0=A4=82=E0=A5=A4
+=E0=A4=B2=E0=A5=87=E0=A4=95=E0=A4=BF=E0=A4=A8 =E0=A4=A4=E0=A4=AC =E0=A4=A4=
+=E0=A4=95 riseup =E0=A4=AF=E0=A4=B9 =E0=A4=89=E0=A4=AA=E0=A4=BE=E0=A4=AF =
+=E0=A4=95=E0=A4=B0 =E0=A4=B0=E0=A4=B9=E0=A4=BE =E0=A4=B9=E0=A5=88:
+
+* =E0=A4=A8=E0=A5=81=E0=A4=95=E0=A4=B8=E0=A4=BE=E0=A4=A8 =E0=A4=95=E0=A5=8B=
+ =E0=A4=B8=E0=A5=80=E0=A4=AE=E0=A4=BF=E0=A4=A4 =E0=A4=95=E0=A4=B0=E0=A4=A8=
+=E0=A5=87 =E0=A4=95=E0=A5=87 =E0=A4=B2=E0=A4=BF=E0=A4=8F, =E0=A4=85=E0=A4=AC=
+ =E0=A4=B9=E0=A4=AE =E0=A4=95=E0=A5=8B lists.riseup.net =E0=A4=AA=E0=A4=B0=
+ =E0=A4=AE=E0=A5=87=E0=A4=B2 =E0=A4=AD=E0=A5=87=E0=A4=9C=E0=A4=A8=E0=A5=87=
+ =E0=A4=95=E0=A5=87 =E0=A4=B2=E0=A4=BF=E0=A4=8F yahoo.com =E0=A4=AF=E0=A4=BE=
+ aol.com =E0=A4=95=E0=A5=87 =E0=A4=AA=E0=A4=A4=E0=A5=8B=E0=A4=82 =E0=A4=95=
+=E0=A4=BE =E0=A4=87=E0=A4=B8=E0=A5=8D=E2=80=8D=E0=A4=A4=E0=A5=87=E0=A4=AE=E0=
+=A4=BE=E0=A4=B2 =E0=A4=95=E0=A4=B0=E0=A4=A8=E0=A5=87 =E0=A4=B5=E0=A4=BE=E0=
+=A4=B2=E0=A5=87 =E0=A4=B8=E0=A4=AD=E0=A5=80 =E0=A4=AA=E0=A5=8D=E0=A4=B0=E0=
+=A5=87=E0=A4=B7=E0=A4=95=E0=A5=8B=E0=A4=82 =E0=A4=95=E0=A5=8B =
+=E0=A4=AC=E0=A5=8D=E2=80=8D=E0=A4=B2=E0=A5=89=E0=A4=95 =E0=A4=95=E0=A4=B0 =
+=E0=A4=B0=E0=A4=B9=E0=A5=87 =E0=A4=B9=E0=A5=88=E0=A4=82=E0=A5=A4
+=E0=A4=B8=E0=A4=82=E0=A4=A6=E0=A5=87=E0=A4=B6 =E0=A4=AD=E0=A5=87=E0=A4=9C=E0=
+=A4=A8=E0=A5=87 =E0=A4=AA=E0=A4=B0 yahoo.com =E0=A4=94=E0=A4=B0 aol.com =
+=E0=A4=AA=E0=A5=8D=E0=A4=B0=E0=A5=87=E0=A4=B7=E0=A4=95=E0=A5=8B=E0=A4=82 =
+=E0=A4=95=E0=A5=8B =E0=A4=A4=E0=A5=81=E0=A4=B0=E0=A4=82=E0=A4=A4 =
+=E0=A4=A4=E0=A5=8D=E0=A4=B0=E0=A5=81=E0=A4=9F=E0=A4=BF =E0=A4=B8=E0=A4=82=E0=
+=A4=A6=E0=A5=87=E0=A4=B6 =E0=A4=AE=E0=A4=BF=E0=A4=B2 =E0=A4=9C=E0=A4=BE=E0=
+=A4=8F=E0=A4=97=E0=A4=BE =E0=A4=9C=E0=A4=BF=E0=A4=B8=E0=A4=AE=E0=A5=87=E0=A4=
+=82 =E0=A4=9A=E0=A5=80=E0=A4=9C=E0=A5=8B=E0=A4=82 =E0=A4=95=E0=A5=8B =
+=E0=A4=B8=E0=A5=8D=E2=80=8D=E0=A4=AA=E0=A4=B7=E0=A5=8D=E2=80=8D=E0=A4=9F =
+=E0=A4=95=E0=A4=BF=E0=A4=AF=E0=A4=BE =E0=A4=97=E0=A4=AF=E0=A4=BE =
+=E0=A4=B9=E0=A5=8B=E0=A4=97=E0=A4=BE=E0=A5=A4 =E0=A4=AF=E0=A4=B9 =
+=E0=A4=AA=E0=A5=8D=E0=A4=B0=E0=A5=87=E0=A4=B7=E0=A4=95=E0=A5=8B=E0=A4=82 =
+=E0=A4=95=E0=A5=87 =E0=A4=B2=E0=A4=BF=E0=A4=8F =E0=A4=96=E0=A4=B0=E0=A4=BE=
+=E0=A4=AC =E0=A4=B9=E0=A5=88, =E0=A4=B2=E0=A5=87=E0=A4=95=E0=A4=BF=E0=A4=A8=
+ =E0=A4=87=E0=A4=B8=E0=A4=B8=E0=A5=87 =E0=A4=AC=E0=A4=A1=E0=A4=BC=E0=A5=87=
+ =E0=A4=AA=E0=A5=88=E0=A4=AE=E0=A4=BE=E0=A4=A8=E0=A5=87 =E0=A4=AA=E0=A4=B0=
+ =E0=A4=AC=E0=A4=BE=E0=A4=89=E0=A4=82=E0=A4=B8 =E0=A4=94=E0=A4=B0 =
+=E0=A4=AC=E0=A4=BE=E0=A4=89=E0=A4=82=E0=A4=B8 =E0=A4=B8=E0=A4=82=E0=A4=AC=E0=
+=A4=82=E0=A4=A7=E0=A5=80 =
+=E0=A4=85=E0=A4=A8=E0=A4=B8=E0=A4=AC=E0=A5=8D=E2=80=8D=E0=A4=B8=E0=A4=95=E0=
+=A5=8D=E0=A4=B0=E0=A4=BF=E0=A4=AA=E0=A5=8D=E2=80=8D=E0=A4=B6=E0=A4=A8 =
+=E0=A4=B0=E0=A5=81=E0=A4=95 =E0=A4=9C=E0=A4=BE=E0=A4=8F=E0=A4=82=E0=A4=97=E0=
+=A5=87=E0=A5=A4
+* =E0=A4=B9=E0=A4=AE =E0=A4=B9=E0=A4=B0=E0=A5=87=E0=A4=95 =E0=A4=95=E0=A5=8B=
+ =E0=A4=AA=E0=A5=8D=E0=A4=B0=E0=A5=8B=E0=A4=A4=E0=A5=8D=E2=80=8D=E0=A4=B8=E0=
+=A4=BE=E0=A4=B9=E0=A4=BF=E0=A4=A4 =E0=A4=95=E0=A4=B0=E0=A4=A4=E0=A5=87 =
+=E0=A4=B9=E0=A5=88=E0=A4=82 =E0=A4=95=E0=A4=BF =E0=A4=B5=E0=A5=87 =
+=E0=A4=AF=E0=A4=BE=E0=A4=B9=E0=A5=82/=E0=A4=8F=E0=A4=93=E0=A4=8F=E0=A4=B2 =
+=E0=A4=95=E0=A5=87 =E0=A4=AC=E0=A4=9C=E0=A4=BE=E0=A4=AF =E0=A4=90=E0=A4=B8=
+=E0=A5=87 =E0=A4=88=E0=A4=AE=E0=A5=87=E0=A4=B2 =E0=A4=AA=E0=A5=8D=E0=A4=B0=
+=E0=A4=A6=E0=A4=BE=E0=A4=A4=E0=A4=BE =E0=A4=95=E0=A4=BE =
+=E0=A4=87=E0=A4=B8=E0=A5=8D=E2=80=8D=E0=A4=A4=E0=A5=87=E0=A4=AE=E0=A4=BE=E0=
+=A4=B2 =E0=A4=95=E0=A4=B0=E0=A5=87=E0=A4=82 =E0=A4=9C=E0=A5=8B =
+=E0=A4=86=E0=A4=AA=E0=A4=95=E0=A5=80 =E0=A4=A8=E0=A4=BF=E0=A4=9C=E0=A4=A4=E0=
+=A4=BE =E0=A4=95=E0=A5=80 =E0=A4=B0=E0=A4=95=E0=A5=8D=E0=A4=B7=E0=A4=BE =
+=E0=A4=95=E0=A4=B0=E0=A4=A4=E0=A4=BE =E0=A4=B9=E0=A5=8B =E0=A4=94=E0=A4=B0=
+ =E0=A4=AE=E0=A5=87=E0=A4=B2=E0=A4=BF=E0=A4=82=E0=A4=97 =
+=E0=A4=B2=E0=A4=BF=E0=A4=B8=E0=A5=8D=E2=80=8D=E0=A4=9F=E0=A5=8B=E0=A4=82 =
+=E0=A4=95=E0=A5=87 =E0=A4=B8=E0=A4=82=E0=A4=9A=E0=A4=BE=E0=A4=B2=E0=A4=A8 =
+=E0=A4=85=E0=A4=B8=E0=A4=82=E0=A4=AD=E0=A4=B5 =E0=A4=A8=E0=A4=B9=E0=A5=80=E0=
+=A4=82 =E0=A4=AC=E0=A4=A8=E0=A4=BE=E0=A4=A4=E0=A4=BE =E0=A4=B9=E0=A5=8B=E0=
+=A5=A4
+* =E0=A4=B9=E0=A4=AE =E0=A4=87=E0=A4=B8 =E0=A4=B8=E0=A4=AE=E0=A4=B8=E0=A5=8D=
+=E2=80=8D=E0=A4=AF=E0=A4=BE =E0=A4=95=E0=A5=87 =E0=A4=B8=E0=A4=AE=E0=A4=BE=
+=E0=A4=A7=E0=A4=BE=E0=A4=A8 =E0=A4=95=E0=A5=87 =E0=A4=85=E0=A4=A8=E0=A5=8D=
+=E2=80=8D=E0=A4=AF =E0=A4=A4=E0=A4=B0=E0=A5=80=E0=A4=95=E0=A5=8B=E0=A4=82 =
+=E0=A4=95=E0=A5=80 =E0=A4=AA=E0=A4=A1=E0=A4=BC=E0=A4=A4=E0=A4=BE=E0=A4=B2 =
+=E0=A4=95=E0=A4=B0 =E0=A4=B0=E0=A4=B9=E0=A5=87 =E0=A4=B9=E0=A5=88=E0=A4=82=
+, =E0=A4=94=E0=A4=B0 =E0=A4=89=E0=A4=AE=E0=A5=8D=E2=80=8D=E0=A4=AE=E0=A5=80=
+=E0=A4=A6 =E0=A4=B9=E0=A5=88 =E0=A4=9C=E0=A4=B2=E0=A5=8D=E2=80=8D=E0=A4=A6=
+ =E0=A4=B9=E0=A5=80 =E0=A4=87=E0=A4=B8=E0=A4=B8=E0=A5=87 =
+=E0=A4=A8=E0=A4=BF=E0=A4=AA=E0=A4=9F=E0=A4=A8=E0=A5=87 =E0=A4=95=E0=A4=BE =
+=E0=A4=95=E0=A5=8B=E0=A4=88 =E0=A4=A4=E0=A4=B0=E0=A5=80=E0=A4=95=E0=A4=BE =
+=E0=A4=A8=E0=A4=BF=E0=A4=95=E0=A4=B2 =E0=A4=86=E0=A4=8F=E0=A4=97=E0=A4=BE=E0=
+=A5=A4
+
+=E0=A4=AA=E0=A5=88=E0=A4=B8=E0=A4=BE!
+---------
+=E0=A4=86=E0=A4=AA=E0=A4=95=E0=A5=8B =E0=A4=AA=E0=A5=88=E0=A4=B8=E0=A5=87 =
+=E0=A4=95=E0=A5=80 =E0=A4=A4=E0=A4=82=E0=A4=97=E0=A5=80 =E0=A4=B9=E0=A5=88=
+? =E0=A4=B9=E0=A4=AE=E0=A5=87=E0=A4=82 =E0=A4=AD=E0=A5=80 =E0=A4=B9=E0=A5=88=
+=E0=A5=A4 =E0=A4=AF=E0=A4=A6=E0=A4=BF =E0=A4=86=E0=A4=AA =
+=E0=A4=AE=E0=A4=BE=E0=A4=AE=E0=A5=82=E0=A4=B2=E0=A5=80 =E0=A4=B0=E0=A4=95=E0=
+=A4=AE =E0=A4=AD=E0=A5=80 Riseup =E0=A4=95=E0=A5=8B =E0=A4=B8=E0=A4=B9=E0=A4=
+=AF=E0=A5=8B=E0=A4=97 =E0=A4=95=E0=A5=87 =E0=A4=B0=E0=A5=82=E0=A4=AA =
+=E0=A4=AE=E0=A5=87=E0=A4=82 =E0=A4=A6=E0=A5=87 =E0=A4=B8=E0=A4=95=E0=A5=87=
+=E0=A4=82 =E0=A4=A4=E0=A5=8B, =E0=A4=AA=E0=A5=8D=E0=A4=B0=E0=A4=A4=E0=A5=8D=
+=E2=80=8D=E0=A4=AF=E0=A5=87=E0=A4=95 =E0=A4=9B=E0=A5=8B=E0=A4=9F=E0=A5=80 =
+=E0=A4=B0=E0=A4=BE=E0=A4=B6=E0=A5=80 =E0=A4=AA=E0=A5=82=E0=A4=B0=E0=A5=80 =
+=E0=A4=A6=E0=A5=81=E0=A4=A8=E0=A4=BF=E0=A4=AF=E0=A4=BE =E0=A4=95=E0=A5=87 =
+=E0=A4=B9=E0=A4=9C=E0=A4=BE=E0=A4=B0=E0=A5=8B=E0=A4=82 =
+=E0=A4=B8=E0=A4=AE=E0=A5=82=E0=A4=B9=E0=A5=8B=E0=A4=82 =E0=A4=94=E0=A4=B0 =
+=E0=A4=8F=E0=A4=95=E0=A5=8D=E0=A4=9F=E0=A4=BF=E0=A4=B5=E0=A4=BF=E0=A4=B8=E0=
+=A5=8D=E2=80=8D=E0=A4=9F=E0=A5=8B=E0=A4=82 =E0=A4=95=E0=A5=8B =
+=E0=A4=B8=E0=A4=B9=E0=A4=BE=E0=A4=AF=E0=A4=A4=E0=A4=BE =
+=E0=A4=AA=E0=A4=B9=E0=A5=81=E0=A4=82=E0=A4=9A=E0=A4=BE=E0=A4=A4=E0=A5=80 =
+=E0=A4=B9=E0=A5=88=E0=A5=A4
+https://help.riseup.net/donate
+
+=E0=A4=94=E0=A4=B0 =E0=A4=9C=E0=A4=BF=E0=A4=A8 =
+=E0=A4=AE=E0=A4=BE=E0=A4=A7=E0=A5=8D=E2=80=8D=E0=A4=AF=E0=A4=AE=E0=A5=8B=E0=
+=A4=82 =E0=A4=B8=E0=A5=87 =E0=A4=B2=E0=A5=8B=E0=A4=97 Riseup =E0=A4=95=E0=A5=
+=8B =E0=A4=86=E0=A4=B0=E0=A5=8D=E0=A4=A5=E0=A4=BF=E0=A4=95 =
+=E0=A4=B8=E0=A4=B9=E0=A4=AF=E0=A5=8B=E0=A4=97 =E0=A4=95=E0=A4=B0=E0=A4=A4=E0=
+=A5=87 =E0=A4=B9=E0=A5=88=E0=A4=82 =E0=A4=89=E0=A4=A8=E0=A4=AE=E0=A5=87=E0=
+=A4=82 =E0=A4=B8=E0=A5=87 =E0=A4=8F=E0=A4=95, wepay, =E0=A4=A8=E0=A5=87 =
+=E0=A4=85=E0=A4=A8=E0=A5=81=E0=A4=A6=E0=A4=BE=E0=A4=A8 =
+=E0=A4=B8=E0=A5=8D=E2=80=8D=E0=A4=B5=E0=A5=80=E0=A4=95=E0=A4=BE=E0=A4=B0 =
+=E0=A4=95=E0=A4=B0=E0=A4=A8=E0=A4=BE =E0=A4=AC=E0=A4=82=E0=A4=A6 =E0=A4=95=
+=E0=A4=B0 =E0=A4=A6=E0=A4=BF=E0=A4=AF=E0=A4=BE =E0=A4=B9=E0=A5=88=E0=A5=A4=
+ =E0=A4=9C=E0=A4=BF=E0=A4=B8 =E0=A4=95=E0=A4=BF=E0=A4=B8=E0=A5=80 =E0=A4=A8=
+=E0=A5=87 =E0=A4=89=E0=A4=A8=E0=A4=95=E0=A5=87 =E0=A4=9C=E0=A4=B0=E0=A4=BF=
+=E0=A4=8F =E0=A4=86=E0=A4=B5=E0=A4=B0=E0=A5=8D=E0=A4=A4=E0=A5=80 =
+=E0=A4=85=E0=A4=A8=E0=A5=81=E0=A4=A6=E0=A4=BE=E0=A4=A8 =
+=E0=A4=A8=E0=A4=BF=E0=A4=B0=E0=A5=8D=E0=A4=A7=E0=A4=BE=E0=A4=B0=E0=A4=BF=E0=
+=A4=A4 =E0=A4=95=E0=A4=BF=E0=A4=AF=E0=A4=BE =E0=A4=A5=E0=A4=BE, =E0=A4=B5=E0=
+=A5=87 =E0=A4=AF=E0=A4=A6=E0=A4=BF =E0=A4=95=E0=A4=BF=E0=A4=B8=E0=A5=80 =
+=E0=A4=94=E0=A4=B0 =E0=A4=A4=E0=A4=B0=E0=A5=80=E0=A4=95=E0=A5=87 =E0=A4=B8=
+=E0=A5=87 =E0=A4=86=E0=A4=B5=E0=A4=B0=E0=A5=8D=E0=A4=A4=E0=A5=80 =
+=E0=A4=AF=E0=A4=BE=E0=A4=A8=E0=A5=80 =E0=A4=AC=E0=A4=BE=E0=A4=B0=E0=A4=82=E0=
+=A4=AC=E0=A4=BE=E0=A4=B0 =E0=A4=AD=E0=A5=81=E0=A4=97=E0=A4=A4=E0=A4=BE=E0=A4=
+=A8 =E0=A4=B8=E0=A5=81=E0=A4=A8=E0=A4=BF=E0=A4=B6=E0=A5=8D=E0=A4=9A=E0=A4=BF=
+=E0=A4=A4 =E0=A4=95=E0=A4=B0 =E0=A4=B8=E0=A4=95=E0=A5=87=E0=A4=82 =E0=A4=A4=
+=E0=A5=8B =E0=A4=AC=E0=A4=B9=E0=A5=81=E0=A4=A4 =E0=A4=85=E0=A4=9A=E0=A5=8D=
+=E2=80=8D=E0=A4=9B=E0=A4=BE =E0=A4=B0=E0=A4=B9=E0=A5=87=E0=A4=97=E0=A4=BE=E0=
+=A5=A4 =E0=A4=A7=E0=A4=A8=E0=A5=8D=E2=80=8D=E0=A4=AF=E0=A4=B5=E0=A4=BE=E0=A4=
+=A6!
+
+
+
+[it] italiano
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+Maggio 2014 - Indice
+* Il nostro comunicato riguardo la sicurezza
+* Yahoo e le liste di distribuzione
+* Soldi!
+
+Il nostro comunicato riguardo la sicurezza
+--------------------------------------------------------
+Se desideri ricevere aggiornamenti riguardo l'interazione tra Riseup e =
+l'apparato di sorveglianza dello stato, vai su:
+https://help.riseup.net/canary
+
+Lo aggiorneremo all'incirca trimestralmente.
+
+Al momento il comunicato afferma:
+Ad oggi, 21 Aprile 2014, Riseup non ha ricevuto n=C3=A9 lettere dalla =
+sicurezza nazionale n=C3=A9 ordini da parte di una corte FISA, e non ha =
+inoltre ricevuto nessun ordine di non divulgazione da parte di una corte =
+FISA. Riseup non ha mai inserito un back-door nel proprio software e non =
+ha mai ricevuto richieste di farlo. Riseup non ha mai divulgato le =
+comunicazioni dei suoi e delle sue utenti a terze parti.
+Per quanto riguarda il sequestro di server: in un incidente ampiamente =
+denunciato, l'FBI ha sequestrato uno dei servers di Riseup in Aprile =
+2012. Questo incidente ha avuto luogo a New York. La macchina =
+sequestrata era criptata e non conteneva alcun dato degli e delle =
+utenti. Il server =C3=A8 stato restituito, ma non =C3=A8 stato rimesso =
+in servizio. Al di l=C3=A0 di questo evento, ad oggi, 21 Aprile 2014, =
+Riseup conferma che nessuna parte hardware sia stata sequestrata o sia =
+caduta in mano a terze parti.
+
+Yahoo e le liste di distribuzione
+------------------------------------------
+Potresti aver notato alcuni "rimbalzi" (messaggi di posta elettronica =
+tornati al mittente - NdT) da parte di yahoo.com e aol.com. Ci=C3=B2 =C3=A8=
+ dovuto ad un cambio di politica di queste aziende. Queste hanno =
+pubblicato un record DMARC (una tecnologia anti-spam) che di fatto dice =
+che "se qualsiasi server che non sia uno dei nostri server ufficiali (di =
+yahoo o aol - NdT) invia una mail il cui mittente usa un indirizzo =
+yahoo.com (o aol.com), tratta quella mail come spam e rifiutala". Il =
+record DMARC =C3=A8 quindi usato da altri siti (come hotmail.com, =
+comcast.net, e molti altri) per decidere come comportarsi quando una =
+mail arriva.
+Il problema in tutto ci=C3=B2 =C3=A8 che il software delle mailing list, =
+come ad esempio lists.riseup.net, ritrasmette messaggi ad altri. Quindi =
+quando un utente di yahoo.com o aol.com invia una mail ad una lista e =
+questa mail viene redistribuita (con l'indirizzo yahoo.com o aol.com =
+ancora nel mittente), il server di posta in entrata dice "questo =
+messaggio non =C3=A8 stato spedito da uno dei server di yahoo o aol, =
+deve trattarsi di spam, rifiuta!" e fa ritornare indietro il messaggio. =
+=C3=88 per questo che potresti aver visto molti rimbalzi, non solo da =
+parte di yahoo.com/aol.com ma anche da altri siti.
+
+Una spiegazione pi=C3=B9 completa =C3=A8 disponibile qui: =
+http://jrl.guru/Email/yahoobomb.html
+
+La cosa pi=C3=B9 facile per risolvere questo problema =C3=A8 che yahoo e =
+aol cambino la loro politica.
+
+Fino ad allora, ecco cosa sta facendo Riseup:
+* Per limitare i danni alle liste, stiamo bloccando tutti i mittenti che =
+inviano messaggi a lists.riseup.net dai domini yahoo.com e aol.com. =
+All'invio di un messaggio, i mittenti di yahoo.com e aol.com riceveranno =
+immediatamente un messaggio di errore che spiega il problema. Questo =C3=A8=
+ un problema per i mittenti, ma evita rimbalzi di massa ed eventuali =
+cancellazioni dalle liste dovuti a questi rimbalzi.
+* Incoraggiamo tutti e tutte ad abbandonare yahoo.com e aol.com e =
+utilizzare al loro posto un provider di servizi internet che protegga la =
+privacy e che non renda impossibile l'utilizzare le mailing list.
+* Stiamo investigando alternative per risolvere il problema, e speriamo =
+di avere una soluzione al pi=C3=B9 presto.
+
+Soldi!
+-------
+I soldi ti intristiscono? Anche a noi. Se puoi donare a Riseup, ogni =
+piccola somma di denaro =C3=A8 un grande aiuto per migliaia di gruppi e =
+di attivist* in tutto il mondo.
+
+https://help.riseup.net/donate
+
+Infine, wepay, uno dei modi in cui le persone fanno donazioni a Riseup, =
+ha smesso di accettare donazioni. Per coloro che hanno impostato una =
+donazione ricorrente attraverso wepay, sarebbe a dir poco meraviglioso =
+se poteste impostare un'altra modalit=C3=A0 per fare le vostre donazioni =
+periodiche. Grazie!
+
+
+
+[pt] portugu=C3=AAs
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D
+
+Conte=C3=BAdo do Boletim de Maio de 2014
+
+* Nossa Declara=C3=A7=C3=A3o sobre Seguran=C3=A7a
+* Yahoo e listas
+* Dinheiro!
+
+Nossa Declara=C3=A7=C3=A3o sobre Seguran=C3=A7a
+---------------------------------------
+Se quiser atualiza=C3=A7=C3=B5es sobre a intera=C3=A7=C3=A3o de Riseup =
+quanto aos aparatos de vigil=C3=A2ncia do Estado, v=C3=A1 para:
+
+https://help.riseup.net/canary
+
+N=C3=B3s o estaremos atualizando a cada tr=C3=AAs meses, em m=C3=A9dia.
+
+Atualmente, ele afirma:
+At=C3=A9 o dia 21 de abril de 2014, Riseup n=C3=A3o recebeu Cartas de =
+Seguran=C3=A7a Nacional ou ordens judiciais FISA, e n=C3=A3o fomos =
+sujeitos a qualquer ordem de sil=C3=AAncio por um tribunal FISA. Riseup =
+nunca colocou "portas dos fundos" em nossos programas e n=C3=A3o recebeu =
+nenhuma requisi=C3=A7=C3=A3o para fazer isto. Riseup nunca revelou =
+qualquer comunica=C3=A7=C3=A3o de quem das pessoas que usam nossos =
+servi=C3=A7os a terceiros.
+
+Em rela=C3=A7=C3=A3o =C3=A0s apreens=C3=B5es de servidores, houve um =
+incidente amplamente relatado, onde o FBI apreendeu um dos servidores de =
+Riseup em abril de 2012. Isto aconteceu em Nova Iorque. A m=C3=A1quina =
+era criptografada e n=C3=A3o continha dados de usu=C3=A1rias. O servidor =
+foi devolvido, mas n=C3=A3o foi colocado para funcionar de novo. Al=C3=A9m=
+ do que aconteceu, no dia 21 de abril de 2014, Riseup afirma que n=C3=A3o =
+teve nenhum hardware apreendido ou levado por terceiros.
+
+Yahoo e listas
+-------------------
+Voc=C3=AA deve ter visto algumas rejei=C3=A7=C3=B5es de yahoo.com e =
+aol.com. Isso se deve =C3=A0s mudan=C3=A7as na pol=C3=ADtica destas =
+empresas. Eles publicaram um registro DMARC (uma tecnologia anti-spam) =
+que efetivamente diz "se algum servidor que n=C3=A3o seja o nosso =
+servidor oficila enviar um email com um remetente usando um endere=C3=A7o =
+yahoo.com (ou aol.com), assume-se que o email =C3=A9 spam e ele =C3=A9 =
+rejeitado". O registro DMARC =C3=A9 tamb=C3=A9m usado por outros sites =
+(como hotmail.com, comcast.net e muitos outros) para decidir o que fazer =
+quando um email chega.
+
+O problema aqui =C3=A9 que softwares de listas de emails, como =
+lists.riseup.net, retransmitem mensagens para outros. Ent=C3=A3o quando =
+um usu=C3=A1rio de yahoo.com ou aol.com manda um email para a lista e =
+este =C3=A9 redistribu=C3=ADdo (com o endere=C3=A7o yahoo.com ou aol.com =
+ainda como o remetente), o que ocorre =C3=A9 que os servidores que =
+recebem emails entendem que "esta mensagem n=C3=A3o foi enviada por um =
+servidor do yahoo ou aol, =C3=A9 um spam e deve ser rejeitado!" e =
+retornam a mensagem. Este =C3=A9 o motivo pelo qual voc=C3=AA deve ter =
+visto muitas mensagens retornadas, n=C3=A3o s=C3=B3 de yahoo.com ou =
+aol.com mas de outros sites tamb=C3=A9m.
+
+Se quiser uma explica=C3=A7=C3=A3o completa, veja este link em ingl=C3=AAs=
+ http://jrl.guru/Email/yahoobomb.html
+
+A coisa mais f=C3=A1cil para arrumar isto =C3=A9 yahoo e aol mudarem sua =
+pol=C3=ADtica.
+
+Mas enquanto isso n=C3=A3o ocrre, isto =C3=A9 o que Riseup est=C3=A1 =
+fazendo:
+
+* Visando diminuir o estrago, estamos bloqueando todos os remetentes =
+para lists.riseup.net que usam endere=C3=A7os de yahoo.com ou aol.com. =
+Quando enviarem, os remetentes de yahoo.com e aol.com receber=C3=A3o =
+imediatamente uma mensagem de erro explicando o problema. Isto =C3=A9 =
+ruim para os remetentes, mas vai prevenir que haja devolu=C3=A7=C3=B5es =
+em massa e sa=C3=ADdas de listas por causa dessas devolu=C3=A7=C3=B5es.
+* N=C3=B3s recomendamos a todos que mudem de yahoo.com e aol.com para um =
+provedor de emails que proteja sua privacidade e n=C3=A3o impossibilite =
+o uso de listas de emails.
+* Estamos investigando outras maneiras para contornar este problema, =
+esperamos resolv=C3=AA-lo o quanto antes.
+
+Dinheiro!
+------------
+O dinheiro o est=C3=A1 deixando para baixo? N=C3=B3s tamb=C3=A9m. Se =
+puder doar um pouco para Riseup, qualquer pequena quantia percorre um =
+longo caminho para apoiar milhares de grupos e ativistas ao redor do =
+mundo.
+https://help.riseup.net/donate
+
+E, wepay, uma das formas pelas quais as pessoas podem doar para Riseup, =
+parou de aceitar doa=C3=A7=C3=B5es. Aqueles que tinham programado =
+doa=C3=A7=C3=B5es recorrentes com eles, seria incr=C3=ADvel se pudessem =
+programar outra forma de pagamentos recorrentes. Gratid=C3=A3o!=

@@ -1,0 +1,109 @@
+Return-Path: <claudiusrolland@yahoo.fr>
+X-Spam-Checker-Version: SpamAssassin 3.3.2 (2011-06-06) on spamd3.riseup.net
+X-Spam-Level: 
+X-Spam-Pyzor: Reported 0 times.
+X-Spam-Status: No, score=-0.1 required=8.0 tests=AM_TRUNCATED,CK_419SIZE,
+	DKIM_SIGNED,DKIM_VALID,DKIM_VALID_AU,FORWARD_RELAY,FREEMAIL_FROM,HAS_REPLY_TO,
+	HTML_MESSAGE,ODD_PUNCTUATION2,RCVD_IN_DNSWL_NONE,REPLY_TO_TEMP
+	shortcircuit=no autolearn=disabled version=3.3.2
+Delivered-To: kolibry@riseup.net
+Received: from mx1.riseup.net (mx1-pn.riseup.net [10.0.1.33])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client CN "*.riseup.net", Issuer "Gandi Standard SSL CA" (not verified))
+	by vireo.riseup.net (Postfix) with ESMTPS id 27B01AE
+	for <kolibry@riseup.net>; Tue, 28 Jan 2014 17:08:41 +0000 (UTC)
+Received: from nm33-vm7.bullet.mail.ir2.yahoo.com (nm33-vm7.bullet.mail.ir2.yahoo.com [212.82.97.112])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client did not present a certificate)
+	by mx1.riseup.net (Postfix) with ESMTPS id F38394EFEB
+	for <kolibry@riseup.net>; Tue, 28 Jan 2014 09:08:39 -0800 (PST)
+Received: from [212.82.98.58] by nm33.bullet.mail.ir2.yahoo.com with NNFMP; 28 Jan 2014 17:08:37 -0000
+Received: from [212.82.98.106] by tm11.bullet.mail.ir2.yahoo.com with NNFMP; 28 Jan 2014 17:08:37 -0000
+Received: from [127.0.0.1] by omp1043.mail.ir2.yahoo.com with NNFMP; 28 Jan 2014 17:08:37 -0000
+X-Yahoo-Newman-Property: ymail-3
+X-Yahoo-Newman-Id: 657815.74208.bm@omp1043.mail.ir2.yahoo.com
+Received: (qmail 36528 invoked by uid 60001); 28 Jan 2014 17:08:37 -0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.fr; s=s1024; t=1390928917; bh=ITP8wk2XmpcsRYjZGw+1tOrtIxVz51kGLfcHhef+hA8=; h=X-YMail-OSG:Received:X-Rocket-MIMEInfo:X-Mailer:References:Message-ID:Date:From:Reply-To:Subject:To:In-Reply-To:MIME-Version:Content-Type; b=StmL3RIV+E042BN+L46B8awPrI8JgKInUuiAWcrONuG85PYD/JitsEhglx6gH4DpuiMMk3uaPp3fkXHMnfCL0yh2xUZ7/sdBT2MmP0Yk2ChO+UOmcyLn5okUBD1rxmAy8Fuqr+lEFvI0qHk2UNTvgXITLdFi3cLXDzyNUqxfesI=
+DomainKey-Signature:a=rsa-sha1; q=dns; c=nofws;
+  s=s1024; d=yahoo.fr;
+  h=X-YMail-OSG:Received:X-Rocket-MIMEInfo:X-Mailer:References:Message-ID:Date:From:Reply-To:Subject:To:In-Reply-To:MIME-Version:Content-Type;
+  b=T7+a8ErPGIAXH757SsEOzQRSOivaONM4PvWV1vAFeTJB2TxcnZte+QpxeIhPhc+oi4r4sled3+MT+X3mkLulHJ8ZXjWlbG0VTTeDJxzYScegOSa0/j60iJOUhBTg7P6AkrUcT1fldsTE3YgBncMWzZfpJE3RbnBZMBJVydvrNZU=;
+X-YMail-OSG: 50QcL2IVM1lvVsP26UYIDz43EbsGNm4gMS_1yAibWHijKkg
+ A5By1cTKnT.50wi4SHsJDMNHGEZR_SzvsQ_tBxWYA_p2xyJRorgbA3uYTxhc
+ NgccJUBoWuxLV59RH6eNm8HheorEPetjuo9E2c5_wjINaoz8cMdDk1zaTR44
+ c9dkQefMJTivSLeiGhjJEfhZEwTsF6t63bdEvp3zQExTq9OeHjeQE45oQSt4
+ UMiUwOx6RGkX1bDre4BN6uc5mlfWd_j.XVeChAUkoRyHbg0P9AQrhZyB9PdV
+ i4KTt4V.LYEbKvs0aZIg_rZmc8nR3f.jFrF1PMzoOJ025g85GVTHwUKgfJVb
+ 3iwA5IjkK8PtdmYyHZZUg0DF9vDVq.fywsnTYGaYWEm_tNR4pfT8UzrJKxqp
+ 2vpoC2556CYXQAI1WGemzJM0qKwIAXdQDkydLKmrDES6YypYK99gNZ_55tqs
+ 1_2PyTisQNDdbbqRvmZdvm2_jEa8h4qEmpyRV80RruIPOh5imY7nweOQg5zh
+ nbTNppvtXjweoMhdIyA883ebBBLfa3E0dQ7mjn2Kcj0GFvuPYJ3D1jeeP2.s
+ dCw--
+Received: from [78.243.148.239] by web171704.mail.ir2.yahoo.com via HTTP; Tue, 28 Jan 2014 17:08:37 GMT
+X-Rocket-MIMEInfo: 002.001,c2FsdXQgam9uYXRoYW4gLCBqZSBtZXQgbGVzIGJhY2hlcyBqZXVkaSAsIGVzdCBjZSBxdWUgdHUgcGV1eCB2ZW5pciB0cmF2YWlsbGVywqAgcG91ciBsYSBqb3VybsOpZSA5aC0xMmggZXQgMTNoLTE4aCAKQSsgCgoKCgoKTGUgU2FtZWRpIDI1IGphbnZpZXIgMjAxNCAyM2gzMSwgUk9MTEFORCBDbGF1ZGUgPGNsYXVkaXVzcm9sbGFuZEB5YWhvby5mcj4gYSDDqWNyaXQgOgogCmplIG5lIHZvaXMgcGFzIGRlIHF1ZWxsZSBiYWNoZSB0dSBwYXJsZXMgLCBtYWlzIHNpIGMnZXN0IHVuZSBiYWNoZSBwb3VyIGxlcyABMAEBAQE-
+X-Mailer: YahooMailWebService/0.8.174.629
+References: <1389627403.55017.YahooMailNeo@web171704.mail.ir2.yahoo.com> <1423146.coSjmd3zYv@chakra> <1390233001.7980.YahooMailNeo@web171701.mail.ir2.yahoo.com> <52DD5B3E.9010602@riseup.net> <1390401857.32926.YahooMailNeo@web171701.mail.ir2.yahoo.com> <52E3A1AD.3060202@riseup.net> <1390689066.15706.YahooMailNeo@web171706.mail.ir2.yahoo.com>
+Message-ID: <1390928917.34713.YahooMailNeo@web171704.mail.ir2.yahoo.com>
+Date: Tue, 28 Jan 2014 17:08:37 +0000 (GMT)
+From: ROLLAND Claude <claudiusrolland@yahoo.fr>
+Reply-To: ROLLAND Claude <claudiusrolland@yahoo.fr>
+Subject: Re: 
+To: Jonathan <kolibry@riseup.net>
+In-Reply-To: <1390689066.15706.YahooMailNeo@web171706.mail.ir2.yahoo.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="147469114-813137874-1390928917=:34713"
+X-Virus-Scanned: clamav-milter 0.97.8 at mx1
+X-Virus-Status: Clean
+
+--147469114-813137874-1390928917=:34713
+Content-Type: text/plain; charset=iso-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+salut jonathan , je met les baches jeudi , est ce que tu peux venir travail=
+ler=A0 pour la journ=E9e 9h-12h et 13h-18h =0AA+ =0A=0A=0A=0A=0A=0ALe Samed=
+i 25 janvier 2014 23h31, ROLLAND Claude <claudiusrolland@yahoo.fr> a =E9cri=
+t :=0A =0Aje ne vois pas de quelle bache tu parles , mais si c'est une bach=
+e pour les rideaux , c'est une bache thermique , =0AA+ , claude=0A=0A=0A=0A=
+=0A=0ALe Samedi 25 janvier 2014 12h36, Jonathan <kolibry@riseup.net> a =E9c=
+rit :=0A =0ASalut Claude,=0A=0AJe voulais savoir si la b=E2che que tu utili=
+sais pour les portes en hiver =0A(et donc celle que j'ai=0A r=E9cup=E9r=E9e=
+) est anti thermique ou pas ?=0A=0ABon week end !=0A=0A=0AJonathan
+--147469114-813137874-1390928917=:34713
+Content-Type: text/html; charset=iso-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<html><body><div style=3D"color:#000; background-color:#fff; font-family:He=
+lveticaNeue, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;fo=
+nt-size:12pt">salut jonathan , je met les baches jeudi , est ce que tu peux=
+ venir travailler&nbsp; pour la journ=E9e 9h-12h et 13h-18h <br>A+ <br><div=
+><span><br></span></div><div style=3D"display: block;" class=3D"yahoo_quote=
+d"> <br> <br> <div style=3D"font-family: HelveticaNeue, Helvetica Neue, Hel=
+vetica, Arial, Lucida Grande, sans-serif; font-size: 12pt;"> <div style=3D"=
+font-family: HelveticaNeue, Helvetica Neue, Helvetica, Arial, Lucida Grande=
+, sans-serif; font-size: 12pt;"> <div dir=3D"ltr"> <font face=3D"Arial" siz=
+e=3D"2"> Le Samedi 25 janvier 2014 23h31, ROLLAND Claude &lt;claudiusrollan=
+d@yahoo.fr&gt; a =E9crit :<br> </font> </div>  <div class=3D"y_msg_containe=
+r"><div id=3D"yiv0511442318"><div><div style=3D"color:#000;background-color=
+:#fff;font-family:HelveticaNeue, Helvetica Neue, Helvetica, Arial, Lucida G=
+rande,
+ sans-serif;font-size:12pt;">je ne vois pas de quelle bache tu parles , mai=
+s si c'est une bache pour les rideaux , c'est une bache thermique , <br cle=
+ar=3D"none">A+ , claude<br clear=3D"none"><div><span><br clear=3D"none"></s=
+pan></div><div class=3D"yiv0511442318yqt9595521418" id=3D"yiv0511442318yqt0=
+9410"><div class=3D"yiv0511442318yahoo_quoted" style=3D"display:block;"> <b=
+r clear=3D"none"> <br clear=3D"none"> <div style=3D"font-family:HelveticaNe=
+ue, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;font-size:1=
+2pt;"> <div style=3D"font-family:HelveticaNeue, Helvetica Neue, Helvetica, =
+Arial, Lucida Grande, sans-serif;font-size:12pt;"> <div dir=3D"ltr"> <font =
+face=3D"Arial" size=3D"2"> Le Samedi 25 janvier 2014 12h36, Jonathan &lt;ko=
+libry@riseup.net&gt; a =E9crit :<br clear=3D"none"> </font> </div>  <div cl=
+ass=3D"yiv0511442318y_msg_container">Salut Claude,<br clear=3D"none"><br cl=
+ear=3D"none">Je voulais savoir si la b=E2che que tu utilisais pour les port=
+es en hiver <br
+ clear=3D"none">(et donc celle que j'ai=0A r=E9cup=E9r=E9e) est anti thermi=
+que ou pas ?<br clear=3D"none"><br clear=3D"none">Bon week end !<div class=
+=3D"yiv0511442318yqt6672199170" id=3D"yiv0511442318yqtfd61054"><br clear=3D=
+"none"><br clear=3D"none">Jonathan<br clear=3D"none"></div><br clear=3D"non=
+e"><br clear=3D"none"></div>  </div> </div>  </div></div> </div></div></div=
+><br><br></div>  </div> </div>  </div> </div></body></html>
+--147469114-813137874-1390928917=:34713--

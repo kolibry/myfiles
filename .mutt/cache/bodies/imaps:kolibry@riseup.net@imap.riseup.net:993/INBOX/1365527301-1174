@@ -1,0 +1,172 @@
+Return-Path: <tenuki-brest-bounces@jeudego.org>
+X-Spam-Checker-Version: SpamAssassin 3.3.2 (2011-06-06) on spamd2.riseup.net
+X-Spam-Level: 
+X-Spam-Pyzor: Reported 0 times.
+X-Spam-Status: No, score=-0.6 required=8.0 tests=AM_TRUNCATED,CK_419SIZE,
+	ENV_FROM_DIFF0,FORWARD_RELAY,FREEMAIL_FROM,HAS_REPLY_TO,HTML_MESSAGE,
+	HTML_STYLE_EMPTY,PSTOCK_PART,RP_MATCHES_RCVD,SUBJ_CONTAINS_TO shortcircuit=no
+	autolearn=disabled version=3.3.2
+Delivered-To: kolibry@riseup.net
+Received: from mx1.riseup.net (mx1-pn.riseup.net [10.0.1.33])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client CN "*.riseup.net", Issuer "Gandi Standard SSL CA" (not verified))
+	by vireo.riseup.net (Postfix) with ESMTPS id D04D079
+	for <kolibry@riseup.net>; Mon, 19 May 2014 13:23:21 -0700 (PDT)
+Received: from jeudego.org (jeudego.org [5.135.164.19])
+	by mx1.riseup.net (Postfix) with ESMTP id 0D95A50D84
+	for <kolibry@riseup.net>; Mon, 19 May 2014 13:23:20 -0700 (PDT)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by jeudego.org (Postfix) with ESMTP id B2EBB2EC2AD6;
+	Mon, 19 May 2014 22:23:13 +0200 (CEST)
+Received: from jeudego.org ([127.0.0.1])
+	by localhost (jeudego.org [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id DTFrl0NUbO0B; Mon, 19 May 2014 22:23:13 +0200 (CEST)
+Received: from ns3311974.ovh.net (localhost.localdomain [127.0.0.1])
+	by jeudego.org (Postfix) with ESMTP;
+	Mon, 19 May 2014 22:23:13 +0200 (CEST)
+X-Original-To: tenuki-brest@jeudego.org
+Delivered-To: tenuki-brest@jeudego.org
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by jeudego.org (Postfix) with ESMTP id A65BF2EC27C3
+	for <tenuki-brest@jeudego.org>; Mon, 19 May 2014 22:23:11 +0200 (CEST)
+Received: from jeudego.org ([127.0.0.1])
+	by localhost (jeudego.org [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id be0kmJmCQGFh for <tenuki-brest@jeudego.org>;
+	Mon, 19 May 2014 22:23:01 +0200 (CEST)
+Received: from DUB004-OMC2S6.hotmail.com (dub004-omc2s6.hotmail.com
+	[157.55.1.145]) by jeudego.org (Postfix) with ESMTP
+	for <tenuki-brest@jeudego.org>; Mon, 19 May 2014 22:23:01 +0200 (CEST)
+Received: from DUB129-W2 ([157.55.1.136]) by DUB004-OMC2S6.hotmail.com with
+	Microsoft SMTPSVC(7.5.7601.22678); Mon, 19 May 2014 13:23:00 -0700
+X-TMN: [jVEbBFuWGIpAIcqfHMVXjNf7OkyMdP9A]
+X-Originating-Email: [jap_anim29@hotmail.fr]
+Message-ID: <DUB129-W2D070155FF652FF943EA89E320@phx.gbl>
+From: =?iso-8859-1?B?UGllcnJlLSBBbnRvaW5lIEd16Wd1ZW4=?= <jap_anim29@hotmail.fr>
+To: "tenuki-brest@jeudego.org" <tenuki-brest@jeudego.org>
+Date: Mon, 19 May 2014 22:23:00 +0200
+Importance: Normal
+In-Reply-To: <1400516212.6470.YahooMailNeo@web172701.mail.ir2.yahoo.com>
+References: <1400516212.6470.YahooMailNeo@web172701.mail.ir2.yahoo.com>
+MIME-Version: 1.0
+X-OriginalArrivalTime: 19 May 2014 20:23:00.0575 (UTC)
+	FILETIME=[212F66F0:01CF73A0]
+Subject: [Tenuki-brest] FW: annonce d'un week-end de Go ile et vilain
+X-BeenThere: tenuki-brest@jeudego.org
+X-Mailman-Version: 2.1.13
+Precedence: list
+Reply-To: tenuki-brest@jeudego.org
+List-Id: <tenuki-brest.jeudego.org>
+List-Unsubscribe: <https://admin.jeudego.org/mailman/options/tenuki-brest>,
+	<mailto:tenuki-brest-request@jeudego.org?subject=unsubscribe>
+List-Archive: <https://admin.jeudego.org/mailman/private/tenuki-brest>
+List-Post: <mailto:tenuki-brest@jeudego.org>
+List-Help: <mailto:tenuki-brest-request@jeudego.org?subject=help>
+List-Subscribe: <https://admin.jeudego.org/mailman/listinfo/tenuki-brest>,
+	<mailto:tenuki-brest-request@jeudego.org?subject=subscribe>
+Content-Type: multipart/mixed; boundary="===============5553097260738909484=="
+Sender: tenuki-brest-bounces@jeudego.org
+Errors-To: tenuki-brest-bounces@jeudego.org
+X-Virus-Scanned: clamav-milter 0.98.1 at mx1
+X-Virus-Status: Clean
+
+--===============5553097260738909484==
+Content-Type: multipart/alternative;
+	boundary="_e0587ec2-c99a-4555-9a1b-e610ce052514_"
+
+--_e0587ec2-c99a-4555-9a1b-e610ce052514_
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+
+Des personnes seraient int=E9ress=E9es ? C'est pas trop cher...
+On pourrait s'=E9chauffer avant Rennes :)
+
+PA.
+Date: Mon=2C 19 May 2014 17:16:52 +0100
+From: saulnierbenjamin@yahoo.fr
+Subject: annonce d'un week-end de Go ile et vilain
+To: 17ro@jeudego.org=3B 29br@jeudego.org=3B 29co@jeudego.org=3B 37to@jeudeg=
+o.org=3B 44mn@jeudego.org=3B 44na@jeudego.org=3B 44ne@jeudego.org=3B 49an@j=
+eudego.org=3B 56va@jeudego.org=3B 72ma@jeudego.org=3B 85ol@jeudego.org=3B m=
+iai.nantes@free.fr
+
+Bonjour =E0 tous=2C=0A=
+ =0A=
+Nous profitons d'un week end prolong=E9 (7=2C8 et 9 juin) pour organiser un=
+ rassemblement en campagne de Messac (35) =E0 50mn de Nantes (sortie le gra=
+nd Fougeray sur axe Nantes-Rennes) et 40mn de Rennes =E0 peu pr=E8s (sortie=
+ Bain de Bretagne sur l'axe Rennes-Nantes). (Il y a =E9galement un acc=E8s =
+SNCF par la gare de Messac-Guipry (ligne Redon-Rennes))=3B =0A=
+Si vous recevez ce message=2C c'est que vous y =EAtes les bienvenus=2C Il s=
+'agit d'une formule entre d=E9tente et tournoi.=0A=
+Plus de renseignements ici: http://goanoriant.org/=0A=
+ =0A=
+au plaisir de vous y retrouver.=0A=
+ =0A=
+Benjamin Saulnier=0A=
+06 12 75 24 46 		 	   		  =
+
+--_e0587ec2-c99a-4555-9a1b-e610ce052514_
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<style><!--
+.hmmessage P
+{
+margin:0px=3B
+padding:0px
+}
+body.hmmessage
+{
+font-size: 12pt=3B
+font-family:Calibri
+}
+--></style></head>
+<body class=3D'hmmessage'><div dir=3D'ltr'><br>Des personnes seraient int=
+=E9ress=E9es ? C'est pas trop cher...<div><br></div><div>On pourrait s'=E9c=
+hauffer avant Rennes :)<br><br>PA.</div><div><br><div><hr id=3D"stopSpellin=
+g">Date: Mon=2C 19 May 2014 17:16:52 +0100<br>From: saulnierbenjamin@yahoo.=
+fr<br>Subject: annonce d'un week-end de Go ile et vilain<br>To: 17ro@jeudeg=
+o.org=3B 29br@jeudego.org=3B 29co@jeudego.org=3B 37to@jeudego.org=3B 44mn@j=
+eudego.org=3B 44na@jeudego.org=3B 44ne@jeudego.org=3B 49an@jeudego.org=3B 5=
+6va@jeudego.org=3B 72ma@jeudego.org=3B 85ol@jeudego.org=3B miai.nantes@free=
+.fr<br><br><div style=3D"color:#000=3Bbackground-color:#fff=3Bfont-family:H=
+elveticaNeue=2C Helvetica Neue=2C Helvetica=2C Arial=2C Lucida Grande=2C sa=
+ns-serif=3Bfont-size:10pt=3B"><div style=3D"RIGHT:auto=3B">Bonjour =E0 tous=
+=2C</div>=0A=
+<div style=3D"RIGHT:auto=3B">&nbsp=3B</div>=0A=
+<div style=3D"RIGHT:auto=3B">Nous profitons d'un week end prolong=E9 (7=2C8=
+ et 9 juin) pour organiser un rassemblement en campagne de Messac (35) =E0 =
+50mn de Nantes (sortie le grand Fougeray sur axe Nantes-Rennes) et 40mn de =
+Rennes =E0 peu pr=E8s (sortie Bain de Bretagne sur l'axe Rennes-Nantes). (I=
+l y a =E9galement un acc=E8s SNCF par la gare de Messac-Guipry (ligne Redon=
+-Rennes))=3B </div>=0A=
+<div style=3D"RIGHT:auto=3B">Si vous recevez ce message=2C c'est que vous y=
+ =EAtes les bienvenus=2C Il s'agit d'une formule entre d=E9tente et tournoi=
+.</div>=0A=
+<div style=3D"RIGHT:auto=3B">Plus de renseignements ici: <a href=3D"http://=
+goanoriant.org/" target=3D"_blank">http://goanoriant.org/</a></div>=0A=
+<div style=3D"RIGHT:auto=3B">&nbsp=3B</div>=0A=
+<div style=3D"RIGHT:auto=3B">au plaisir de vous y retrouver.</div>=0A=
+<div style=3D"RIGHT:auto=3B">&nbsp=3B</div>=0A=
+<div style=3D"RIGHT:auto=3B">Benjamin Saulnier</div>=0A=
+<div style=3D"RIGHT:auto=3B">06 12 75 24 46</div></div></div></div> 		 	   =
+		  </div></body>
+</html>=
+
+--_e0587ec2-c99a-4555-9a1b-e610ce052514_--
+
+--===============5553097260738909484==
+Content-Type: text/plain; charset="iso-8859-1"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Content-Disposition: inline
+
+_______________________________________________
+Tenuki-brest mailing list
+Tenuki-brest@jeudego.org
+https://admin.jeudego.org/mailman/listinfo/tenuki-brest
+
+--===============5553097260738909484==--

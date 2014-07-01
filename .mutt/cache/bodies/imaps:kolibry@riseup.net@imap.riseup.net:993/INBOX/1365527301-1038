@@ -1,0 +1,52 @@
+Return-Path: <ne_pas_repondre@dgfip.finances.gouv.fr>
+X-Spam-Checker-Version: SpamAssassin 3.3.2 (2011-06-06) on spamd2.riseup.net
+X-Spam-Level: *
+X-Spam-Pyzor: Reported 0 times.
+X-Spam-Status: No, score=1.1 required=8.0 tests=AM_TRUNCATED,CK_419SIZE,
+	CK_KARD_SIZE,DKIM_SIGNED,DKIM_VALID,DKIM_VALID_AU,HTML_MESSAGE,
+	HTML_MIME_NO_HTML_TAG,MIME_HTML_ONLY,NO_REAL_NAME,RP_MATCHES_RCVD,TO_NOREAL
+	shortcircuit=no autolearn=disabled version=3.3.2
+Delivered-To: kolibry@riseup.net
+Received: from mx1.riseup.net (mx1-pn.riseup.net [10.0.1.33])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client CN "*.riseup.net", Issuer "Gandi Standard SSL CA" (not verified))
+	by vireo.riseup.net (Postfix) with ESMTPS id 0F8A179
+	for <kolibry@riseup.net>; Sun, 20 Apr 2014 16:26:33 +0000 (UTC)
+Received: from pf2pusi002.dgfip.finances.gouv.fr (pf2pusi002.dgfip.finances.gouv.fr [145.242.11.104])
+	by mx1.riseup.net (Postfix) with ESMTP id C67164B47A
+	for <kolibry@riseup.net>; Sun, 20 Apr 2014 09:26:32 -0700 (PDT)
+Received: from tlrpua20 (tlrpua20 [192.168.130.78])
+	by pf2pusi002.dgfip.finances.gouv.fr (Postfix) with ESMTP id C5D7E22006E
+	for <kolibry@riseup.net>; Sun, 20 Apr 2014 18:26:25 +0200 (CEST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple;
+	d=dgfip.finances.gouv.fr; s=default; t=1398011185;
+	bh=38hNVxp6oMd+FyUGxlj10HIomhSXfdWSqr3TKFsfSGY=;
+	h=From:To:Subject:Date;
+	b=gdTUr9hCegeAzXvtpwrlX3r8ZYFRNIRrek/OUMw1umch2mPFq1hziOP/hLO+fIkbQ
+	 tLK1XBSjKYKh0W+FqQPW4Ae+jW8ZydAlyssnm02E8z4UpjVoC1dCaR0WQQUz5qUbuM
+	 S1ncsy5hoVQRTk5Mwt9FTCZMC4BhgySX4U7GwL2DoKxQvJGODzApT8v0umkVLZyRM+
+	 pB4XovB5E6O3K55SIaj1rOtb9WIlPJXurEkYSp/5iazAi4b1jvZeQVQiW8338dKVwH
+	 RGVqRlUv4701+wm0CUXTihO6mH4O3DbJ4fewJhCQzeTzFUHwEHlL2fbw8NSqQew2Pd
+	 R3FnVkFRq+dHQ==
+From:  <ne_pas_repondre@dgfip.finances.gouv.fr>
+To: kolibry@riseup.net
+Message-ID: <6143222.4730.1398011185805.JavaMail.jboss@tlrpua20>
+Subject: =?ISO-8859-15?Q?Votre_d=E9claration_en_ligne_a_bien_=E9t=E9_enregistr=E9e?=
+MIME-Version: 1.0
+Content-Type: text/html; charset=ISO-8859-15
+Content-Transfer-Encoding: quoted-printable
+Date: Sun, 20 Apr 2014 18:26:25 +0200 (CEST)
+X-Virus-Scanned: clamav-milter 0.98.1 at mx1
+X-Virus-Status: Clean
+
+Monsieur JONATHAN FOURNIER,<br/> <br/>Votre d&eacute;claration en ligne a b=
+ien &eacute;t&eacute; enregistr&eacute;e le 20 avril 2014 =E0 18:26:25.<br/=
+><br/>Si vous souhaitez la modifier, vous pouvez le faire en vous rendant d=
+ans votre espace Particulier du site impots.gouv.fr.<br/><br/>Votre avis d'=
+imp&ocirc;t sera disponible en ligne, dans votre espace Particulier, d&egra=
+ve;s le 11 ao&ucirc;t (ou pour les mensualis&eacute;s imposables, le 25 ao&=
+ucirc;t).<br/>En t&eacute;l&eacute;d&eacute;clarant, vous avez &eacute;gale=
+ment fait un <b>geste pour l'environnement.<br/>Faites conna&icirc;tre ces =
+avantages &agrave; vos proches !</b><br/><br/>Nous vous remercions pour vot=
+re confiance.<br/><br/>La direction g&eacute;n&eacute;rale des finances pub=
+liques.

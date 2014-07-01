@@ -1,0 +1,122 @@
+Return-Path: <cuello.kevin@gmail.com>
+X-Spam-Checker-Version: SpamAssassin 3.3.2 (2011-06-06) on spamd2.riseup.net
+X-Spam-Level: 
+X-Spam-Pyzor: Reported 0 times.
+X-Spam-Status: No, score=-0.2 required=8.0 tests=AM_TRUNCATED,CK_419SIZE,
+	DKIM_SIGNED,DKIM_VALID,DKIM_VALID_AU,FORWARD_RELAY,FREEMAIL_FROM,HTML_MESSAGE,
+	MAILPHISH4 shortcircuit=no autolearn=disabled version=3.3.2
+Delivered-To: kolibry@riseup.net
+Received: from mx1.riseup.net (mx1-pn.riseup.net [10.0.1.33])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client CN "*.riseup.net", Issuer "Gandi Standard SSL CA" (not verified))
+	by vireo.riseup.net (Postfix) with ESMTPS id 47C15AF
+	for <kolibry@riseup.net>; Tue, 18 Mar 2014 16:32:14 +0000 (UTC)
+Received: from jeudego.org (jeudego.org [5.135.164.19])
+	by mx1.riseup.net (Postfix) with ESMTP id 46EF247A66
+	for <kolibry@riseup.net>; Tue, 18 Mar 2014 09:32:12 -0700 (PDT)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by jeudego.org (Postfix) with ESMTP id 822BF2EC344B
+	for <joueurs-ouest@jeudego.org>; Tue, 18 Mar 2014 17:31:55 +0100 (CET)
+Received: from jeudego.org ([127.0.0.1])
+	by localhost (jeudego.org [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id Jf1d-caipwji for <joueurs-ouest@jeudego.org>;
+	Tue, 18 Mar 2014 17:31:44 +0100 (CET)
+Received: from mail-vc0-f177.google.com (mail-vc0-f177.google.com [209.85.220.177])
+	(using TLSv1 with cipher RC4-SHA (128/128 bits))
+	(No client certificate requested)
+	by jeudego.org (Postfix) with ESMTPS
+	for <joueurs-ouest@jeudego.org>; Tue, 18 Mar 2014 17:31:44 +0100 (CET)
+Received: by mail-vc0-f177.google.com with SMTP id if17so7397035vcb.8
+        for <joueurs-ouest@jeudego.org>; Tue, 18 Mar 2014 09:31:43 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:date:message-id:subject:from:to:content-type;
+        bh=RnbR47sefIDNXStUp9IybonfC8YoRWXPjE+cAKpA9lM=;
+        b=xl1i6g8Kc0psHr12LkMKWlY/EBgB3D9ibZHSwoS8Ssrj2rdYqe+oJ24Jm/aNFrZ7y/
+         ztz4V20To1lr3IhMgXab3VIOUMr3712bSLalrX1BqJSGqDzuMudVKW6cFmxBEbzCbgR9
+         rJrZfyCW7z1zOCE9YfMuIp3CM5sMKPFbP1bq0J9W9D7CaNaNOnh0BXKKXgDNsxILD0X8
+         nsmPZzMn1zti20bFAswt7F6pbLNMPU+YIIg3cP1tBQL5CqG4O0NtSH7p3d8vE2xb0j3O
+         z+V0oHLRcsRd7fXpcdHrlcavd3c4PIx0P1xd3A6L2haFqNPVxAS5p7Yb2kQZTQDvQjh5
+         MaHA==
+MIME-Version: 1.0
+X-Received: by 10.221.39.138 with SMTP id tm10mr25789217vcb.7.1395160303822;
+ Tue, 18 Mar 2014 09:31:43 -0700 (PDT)
+Received: by 10.58.186.240 with HTTP; Tue, 18 Mar 2014 09:31:43 -0700 (PDT)
+Date: Tue, 18 Mar 2014 17:31:43 +0100
+Message-ID: <CAGd1wT3zdJN=dPR24EwSd-PbkJ3ch+juf4jHmQyeAGc722zW9Q@mail.gmail.com>
+Subject: Formation animateur - Ligue de l'Ouest
+From: Kevin Cuello <cuello.kevin@gmail.com>
+To: joueurs-ouest@jeudego.org
+Content-Type: multipart/alternative; boundary=001a1133953a506fb604f4e4121a
+X-Virus-Scanned: clamav-milter 0.98.1 at mx1
+X-Virus-Status: Clean
+
+--001a1133953a506fb604f4e4121a
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+Bonjour =E0 tous,
+
+Suite au souhait du Bureau de la Ligue d'organiser une formation
+d'animateur pour les membres de la Ligue de l'Ouest, le club de Vannes
+s'est propos=E9 d'accueillir les stagiaires lors du festival 'Ram=E8nes tes
+jeux' du 5 et 6 avril.
+
+Malheureusement, Fan Hui n'=E9tant pas disponible =E0 cette date, et comme =
+il
+n'y a aucun autre p=E9dagogue officiel accr=E9dit=E9 par la FFG pour effect=
+uer la
+formation (Motoki n'est plus sous contrat et Inseong le sera fin 2014),
+celle-ci est *report=E9e =E0 une date ult=E9rieure*.
+
+Le Bureau poursuit donc sa recherche d'un nouveau lieu d'accueil pour cette
+formation. Si votre club organise ou participe =E0 un *=E9v=E8nement cultur=
+el
+(festival) ou =E0 une animation scolaire sur 2 jours ou plus, pr=E9venez-no=
+us
+afin que nous puissions mettre en place la formation*.
+
+Je rappelle que cette formation est gratuite pour le club d'accueil et pour
+les stagiaires.
+
+Le cr=E9neau le plus favorable serait *=E0 partir de fin ao=FBt / d=E9but s=
+eptembre*
+.
+
+Pour nous contacter : ca-ouest@jeudego.org
+
+Goiquement,
+
+--=20
+Kevin Cuello
+Vice-pr=E9sident de la Ligue de l'Ouest
+
+--001a1133953a506fb604f4e4121a
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Bonjour =E0 tous,<div><br></div><div>Suite au souhait du B=
+ureau de la Ligue d&#39;organiser une formation d&#39;animateur pour les me=
+mbres de la Ligue de l&#39;Ouest, le club de Vannes s&#39;est propos=E9 d&#=
+39;accueillir les stagiaires lors du festival &#39;Ram=E8nes tes jeux&#39; =
+du 5 et 6 avril.</div>
+<div><br></div><div>Malheureusement, Fan Hui n&#39;=E9tant pas disponible =
+=E0 cette date, et comme il n&#39;y a aucun autre p=E9dagogue officiel accr=
+=E9dit=E9 par la FFG pour effectuer la formation (Motoki n&#39;est plus sou=
+s contrat et Inseong le sera fin 2014), celle-ci est <b>report=E9e =E0 une =
+date ult=E9rieure</b>.</div>
+<div><br></div><div>Le Bureau poursuit donc sa recherche d&#39;un nouveau l=
+ieu d&#39;accueil pour cette formation. Si votre club organise ou participe=
+ =E0 un <b>=E9v=E8nement culturel (festival) ou =E0 une animation scolaire =
+sur 2 jours ou plus, pr=E9venez-nous afin que nous puissions mettre en plac=
+e la formation</b>.</div>
+<div><br></div><div>Je rappelle que cette formation est gratuite pour le cl=
+ub d&#39;accueil et pour les stagiaires.</div><div><br></div><div style>Le =
+cr=E9neau le plus favorable serait <b>=E0 partir de fin ao=FBt / d=E9but se=
+ptembre</b>.</div>
+<div style><br></div><div style>Pour nous contacter : <a href=3D"mailto:ca-=
+ouest@jeudego.org">ca-ouest@jeudego.org</a>=A0</div><div style><br></div><d=
+iv style>Goiquement,</div><div><br>-- <br>Kevin Cuello<br>
+</div><div style>Vice-pr=E9sident de la Ligue de l&#39;Ouest</div></div>
+
+--001a1133953a506fb604f4e4121a--

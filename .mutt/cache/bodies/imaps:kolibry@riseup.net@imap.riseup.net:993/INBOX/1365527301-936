@@ -1,0 +1,26 @@
+Return-Path: <kolibry@riseup.net>
+X-Spam-Checker-Version: SpamAssassin 3.3.2 (2011-06-06) on spamd3.riseup.net
+X-Spam-Level: 
+X-Spam-Pyzor: 
+X-Spam-Status: No, score=-220.0 required=8.0 tests=SC_HAM,SHORTCIRCUIT,
+	USER_IN_WHITELIST shortcircuit=ham autolearn=disabled version=3.3.2
+Delivered-To: kolibry@riseup.net
+Received: from fruiteater.riseup.net (fruiteater-pn.riseup.net [10.0.1.74])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client CN "*.riseup.net", Issuer "Gandi Standard SSL CA" (not verified))
+	by vireo.riseup.net (Postfix) with ESMTPS id A94B2AF
+	for <kolibry@riseup.net>; Sun, 23 Mar 2014 11:39:20 +0000 (UTC)
+Received: from [127.0.0.1] (localhost [127.0.0.1])
+	(Authenticated sender: kolibry@fruiteater.riseup.net)
+	with ESMTPSA id 0096BDCC
+Date: Sun, 23 Mar 2014 12:39:15 +0100
+From: Jonathan <kolibry@riseup.net>
+To: kolibry@riseup.net
+Subject: essai
+Message-ID: <20140323113915.GA29370@arch>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+User-Agent: Mutt/1.5.23 (2014-03-12)
+
+Yep yep

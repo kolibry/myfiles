@@ -1,0 +1,169 @@
+Return-Path: <jGwc7EwsHLSsLIxsHBxsjLRGtEzMbCycnByc@smtp-coi-g15-043.aweber.com>
+X-Spam-Checker-Version: SpamAssassin 3.3.2 (2011-06-06) on spamd2.riseup.net
+X-Spam-Level: 
+X-Spam-Pyzor: Reported 0 times.
+X-Spam-Status: No, score=0.6 required=8.0 tests=AM_TRUNCATED,CK_419SIZE,
+	DKIM_SIGNED,DKIM_VALID,ENV_FROM_DIFF0,GEN_BIZ1,HTML_MESSAGE,PHISH_ACC6,
+	RCVD_IN_DNSWL_NONE,RDNS_DYNAMIC,SPF_HELO_PASS,T_RP_MATCHES_RCVD,WEB_MAILER15
+	shortcircuit=no autolearn=disabled version=3.3.2
+Delivered-To: kolibry@riseup.net
+Received: from mx1.riseup.net (mx1-pn.riseup.net [10.0.1.33])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client CN "*.riseup.net", Issuer "Gandi Standard SSL CA" (not verified))
+	by vireo.riseup.net (Postfix) with ESMTPS id F1D469E
+	for <kolibry@riseup.net>; Thu, 19 Jun 2014 16:35:10 +0000 (UTC)
+Received: from smtp-coi-g15-043.aweber.com (smtp-coi-g15-043.aweber.com [204.194.223.43])
+	by mx1.riseup.net (Postfix) with ESMTP id AFF0E55B29
+	for <kolibry@riseup.net>; Thu, 19 Jun 2014 09:35:09 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha1; d=aweber.com; s=dkim_s1024; c=relaxed/simple;
+	q=dns/txt; i=@aweber.com; t=1403195694;
+	h=Sender:Subject:Date:From:List-Unsubscribe:To:MIME-version:Content-type:Feedback-ID;
+	bh=lQuAWlDeg9JQKmM7FFIUSnmRu+w=;
+	b=PP0t0ZVr4Bkhks8A8n2SMHypRIYGrKLsuOdPn9Il/6zOoOP+mg8qDdUFa6pHOkov
+	TYaTK7pcjZ7o8+7RjCZ7kc8Ppnod6mp2Z5clN08N9UYjZIIe3gDnOE8tDMpM31hm
+	kB+AqyKKpV1E+DEnAebIizjsNrqzU8e9aWPfQ6K2BwA=;
+Received: (qmail 31983 invoked by uid 0); 19 Jun 2014 16:34:54 -0000
+Message-ID: <C7.06.01564.E2113A35@momentum1-mta1>
+MIME-version: 1.0
+Content-type: multipart/alternative; boundary="_----------=_1403195647319010"
+To: kolibry@riseup.net
+From: "Go Game Guru" <news@gogameguru.com>
+Sender: ggg-newsletter@aweber.com
+X-Loop: ggg-newsletter@aweber.com
+X-Mailer: AWeber 4.1
+X-Subscription: Subscribed on 04/11/2013, via web form, by 78.200.24.99, from http://gogameguru.com/
+X-Verification: Verified by 78.200.24.99
+X_Id: 1687248:06-19-2014-12-33-35:kolibry@riseup.net/1687248
+Feedback-ID: A519709:L1687248:M06-19-2014-12-33-35:AWeber
+Date: Thu, 19 Jun 2014 12:34:54 -0400
+List-Unsubscribe: <mailto:ggg-newsletter@aweber.com?subject=unsubscribe;jGwc7EwsHLSsLIxsHBxsjLRGtEzMbCycnByc>, <http://www.aweber.com/z/r/?jGwc7EwsHLSsLIxsHBxsjLRGtEzMbCycnByc>
+Subject: Go Game Guru: Weekly Go problems: Week 119
+X-Virus-Scanned: clamav-milter 0.98.1 at mx1
+X-Virus-Status: Clean
+
+This is a multi-part message in MIME format.
+
+--_----------=_1403195647319010
+Content-Disposition: inline
+Content-Length: 1550
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+Hi,
+
+Here are Go Game Guru's weekly updates for Thursday, June 19, 2014.
+
+(please note: you can quit receiving these emails any time 
+you want: http://www.aweber.com/z/r/?jGwc7EwsHLSsLIxsHBxsjLRGtEzMbCycnByc)
+
+
+
+*Weekly Go problems: Week 119*
+
+Here are the weekly Go problems. Easy Go problem: Simple moves are often best in Go. Intermediate Go problem: When neither player’s group is in immediate danger, the contest revolves around shape, potential and sente. Hard Go problem: Sometimes very quiet moves can be deadly...
+
+Read more: http://gogameguru.com/weekly-go-problems-week-119/
+
+
+
+Enjoy the articles and, if you like them, 
+feel free to share this email with friends.
+
+Regards,
+
+David
+
+Go Game Guru
+http://gogameguru.com/
+
+Did you know that we sell Go equipment, books and videos to
+customers worldwide?
+
+When you shop at Go Game Guru, you help to support our efforts
+to promote Go, and ensure that we'll keep being able to 
+provide you with free, weekly Go news and articles.
+
+Click here to visit our store: http://shop.gogameguru.com/
+
+Follow Go Game Guru on: 
+    - Facebook http://www.facebook.com/gogameguru
+    - Google+ https://plus.google.com/+Gogameguru/
+    - Twitter https://twitter.com/gogameguru/
+
+This email was sent to you at kolibry@riseup.net because you 
+subscribed to free updates from Go Game Guru at: 
+http://gogameguru.com/.
+
+
+Go Game Guru, Suite 5013, 92 Wattle Street, Lyneham, ACT 2602, AUSTRALIA
+
+
+To unsubscribe or change subscriber options visit:
+http://www.aweber.com/z/r/?jGwc7EwsHLSsLIxsHBxsjLRGtEzMbCycnByc
+
+
+--_----------=_1403195647319010
+Content-Disposition: inline
+Content-Length: 3965
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+</head>
+<body style="margin: 0px">
+<div><span style="font-size: 15px">Hi,</span></div>
+<div><span style="font-size: 15px"><br />
+</span></div>
+<div><span style="font-size: 15px">Here are Go Game Guru's weekly updates for Thursday, June 19, 2014.</span></div>
+<div><span style="font-size: 15px"><br />
+</span></div>
+<div><span style="font-size: 15px">(please note: you can&nbsp;<a title="" href="http://www.aweber.com/z/r/?jGwc7EwsHLSsLIxsHBxsjLRGtEzMbCycnByc">quit receiving these emails</a>&nbsp;any time you want)</span></div>
+<div><span style="font-size: 15px">
+<ol>
+<li><a href="http://gogameguru.com/weekly-go-problems-week-119/"><strong>Weekly Go problems: Week 119</strong></a><br />
+<br />
+Here are the weekly Go problems. Easy Go problem: Simple moves are often best in Go. Intermediate Go problem: When neither player’s group is in immediate danger, the contest revolves around shape, potential and sente. Hard Go problem: Sometimes very quiet moves can be deadly... <a href="http://gogameguru.com/weekly-go-problems-week-119/"><em>Click here to read more...</em></a><br />
+<br /></li>
+</ol></span></div>
+<div><span style="font-size: 15px">Enjoy the articles and, if you like them, feel free to share this email with friends.</span></div>
+<div><span style="font-size: 15px"><br />
+</span></div>
+<div><span style="font-size: 15px">Regards,</span></div>
+<div><span style="font-size: 15px"><br />
+</span></div>
+<div><span style="font-size: 15px">David</span></div>
+<div><span style="font-size: 15px"><br />
+</span></div>
+<div><span style="font-size: 15px">Go Game Guru</span></div>
+<div><span style="font-size: 15px"><a title="" href="http://gogameguru.com/">http://gogameguru.com/</a></span></div>
+<div><span style="font-size: 15px">&nbsp;</span></div>
+<div><span style="font-size: 15px">Did you know that we sell <a title="" href="http://shop.gogameguru.com/go-game-sets/">Go equipment</a>, <a title="" href="http://shop.gogameguru.com/go-books/">books</a> and <a title="" href="http://gogameguru.com/baduk-tv/">videos</a>&nbsp;to customers worldwide?</span></div>
+<div><span style="font-size: 15px"><br />
+</span></div>
+<div><span style="font-size: 15px">When you shop at Go Game Guru, you help to support our efforts to promote Go, and also ensure that we'll keep being able to provide you with free, weekly Go news and articles.</span></div>
+<div><span style="font-size: 15px">&nbsp;</span></div>
+<div><span style="font-size: 15px">Follow Go Game Guru on: <a title="" href="http://www.facebook.com/gogameguru">Facebook</a> | <a title="" href="https://plus.google.com/+Gogameguru/posts">Google+</a> | <a title="" href="http://twitter.com/gogameguru/">Twitter</a></span></div>
+<div><span style="font-size: 15px">&nbsp;</span></div>
+<div><span style="font-size: 15px">This email was sent to you at kolibry@riseup.net because you subscribed to free updates from Go Game Guru at http://gogameguru.com/.</span></div>
+<div><span style="font-size: 15px"><br />
+</span></div>
+<div><span style="font-size: 15px"><br />
+</span></div>
+<div><span style="font-size: 15px">Go Game Guru, Suite 5013, 92 Wattle Street, Lyneham, ACT 2602, AUSTRALIA</span></div>
+
+<center>
+<div style="background-color:#ffffff !important; color:#000000 !important; font-family:Verdana !important; font-size:10px !important; max-width:600px; padding:8px !important; text-align:left; width:100%;">
+   
+   <br/>
+   <a href="http://www.aweber.com/z/r/?jGwc7EwsHLSsLIxsHBxsjLRGtEzMbCycnByc" style="color: #00f !important;">Unsubscribe</a> | <a href="http://www.aweber.com/z/r/?jGwc7EwsHLSsLIxsHBxsjLRGtEzMbCycnByc" style="color: #00f !important;">Change Subscriber Options</a>
+   <br/><br/>
+   <img src="https://openrate.aweber.com/y/o/?l=MIyww&m=3VLGithPE2QNJ.U" width="1" height="1">
+</div>
+</center>
+</body>
+</html>
+
+--_----------=_1403195647319010--
+

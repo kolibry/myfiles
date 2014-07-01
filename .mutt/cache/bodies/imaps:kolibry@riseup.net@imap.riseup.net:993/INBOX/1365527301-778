@@ -1,0 +1,923 @@
+Return-Path: <tenuki-brest-bounces@jeudego.org>
+X-Spam-Checker-Version: SpamAssassin 3.3.2 (2011-06-06) on spamd3.riseup.net
+X-Spam-Level: 
+X-Spam-Pyzor: Reported 0 times.
+X-Spam-Status: No, score=-0.0 required=8.0 tests=AM_TRUNCATED,ENV_FROM_DIFF0,
+	FORWARD_RELAY,HAS_REPLY_TO,HTML_LINK_NR_TOP,HTML_MESSAGE,HTML_STYLE_EMPTY,
+	LOCAL_PHISH_FROMREPLY,MIME_HTML_MOSTLY,NOMATCH_NICK_FROM,PSTOCK_PART,
+	RP_MATCHES_RCVD,SUBJ_CONTAINS_TO,UNPARSEABLE_RELAY shortcircuit=no
+	autolearn=disabled version=3.3.2
+Delivered-To: kolibry@riseup.net
+Received: from mx1.riseup.net (mx1-pn.riseup.net [10.0.1.33])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client CN "*.riseup.net", Issuer "Gandi Standard SSL CA" (not verified))
+	by vireo.riseup.net (Postfix) with ESMTPS id 503767D
+	for <kolibry@riseup.net>; Thu, 20 Feb 2014 11:34:34 +0000 (UTC)
+Received: from jeudego.org (jeudego.org [5.135.164.19])
+	by mx1.riseup.net (Postfix) with ESMTP id 0A7CC50FB3
+	for <kolibry@riseup.net>; Thu, 20 Feb 2014 03:34:33 -0800 (PST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by jeudego.org (Postfix) with ESMTP id E82BC2EC2BBD;
+	Thu, 20 Feb 2014 12:34:31 +0100 (CET)
+Received: from jeudego.org ([127.0.0.1])
+	by localhost (jeudego.org [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id W1cVgMVwpEzU; Thu, 20 Feb 2014 12:34:31 +0100 (CET)
+Received: from ns3311974.ovh.net (localhost.localdomain [127.0.0.1])
+	by jeudego.org (Postfix) with ESMTP;
+	Thu, 20 Feb 2014 12:34:31 +0100 (CET)
+X-Original-To: tenuki-brest@jeudego.org
+Delivered-To: tenuki-brest@jeudego.org
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by jeudego.org (Postfix) with ESMTP id 95F142EC2BBC
+	for <tenuki-brest@jeudego.org>; Thu, 20 Feb 2014 12:24:12 +0100 (CET)
+Received: from jeudego.org ([127.0.0.1])
+	by localhost (jeudego.org [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id ANcacBC1NBmR for <tenuki-brest@jeudego.org>;
+	Thu, 20 Feb 2014 12:24:00 +0100 (CET)
+Received: from mx1.riseup.net (mx1.riseup.net [198.252.153.129])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(No client certificate requested)
+	by jeudego.org (Postfix) with ESMTPS
+	for <tenuki-brest@jeudego.org>; Thu, 20 Feb 2014 12:24:00 +0100 (CET)
+Received: from fulvetta.riseup.net (fulvetta-pn.riseup.net [10.0.1.75])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client CN "*.riseup.net",
+	Issuer "Gandi Standard SSL CA" (not verified))
+	by mx1.riseup.net (Postfix) with ESMTPS id 0AB8B50F99
+	for <tenuki-brest@jeudego.org>; Thu, 20 Feb 2014 03:23:58 -0800 (PST)
+Received: from [127.0.0.1] (localhost [127.0.0.1])
+	(Authenticated sender: kolibry@fulvetta.riseup.net)
+	with ESMTPSA id 62B893D0
+Message-ID: <5305E5C9.2010104@riseup.net>
+Date: Thu, 20 Feb 2014 12:23:53 +0100
+From: Jonathan <kolibry@riseup.net>
+User-Agent: Mozilla/5.0 (X11; Linux x86_64;
+	rv:24.0) Gecko/20100101 Thunderbird/24.3.0
+MIME-Version: 1.0
+To: tenuki-brest@jeudego.org
+References: <BLU0-SMTP412C5A58F25E89D4DE5B67D69B0@phx.gbl>,
+	<CAHCdiMpndefon9o4OL6XKAxv_Crf+Q8y3a18ezPhXHWOCrpUpg@mail.gmail.com>
+	<DUB129-W52D18F62A7EEE749EAB5C89E9A0@phx.gbl>
+In-Reply-To: <DUB129-W52D18F62A7EEE749EAB5C89E9A0@phx.gbl>
+X-Mailman-Approved-At: Thu, 20 Feb 2014 12:34:30 +0100
+Subject: Re: [Tenuki-brest] RE : Re: 1er tour championnat de France
+X-BeenThere: tenuki-brest@jeudego.org
+X-Mailman-Version: 2.1.13
+Precedence: list
+Reply-To: tenuki-brest@jeudego.org
+List-Id: <tenuki-brest.jeudego.org>
+List-Unsubscribe: <https://admin.jeudego.org/mailman/options/tenuki-brest>,
+	<mailto:tenuki-brest-request@jeudego.org?subject=unsubscribe>
+List-Archive: <https://admin.jeudego.org/mailman/private/tenuki-brest>
+List-Post: <mailto:tenuki-brest@jeudego.org>
+List-Help: <mailto:tenuki-brest-request@jeudego.org?subject=help>
+List-Subscribe: <https://admin.jeudego.org/mailman/listinfo/tenuki-brest>,
+	<mailto:tenuki-brest-request@jeudego.org?subject=subscribe>
+Content-Type: multipart/mixed; boundary="===============4613979282111495725=="
+Sender: tenuki-brest-bounces@jeudego.org
+Errors-To: tenuki-brest-bounces@jeudego.org
+X-Virus-Scanned: clamav-milter 0.97.8 at mx1
+X-Virus-Status: Clean
+
+This is a multi-part message in MIME format.
+--===============4613979282111495725==
+Content-Type: multipart/alternative;
+ boundary="------------000508040207080802060200"
+
+This is a multi-part message in MIME format.
+--------------000508040207080802060200
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 8bit
+
+J'essaierais d'être là pour 19h30.
+
+Le 20/02/2014 10:23, Pierre- Antoine Guéguen a écrit :
+> Dernière mises au point avant la première partie du 1er tour du 
+> Championnat de France individuel :
+>
+> * Pour ceux qui peuvent, pouvez-vous installer une appli Go sur votre 
+> téléphone, nous ne possèderons pas de pendules demain. Merci !
+>
+> * Je vais pour 19h30, quelqu'un d'autre peut venir dès cette heure-là 
+> pour m'aide à installer ?
+>
+> * Morgane, est-ce que cela te dérange si nous te déclarons 
+> forfait/abandon pour la partie ? (Sinon on trouvera un autre moyen)
+>
+> Pierrot.
+>
+> ------------------------------------------------------------------------
+> Date: Wed, 19 Feb 2014 11:42:35 +0100
+> From: louisgueguen@gmail.com
+> To: tenuki-brest@jeudego.org
+> Subject: Re: [Tenuki-brest] RE : Re: 1er tour championnat de France
+>
+> Oui du bon sens.
+> Après est-ce que si l'on fait ça il faudrait pas mieux dire qu'elle 
+> perd par abandon? parce que 4forfaits ça fait suspect :p
+>
+>
+> Le 19 février 2014 11:13, François <saikmali@hotmail.com 
+> <mailto:saikmali@hotmail.com>> a écrit :
+>
+>     Sans vouloir me mêler de ce qui ne me regarde pas, je ne trouve
+>     pas que ça soit de la perfidie mais du bon sens...
+>     Sinon on peut inscrire ma nièce,  elle a 4 ans mais elle sait
+>     jouer (elle m'a pris une pierre en geta la garce), mais c'est un
+>     peu plus suspect.
+>
+>
+>     Envoyé depuis un mobile Samsung
+>
+>
+>     -------- Message d'origine --------
+>     De : Kevin Cuello
+>     Date :19/02/2014 08:38 (GMT+01:00)
+>     A : tenuki-brest@jeudego.org <mailto:tenuki-brest@jeudego.org>
+>     Objet : Re: [Tenuki-brest] 1er tour championnat de France
+>
+>     Est-ce que Romain a répondu pour l'inscription ?
+>
+>     Jo : Houuu le perfide et malfaisant ! :D
+>
+>     Kevin
+>
+>
+>     Le 19 février 2014 08:13, Jonathan <kolibry@riseup.net
+>     <mailto:kolibry@riseup.net>> a écrit :
+>
+>         Elle est peut èetre juste sûre de ne pas Vouloir, tout simplement.
+>
+>         C'est vrai que c'est dommage. Il reste la solution d'inscrire
+>         Morgane même si elle ne participe pas, ça donnera des forfaits
+>         mais on aura été 10 inscrits aha :P
+>
+>          Le 18/02/2014 23:55, Louis Gueguen a écrit :
+>
+>             Je trouve ça tout de même dommage que tu ne participe pas.
+>             tu es sûre de ne pas pouvoir?
+>
+>             On fait comment pour les rondes, on fait juste un groupe
+>             du coup?
+>             Louis G
+>
+>
+>             Le 18 février 2014 17:58, Pierre- Antoine Guéguen
+>             <jap_anim29@hotmail.fr <mailto:jap_anim29@hotmail.fr>> a
+>             écrit :
+>
+>                 Rectification, dans mon dernier message je voulais
+>                 dire le 21 et non le 7
+>
+>                 Oui c'est problématique, il est un peu tard pour
+>                 trouver un autre licencié parmi les membres, de plus
+>                 la majoration est passée.
+>
+>                 Pierrot.
+>
+>                 ------------------------------------------------------------------------
+>                 From: mateoyo@hotmail.fr <mailto:mateoyo@hotmail.fr>
+>                 Date: Mon, 17 Feb 2014 19:13:56 +0100
+>
+>                 To: tenuki-brest@jeudego.org
+>                 <mailto:tenuki-brest@jeudego.org>
+>                 Subject: Re: [Tenuki-brest] 1er tour championnat de France
+>
+>                 Ce qui ne nous assure qu'un seul qualifié ? Il nous
+>                 faudra un dizieme joueur pour en qualifier 2, non ?
+>                 Des idées ?
+>
+>                 Envoyé de mon iPhone
+>
+>                 Le 17 févr. 2014 à 19:03, "morgane BOURNY"
+>                 <morganebourny@wanadoo.fr
+>                 <mailto:morganebourny@wanadoo.fr>> a écrit :
+>
+>                     Bonsoir,
+>
+>                     Kevin sera présent pour le 21 mais pas sûr pour le
+>                     7. Je ne m'inscris pas au championnat de France.
+>
+>                     Morgane
+>
+>
+>
+>
+>
+>                         > Message du 17/02/14 15:22
+>                         > De : "Pierre- Antoine Guéguen"
+>                         > A : "tenuki-brest@jeudego.org
+>                         <mailto:tenuki-brest@jeudego.org>"
+>                         > Copie à :
+>                         > Objet : Re: [Tenuki-brest] 1er tour
+>                         championnat de France
+>                         >
+>                         >
+>                         Bonjour, donc pour le 7 il me manque Kevin
+>                         Morgane Romain encore.
+>                         >
+>                         > J'espère qu'on pourra trouver une seconde
+>                         date avant fin mars pour réunir tout le monde,
+>                         essayer de débloquer le 14mars par exemple
+>                         (aucune certitude encore...)
+>                         >
+>                         > Merci,
+>                         >
+>                         > Pierrot.
+>                         >
+>                         >
+>                         ------------------------------------------------------------------------
+>                         Date: Sun, 16 Feb 2014 19:01:23 +0100
+>                         > From: lothar.berniere@orange.fr
+>                         <mailto:lothar.berniere@orange.fr>
+>                         > To: tenuki-brest@jeudego.org
+>                         <mailto:tenuki-brest@jeudego.org>
+>                         > Subject: Re: [Tenuki-brest] 1er tour
+>                         championnat de France
+>                         >
+>                         >
+>                         > ok pour 21 fev, mais pas 7 mars
+>                         > Lothar
+>                         >
+>                         >
+>                         >
+>                         >
+>                         >
+>
+>                             > Message du 16/02/14 13:42
+>                             > > De : "Pierre- Antoine Guéguen"
+>                             > > A : "tenuki-brest@jeudego.org
+>                             <mailto:tenuki-brest@jeudego.org>"
+>                             > > Copie à :
+>                             > > Objet : [Tenuki-brest] 1er tour
+>                             championnat de France
+>                             > >
+>                             > >
+>                             Bonjour,
+>                             > >
+>                             > > j'essayais de trouver des dates pour
+>                             le 1er tour du championnat de France, et
+>                             je vous propose les vendredi 21février et
+>                             7mars, est-ce que tout le monde est bien
+>                             disponible pour chacune de ces dates
+>                             (Kevin, Morgane, LG, François, Matthieu,
+>                             David, Jonathan, Lothar et Romain ) ?
+>                             > >
+>                             > > Merci de répondre au plus tôt !
+>                             > >
+>                             > > Ce 1er tour sera composé de 4rondes
+>                             qui seront jouées en 45min +
+>                             5min/15pierres, sous le système McMahon.
+>                             > >
+>                             > > Pierrot.
+>                             > >
+>
+>                             >
+>                             >
+>                             >
+>                             _______________________________________________
+>                             > Tenuki-brest mailing list
+>                             > Tenuki-brest@jeudego.org
+>                             <mailto:Tenuki-brest@jeudego.org>
+>                             >
+>                             https://admin.jeudego.org/mailman/listinfo/tenuki-brest
+>                             >
+>                             >
+>
+>
+>                         >
+>                         _______________________________________________ Tenuki-brest
+>                         mailing list Tenuki-brest@jeudego.org
+>                         <mailto:Tenuki-brest@jeudego.org>
+>                         https://admin.jeudego.org/mailman/listinfo/tenuki-brest
+>
+>
+>
+>                         _______________________________________________
+>                         Tenuki-brest mailing list
+>                         Tenuki-brest@jeudego.org
+>                         <mailto:Tenuki-brest@jeudego.org>
+>                         https://admin.jeudego.org/mailman/listinfo/tenuki-brest
+>
+>                     _______________________________________________
+>                     Tenuki-brest mailing list
+>                     Tenuki-brest@jeudego.org
+>                     <mailto:Tenuki-brest@jeudego.org>
+>                     https://admin.jeudego.org/mailman/listinfo/tenuki-brest
+>
+>
+>                 _______________________________________________
+>                 Tenuki-brest mailing list Tenuki-brest@jeudego.org
+>                 <mailto:Tenuki-brest@jeudego.org>
+>                 https://admin.jeudego.org/mailman/listinfo/tenuki-brest
+>                 _______________________________________________
+>                 Tenuki-brest mailing list Tenuki-brest@jeudego.org
+>                 <mailto:Tenuki-brest@jeudego.org>
+>                 https://admin.jeudego.org/mailman/listinfo/tenuki-brest
+>
+>                 _______________________________________________
+>                 Tenuki-brest mailing list
+>                 Tenuki-brest@jeudego.org <mailto:Tenuki-brest@jeudego.org>
+>                 https://admin.jeudego.org/mailman/listinfo/tenuki-brest
+>
+>
+>
+>
+>             _______________________________________________
+>             Tenuki-brest mailing list
+>             Tenuki-brest@jeudego.org  <mailto:Tenuki-brest@jeudego.org>
+>             https://admin.jeudego.org/mailman/listinfo/tenuki-brest
+>
+>
+>
+>         _______________________________________________
+>         Tenuki-brest mailing list
+>         Tenuki-brest@jeudego.org <mailto:Tenuki-brest@jeudego.org>
+>         https://admin.jeudego.org/mailman/listinfo/tenuki-brest
+>
+>
+>
+>
+>     -- 
+>     Kevin Cuello
+>
+>     _______________________________________________
+>     Tenuki-brest mailing list
+>     Tenuki-brest@jeudego.org <mailto:Tenuki-brest@jeudego.org>
+>     https://admin.jeudego.org/mailman/listinfo/tenuki-brest
+>
+>
+>
+> _______________________________________________ Tenuki-brest mailing 
+> list Tenuki-brest@jeudego.org 
+> https://admin.jeudego.org/mailman/listinfo/tenuki-brest
+>
+>
+> _______________________________________________
+> Tenuki-brest mailing list
+> Tenuki-brest@jeudego.org
+> https://admin.jeudego.org/mailman/listinfo/tenuki-brest
+
+
+--------------000508040207080802060200
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <head>
+    <meta content="text/html; charset=ISO-8859-1"
+      http-equiv="Content-Type">
+  </head>
+  <body bgcolor="#FFFFFF" text="#000000">
+    <div class="moz-cite-prefix">J'essaierais d'&ecirc;tre l&agrave; pour 19h30.<br>
+      <br>
+      Le 20/02/2014 10:23, Pierre- Antoine Gu&eacute;guen a &eacute;crit&nbsp;:<br>
+    </div>
+    <blockquote cite="mid:DUB129-W52D18F62A7EEE749EAB5C89E9A0@phx.gbl"
+      type="cite">
+      <style><!--
+.hmmessage P
+{
+margin:0px;
+padding:0px
+}
+body.hmmessage
+{
+font-size: 12pt;
+font-family:Calibri
+}
+--></style>
+      <div dir="ltr">Derni&egrave;re mises au point avant la premi&egrave;re partie du
+        1er tour du Championnat de France individuel :<br>
+        <br>
+        * Pour ceux qui peuvent, pouvez-vous installer une appli Go sur
+        votre t&eacute;l&eacute;phone, nous ne poss&egrave;derons pas de pendules demain.
+        Merci !<br>
+        <br>
+        * Je vais pour 19h30, quelqu'un d'autre peut venir d&egrave;s cette
+        heure-l&agrave; pour m'aide &agrave; installer ?<br>
+        <br>
+        * Morgane, est-ce que cela te d&eacute;range si nous te d&eacute;clarons
+        forfait/abandon pour la partie ? (Sinon on trouvera un autre
+        moyen)<br>
+        <br>
+        Pierrot.<br>
+        <br>
+        <div>
+          <hr id="stopSpelling">Date: Wed, 19 Feb 2014 11:42:35 +0100<br>
+          From: <a class="moz-txt-link-abbreviated" href="mailto:louisgueguen@gmail.com">louisgueguen@gmail.com</a><br>
+          To: <a class="moz-txt-link-abbreviated" href="mailto:tenuki-brest@jeudego.org">tenuki-brest@jeudego.org</a><br>
+          Subject: Re: [Tenuki-brest] RE : Re: 1er tour championnat de
+          France<br>
+          <br>
+          <div dir="ltr">
+            <div>Oui du bon sens.<br>
+            </div>
+            Apr&egrave;s est-ce que si l'on fait &ccedil;a il faudrait pas mieux dire
+            qu'elle perd par abandon? parce que 4forfaits &ccedil;a fait
+            suspect :p<br>
+          </div>
+          <div class="ecxgmail_extra"><br>
+            <br>
+            <div class="ecxgmail_quote">
+              Le 19 f&eacute;vrier 2014 11:13, Fran&ccedil;ois <span dir="ltr">&lt;<a
+                  moz-do-not-send="true"
+                  href="mailto:saikmali@hotmail.com" target="_blank">saikmali@hotmail.com</a>&gt;</span>
+              a &eacute;crit :<br>
+              <blockquote class="ecxgmail_quote" style="border-left:1px
+                #ccc solid;padding-left:1ex;">
+                <div>
+                  <div>Sans vouloir me m&ecirc;ler de ce qui ne me regarde
+                    pas, je ne trouve pas que &ccedil;a soit de la perfidie
+                    mais du bon sens...</div>
+                  <div>Sinon on peut inscrire ma ni&egrave;ce, &nbsp;elle a 4 ans
+                    mais elle sait jouer (elle m'a pris une pierre en
+                    geta la garce), mais c'est un peu plus suspect.</div>
+                  <div>
+                    <div><br>
+                    </div>
+                    <div><br>
+                    </div>
+                    <div>
+                      <div style="font-size:75%;color:#575757;">Envoy&eacute;
+                        depuis un mobile Samsung</div>
+                    </div>
+                    <br>
+                    <br>
+                    -------- Message d'origine --------<br>
+                  </div>
+                  De : Kevin Cuello <br>
+                  Date :19/02/2014 08:38 (GMT+01:00) <br>
+                  A : <a moz-do-not-send="true"
+                    href="mailto:tenuki-brest@jeudego.org"
+                    target="_blank">tenuki-brest@jeudego.org</a> <br>
+                  <div>
+                    <div class="h5">Objet : Re: [Tenuki-brest] 1er tour
+                      championnat de France <br>
+                      <br>
+                      <div dir="ltr">Est-ce que Romain a r&eacute;pondu pour
+                        l'inscription ?
+                        <div>
+                          <br>
+                        </div>
+                        <div>Jo : Houuu le perfide et malfaisant ! :D<br>
+                          <div><br>
+                          </div>
+                          <div>Kevin</div>
+                        </div>
+                      </div>
+                      <div class="ecxgmail_extra"><br>
+                        <br>
+                        <div class="ecxgmail_quote">
+                          Le 19 f&eacute;vrier 2014 08:13, Jonathan <span
+                            dir="ltr">&lt;<a moz-do-not-send="true"
+                              href="mailto:kolibry@riseup.net"
+                              target="_blank">kolibry@riseup.net</a>&gt;</span>
+                          a &eacute;crit :<br>
+                          <blockquote class="ecxgmail_quote"
+                            style="border-left:1px #ccc
+                            solid;padding-left:1ex;">
+                            <div>
+                              <div>Elle est peut &egrave;etre juste s&ucirc;re de ne
+                                pas Vouloir, tout simplement.<br>
+                                <br>
+                                C'est vrai que c'est dommage. Il reste
+                                la solution d'inscrire Morgane m&ecirc;me si
+                                elle ne participe pas, &ccedil;a donnera des
+                                forfaits mais on aura &eacute;t&eacute; 10 inscrits
+                                aha :P<br>
+                                <br>
+                                &nbsp;Le 18/02/2014 23:55, Louis Gueguen a
+                                &eacute;crit&nbsp;:<br>
+                              </div>
+                              <div>
+                                <div>
+                                  <blockquote>
+                                    <div dir="ltr">
+                                      <div>
+                                        <div>Je trouve &ccedil;a tout de m&ecirc;me
+                                          dommage que tu ne participe
+                                          pas. tu es s&ucirc;re de ne pas
+                                          pouvoir? <br>
+                                          <br>
+                                        </div>
+                                        On fait comment pour les rondes,
+                                        on fait juste un groupe du coup?<br>
+                                      </div>
+                                      Louis G<br>
+                                    </div>
+                                    <div class="ecxgmail_extra"><br>
+                                      <br>
+                                      <div class="ecxgmail_quote">Le 18
+                                        f&eacute;vrier 2014 17:58, Pierre-
+                                        Antoine Gu&eacute;guen <span dir="ltr">&lt;<a
+                                            moz-do-not-send="true"
+                                            href="mailto:jap_anim29@hotmail.fr"
+                                            target="_blank">jap_anim29@hotmail.fr</a>&gt;</span>
+                                        a &eacute;crit :<br>
+                                        <blockquote
+                                          class="ecxgmail_quote"
+                                          style="border-left:1px #ccc
+                                          solid;padding-left:1ex;">
+                                          <div>
+                                            <div dir="ltr">Rectification,
+                                              dans mon dernier message
+                                              je voulais dire le 21 et
+                                              non le 7
+                                              <div><br>
+                                              </div>
+                                              <div>Oui c'est
+                                                probl&eacute;matique, il est un
+                                                peu tard pour trouver un
+                                                autre licenci&eacute; parmi les
+                                                membres, de plus la
+                                                majoration est pass&eacute;e.</div>
+                                              <div><br>
+                                              </div>
+                                              <div>Pierrot.<br>
+                                                <div><br>
+                                                </div>
+                                                <div>
+                                                  <div>
+                                                    <hr>From: <a
+                                                      moz-do-not-send="true"
+href="mailto:mateoyo@hotmail.fr" target="_blank">mateoyo@hotmail.fr</a><br>
+                                                    Date: Mon, 17 Feb
+                                                    2014 19:13:56 +0100</div>
+                                                  <div>
+                                                    <div><br>
+                                                      To: <a
+                                                        moz-do-not-send="true"
+href="mailto:tenuki-brest@jeudego.org" target="_blank">tenuki-brest@jeudego.org</a><br>
+                                                      Subject: Re:
+                                                      [Tenuki-brest] 1er
+                                                      tour championnat
+                                                      de France<br>
+                                                      <br>
+                                                      <div>Ce qui ne
+                                                        nous assure
+                                                        qu'un seul
+                                                        qualifi&eacute; ? Il
+                                                        nous faudra un
+                                                        dizieme joueur
+                                                        pour en
+                                                        qualifier 2, non
+                                                        ? Des id&eacute;es ?<br>
+                                                        <br>
+                                                        Envoy&eacute; de mon
+                                                        iPhone</div>
+                                                      <div><br>
+                                                        Le 17 f&eacute;vr. 2014
+                                                        &agrave; 19:03,
+                                                        "morgane BOURNY"
+                                                        &lt;<a
+                                                          moz-do-not-send="true"
+href="mailto:morganebourny@wanadoo.fr" target="_blank">morganebourny@wanadoo.fr</a>&gt;
+
+                                                        a &eacute;crit&nbsp;:<br>
+                                                        <br>
+                                                      </div>
+                                                      <blockquote>
+                                                        <div>Bonsoir,&nbsp;<br>
+                                                          &nbsp;<br>
+                                                          Kevin sera
+                                                          pr&eacute;sent pour
+                                                          le 21 mais pas
+                                                          s&ucirc;r pour le 7.
+                                                          Je ne
+                                                          m'inscris pas
+                                                          au championnat
+                                                          de France.<br>
+                                                          &nbsp;<br>
+                                                          Morgane<br>
+                                                          <br>
+                                                          <br>
+                                                          <br>
+                                                          <br>
+                                                          <br>
+                                                          <blockquote
+                                                          style="padding-left:5px;border-left:#ff0000
+                                                          2px solid;">&gt;
+                                                          Message du
+                                                          17/02/14 15:22<br>
+                                                          &gt; De :
+                                                          "Pierre-
+                                                          Antoine
+                                                          Gu&eacute;guen" <br>
+                                                          &gt; A : "<a
+                                                          moz-do-not-send="true"
+href="mailto:tenuki-brest@jeudego.org" target="_blank">tenuki-brest@jeudego.org</a>"
+                                                          <br>
+                                                          &gt; Copie &agrave; :
+                                                          <br>
+                                                          &gt; Objet :
+                                                          Re:
+                                                          [Tenuki-brest]
+                                                          1er tour
+                                                          championnat de
+                                                          France<br>
+                                                          &gt; <br>
+                                                          &gt;
+                                                          <div dir="ltr">Bonjour,
+                                                          donc pour le 7
+                                                          il me manque
+                                                          Kevin Morgane
+                                                          Romain encore.<br>
+                                                          &gt; <br>
+                                                          &gt; J'esp&egrave;re
+                                                          qu'on pourra
+                                                          trouver une
+                                                          seconde date
+                                                          avant fin mars
+                                                          pour r&eacute;unir
+                                                          tout le monde,
+                                                          essayer de
+                                                          d&eacute;bloquer le
+                                                          14mars par
+                                                          exemple
+                                                          (aucune
+                                                          certitude
+                                                          encore...)<br>
+                                                          &gt; <br>
+                                                          &gt; Merci, <br>
+                                                          &gt; <br>
+                                                          &gt; Pierrot.<br>
+                                                          &gt; <br>
+                                                          &gt;
+                                                          <div>
+                                                          <hr>Date: Sun,
+                                                          16 Feb 2014
+                                                          19:01:23 +0100<br>
+                                                          &gt; From: <a
+moz-do-not-send="true" href="mailto:lothar.berniere@orange.fr"
+                                                          target="_blank">lothar.berniere@orange.fr</a><br>
+                                                          &gt; To: <a
+                                                          moz-do-not-send="true"
+href="mailto:tenuki-brest@jeudego.org" target="_blank">tenuki-brest@jeudego.org</a><br>
+                                                          &gt; Subject:
+                                                          Re:
+                                                          [Tenuki-brest]
+                                                          1er tour
+                                                          championnat de
+                                                          France<br>
+                                                          &gt; <br>
+                                                          &gt; <br>
+                                                          &gt; ok pour
+                                                          21 fev, mais
+                                                          pas 7 mars<br>
+                                                          &gt; Lothar<br>
+                                                          &gt; <br>
+                                                          &gt; <br>
+                                                          &gt; <br>
+                                                          &gt; <br>
+                                                          &gt;
+                                                          <blockquote
+                                                          style="padding-left:5px;border-left:#ff0000
+                                                          2px solid;">&gt;
+                                                          Message du
+                                                          16/02/14 13:42<br>
+                                                          &gt; &gt; De :
+                                                          "Pierre-
+                                                          Antoine
+                                                          Gu&eacute;guen" <br>
+                                                          &gt; &gt; A :
+                                                          "<a
+                                                          moz-do-not-send="true"
+href="mailto:tenuki-brest@jeudego.org" target="_blank">tenuki-brest@jeudego.org</a>"
+                                                          <br>
+                                                          &gt; &gt;
+                                                          Copie &agrave; : <br>
+                                                          &gt; &gt;
+                                                          Objet :
+                                                          [Tenuki-brest]
+                                                          1er tour
+                                                          championnat de
+                                                          France<br>
+                                                          &gt; &gt; <br>
+                                                          &gt; &gt;
+                                                          <div dir="ltr">Bonjour,<br>
+                                                          &gt; &gt; <br>
+                                                          &gt; &gt;
+                                                          j'essayais de
+                                                          trouver des
+                                                          dates pour le
+                                                          1er tour du
+                                                          championnat de
+                                                          France, et je
+                                                          vous propose
+                                                          les vendredi
+                                                          21f&eacute;vrier et
+                                                          7mars, est-ce
+                                                          que tout le
+                                                          monde est bien
+                                                          disponible
+                                                          pour chacune
+                                                          de ces dates
+                                                          (Kevin,
+                                                          Morgane, LG,
+                                                          Fran&ccedil;ois,
+                                                          Matthieu,
+                                                          David,
+                                                          Jonathan,
+                                                          Lothar et
+                                                          Romain ) ?<br>
+                                                          &gt; &gt; <br>
+                                                          &gt; &gt;
+                                                          Merci de
+                                                          r&eacute;pondre au
+                                                          plus t&ocirc;t !<br>
+                                                          &gt; &gt; <br>
+                                                          &gt; &gt; Ce
+                                                          1er tour sera
+                                                          compos&eacute; de
+                                                          4rondes qui
+                                                          seront jou&eacute;es
+                                                          en 45min +
+                                                          5min/15pierres,
+                                                          sous le
+                                                          syst&egrave;me
+                                                          McMahon.<br>
+                                                          &gt; &gt; <br>
+                                                          &gt; &gt;
+                                                          Pierrot.<br>
+                                                          &gt; &gt;</div>
+                                                          <br>
+                                                          &gt; <br>
+                                                          &gt; <br>
+                                                          &gt;
+                                                          _______________________________________________<br>
+                                                          &gt;
+                                                          Tenuki-brest
+                                                          mailing list<br>
+                                                          &gt; <a
+                                                          moz-do-not-send="true"
+href="mailto:Tenuki-brest@jeudego.org" target="_blank">Tenuki-brest@jeudego.org</a><br>
+                                                          &gt; <a
+                                                          moz-do-not-send="true"
+href="https://admin.jeudego.org/mailman/listinfo/tenuki-brest"
+                                                          target="_blank">https://admin.jeudego.org/mailman/listinfo/tenuki-brest</a><br>
+                                                          &gt; <br>
+                                                          &gt;</blockquote>
+                                                          <br>
+                                                          &gt;
+                                                          _______________________________________________
+                                                          Tenuki-brest
+                                                          mailing list <a
+moz-do-not-send="true" href="mailto:Tenuki-brest@jeudego.org"
+                                                          target="_blank">Tenuki-brest@jeudego.org</a>
+                                                          <a
+                                                          moz-do-not-send="true"
+href="https://admin.jeudego.org/mailman/listinfo/tenuki-brest"
+                                                          target="_blank">https://admin.jeudego.org/mailman/listinfo/tenuki-brest</a></div>
+                                                          </div>
+                                                          <br>
+                                                          <br>
+                                                          <br>
+_______________________________________________<br>
+                                                          Tenuki-brest
+                                                          mailing list<br>
+                                                          <a
+                                                          moz-do-not-send="true"
+href="mailto:Tenuki-brest@jeudego.org" target="_blank">Tenuki-brest@jeudego.org</a><br>
+                                                          <a
+                                                          moz-do-not-send="true"
+href="https://admin.jeudego.org/mailman/listinfo/tenuki-brest"
+                                                          target="_blank">https://admin.jeudego.org/mailman/listinfo/tenuki-brest</a><br>
+                                                          <br>
+                                                          </blockquote>
+                                                        </div>
+                                                      </blockquote>
+                                                      <blockquote>
+                                                        <div><span>_______________________________________________</span><br>
+                                                          <span>Tenuki-brest
+                                                          mailing list</span><br>
+                                                          <span><a
+                                                          moz-do-not-send="true"
+href="mailto:Tenuki-brest@jeudego.org" target="_blank">Tenuki-brest@jeudego.org</a></span><br>
+                                                          <span><a
+                                                          moz-do-not-send="true"
+href="https://admin.jeudego.org/mailman/listinfo/tenuki-brest"
+                                                          target="_blank">https://admin.jeudego.org/mailman/listinfo/tenuki-brest</a></span><br>
+                                                        </div>
+                                                      </blockquote>
+                                                      <br>
+                                                      _______________________________________________
+
+                                                      Tenuki-brest
+                                                      mailing list <a
+                                                        moz-do-not-send="true"
+href="mailto:Tenuki-brest@jeudego.org" target="_blank">Tenuki-brest@jeudego.org</a>
+                                                      <a
+                                                        moz-do-not-send="true"
+href="https://admin.jeudego.org/mailman/listinfo/tenuki-brest"
+                                                        target="_blank">https://admin.jeudego.org/mailman/listinfo/tenuki-brest</a><br>
+                                                      _______________________________________________
+
+                                                      Tenuki-brest
+                                                      mailing list <a
+                                                        moz-do-not-send="true"
+href="mailto:Tenuki-brest@jeudego.org" target="_blank">Tenuki-brest@jeudego.org</a>
+                                                      <a
+                                                        moz-do-not-send="true"
+href="https://admin.jeudego.org/mailman/listinfo/tenuki-brest"
+                                                        target="_blank">https://admin.jeudego.org/mailman/listinfo/tenuki-brest</a></div>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <br>
+_______________________________________________<br>
+                                          Tenuki-brest mailing list<br>
+                                          <a moz-do-not-send="true"
+                                            href="mailto:Tenuki-brest@jeudego.org"
+                                            target="_blank">Tenuki-brest@jeudego.org</a><br>
+                                          <a moz-do-not-send="true"
+                                            href="https://admin.jeudego.org/mailman/listinfo/tenuki-brest"
+                                            target="_blank">https://admin.jeudego.org/mailman/listinfo/tenuki-brest</a><br>
+                                          <br>
+                                        </blockquote>
+                                      </div>
+                                      <br>
+                                    </div>
+                                    <br>
+                                    <fieldset></fieldset>
+                                    <br>
+                                    <pre>_______________________________________________
+Tenuki-brest mailing list
+<a moz-do-not-send="true" href="mailto:Tenuki-brest@jeudego.org" target="_blank">Tenuki-brest@jeudego.org</a>
+<a moz-do-not-send="true" href="https://admin.jeudego.org/mailman/listinfo/tenuki-brest" target="_blank">https://admin.jeudego.org/mailman/listinfo/tenuki-brest</a>
+</pre>
+                                  </blockquote>
+                                  <br>
+                                </div>
+                              </div>
+                            </div>
+                            <br>
+_______________________________________________<br>
+                            Tenuki-brest mailing list<br>
+                            <a moz-do-not-send="true"
+                              href="mailto:Tenuki-brest@jeudego.org"
+                              target="_blank">Tenuki-brest@jeudego.org</a><br>
+                            <a moz-do-not-send="true"
+                              href="https://admin.jeudego.org/mailman/listinfo/tenuki-brest"
+                              target="_blank">https://admin.jeudego.org/mailman/listinfo/tenuki-brest</a><br>
+                            <br>
+                          </blockquote>
+                        </div>
+                        <br>
+                        <br clear="all">
+                        <div><br>
+                        </div>
+                        -- <br>
+                        Kevin Cuello<br>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <br>
+                _______________________________________________<br>
+                Tenuki-brest mailing list<br>
+                <a moz-do-not-send="true"
+                  href="mailto:Tenuki-brest@jeudego.org">Tenuki-brest@jeudego.org</a><br>
+                <a moz-do-not-send="true"
+                  href="https://admin.jeudego.org/mailman/listinfo/tenuki-brest"
+                  target="_blank">https://admin.jeudego.org/mailman/listinfo/tenuki-brest</a><br>
+                <br>
+              </blockquote>
+            </div>
+            <br>
+          </div>
+          <br>
+          _______________________________________________
+          Tenuki-brest mailing list
+          <a class="moz-txt-link-abbreviated" href="mailto:Tenuki-brest@jeudego.org">Tenuki-brest@jeudego.org</a>
+          <a class="moz-txt-link-freetext" href="https://admin.jeudego.org/mailman/listinfo/tenuki-brest">https://admin.jeudego.org/mailman/listinfo/tenuki-brest</a></div>
+      </div>
+      <br>
+      <fieldset class="mimeAttachmentHeader"></fieldset>
+      <br>
+      <pre wrap="">_______________________________________________
+Tenuki-brest mailing list
+<a class="moz-txt-link-abbreviated" href="mailto:Tenuki-brest@jeudego.org">Tenuki-brest@jeudego.org</a>
+<a class="moz-txt-link-freetext" href="https://admin.jeudego.org/mailman/listinfo/tenuki-brest">https://admin.jeudego.org/mailman/listinfo/tenuki-brest</a>
+</pre>
+    </blockquote>
+    <br>
+  </body>
+</html>
+
+--------------000508040207080802060200--
+
+--===============4613979282111495725==
+Content-Type: text/plain; charset="iso-8859-1"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Content-Disposition: inline
+
+_______________________________________________
+Tenuki-brest mailing list
+Tenuki-brest@jeudego.org
+https://admin.jeudego.org/mailman/listinfo/tenuki-brest
+
+--===============4613979282111495725==--

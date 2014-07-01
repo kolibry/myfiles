@@ -1,0 +1,150 @@
+Return-Path: <diffusion@jeudego.org>
+X-Spam-Checker-Version: SpamAssassin 3.3.2 (2011-06-06) on spamd2.riseup.net
+X-Spam-Level: 
+X-Spam-Pyzor: Reported 0 times.
+X-Spam-Status: No, score=-0.2 required=8.0 tests=AM_TRUNCATED,CK_419SIZE,
+	FORWARD_RELAY,HTML_MESSAGE,LINK_NR_TOP,MAILTO_TEMP,NOMATCH_NICK_FROM,
+	RP_MATCHES_RCVD shortcircuit=no autolearn=disabled version=3.3.2
+Delivered-To: kolibry@riseup.net
+Received: from mx1.riseup.net (mx1-pn.riseup.net [10.0.1.33])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client CN "*.riseup.net", Issuer "Gandi Standard SSL CA" (not verified))
+	by vireo.riseup.net (Postfix) with ESMTPS id D109B9E
+	for <kolibry@riseup.net>; Mon, 16 Jun 2014 01:30:30 -0700 (PDT)
+Received: from jeudego.org (jeudego.org [5.135.164.19])
+	by mx1.riseup.net (Postfix) with ESMTP id 5BA764924F
+	for <kolibry@riseup.net>; Mon, 16 Jun 2014 01:30:30 -0700 (PDT)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by jeudego.org (Postfix) with ESMTP id E1DC02EC3C08
+	for <ffginfo@jeudego.org>; Mon, 16 Jun 2014 10:30:28 +0200 (CEST)
+Received: from jeudego.org ([127.0.0.1])
+	by localhost (jeudego.org [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id CzSCW8hHbPLh for <ffginfo@jeudego.org>;
+	Mon, 16 Jun 2014 10:30:18 +0200 (CEST)
+Received: from [192.168.0.11] (gar13-6-88-171-0-163.fbx.proxad.net [88.171.0.163])
+	(using TLSv1 with cipher DHE-RSA-AES128-SHA (128/128 bits))
+	(No client certificate requested)
+	by jeudego.org (Postfix) with ESMTPSA
+	for <ffginfo@jeudego.org>; Mon, 16 Jun 2014 10:30:18 +0200 (CEST)
+Message-ID: <539EAB19.30008@jeudego.org>
+Date: Mon, 16 Jun 2014 10:30:17 +0200
+From: ffg <diffusion@jeudego.org>
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:24.0) Gecko/20100101 Thunderbird/24.5.0
+MIME-Version: 1.0
+To: ffginfo@jeudego.org
+Subject: [FFG] Relance stage FFG 2014
+Content-Type: multipart/alternative;
+ boundary="------------030304030406000608040701"
+X-Virus-Scanned: clamav-milter 0.98.1 at mx1
+X-Virus-Status: Clean
+
+This is a multi-part message in MIME format.
+--------------030304030406000608040701
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 8bit
+
+Bonjour à tous,
+
+Il est jamais trop tard pour bien faire et l'inscription au stage d'été 
+ne fait pas exception....
+
+Il aura lieu à Belmont sur Rance (Aveyron) du 5 au 19 juillet.
+
+Je vous rappelle donc que vous trouverez toutes les info nécessaires à 
+l'adresse stage.jeudego.org <http://stage.jeudego.org>
+
+A noter que Maître Hayashi sera là à partir de la 1ere semaine et qu'une 
+dizaine de moines boudhistes chinois (joueurs de go bien sur) seront là 
+pour le week end du milieu.
+
+Nous avons décidé de supprimer la pénalité de retard mais n'attendez pas 
+non plus le dernier moment pour vous inscrire...
+
+Pour ceux déjà inscrits, pensez à m'envoyer un petit mail ou un sms si 
+il faut venir vous chercher à St Affrique en me précisant bien votre 
+heure d'arrivée et combien vous êtes.
+
+N'hésitez pas à venir nous rejoindre sur Facebook : 
+https://www.facebook.com/stageffg2014
+
+A très vite
+
+Arnaud
+06 13 61 59 09
+arnaudzaltzman@gmail.com <mailto:arnaudzaltzman@gmail.com>
+
+PS : désolé pour ceux qui recevraient ce mail en doublon mais cela sert 
+à toucher plus de monde. Merci!
+
+
+--------------030304030406000608040701
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <head>
+
+    <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+  </head>
+  <body bgcolor="#FFFFFF" text="#000000">
+    <div dir="ltr">
+      <div>
+        <div class="h5">Bonjour &agrave; tous,
+          <div><br>
+          </div>
+          <div>Il est jamais trop tard pour bien faire et l'inscription
+            au stage d'&eacute;t&eacute; ne fait pas exception....</div>
+          <div><br>
+          </div>
+          <div>Il aura lieu &agrave; Belmont sur Rance (Aveyron) du 5 au 19
+            juillet.</div>
+          <div><br>
+          </div>
+          <div>
+            Je vous rappelle donc que vous trouverez toutes les info
+            n&eacute;cessaires &agrave; l'adresse <a href="http://stage.jeudego.org"
+              target="_blank">stage.jeudego.org</a></div>
+          <div><br>
+          </div>
+          <div>A noter que Ma&icirc;tre Hayashi sera l&agrave; &agrave; partir de la 1ere
+            semaine et qu'une dizaine de moines boudhistes chinois
+            (joueurs de go bien sur) seront l&agrave; pour le week end du
+            milieu.</div>
+          <div><br>
+          </div>
+          <div>
+            Nous avons d&eacute;cid&eacute; de supprimer la p&eacute;nalit&eacute; de retard mais
+            n'attendez pas non plus le dernier moment pour vous
+            inscrire...</div>
+          <div><br>
+          </div>
+          <div>Pour ceux d&eacute;j&agrave; inscrits, pensez &agrave; m'envoyer un petit mail
+            ou un sms si il faut venir vous chercher &agrave; St Affrique en me
+            pr&eacute;cisant bien votre heure d'arriv&eacute;e et combien vous &ecirc;tes.</div>
+          <div><br>
+          </div>
+          <div>N'h&eacute;sitez pas &agrave; venir nous rejoindre sur Facebook :&nbsp;<a
+              href="https://www.facebook.com/stageffg2014"
+              style="font-family:monospace;font-size:10px;white-space:pre-wrap"
+              target="_blank">https://www.facebook.com/stageffg2014</a></div>
+          <div><br>
+          </div>
+          <div>A tr&egrave;s vite</div>
+          <div><br>
+          </div>
+          <div>Arnaud</div>
+          <div>06 13 61 59 09</div>
+          <div><a href="mailto:arnaudzaltzman@gmail.com" target="_blank">arnaudzaltzman@gmail.com</a></div>
+          <div><br>
+          </div>
+        </div>
+      </div>
+      <div>
+        PS : d&eacute;sol&eacute; pour ceux qui recevraient ce mail en doublon mais
+        cela sert &agrave; toucher plus de monde. Merci!</div>
+    </div>
+    <br>
+  </body>
+</html>
+
+--------------030304030406000608040701--

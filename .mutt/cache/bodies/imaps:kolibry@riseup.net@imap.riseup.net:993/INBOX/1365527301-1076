@@ -1,0 +1,49 @@
+Return-Path: <noreply@forumactif.com>
+X-Spam-Checker-Version: SpamAssassin 3.3.2 (2011-06-06) on spamd3.riseup.net
+X-Spam-Level: 
+X-Spam-Pyzor: Reported 0 times.
+X-Spam-Status: No, score=0.1 required=8.0 tests=AM_TRUNCATED,CK_419SIZE,
+	CK_KARD_SIZE,DKIM_SIGNED,DKIM_VALID,DKIM_VALID_AU,GAPPY_LET,HAS_REPLY_TO,
+	LINK_NR_TOP shortcircuit=no autolearn=disabled version=3.3.2
+Delivered-To: kolibry@riseup.net
+Received: from mx1.riseup.net (mx1-pn.riseup.net [10.0.1.33])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client CN "*.riseup.net", Issuer "Gandi Standard SSL CA" (not verified))
+	by vireo.riseup.net (Postfix) with ESMTPS id BBA8479
+	for <kolibry@riseup.net>; Thu,  1 May 2014 13:42:17 +0000 (UTC)
+Received: from f54.mail.dnspro.org (f54.mail.dnspro.org [74.86.217.134])
+	by mx1.riseup.net (Postfix) with ESMTP id 749475795E
+	for <kolibry@riseup.net>; Thu,  1 May 2014 06:42:17 -0700 (PDT)
+Received: by f54.mail.dnspro.org (ESMTP, from userid 510)
+	id 7EE6515009C; Thu,  1 May 2014 15:42:11 +0200 (CEST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=forumactif.com;
+	s=default; t=1398951731;
+	bh=V+gnB5lIfdOQTYmu2QmMwKP7FVegy3B0ttm+IBTFT+4=;
+	h=To:Subject:From:Reply-to:Date;
+	b=ZidoQY9ngCgvPr5fD4STiCO4kPdiBGGEMwikA9H5UP75tsKDTBBikGkDLr6A18vA1
+	 /Wv4ZVi+ypJJ/la3YqUJax9CY5ngwun2ahzOYWg8UUq85IoIIwjmlWum8utjo3D2gS
+	 SkYgZIge/N58ubtG2VOaC5euBzoiSzSDHIGKCbAg=
+To: "=?utf-8?B?a29saWJyeQ==?=" <kolibry@riseup.net>
+Subject: =?utf-8?B?Vm91cyBhdmV6IMOpdMOpIGFqb3V0w6kgYXUgZ3JvdXBlIEdvbGRlbiBTdG9uZSBzdXIgR08uT04gbCBMZSBmb3J1bSBkZSBsYSBjb21tdW5hdXTDqSBmcmFuw6dhaXNlIGRlIEdv?=
+Content-type: text/plain; charset="utf-8"
+Content-transfer-encoding: 8bit
+From: "=?utf-8?B?R08uT04gbCBMZSBmb3J1bSBkZSBsYSBjb21tdW5hdXTDqSBmcmFuw6dhaXNlIGRlIEdv?=" <noreply@forumactif.com>
+Reply-to: "=?utf-8?B?R08uT04gbCBMZSBmb3J1bSBkZSBsYSBjb21tdW5hdXTDqSBmcmFuw6dhaXNlIGRlIEdv?=" <noreply@forumactif.com>
+Message-ID: <20140501134211.be5064d6c7@go-on.forumactif.com>
+MIME-Version: 1.0
+Date: Thu,  1 May 2014 15:42:11 +0200 (CEST)
+
+Félicitations,
+
+Vous avez été ajouté au groupe "Golden Stone" sur "GO.ON l Le forum de la communauté française de Go" - http://go-on.forumactif.com
+Cette action a été accomplie par le modérateur du groupe ou l'administrateur du site, contactez-les pour de plus amples informations.
+
+Vous pouvez voir vos informations de groupes ici:
+http://go-on.forumactif.com
+
+-- 
+_____________________________________________________________________________
+
+L'Administrateur.
+GO.ON l Le forum de la communauté française de Go.
+http://goon-forum.com/

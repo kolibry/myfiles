@@ -1,0 +1,223 @@
+Return-Path: <jGwc7EwsHLSsLIxsHBxsjLRGtEzMrGwcbMwc@smtp-coi-g16-046.aweber.com>
+X-Spam-Checker-Version: SpamAssassin 3.3.2 (2011-06-06) on spamd3.riseup.net
+X-Spam-Level: 
+X-Spam-Pyzor: Reported 0 times.
+X-Spam-Status: No, score=0.1 required=8.0 tests=AM_TRUNCATED,CK_419SIZE,
+	DKIM_SIGNED,DKIM_VALID,ENV_FROM_DIFF0,GEN_BIZ1,HTML_MESSAGE,LINK_NR_TOP,
+	PHISH_ACC6,RCVD_IN_DNSWL_NONE,RDNS_DYNAMIC,RP_MATCHES_RCVD,SPF_HELO_PASS,
+	WEB_MAILER15 shortcircuit=no autolearn=disabled version=3.3.2
+Delivered-To: kolibry@riseup.net
+Received: from mx1.riseup.net (mx1-pn.riseup.net [10.0.1.33])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client CN "*.riseup.net", Issuer "Gandi Standard SSL CA" (not verified))
+	by vireo.riseup.net (Postfix) with ESMTPS id 20EDF9E
+	for <kolibry@riseup.net>; Thu, 12 Jun 2014 09:32:31 -0700 (PDT)
+Received: from smtp-coi-g16-046.aweber.com (smtp-coi-g16-046.aweber.com [204.194.223.46])
+	by mx1.riseup.net (Postfix) with ESMTP id 6BC834A906
+	for <kolibry@riseup.net>; Thu, 12 Jun 2014 09:32:30 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha1; d=aweber.com; s=dkim_s1024; c=relaxed/simple;
+	q=dns/txt; i=@aweber.com; t=1402590731;
+	h=Sender:Subject:Date:From:List-Unsubscribe:To:MIME-version:Content-type:Feedback-ID;
+	bh=da12iBPG/OCOkqshMHokQBiNcIY=;
+	b=XKjkAxk/95pjwK1WVgqenL/Z9sCHyC/JocAEYtVVnQDUGdhRAj5AvhH1C6ZAkPxF
+	sGhtOsxGwI5ncT7BT8ToGRqVgHi7WySUW5B39QLTvuuT/OG5eZWp8b1AgQILTsL6
+	Z5LLrM8yGxnjIzfcY0iljA5YUWKq9K/az+I6Sq3Q774=;
+Received: (qmail 23769 invoked by uid 0); 12 Jun 2014 16:32:10 -0000
+Message-ID: <0B.9C.06695.B06D9935@momentum1-mta3>
+MIME-version: 1.0
+Content-type: multipart/alternative; boundary="_----------=_1402590710234770"
+To: kolibry@riseup.net
+From: "Go Game Guru" <news@gogameguru.com>
+Sender: ggg-newsletter@aweber.com
+X-Loop: ggg-newsletter@aweber.com
+X-Mailer: AWeber 4.1
+X-Subscription: Subscribed on 04/11/2013, via web form, by 78.200.24.99, from http://gogameguru.com/
+X-Verification: Verified by 78.200.24.99
+X_Id: 1687248:06-12-2014-12-31-46:kolibry@riseup.net/1687248
+Feedback-ID: A519709:L1687248:M06-12-2014-12-31-46:AWeber
+Date: Thu, 12 Jun 2014 12:32:10 -0400
+List-Unsubscribe: <mailto:ggg-newsletter@aweber.com?subject=unsubscribe;jGwc7EwsHLSsLIxsHBxsjLRGtEzMrGwcbMwc>, <http://www.aweber.com/z/r/?jGwc7EwsHLSsLIxsHBxsjLRGtEzMrGwcbMwc>
+Subject: Go Game Guru:
+ =?UTF-8?B?IEdvb2dsZSBjZWxlYnJhdGVzIEhvbmluYm8gU2h1c2FrdeKAmXMgMTg1dGggYmk=?=
+ =?UTF-8?B?cnRoZGF5?=
+X-Virus-Scanned: clamav-milter 0.98.1 at mx1
+X-Virus-Status: Clean
+
+This is a multi-part message in MIME format.
+
+--_----------=_1402590710234770
+Content-Disposition: inline
+Content-Length: 3035
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+Hi,
+
+Here are Go Game Guru's weekly updates for Thursday, June 12, 2014.
+
+(please note: you can quit receiving these emails any time 
+you want: http://www.aweber.com/z/r/?jGwc7EwsHLSsLIxsHBxsjLRGtEzMrGwcbMwc)
+
+
+
+*Google celebrates Honinbo Shusaku’s 185th birthday*
+
+It's not every day that our favorite game appears on the homepage of the world's most popular search engine, but today is Honinbo Shusaku's 185th birthday! Google celebrated the occasion by changing their logo to a drawing of Shusaku with Go stones spelling out the word 'Google'...
+
+Read more: http://gogameguru.com/honinbo-shusaku-185th-birthday/
+
+
+
+*Lee Sedol strikes twice! Quadruple ko in the Chinese A League*
+
+Lee Sedol was involved in another quadruple ko on June 5, 2014. This time in a game with Jiang Weijie, in the Chinese A League. The referee declared the game a draw at move 276 and an immediate rematch took place...
+
+Read more: http://feedproxy.google.com/~r/gogameguru/~3/3btulDlF9-Y/
+
+
+
+*19th LG Cup gets serious – Round of 32*
+
+The main draw of the 19th LG Cup kicked off on June 9, 2014 at the Lakai Sandpine Resort in Korea. This year, Li Weiqing broke through to the preliminaries, to rub shoulders with the big guns in the main draw. Like us, this next fact will probably make most readers feel their age...
+
+Read more: http://feedproxy.google.com/~r/gogameguru/~3/ffRnei2gF6Y/
+
+
+
+*China and Korea evenly pegged after 19th LG Cup round of 16*
+
+After one brief day to lounge by the pool, it was back to business on June 11, 2014 for the winners of 19th LG Cup's round of 32. Three of the pairs have only played each other once before and all three games repeated the previous result...
+
+Read more: http://feedproxy.google.com/~r/gogameguru/~3/UkUOtrKKQhs/
+
+
+
+*Go Seigen turns 100 today!*
+
+Today is Go Seigen's 100th birthday. Go Seigen is regarded by many to be the greatest Go player who ever lived. Go created a new paradigm in the game of Go and raised the understanding of future players to a new level...
+
+Read more: http://feedproxy.google.com/~r/gogameguru/~3/lbI6GoHLgEk/
+
+
+
+Enjoy the articles and, if you like them, 
+feel free to share this email with friends.
+
+Regards,
+
+David
+
+Go Game Guru
+http://gogameguru.com/
+
+Did you know that we sell Go equipment, books and videos to
+customers worldwide?
+
+When you shop at Go Game Guru, you help to support our efforts
+to promote Go, and ensure that we'll keep being able to 
+provide you with free, weekly Go news and articles.
+
+Click here to visit our store: http://shop.gogameguru.com/
+
+Follow Go Game Guru on: 
+    - Facebook http://www.facebook.com/gogameguru
+    - Google+ https://plus.google.com/+Gogameguru/
+    - Twitter https://twitter.com/gogameguru/
+
+This email was sent to you at kolibry@riseup.net because you 
+subscribed to free updates from Go Game Guru at: 
+http://gogameguru.com/.
+
+
+Go Game Guru, Suite 5013, 92 Wattle Street, Lyneham, ACT 2602, AUSTRALIA
+
+
+To unsubscribe or change subscriber options visit:
+http://www.aweber.com/z/r/?jGwc7EwsHLSsLIxsHBxsjLRGtEzMrGwcbMwc
+
+
+--_----------=_1402590710234770
+Content-Disposition: inline
+Content-Length: 6081
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+</head>
+<body style="margin: 0px">
+<div><span style="font-size: 15px">Hi,</span></div>
+<div><span style="font-size: 15px"><br />
+</span></div>
+<div><span style="font-size: 15px">Here are Go Game Guru's weekly updates for Thursday, June 12, 2014.</span></div>
+<div><span style="font-size: 15px"><br />
+</span></div>
+<div><span style="font-size: 15px">(please note: you can&nbsp;<a title="" href="http://www.aweber.com/z/r/?jGwc7EwsHLSsLIxsHBxsjLRGtEzMrGwcbMwc">quit receiving these emails</a>&nbsp;any time you want)</span></div>
+<div><span style="font-size: 15px">
+<ol>
+<li><a href="http://gogameguru.com/honinbo-shusaku-185th-birthday/"><strong>Google celebrates Honinbo Shusaku’s 185th birthday</strong></a><br />
+<br />
+It's not every day that our favorite game appears on the homepage of the world's most popular search engine, but today is Honinbo Shusaku's 185th birthday! Google celebrated the occasion by changing their logo to a drawing of Shusaku with Go stones spelling out the word 'Google'... <a href="http://gogameguru.com/honinbo-shusaku-185th-birthday/"><em>Click here to read more...</em></a><br />
+<br /></li>
+
+<li><a href="http://feedproxy.google.com/~r/gogameguru/~3/3btulDlF9-Y/"><strong>Lee Sedol strikes twice! Quadruple ko in the Chinese A League</strong></a><br />
+<br />
+Lee Sedol was involved in another quadruple ko on June 5, 2014. This time in a game with Jiang Weijie, in the Chinese A League. The referee declared the game a draw at move 276 and an immediate rematch took place... <a href="http://feedproxy.google.com/~r/gogameguru/~3/3btulDlF9-Y/"><em>Click here to read more...</em></a><br />
+<br /></li>
+
+<li><a href="http://feedproxy.google.com/~r/gogameguru/~3/ffRnei2gF6Y/"><strong>19th LG Cup gets serious – Round of 32</strong></a><br />
+<br />
+The main draw of the 19th LG Cup kicked off on June 9, 2014 at the Lakai Sandpine Resort in Korea. This year, Li Weiqing broke through to the preliminaries, to rub shoulders with the big guns in the main draw. Like us, this next fact will probably make most readers feel their age... <a href="http://feedproxy.google.com/~r/gogameguru/~3/ffRnei2gF6Y/"><em>Click here to read more...</em></a><br />
+<br /></li>
+
+<li><a href="http://feedproxy.google.com/~r/gogameguru/~3/UkUOtrKKQhs/"><strong>China and Korea evenly pegged after 19th LG Cup round of 16</strong></a><br />
+<br />
+After one brief day to lounge by the pool, it was back to business on June 11, 2014 for the winners of 19th LG Cup's round of 32. Three of the pairs have only played each other once before and all three games repeated the previous result... <a href="http://feedproxy.google.com/~r/gogameguru/~3/UkUOtrKKQhs/"><em>Click here to read more...</em></a><br />
+<br /></li>
+
+<li><a href="http://feedproxy.google.com/~r/gogameguru/~3/lbI6GoHLgEk/"><strong>Go Seigen turns 100 today!</strong></a><br />
+<br />
+Today is Go Seigen's 100th birthday. Go Seigen is regarded by many to be the greatest Go player who ever lived. Go created a new paradigm in the game of Go and raised the understanding of future players to a new level... <a href="http://feedproxy.google.com/~r/gogameguru/~3/lbI6GoHLgEk/"><em>Click here to read more...</em></a><br />
+<br /></li>
+</ol></span></div>
+<div><span style="font-size: 15px">Enjoy the articles and, if you like them, feel free to share this email with friends.</span></div>
+<div><span style="font-size: 15px"><br />
+</span></div>
+<div><span style="font-size: 15px">Regards,</span></div>
+<div><span style="font-size: 15px"><br />
+</span></div>
+<div><span style="font-size: 15px">David</span></div>
+<div><span style="font-size: 15px"><br />
+</span></div>
+<div><span style="font-size: 15px">Go Game Guru</span></div>
+<div><span style="font-size: 15px"><a title="" href="http://gogameguru.com/">http://gogameguru.com/</a></span></div>
+<div><span style="font-size: 15px">&nbsp;</span></div>
+<div><span style="font-size: 15px">Did you know that we sell <a title="" href="http://shop.gogameguru.com/go-game-sets/">Go equipment</a>, <a title="" href="http://shop.gogameguru.com/go-books/">books</a> and <a title="" href="http://gogameguru.com/baduk-tv/">videos</a>&nbsp;to customers worldwide?</span></div>
+<div><span style="font-size: 15px"><br />
+</span></div>
+<div><span style="font-size: 15px">When you shop at Go Game Guru, you help to support our efforts to promote Go, and also ensure that we'll keep being able to provide you with free, weekly Go news and articles.</span></div>
+<div><span style="font-size: 15px">&nbsp;</span></div>
+<div><span style="font-size: 15px">Follow Go Game Guru on: <a title="" href="http://www.facebook.com/gogameguru">Facebook</a> | <a title="" href="https://plus.google.com/+Gogameguru/posts">Google+</a> | <a title="" href="http://twitter.com/gogameguru/">Twitter</a></span></div>
+<div><span style="font-size: 15px">&nbsp;</span></div>
+<div><span style="font-size: 15px">This email was sent to you at kolibry@riseup.net because you subscribed to free updates from Go Game Guru at http://gogameguru.com/.</span></div>
+<div><span style="font-size: 15px"><br />
+</span></div>
+<div><span style="font-size: 15px"><br />
+</span></div>
+<div><span style="font-size: 15px">Go Game Guru, Suite 5013, 92 Wattle Street, Lyneham, ACT 2602, AUSTRALIA</span></div>
+
+<center>
+<div style="background-color:#ffffff !important; color:#000000 !important; font-family:Verdana !important; font-size:10px !important; max-width:600px; padding:8px !important; text-align:left; width:100%;">
+   
+   <br/>
+   <a href="http://www.aweber.com/z/r/?jGwc7EwsHLSsLIxsHBxsjLRGtEzMrGwcbMwc" style="color: #00f !important;">Unsubscribe</a> | <a href="http://www.aweber.com/z/r/?jGwc7EwsHLSsLIxsHBxsjLRGtEzMrGwcbMwc" style="color: #00f !important;">Change Subscriber Options</a>
+   <br/><br/>
+   <img src="https://openrate.aweber.com/y/o/?l=MIyww&m=3XzNTswY8oQNJ.U" width="1" height="1">
+</div>
+</center>
+</body>
+</html>
+
+--_----------=_1402590710234770--
+

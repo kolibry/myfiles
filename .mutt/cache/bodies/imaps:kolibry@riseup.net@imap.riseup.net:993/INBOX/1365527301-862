@@ -1,0 +1,45 @@
+Return-Path: <web453@mail.super-h.fr>
+X-Spam-Checker-Version: SpamAssassin 3.3.2 (2011-06-06) on spamd2.riseup.net
+X-Spam-Level: 
+X-Spam-Pyzor: Reported 0 times.
+X-Spam-Status: No, score=0.1 required=8.0 tests=AM_TRUNCATED,CK_KARD_SIZE,
+	ENV_FROM_DIFF,ENV_FROM_DIFF0,FORWARD_RELAY,REPLY_TO_TEMP2,T_RP_MATCHES_RCVD,
+	WEB_MAILER18 shortcircuit=no autolearn=disabled version=3.3.2
+Delivered-To: kolibry@riseup.net
+Received: from mx1.riseup.net (mx1-pn.riseup.net [10.0.1.33])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client CN "*.riseup.net", Issuer "Gandi Standard SSL CA" (not verified))
+	by vireo.riseup.net (Postfix) with ESMTPS id EB54495
+	for <kolibry@riseup.net>; Fri,  7 Mar 2014 23:57:01 +0000 (UTC)
+Received: from hosting.super-hebergement.fr (ns1.super-h.fr [178.33.254.57])
+	by mx1.riseup.net (Postfix) with ESMTP id 9B9A84D85B
+	for <kolibry@riseup.net>; Fri,  7 Mar 2014 15:57:00 -0800 (PST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by hosting.super-hebergement.fr (Postfix) with ESMTP id A906D9FE8A0
+	for <kolibry@riseup.net>; Sat,  8 Mar 2014 00:56:59 +0100 (CET)
+Received: from hosting.super-hebergement.fr ([127.0.0.1])
+	by localhost (hosting01.super-h.fr [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id H4x0Qkg-ASaW for <kolibry@riseup.net>;
+	Sat,  8 Mar 2014 00:56:55 +0100 (CET)
+Received: by hosting.super-hebergement.fr (Postfix, from userid 5419)
+	id C4CC89FE8BB; Sat,  8 Mar 2014 00:56:53 +0100 (CET)
+To: kolibry@riseup.net
+Subject: =?UTF-8?Q?[LIEU-ferme_de_Tr=C3=A9zenvy_-]_Inscription_d'un_nouvel_utilisa?=  =?UTF-8?Q?teur?=
+X-PHP-Originating-Script: 5419:class-phpmailer.php
+Date: Fri, 7 Mar 2014 23:56:53 +0000
+From: WordPress <wordpress@lieu-trezenvy.super-h.fr>
+Message-ID: <87eb9b2f209589c47f8121b3d32778d8@lieu-trezenvy.super-h.fr>
+X-Priority: 3
+X-Mailer: PHPMailer 5.2.4 (http://code.google.com/a/apache-extras.org/p/phpmailer/)
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+Content-Type: text/plain; charset=UTF-8
+X-Virus-Scanned: clamav-milter 0.97.8 at mx1
+X-Virus-Status: Clean
+
+Inscription d'un nouvel utilisateur sur votre site LIEU-ferme de Trézenvy - :
+
+Identifiant : RockyBarnette
+
+E-mail : ongtjames@hotmail.com
+

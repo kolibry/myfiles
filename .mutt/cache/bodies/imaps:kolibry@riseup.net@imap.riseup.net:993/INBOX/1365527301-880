@@ -1,0 +1,60 @@
+Return-Path: <diffusion@jeudego.org>
+X-Spam-Checker-Version: SpamAssassin 3.3.2 (2011-06-06) on spamd3.riseup.net
+X-Spam-Level: 
+X-Spam-Pyzor: 
+X-Spam-Status: No, score=0.3 required=8.0 tests=AM_TRUNCATED,CK_419SIZE,
+	CK_KARD_SIZE,FORWARD_RELAY,NOMATCH_NICK_FROM,RP_MATCHES_RCVD shortcircuit=no
+	autolearn=disabled version=3.3.2
+Delivered-To: kolibry@riseup.net
+Received: from mx1.riseup.net (mx1-pn.riseup.net [10.0.1.33])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client CN "*.riseup.net", Issuer "Gandi Standard SSL CA" (not verified))
+	by vireo.riseup.net (Postfix) with ESMTPS id 5A9157D
+	for <kolibry@riseup.net>; Tue, 11 Mar 2014 12:59:02 +0000 (UTC)
+Received: from jeudego.org (jeudego.org [5.135.164.19])
+	by mx1.riseup.net (Postfix) with ESMTP id 0D7494F5E1
+	for <kolibry@riseup.net>; Tue, 11 Mar 2014 05:59:01 -0700 (PDT)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by jeudego.org (Postfix) with ESMTP id 96F1F2EC2BEC
+	for <ffginfo@jeudego.org>; Tue, 11 Mar 2014 13:58:54 +0100 (CET)
+Received: from jeudego.org ([127.0.0.1])
+	by localhost (jeudego.org [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id 0dJH532gf+N1 for <ffginfo@jeudego.org>;
+	Tue, 11 Mar 2014 13:58:41 +0100 (CET)
+Received: from [192.168.0.12] (gar13-4-82-240-99-177.fbx.proxad.net [82.240.99.177])
+	(using TLSv1 with cipher DHE-RSA-AES128-SHA (128/128 bits))
+	(No client certificate requested)
+	by jeudego.org (Postfix) with ESMTPSA
+	for <ffginfo@jeudego.org>; Tue, 11 Mar 2014 13:58:41 +0100 (CET)
+Message-ID: <531F0880.1010106@jeudego.org>
+Date: Tue, 11 Mar 2014 13:58:40 +0100
+From: ffg <diffusion@jeudego.org>
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:24.0) Gecko/20100101 Thunderbird/24.3.0
+MIME-Version: 1.0
+To: ffginfo@jeudego.org
+Subject: [FFG] Rectification des dates de cours FFG de Fan Hui sur KGS au
+ mois de mars
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 8bit
+X-Virus-Scanned: clamav-milter 0.97.8 at mx1
+X-Virus-Status: Clean
+
+Bonjour.
+
+Le dernier message concernant le changement de date d'un cours de Fan Hui au mois de mars est erroné.
+Je vous présente toutes mes excuses pour cette erreur.
+Le cours annulé est celui du 26 mars. Il est remplacé par celui du mercredi 19 mars.
+
+
+Programme de mars sur KGS :
+
+Mercredi 12 mars : le fuseki Kobayashi, (3)
+Mercredi 19 mars : commentaire de partie*
+(annulé) Mercredi 26 mars : commentaire de partie* (annulé)
+
+
+Cordialement,
+
+-- 
+Paul Piriou aka bolbi
+

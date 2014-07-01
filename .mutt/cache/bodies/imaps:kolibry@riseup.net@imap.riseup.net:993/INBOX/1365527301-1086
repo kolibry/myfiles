@@ -1,0 +1,51 @@
+Return-Path: <noreply@forumactif.com>
+X-Spam-Checker-Version: SpamAssassin 3.3.2 (2011-06-06) on spamd3.riseup.net
+X-Spam-Level: 
+X-Spam-Pyzor: Reported 0 times.
+X-Spam-Status: No, score=0.1 required=8.0 tests=AM_TRUNCATED,CK_419SIZE,
+	CK_KARD_SIZE,DKIM_SIGNED,DKIM_VALID,DKIM_VALID_AU,GAPPY_LET,HAS_REPLY_TO,
+	LINK_NR_TOP shortcircuit=no autolearn=disabled version=3.3.2
+Delivered-To: kolibry@riseup.net
+Received: from mx1.riseup.net (mx1-pn.riseup.net [10.0.1.33])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client CN "*.riseup.net", Issuer "Gandi Standard SSL CA" (not verified))
+	by vireo.riseup.net (Postfix) with ESMTPS id 6EBF4BB
+	for <kolibry@riseup.net>; Sat,  3 May 2014 11:06:02 +0000 (UTC)
+Received: from f63.mail.dnspro.org (f63.mail.dnspro.org [74.86.217.138])
+	by mx1.riseup.net (Postfix) with ESMTP id 3F571536CB
+	for <kolibry@riseup.net>; Sat,  3 May 2014 04:06:02 -0700 (PDT)
+Received: by f63.mail.dnspro.org (ESMTP, from userid 510)
+	id B308E80071; Sat,  3 May 2014 13:06:01 +0200 (CEST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=forumactif.com;
+	s=default; t=1399115161;
+	bh=rcEdchWuz8BGTzEM0FVZh8VNKgeERq3324x6ivynsf4=;
+	h=To:Subject:From:Reply-to:Date;
+	b=pqHmQzfTilA0wkjYom74LQDlL+rnDCVlIg8ompiN6FlWej6rFw7LWL00keShmNVuy
+	 2xNLJKi0ZYrBskdwUh3NFxQ/bklnqIJi7Ewk09FpO0HbwwElp2KpxVkl1dboL5lXVo
+	 QvRD0fYjFmTfjGy8pbnPMidzHXbstrRCJr7JHldc=
+To: "=?utf-8?B?S29saWJyeQ==?=" <kolibry@riseup.net>
+Subject: =?utf-8?B?UsOpcG9uc2UgYXUgc3VqZXQgOiBUcmFkdWN0aW9uIGR1IEdlbnRsZSBKb3Nla2kgIGRlIFBpZXRlciBNaW9jaA==?=
+Content-type: text/plain; charset="utf-8"
+Content-transfer-encoding: 8bit
+From: "=?utf-8?B?R08uT04gbCBMZSBmb3J1bSBkZSBsYSBjb21tdW5hdXTDqSBmcmFuw6dhaXNlIGRlIEdv?=" <noreply@forumactif.com>
+Reply-to: "=?utf-8?B?R08uT04gbCBMZSBmb3J1bSBkZSBsYSBjb21tdW5hdXTDqSBmcmFuw6dhaXNlIGRlIEdv?=" <noreply@forumactif.com>
+Message-ID: <20140503110601.6f324addee@go-on.forumactif.com>
+MIME-Version: 1.0
+Date: Sat,  3 May 2014 13:06:01 +0200 (CEST)
+
+Bonjour Kolibry,
+
+Vous recevez cet email parce que vous surveillez le sujet, "Traduction du Gentle Joseki  de Pieter Mioch" sur "GO.ON l Le forum de la communauté française de Go", qui a reçu une réponse depuis votre dernière visite.
+
+Vous pouvez utiliser le lien suivant pour voir les réponses qui ont été faites. Aucune autre notification ne vous sera envoyée jusqu'à ce que vous visitiez le sujet.
+http://go-on.forumactif.com/t1399p25-traduction-du-gentle-joseki-de-pieter-mioch#28748
+
+Si vous ne voulez plus surveiller ce sujet vous pouvez, soit cliquer sur le lien "Arrêter de surveiller ce sujet" en bas du sujet ci-dessus, soit cliquer sur le lien suivant:
+http://go-on.forumactif.com/t1399-traduction-du-gentle-joseki-de-pieter-mioch?unwatch=topic
+
+-- 
+_____________________________________________________________________________
+
+L'Administrateur.
+GO.ON l Le forum de la communauté française de Go.
+http://goon-forum.com/

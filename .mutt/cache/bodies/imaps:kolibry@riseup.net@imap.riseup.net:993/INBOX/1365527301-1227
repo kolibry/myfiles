@@ -1,0 +1,530 @@
+Return-Path: <noreply@mail.wesign.it>
+X-Spam-Checker-Version: SpamAssassin 3.3.2 (2011-06-06) on spamd2.riseup.net
+X-Spam-Level: **
+X-Spam-Pyzor: Reported 0 times.
+X-Spam-Status: No, score=3.0 required=8.0 tests=AM_TRUNCATED,BLANK_NICK_TO,
+	CK_419SIZE,CK_NAIVER_NO_DNS,CK_NAIVE_NO_DNS,DKIM_SIGNED,DKIM_VALID,
+	ENV_FROM_DIFF0,HAS_REPLY_TO,HREF_PHISH2,HTML_LINK_NR_TOP,HTML_MESSAGE,
+	LINK_NR_TOP,ODD_PUNCTUATION2,RDNS_NONE,REPLY_TO_EMPTY,SPF_HELO_PASS,SRC_HTTP
+	shortcircuit=no autolearn=disabled version=3.3.2
+Delivered-To: kolibry@riseup.net
+Received: from mx1.riseup.net (mx1-pn.riseup.net [10.0.1.33])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client CN "*.riseup.net", Issuer "Gandi Standard SSL CA" (not verified))
+	by vireo.riseup.net (Postfix) with ESMTPS id 088EFAF
+	for <kolibry@riseup.net>; Mon,  9 Jun 2014 08:03:53 -0700 (PDT)
+Received: from mail.wesign.it (unknown [5.135.44.160])
+	by mx1.riseup.net (Postfix) with ESMTP id B4BB05333D
+	for <kolibry@riseup.net>; Mon,  9 Jun 2014 08:03:51 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=mail.wesign.it;
+ q=dns/txt; s=mail; bh=9SokagLBkqmh+/4qluYEhGd9li3HlxFW0j7HKtDqpSs=;
+ h=from:subject:date:mime-version:content-type:list-unsubscribe;
+        b=yuuloQdB2tuoU6bEQoUQFwWbrK9LgBbXMdUS4nT9Eyop709R2EbEh+92PR5AjX3NsyIATuCopzx5
+        YLKCU/OWFYURA+h8scvIiaO0IM3hj1b7kah3vJtlFjqsaOrNyOa4N6PGvQQW/I9A5Gsev+meK8Xo
+        8Aqe4tjMTbMFK84UrN0=
+To: <kolibry@riseup.net>
+Subject: =?UTF-8?Q?Br=C3=A9sil_juin_2014,_Ils_vont_s'amuser_sur_les_tombes_et_nous=3F?=
+From: =?ISO-8859-1?Q?We=20Sign=20It?= <contact@wesign.it>
+List-Unsubscribe: <mailto:unsubscribe@mail.wesign.it?subject=unsub-1o720prkoz0jj&body=1o720prkoz0jj>
+Content-Type: multipart/alternative; boundary="-------?=_89802-3854803658193"
+MIME-Version: 1.0
+Precedence: bulk
+Feedback-ID: ded_5.135.44.160:20694:20694_36:Sendinblue
+X-Mailer: Mailin
+X-Mailin-Client: 20694
+X-Mailin-Campaign: 36
+Reply-To: 
+Message-Id: <201406091621.1o720prkoz0jj@mail.wesign.it>
+Date: Mon, 09 Jun 2014 16:21:53 +0200
+X-Virus-Scanned: clamav-milter 0.98.1 at mx1
+X-Virus-Status: Clean
+
+
+---------?=_89802-3854803658193
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+=A0=0ALe 9 Juin 2014     =A0=0AVous recevez ce mail parce que vous faites p=
+artie de nos r=E9seaux militants . Pour cette semaine, nous vous proposons =
+de soutenir cette mobilisations.=0ABr=E9sil 2014 : La haine des pauvres et =
+le cynisme de la FIFA=0A=0ADepuis plusieurs semaines des familles des bidon=
+villes de=A0Rio de Janeiro=A0et d?autres grandes villes br=E9siliennes se m=
+obilisent contre les expulsions massives de leur logement pour les raisons =
+de coupe du monde de football.=0AIl y a deux semaines, le r=E9seau internat=
+ional =AB=A0Active Generation=A0=BB et la plateforme progressiste=A0We Sign=
+ It=A0ont lanc=E9 une campagne =E0 la demande des familles expuls=E9es pour=
+ mettre la pression sur les autorit=E9s de la FIFA, pour demander l?arr=EAt=
+ des expulsions et le relogement des familles expuls=E9es.=0ACette p=E9titi=
+on a mobilis=E9 35000 personnes en moins d?une semaine.=0ANous voulons inte=
+nsifier cette campagne pour mettre la pression =E0 la mafia du foot et ains=
+i forcer les media =E0 s?y int=E9resser. Pour cela=A0:=0A1)=A0=A0=A0=A0=A0S=
+ignez et faites signer tous vos amis pour ceux qui l'ont pas encore fait,=
+=0A2)=A0=A0=A0=A0=A0Diffusez le lien de la=A0[p=E9tition](http://r.mail.wes=
+ign.it/5ocpf2rmjcz0jd.html)=A0dans vos blogs, journaux, radios, tv,=0A3)=A0=
+=A0=A0=A0=A0Diffusez le lien de la=A0[P=E9tition](http://r.mail.wesign.it/5=
+ocpf2rmqgz0jd.html)=A0via tous les r=E9seaux sociaux,=0A=A0=0ANous avons un=
+e semaine pour obliger la FIFA =E0 s?exprimer sur cette honte.=0AS'il vous =
+pla=EEt=A0[signez](http://r.mail.wesign.it/5ocpf2rmxkz0jd.html)=A0et=A0[par=
+tagez](http://r.mail.wesign.it/5ocpf2rn4oz0jd.html).=0A=A0=0A=0A=0A=0A=0A=
+=0A=A0=0A[=A0Nos vies valent plus que le Football !](http://r.mail.wesign.i=
+t/5ocpf2rnbsz0jd.html)=0AC'est avec une ordonnance du Tribunal, la police a=
+ expuls=E9 2000 familles de leurs foyers dans la zone proche du Stade Marac=
+ana, pour "des mesures de s=E9curit=E9" et des "travaux de modernisation", =
+en vue de la Coupe du monde 2014. La plupart des personnes expuls=E9es sont=
+ des familles avec de jeunes enfants. Nous signons cette p=E9tition pour mo=
+ntrer notre soutien aux familles expuls=E9es.=0ANous demandons au maire de =
+Rio Eduardo Paes, le gouverneur de l?Etat de Rio Luiz Fernando de Souza (Pe=
+z=E3o) et au pr=E9sident de la FIFA Joseph Sepp Blatter d?arr=EAter cette h=
+onte.=0A=0AS'il vous pla=EEt=A0[signez](http://r.mail.wesign.it/5ocpf2rniwz=
+0jd.html)=A0et=A0[partagez](http://r.mail.wesign.it/5ocpf2rnq0z0jd.html).=
+=0A=0A=A0=0A=0AMerci de votre solidarit=E9 et bonne journ=E9e.=0A=0A[Baki Y=
+oussoufou](http://r.mail.wesign.it/5ocpf2rnx4z0jd.html) Fondateur de We Sig=
+n It=0A=0A=A0  Retrouvez-nous en ligne sur :  =A0    [ www.wesign.it](http:=
+//r.mail.wesign.it/5ocpf2ro48z0jd.html)  =A0  [ Facebook](http://r.mail.wes=
+ign.it/5ocpf2robcz0jd.html)  =A0  [ Twitter](http://r.mail.wesign.it/1w48h0=
+x7izcz0jd.html)       =A0  =A0=0A=0AVous pouvez aussi faire un tour sur la =
+plateforme de [We Sign it](http://r.mail.wesign.it/1w48h0x7j6gz0jd.html) po=
+ur d=E9couvrir d'autres campagnes citoyennes ou [cr=E9er votre p=E9tition](=
+http://r.mail.wesign.it/1w48h0x7jdkz0jd.html) qui aura le soutien des du r=
+=E9seau.=0A=A0
+
+---------?=_89802-3854803658193
+Content-Type: text/html; charset=iso-8859-1
+
+<body style="margin:0; padding:0;"><!-- If you delete this tag, the sky will fall on your head -->
+<meta content="width=device-width" name="viewport">
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+<title></title>
+<link href="stylesheets/email.css" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet" type="text/css">
+<style type="text/css">
+/* ------------------------------------- 
+		GLOBAL 
+------------------------------------- */
+* { 
+	margin:0;
+	padding:0;
+}
+* { font-family: 'PT Sans', sans-serif;}
+
+img { 
+	max-width: 100%; 
+}
+.collapse {
+	margin:0;
+	padding:0;
+}
+body {
+	-webkit-font-smoothing:antialiased; 
+	-webkit-text-size-adjust:none; 
+	width: 100%!important; 
+	height: 100%;
+	color:#4D4D4D;
+	font-size:15px;
+	font-family: 'PT Sans', sans-serif;
+}
+
+
+/* ------------------------------------- 
+		ELEMENTS 
+------------------------------------- */
+a { color: #2BA6CB;}
+
+.btn {
+	text-decoration:none;
+	color: #FFF;
+	background-color: #666;
+	padding:10px 16px;
+	font-weight:bold;
+	margin-right:10px;
+	text-align:center;
+	cursor:pointer;
+	display: inline-block;
+}
+
+p.callout {
+	padding:15px;
+	background-color:#ECF8FF;
+	margin-bottom: 15px;
+}
+.callout a {
+	font-weight:bold;
+	color: #2BA6CB;
+}
+
+table.social {
+/* 	padding:15px; 
+	background-color: #ebebeb;*/
+	
+}
+
+.soc-btn-wi{
+	font-size:21px;
+	display:block;
+	text-align:center;
+	text-decoration:none;
+	color: #FFF;
+	line-height: 60px;
+	}
+.social .soc-btn {
+	
+	font-size:21px;
+	margin-bottom:10px;
+	text-decoration:none;
+	color: #FFF;
+	display:block;
+	text-align:center;
+	float: left;
+	width: 96%;
+	padding: 25px 10px;
+}
+.fb { background-color: #004E90!important;float: left; width:100%;}
+.tw { background-color: #33CCFF!important;float: left; width:100%;}
+.wi { background-color: #F7C25B!important;float: left; width:100%;}
+ .text_lien{
+float: left;
+color: #fff;
+margin: 5px 0 0 50px;
+font-size:16px;}
+.fb_lien{
+float: left;
+color: #fff;
+margin: 0 0 0 50px;}
+
+.sidebar .soc-btn { 
+	display:block;
+	width:100%;
+}
+
+/* ------------------------------------- 
+		HEADER 
+------------------------------------- */
+table.head-wrap { width: 100%;}
+
+.header.container table td.logo { padding: 15px; }
+.header.container table td.label { padding: 15px; padding-left:0px;}
+
+
+/* ------------------------------------- 
+		BODY 
+------------------------------------- */
+table.body-wrap { width: 100%;}
+table {border-spacing: 0 !important;}
+
+
+/* ------------------------------------- 
+		FOOTER 
+------------------------------------- */
+table.footer-wrap { width: 100%;	clear:both!important;
+}
+.footer-wrap .container td.content  p { border-top: 1px solid rgb(215,215,215); padding-top:15px;}
+.footer-wrap .container td.content p {
+	font-size:10px;
+	font-weight: bold;
+	
+}
+
+
+/* ------------------------------------- 
+		TYPOGRAPHY 
+------------------------------------- */
+h1,h2,h3,h4,h5,h6 {
+font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; line-height: 1.1; margin-bottom:15px; color:#4D4D4D;
+}
+h1 small, h2 small, h3 small, h4 small, h5 small, h6 small { font-size: 60%; color: #6f6f6f; line-height: 0; text-transform: none; }
+
+h1 { font-weight:200; font-size: 44px;}
+h2 { font-weight:200; font-size: 37px;}
+h3 { font-weight:700; font-size: 22px;font-family: 'PT Sans', sans-serif;}
+h4 { font-weight:500; font-size: 19px;}
+h5 { font-weight:900; font-size: 17px;}
+h6 { font-weight:900; font-size: 14px; text-transform: uppercase; color:#444;}
+.titre_border{font-size: 19px; border-bottom:1px solid #4D4D4D; margin-bottom:15px;font-family: 'PT Sans', sans-serif; font-weight:700;}
+.collapse { margin:0!important;}
+
+p, ul { 
+	margin-bottom: 10px; 
+	font-weight: normal; 
+	font-size:16px; 
+	line-height:1.6;
+	width:100%;
+	max-width:600px;
+}
+p.lead { font-size:16px; font-style:italic; }
+p.last { margin-bottom:0px;}
+
+ul li {
+	margin-left:5px;
+	list-style-position: inside;
+}
+
+/* ------------------------------------- 
+		SIDEBAR 
+------------------------------------- */
+ul.sidebar {
+	background:#ebebeb;
+	display:block;
+	list-style-type: none;
+}
+ul.sidebar li { display: block; margin:0;}
+ul.sidebar li a {
+	text-decoration:none;
+	color: #666;
+	padding:10px 16px;
+/* 	font-weight:bold; */
+	margin-right:10px;
+/* 	text-align:center; */
+	cursor:pointer;
+	border-bottom: 1px solid #777777;
+	border-top: 1px solid #FFFFFF;
+	display:block;
+	margin:0;
+}
+ul.sidebar li a.last { border-bottom-width:0px;}
+ul.sidebar li a h1,ul.sidebar li a h2,ul.sidebar li a h3,ul.sidebar li a h4,ul.sidebar li a h5,ul.sidebar li a h6,ul.sidebar li a p { margin-bottom:0!important;}
+
+
+
+/* --------------------------------------------------- 
+		RESPONSIVENESS
+		Nuke it from orbit. It's the only way to be sure. 
+------------------------------------------------------ */
+
+/* Set a max-width, and make it display as block so it will automatically stretch to that width, but will also shrink down on a phone or something */
+.container {
+	display:block!important;
+	max-width:600px!important;
+	margin:0 auto!important; /* makes it centered */
+}
+
+/* This should also be a block element, so that it will fill 100% of the .container */
+.content {
+	/*padding:15px;*/
+	max-width:600px;
+	margin:0 auto;
+	/* [disabled]display:block; */
+}
+
+/* Let's make sure tables in the content area are 100% wide */
+.content table { width: 100%; }
+
+
+/* Odds and ends */
+.column {
+	width: 300px;
+	float:left;
+}
+.column tr td { padding: 15px; }
+.column-wrap { 
+	padding:0!important; 
+	margin:0 auto; 
+	max-width:600px!important;
+}
+.column table { width:100%;}
+.social .column {
+	width: 100%;
+	min-width: 279px;
+}
+
+/* Be sure to place a .clear element after each set of columns, just to be safe */
+.clear { display: block; clear: both; }
+
+
+/* ------------------------------------------- 
+		PHONE
+		For clients that support media queries.
+		Nothing fancy. 
+-------------------------------------------- */
+@media only screen and (max-width: 600px) {
+	
+	a[class="btn"] { display:block!important; margin-bottom:10px!important; background-image:none!important; margin-right:0!important;}
+
+	div[class="column"] { width: auto!important; float:none!important;}
+	
+	table.social div[class="column"] {
+		width:auto!important;
+	}
+
+}</style>
+<!-- HEADER -->
+<table border="0" class="head-wrap">
+	<tbody>
+		<tr>
+			<td class="header container">
+				<div class="content">
+					<table border="0">
+						<tbody>
+							<tr>
+								<td align="center" colspan="2" width="100%">
+									<img src="http://r.mail.wesign.it/1ygyjcz0je.jpg" style="display: block;" width="100%"></td>
+							</tr>
+							<tr>
+								<td width="77%">
+									&nbsp;</td>
+								<td align="right" width="23%">
+									<div style="width:132px; height:35px; background-color:#EAEFF0; border:1px solid #4D4D4D;text-align: center;line-height: 35px; float:right;">
+										Le 9 Juin 2014</div>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<!-- /HEADER --><!-- BODY -->
+<table class="body-wrap">
+	<tbody>
+		<tr>
+			<td>
+				&nbsp;</td>
+			<td bgcolor="#FFFFFF" class="container">
+				<div class="content">
+					<table style="padding:0 20px;" width="600">
+						<tbody>
+							<tr>
+								<td>
+									<span style="font-size:12px;"><span style="font-style: italic; font-weight: normal; line-height: 1.6;">Vous recevez ce mail parce que vous faites partie de nos r&eacute;seaux militants . Pour cette semaine, nous vous proposons de soutenir cette mobilisations.</span></span>
+									<p class="titre_border" style="width: 556px;">
+										Br&eacute;sil 2014 : La haine des pauvres et le cynisme de la FIFA</p>
+									<p style="width: 556px;">
+										Depuis plusieurs semaines des familles des bidonvilles de<strong>&nbsp;Rio de Janeiro</strong>&nbsp;et d'autres grandes villes br&eacute;siliennes se mobilisent contre les expulsions massives de leur logement pour les raisons de coupe du monde de football.<br>
+										Il y a deux semaines, le r&eacute;seau international &laquo;&nbsp;<strong>Active Generation</strong>&nbsp;&raquo; et la plateforme progressiste&nbsp;<strong>We Sign It</strong>&nbsp;ont lanc&eacute; une campagne &agrave; la demande des familles expuls&eacute;es pour mettre la pression sur les autorit&eacute;s de la FIFA, pour demander l'arr&ecirc;t des expulsions et le relogement des familles expuls&eacute;es.<br>
+										Cette p&eacute;tition a mobilis&eacute; 35000 personnes en moins d'une semaine.<br>
+										Nous voulons intensifier cette campagne pour mettre la pression &agrave; la mafia du foot et ainsi forcer les media &agrave; s'y int&eacute;resser. Pour cela&nbsp;:<br>
+										1)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Signez et faites signer tous vos amis pour ceux qui l'ont pas encore fait,<br>
+										2)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Diffusez le lien de la&nbsp;<a href="http://r.mail.wesign.it/5ocpf2rmjcz0jd.html">p&eacute;tition</a>&nbsp;dans vos blogs, journaux, radios, tv,<br>
+										3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Diffusez le lien de la&nbsp;<a href="http://r.mail.wesign.it/5ocpf2rmqgz0jd.html">P&eacute;tition</a>&nbsp;via tous les r&eacute;seaux sociaux,<br>
+										&nbsp;<br>
+										Nous avons une semaine pour obliger la FIFA &agrave; s'exprimer sur cette honte.<br>
+										<strong>S'il vous pla&icirc;t&nbsp;<a href="http://r.mail.wesign.it/5ocpf2rmxkz0jd.html">signez</a>&nbsp;et&nbsp;<a href="http://r.mail.wesign.it/5ocpf2rn4oz0jd.html">partagez</a>.</strong><br>
+										&nbsp;</p>
+									<br>
+									<table border="0" width="100%">
+										<tbody>
+											<tr>
+												<td align="center">
+													<p style="text-align:center;">
+														<img src="http://r.mail.wesign.it/1ygyqgz0je.jpg" style="max-width:100%; height:auto;"></p>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									<!-- /hero --><br>
+									<p class="titre_border" style="font-size: 19px; border-bottom:1px solid #4D4D4D; margin-bottom:15px;font-family: 'PT Sans', sans-serif; font-weight:700;">
+										&nbsp;</p>
+									<div>
+										<a href="http://r.mail.wesign.it/5ocpf2rnbsz0jd.html"><span style="font-size: 19px; font-weight: bold; line-height: 30.399999618530273px;">&nbsp;Nos vies valent plus que le Football !</span></a><br>
+										<span style="font-size: 16px; line-height: 25.600000381469727px;">C'est avec une ordonnance du Tribunal, la police a expuls&eacute; 2000 familles de leurs foyers dans la zone proche du Stade Maracana, pour "des mesures de s&eacute;curit&eacute;" et des "travaux de modernisation", en vue de la Coupe du monde 2014. La plupart des personnes expuls&eacute;es sont des familles avec de jeunes enfants. Nous signons cette p&eacute;tition pour montrer notre soutien aux familles expuls&eacute;es.</span><br style="font-size: 16px; line-height: 25.600000381469727px;">
+										<span style="font-size: 16px; line-height: 25.600000381469727px;">Nous demandons au maire de Rio Eduardo Paes, le gouverneur de l'Etat de Rio Luiz Fernando de Souza (Pez&atilde;o) et au pr&eacute;sident de la FIFA Joseph Sepp Blatter d'arr&ecirc;ter cette honte.</span><br style="font-size: 16px; line-height: 25.600000381469727px;">
+										<br style="font-size: 16px; line-height: 25.600000381469727px;">
+										<strong style="font-size: 16px; line-height: 25.600000381469727px;">S'il vous pla&icirc;t&nbsp;<a href="http://r.mail.wesign.it/5ocpf2rniwz0jd.html">signez</a>&nbsp;et&nbsp;<a href="http://r.mail.wesign.it/5ocpf2rnq0z0jd.html">partagez</a>.</strong><br>
+										<br>
+										&nbsp;</div>
+									<p>
+										<span style="font-size: 15px;">Merci de votre solidarit&eacute; et bonne journ&eacute;e.</span></p>
+									<p>
+										<span style="font-size: 15px;"><a href="http://r.mail.wesign.it/5ocpf2rnx4z0jd.html">Baki Youssoufou</a> Fondateur de We Sign It</span></p>
+									<br>
+									<!-- social & contact -->
+									<table class="social" width="100%">
+										<tbody>
+											<tr>
+												<td>
+													<!--- column 1 -->
+													<table class="column">
+														<tbody>
+															<tr>
+																<td>
+																	<table border="0" width="550">
+																		<tbody>
+																			<tr>
+																				<td style="padding:0" valign="middle" width="20%">
+																					&nbsp;</td>
+																				<td style="font-size:17px;padding:0 0 0 10px;" valign="middle" width="60%">
+																					Retrouvez-nous en ligne sur :</td>
+																				<td style="padding:0" valign="middle" width="20%">
+																					&nbsp;</td>
+																			</tr>
+																		</tbody>
+																	</table>
+																</td>
+															</tr>
+															<tr>
+																<td>
+																	<table border="0" width="550">
+																		<tbody>
+																			<tr>
+																				<td bgcolor="#F7C25B" class="wi" height="80" style="padding:0;" width="550">
+																					<a href="http://r.mail.wesign.it/5ocpf2ro48z0jd.html" style="font-size:21px;
+	text-decoration:none;color: #FFF;display:block;text-align:center;width: 100%; line-height: 80px; height: 80px;"> <strong>www.wesign.it</strong></a></td>
+																			</tr>
+																			<tr>
+																				<td height="10" style="padding:0;">
+																					&nbsp;</td>
+																			</tr>
+																			<tr>
+																				<td bgcolor="#004E90" class="fb" height="80" style="padding:0;" width="550">
+																					<a href="http://r.mail.wesign.it/5ocpf2robcz0jd.html" style="font-size:21px;
+	text-decoration:none;color: #FFF;display:block;text-align:center;width: 100%; line-height: 80px; height: 80px;"> <strong>Facebook</strong></a></td>
+																			</tr>
+																			<tr>
+																				<td height="10" style="padding:0;">
+																					&nbsp;</td>
+																			</tr>
+																			<tr>
+																				<td bgcolor="#33CCFF" class="tw" height="80" style="padding:0;" width="550">
+																					<a href="http://r.mail.wesign.it/1w48h0x7izcz0jd.html" style="font-size:21px;
+	text-decoration:none;color: #FFF;display:block;text-align:center;width: 100%; line-height: 80px; height: 80px;"> <strong>Twitter</strong></a></td>
+																			</tr>
+																		</tbody>
+																	</table>
+																</td>
+															</tr>
+														</tbody>
+													</table>
+													<!-- /column 1 --><!--- column 2 --><!-- /column 2 --></td>
+											</tr>
+										</tbody>
+									</table>
+									<!-- /social & contact --></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</td>
+			<td>
+				&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+<!-- /BODY --><!-- FOOTER -->
+<table class="footer-wrap">
+	<tbody>
+		<tr>
+			<td>
+				&nbsp;</td>
+			<td class="container">
+				<!-- content -->
+				<div class="content">
+					<table bgcolor="#4D4D4D" style="color:#ffffff;" width="600">
+						<tbody>
+							<tr>
+								<td align="center" height="128" width="100%">
+									<p>
+										Vous pouvez aussi faire un tour sur la plateforme de <a href="http://r.mail.wesign.it/1w48h0x7j6gz0jd.html" style="color:#ffffff;">We Sign it</a> pour d&eacute;couvrir d'autres campagnes citoyennes ou <a href="http://r.mail.wesign.it/1w48h0x7jdkz0jd.html" style="color:#ffffff;">cr&eacute;er votre p&eacute;tition</a> qui aura le soutien des du r&eacute;seau.</p>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<!-- /content --></td>
+			<td>
+				&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+<!-- /FOOTER --><div align="center" style="color: #727272; font-size: 10px;">Si vous souhaitez vous d&eacute;sinscrire de notre newsletter, cliquez <a style="color:#01a4c6;" target="_blank" href="http://r.mail.wesign.it/1f36crowoz0jg.html">ici</a></div><div><img alt="" src="http://r.mail.wesign.it/1f36crowoz0jh.jpg" /></div></body>
+
+---------?=_89802-3854803658193--

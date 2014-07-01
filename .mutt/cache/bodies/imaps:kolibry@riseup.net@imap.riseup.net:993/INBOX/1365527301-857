@@ -1,0 +1,170 @@
+Return-Path: <jGwc7EwsHLSsLIxsHBxsjLRGtExMzEwMbBws@smtp-coi-g11-031.aweber.com>
+X-Spam-Checker-Version: SpamAssassin 3.3.2 (2011-06-06) on spamd3.riseup.net
+X-Spam-Level: 
+X-Spam-Pyzor: 
+X-Spam-Status: No, score=0.6 required=8.0 tests=AM_TRUNCATED,CK_419SIZE,
+	DKIM_SIGNED,DKIM_VALID,ENV_FROM_DIFF0,HTML_MESSAGE,LINK_NR_TOP,PHISH_ACC6,
+	RCVD_IN_DNSWL_NONE,RDNS_DYNAMIC,RP_MATCHES_RCVD,SPF_HELO_PASS,WEB_MAILER15
+	shortcircuit=no autolearn=disabled version=3.3.2
+Delivered-To: kolibry@riseup.net
+Received: from mx1.riseup.net (mx1-pn.riseup.net [10.0.1.33])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client CN "*.riseup.net", Issuer "Gandi Standard SSL CA" (not verified))
+	by vireo.riseup.net (Postfix) with ESMTPS id 2E33695
+	for <kolibry@riseup.net>; Thu,  6 Mar 2014 17:34:41 +0000 (UTC)
+Received: from smtp-coi-g11-031.aweber.com (smtp-coi-g11-031.aweber.com [204.194.223.31])
+	by mx1.riseup.net (Postfix) with ESMTP id B705B56866
+	for <kolibry@riseup.net>; Thu,  6 Mar 2014 09:34:39 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha1; d=aweber.com; s=dkim_s1024; c=relaxed/simple;
+	q=dns/txt; i=@aweber.com; t=1394127263;
+	h=Sender:Subject:Date:From:List-Unsubscribe:To:MIME-version:Content-type;
+	bh=yr9an38Ekw0CmZdhRrajCWifgLY=;
+	b=Kij598LlotDW6/HNR8PLnXzdJkUquiAdj2A2omEIdnig+A43cxKpI7/q8DRPfE17
+	HPz22LDdzFribAnFWAMBTlZSO/05NRVbeHFohSW99oJ9Q5i8psPw/vRdErsBe+qM
+	07LiADRuhd8fqP58O7MRBSkOeJL/VfUNsvMBjvBhwx0=;
+Received: (qmail 11116 invoked by uid 0); 6 Mar 2014 17:34:23 -0000
+Message-ID: <37.2F.05190.F91B8135@ec3>
+MIME-version: 1.0
+Content-type: multipart/alternative; boundary="_----------=_1394127237109960"
+To: kolibry@riseup.net
+From: "Go Game Guru" <news@gogameguru.com>
+Sender: ggg-newsletter@aweber.com
+X-Loop: ggg-newsletter@aweber.com
+X-Mailer: AWeber 4.1
+X-Subscription: Subscribed on 04/11/2013, via web form, by 78.200.24.99, from http://gogameguru.com/
+X-Verification: Verified by 78.200.24.99
+X_Id: 1687248:03-06-2014-12-33-25:kolibry@riseup.net/1687248
+Date: Thu, 6 Mar 2014 12:34:23 -0500
+List-Unsubscribe: <mailto:ggg-newsletter@aweber.com?subject=unsubscribe;jGwc7EwsHLSsLIxsHBxsjLRGtExMzEwMbBws>, <http://www.aweber.com/z/r/?jGwc7EwsHLSsLIxsHBxsjLRGtExMzEwMbBws>
+Subject: Go Game Guru: China wins 15th Nongshim Cup in tightly fought match
+X-Virus-Scanned: clamav-milter 0.97.8 at mx1
+X-Virus-Status: Clean
+
+This is a multi-part message in MIME format.
+
+--_----------=_1394127237109960
+Content-Disposition: inline
+Content-Length: 1742
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+Hi,
+
+Here are Go Game Guru's weekly updates for Thursday, March 6, 2014.
+
+(please note: you can quit receiving these emails any time 
+you want: http://www.aweber.com/z/r/?jGwc7EwsHLSsLIxsHBxsjLRGtExMzEwMbBws)
+
+
+
+China wins 15th Nongshim Cup in tightly fought match
+The 15th Nongshim Cup ended on February 28, 2014, with Team China emerging victorious. Kim Jiseok was in the chair at the end of round 2 and resumed the campaign for Korea, against China's Tan Xiao, at the start of round 3. Tan was able knock Kim out, but didn't last long...
+
+Read more: http://feedproxy.google.com/~r/gogameguru/~3/037lpdtMU_A/
+
+
+
+Go Commentary: Gu Li vs Lee Sedol – Jubango – Game 2
+The second game of the MLily Gu vs Lee Jubango took place in near Shanghai, on February 23, 2014. This time Gu Li held black and Lee Sedol played white. Lee won the first game, so it became more important for Gu to even the series by winning this game...
+
+Read more: http://feedproxy.google.com/~r/gogameguru/~3/JYR34fmtFVs/
+
+
+
+Enjoy the articles and if you like them, 
+feel free to share this email with friends.
+
+Regards,
+
+David
+
+Go Game Guru
+http://gogameguru.com/
+
+Looking for a Go board? Get great boards and free shipping 
+at the Go Game Shop: http://shop.gogameguru.com/
+
+Follow Go Game Guru on: 
+    - Facebook http://www.facebook.com/gogameguru
+    - Google+ http://gplus.to/gogameguru
+    - Twitter https://twitter.com/gogameguru/
+
+This email was sent to you at kolibry@riseup.net because you 
+subscribed to free updates from Go Game Guru at: 
+http://gogameguru.com/.
+
+
+Go Game Guru, Suite 5013, 92 Wattle Street, Lyneham, ACT 2602, AUSTRALIA
+
+
+To unsubscribe or change subscriber options visit:
+http://www.aweber.com/z/r/?jGwc7EwsHLSsLIxsHBxsjLRGtExMzEwMbBws
+
+
+--_----------=_1394127237109960
+Content-Disposition: inline
+Content-Length: 4132
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+</head>
+<body style="margin: 0px">
+<div><span style="font-size: 15px">Hi,</span></div>
+<div><span style="font-size: 15px"><br />
+</span></div>
+<div><span style="font-size: 15px">Here are Go Game Guru's weekly updates for Thursday, March 6, 2014.</span></div>
+<div><span style="font-size: 15px"><br />
+</span></div>
+<div><span style="font-size: 15px">(please note: you can&nbsp;<a title="" href="http://www.aweber.com/z/r/?jGwc7EwsHLSsLIxsHBxsjLRGtExMzEwMbBws">quit receiving these emails</a>&nbsp;any time you want)</span></div>
+<div><span style="font-size: 15px">
+<ol>
+<li><a href="http://feedproxy.google.com/~r/gogameguru/~3/037lpdtMU_A/"><strong>China wins 15th Nongshim Cup in tightly fought match</strong></a><br />
+<br />
+The 15th Nongshim Cup ended on February 28, 2014, with Team China emerging victorious. Kim Jiseok was in the chair at the end of round 2 and resumed the campaign for Korea, against China's Tan Xiao, at the start of round 3. Tan was able knock Kim out, but didn't last long... <a href="http://feedproxy.google.com/~r/gogameguru/~3/037lpdtMU_A/"><em>Click here to read more...</em></a><br />
+<br /></li>
+
+<li><a href="http://feedproxy.google.com/~r/gogameguru/~3/JYR34fmtFVs/"><strong>Go Commentary: Gu Li vs Lee Sedol – Jubango – Game 2</strong></a><br />
+<br />
+The second game of the MLily Gu vs Lee Jubango took place in near Shanghai, on February 23, 2014. This time Gu Li held black and Lee Sedol played white. Lee won the first game, so it became more important for Gu to even the series by winning this game... <a href="http://feedproxy.google.com/~r/gogameguru/~3/JYR34fmtFVs/"><em>Click here to read more...</em></a><br />
+<br /></li>
+</ol></span></div>
+<div><span style="font-size: 15px">Enjoy the articles and if you like them, feel free to share this email with friends.</span></div>
+<div><span style="font-size: 15px"><br />
+</span></div>
+<div><span style="font-size: 15px">Regards,</span></div>
+<div><span style="font-size: 15px"><br />
+</span></div>
+<div><span style="font-size: 15px">David</span></div>
+<div><span style="font-size: 15px"><br />
+</span></div>
+<div><span style="font-size: 15px">Go Game Guru</span></div>
+<div><span style="font-size: 15px"><a title="" href="http://gogameguru.com/">http://gogameguru.com/</a></span></div>
+<div><span style="font-size: 15px">&nbsp;</span></div>
+<div><span style="font-size: 15px">Looking for a Go board? Get great boards and free shipping at the <a title="" href="http://shop.gogameguru.com/">Go Game Shop</a>.</span></div>
+<div><span style="font-size: 15px">&nbsp;</span></div>
+<div><span style="font-size: 15px">Follow Go Game Guru on: <a title="" href="http://www.facebook.com/gogameguru">Facebook</a> | <a title="" href="https://plus.google.com/111715774215148787136">Google+</a> | <a title="" href="http://twitter.com/gogameguru/">Twitter</a></span></div>
+<div><span style="font-size: 15px">&nbsp;</span></div>
+<div><span style="font-size: 15px">This email was sent to you at kolibry@riseup.net because you subscribed to free updates from Go Game Guru at http://gogameguru.com/.</span></div>
+<div><span style="font-size: 15px"><br />
+</span></div>
+<div><span style="font-size: 15px"><br />
+</span></div>
+<div><span style="font-size: 15px">Go Game Guru, Suite 5013, 92 Wattle Street, Lyneham, ACT 2602, AUSTRALIA</span></div>
+
+<center>
+<div style="background-color:#ffffff !important; color:#000000 !important; font-family:Verdana !important; font-size:10px !important; max-width:600px; padding:8px !important; text-align:left; width:100%;">
+   
+   <br/>
+   <a href="http://www.aweber.com/z/r/?jGwc7EwsHLSsLIxsHBxsjLRGtExMzEwMbBws" style="color: #00f !important;">Unsubscribe</a> | <a href="http://www.aweber.com/z/r/?jGwc7EwsHLSsLIxsHBxsjLRGtExMzEwMbBws" style="color: #00f !important;">Change Subscriber Options</a>
+   <br/><br/>
+   <img src="https://openrate.aweber.com/y/o/?l=MIyww&m=3eWrVYxsYMQNJ.U" width="1" height="1">
+</div>
+</center>
+</body>
+</html>
+
+--_----------=_1394127237109960--
+

@@ -1,0 +1,159 @@
+Return-Path: <jGwc7EwsHLSsLIxsHBxsjLRGtExMjKwsrCys@smtp-coi-g10-029.aweber.com>
+X-Spam-Checker-Version: SpamAssassin 3.3.2 (2011-06-06) on spamd2.riseup.net
+X-Spam-Level: 
+X-Spam-Pyzor: Reported 0 times.
+X-Spam-Status: No, score=0.0 required=8.0 tests=AM_TRUNCATED,CK_419SIZE,
+	DKIM_SIGNED,DKIM_VALID,ENV_FROM_DIFF0,HTML_MESSAGE,LINK_NR_TOP,PHISH_ACC6,
+	RCVD_IN_DNSWL_NONE,RCVD_IN_HOSTKARMA_NO,RCVD_IN_HOSTKARMA_YE,RDNS_DYNAMIC,
+	RP_MATCHES_RCVD,SPF_HELO_PASS,WEB_MAILER15 shortcircuit=no autolearn=disabled
+	version=3.3.2
+Delivered-To: kolibry@riseup.net
+Received: from mx1.riseup.net (mx1-pn.riseup.net [10.0.1.33])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client CN "*.riseup.net", Issuer "Gandi Standard SSL CA" (not verified))
+	by vireo.riseup.net (Postfix) with ESMTPS id 6B05679
+	for <kolibry@riseup.net>; Thu, 20 Feb 2014 17:58:30 +0000 (UTC)
+Received: from smtp-coi-g10-029.aweber.com (smtp-coi-g10-029.aweber.com [204.194.223.29])
+	by mx1.riseup.net (Postfix) with ESMTP id 6C9F653ECA
+	for <kolibry@riseup.net>; Thu, 20 Feb 2014 09:58:26 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha1; d=aweber.com; s=dkim_s1024; c=relaxed/simple;
+	q=dns/txt; i=@aweber.com; t=1392917711;
+	h=Sender:Subject:Date:From:List-Unsubscribe:To:MIME-version:Content-type;
+	bh=96hWs/RqOuKm1ArIkpF6x6eBd30=;
+	b=diqPPO+T4ZVNqbxjGXJxuaxi5xfOXHOseAw4zLrYwdHOuXsW9YBxiVoLemCdTTXj
+	J/qWjukAUC79l/kM9DW1k5iWjTl82PxcyYJZ49fDoOv+F+Hvh8l/t5x/2MNTEn8Z
+	XAr1cSRiE1w78xlMjYHC0GQLVdeRH4m2Csnd8aeRFuA=;
+Received: (qmail 19095 invoked by uid 0); 20 Feb 2014 17:35:11 -0000
+Message-ID: <2D.4F.28439.FCC36035@ec1>
+MIME-version: 1.0
+Content-type: multipart/alternative; boundary="_----------=_1392917635189580"
+To: kolibry@riseup.net
+From: "Go Game Guru" <news@gogameguru.com>
+Sender: ggg-newsletter@aweber.com
+X-Loop: ggg-newsletter@aweber.com
+X-Mailer: AWeber 4.1
+X-Subscription: Subscribed on 04/11/2013, via web form, by 78.200.24.99, from http://gogameguru.com/
+X-Verification: Verified by 78.200.24.99
+X_Id: 1687248:02-20-2014-12-31-57:kolibry@riseup.net/1687248
+Date: Thu, 20 Feb 2014 12:35:11 -0500
+List-Unsubscribe: <mailto:ggg-newsletter@aweber.com?subject=unsubscribe;jGwc7EwsHLSsLIxsHBxsjLRGtExMjKwsrCys>, <http://www.aweber.com/z/r/?jGwc7EwsHLSsLIxsHBxsjLRGtExMjKwsrCys>
+Subject: Go Game Guru: Weekly Go problems: Week 114
+X-Virus-Scanned: clamav-milter 0.97.8 at mx1
+X-Virus-Status: Clean
+
+This is a multi-part message in MIME format.
+
+--_----------=_1392917635189580
+Content-Disposition: inline
+Content-Length: 1305
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+Hi,
+
+Here are Go Game Guru's weekly updates for Thursday, February 20, 2014.
+
+(please note: you can quit receiving these emails any time 
+you want: http://www.aweber.com/z/r/?jGwc7EwsHLSsLIxsHBxsjLRGtExMjKwsrCys)
+
+
+
+Weekly Go problems: Week 114
+Here are the weekly Go problems. Easy Go problem: You can’t let white have more than two liberties. Intermediate Go problem: How can black make use of his captured stone? Hard Go problem: Sometimes you need to ask a question before answering one...
+
+Read more: http://gogameguru.com/weekly-go-problems-week-114/
+
+
+
+Enjoy the articles and if you like them, 
+feel free to share this email with friends.
+
+Regards,
+
+David
+
+Go Game Guru
+http://gogameguru.com/
+
+Looking for a Go board? Get great boards and free shipping 
+at the Go Game Shop: http://shop.gogameguru.com/
+
+Follow Go Game Guru on: 
+    - Facebook http://www.facebook.com/gogameguru
+    - Google+ http://gplus.to/gogameguru
+    - Twitter https://twitter.com/gogameguru/
+
+This email was sent to you at kolibry@riseup.net because you 
+subscribed to free updates from Go Game Guru at: 
+http://gogameguru.com/.
+
+
+Go Game Guru, Suite 5013, 92 Wattle Street, Lyneham, ACT 2602, AUSTRALIA
+
+
+To unsubscribe or change subscriber options visit:
+http://www.aweber.com/z/r/?jGwc7EwsHLSsLIxsHBxsjLRGtExMjKwsrCys
+
+
+--_----------=_1392917635189580
+Content-Disposition: inline
+Content-Length: 3528
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+</head>
+<body style="margin: 0px">
+<div><span style="font-size: 15px">Hi,</span></div>
+<div><span style="font-size: 15px"><br />
+</span></div>
+<div><span style="font-size: 15px">Here are Go Game Guru's weekly updates for Thursday, February 20, 2014.</span></div>
+<div><span style="font-size: 15px"><br />
+</span></div>
+<div><span style="font-size: 15px">(please note: you can&nbsp;<a title="" href="http://www.aweber.com/z/r/?jGwc7EwsHLSsLIxsHBxsjLRGtExMjKwsrCys">quit receiving these emails</a>&nbsp;any time you want)</span></div>
+<div><span style="font-size: 15px">
+<ol>
+<li><a href="http://gogameguru.com/weekly-go-problems-week-114/"><strong>Weekly Go problems: Week 114</strong></a><br />
+<br />
+Here are the weekly Go problems. Easy Go problem: You can’t let white have more than two liberties. Intermediate Go problem: How can black make use of his captured stone? Hard Go problem: Sometimes you need to ask a question before answering one... <a href="http://gogameguru.com/weekly-go-problems-week-114/"><em>Click here to read more...</em></a><br />
+<br /></li>
+</ol></span></div>
+<div><span style="font-size: 15px">Enjoy the articles and if you like them, feel free to share this email with friends.</span></div>
+<div><span style="font-size: 15px"><br />
+</span></div>
+<div><span style="font-size: 15px">Regards,</span></div>
+<div><span style="font-size: 15px"><br />
+</span></div>
+<div><span style="font-size: 15px">David</span></div>
+<div><span style="font-size: 15px"><br />
+</span></div>
+<div><span style="font-size: 15px">Go Game Guru</span></div>
+<div><span style="font-size: 15px"><a title="" href="http://gogameguru.com/">http://gogameguru.com/</a></span></div>
+<div><span style="font-size: 15px">&nbsp;</span></div>
+<div><span style="font-size: 15px">Looking for a Go board? Get great boards and free shipping at the <a title="" href="http://shop.gogameguru.com/">Go Game Shop</a>.</span></div>
+<div><span style="font-size: 15px">&nbsp;</span></div>
+<div><span style="font-size: 15px">Follow Go Game Guru on: <a title="" href="http://www.facebook.com/gogameguru">Facebook</a> | <a title="" href="https://plus.google.com/111715774215148787136">Google+</a> | <a title="" href="http://twitter.com/gogameguru/">Twitter</a></span></div>
+<div><span style="font-size: 15px">&nbsp;</span></div>
+<div><span style="font-size: 15px">This email was sent to you at kolibry@riseup.net because you subscribed to free updates from Go Game Guru at http://gogameguru.com/.</span></div>
+<div><span style="font-size: 15px"><br />
+</span></div>
+<div><span style="font-size: 15px"><br />
+</span></div>
+<div><span style="font-size: 15px">Go Game Guru, Suite 5013, 92 Wattle Street, Lyneham, ACT 2602, AUSTRALIA</span></div>
+
+<center>
+<div style="background-color:#ffffff !important; color:#000000 !important; font-family:Verdana !important; font-size:10px !important; max-width:600px; padding:8px !important; text-align:left; width:100%;">
+   
+   <br/>
+   <a href="http://www.aweber.com/z/r/?jGwc7EwsHLSsLIxsHBxsjLRGtExMjKwsrCys" style="color: #00f !important;">Unsubscribe</a> | <a href="http://www.aweber.com/z/r/?jGwc7EwsHLSsLIxsHBxsjLRGtExMjKwsrCys" style="color: #00f !important;">Change Subscriber Options</a>
+   <br/><br/>
+   <img src="https://openrate.aweber.com/y/o/?l=MIyww&m=3dJREJs88sQNJ.U" width="1" height="1">
+</div>
+</center>
+</body>
+</html>
+
+--_----------=_1392917635189580--
+

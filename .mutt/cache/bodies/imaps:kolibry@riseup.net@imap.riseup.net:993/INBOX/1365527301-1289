@@ -1,0 +1,81 @@
+Return-Path: <noreply@dotshare.it>
+X-Spam-Checker-Version: SpamAssassin 3.3.2 (2011-06-06) on spamd2.riseup.net
+X-Spam-Level: 
+X-Spam-Pyzor: Reported 0 times.
+X-Spam-Status: No, score=0.3 required=8.0 tests=AM_TRUNCATED,CK_419SIZE,
+	CK_KARD_SIZE,HTML_LINK_NR_TOP,HTML_MESSAGE,LINK_NR_TOP,PHISH_ACC2,PHISH_ACC5,
+	PHISH_ACC6,RCVD_IN_DNSWL_NONE,RISEUP_SPEAR_C shortcircuit=no
+	autolearn=disabled version=3.3.2
+Delivered-To: kolibry@riseup.net
+Received: from mx1.riseup.net (mx1-pn.riseup.net [10.0.1.33])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client CN "*.riseup.net", Issuer "Gandi Standard SSL CA" (not verified))
+	by vireo.riseup.net (Postfix) with ESMTPS id 6A86499
+	for <kolibry@riseup.net>; Tue,  1 Jul 2014 10:08:09 +0000 (UTC)
+Received: from mail-qg0-f45.google.com (mail-qg0-f45.google.com [209.85.192.45])
+	(using TLSv1 with cipher RC4-SHA (128/128 bits))
+	(Client CN "smtp.gmail.com", Issuer "Google Internet Authority G2" (not verified))
+	by mx1.riseup.net (Postfix) with ESMTPS id 17754524F0
+	for <kolibry@riseup.net>; Tue,  1 Jul 2014 03:08:08 -0700 (PDT)
+Received: by mail-qg0-f45.google.com with SMTP id a108so3008180qge.18
+        for <kolibry@riseup.net>; Tue, 01 Jul 2014 03:08:08 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:message-id:date:content-type:mime-version:from
+         :to:subject;
+        bh=65yAsldYv0j13Ndak2auUpAgpIntTo5cdz5uYqE0PpI=;
+        b=XT0pXiZGXSe6Ms8qqU6UXa3gsX7aihGuIdEaYjhGu9dMIrJxptJ0SWpKlqjF7KFhhX
+         FRAlc/Rqi7y3emvZ7fkfid8f0Ghz7vUn4z5K84GKP35danbp26gJXtE7OQ8jy6fVRiOS
+         tgV1DYexVE1sejJeivSJL18UuQR3ptkJx1PAs6wEoMpKfAtddzO09TnDfJc9Hy8YqrS3
+         QJhFLQTmNoEP91AMlnIJGxMvu4Z0JVe81YcWPUkM3ETXW1EB9Jr5ffffIo9RigKscjZE
+         3Ucu57lgRqDfwiymv+yFzleucvaC0dsSXNVRAj2ZGuFDkP6iyVubi3v1sPqbkuFnpw6Y
+         Lczw==
+X-Gm-Message-State: ALoCoQl/Ycmwd0KW+rGevN2RwlXtb2pclyxJQFRzlLaGXgmi3Og/qWX51SoARPkxgeu8rEQqJqMF
+X-Received: by 10.140.95.50 with SMTP id h47mr37306579qge.35.1404209288238;
+        Tue, 01 Jul 2014 03:08:08 -0700 (PDT)
+Received: from localhost.localdomain (li321-157.members.linode.com. [66.228.40.157])
+        by mx.google.com with ESMTPSA id 33sm5301347qgj.11.2014.07.01.03.08.06
+        for <kolibry@riseup.net>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Tue, 01 Jul 2014 03:08:07 -0700 (PDT)
+Message-ID: <53b28887.a4148c0a.7d44.ffffe3f2@mx.google.com>
+Date: Tue, 01 Jul 2014 03:08:07 -0700 (PDT)
+Content-Type: multipart/alternative; boundary="===============1249523776=="
+MIME-Version: 1.0
+From: DotShare <noreply@dotshare.it>
+To: kolibry <kolibry@riseup.net>
+Subject: Welcome to DotShare!
+X-Virus-Scanned: clamav-milter 0.98.1 at mx1
+X-Virus-Status: Clean
+
+--===============1249523776==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+
+Welcome kolibry,
+
+
+                        Please confirm your email address to activate your account by visiting the link below:
+
+                        http://dotshare.it/confirm/7560/62640cc24c56bf898e67750ff34ca033a439885152b6259ebf13b68379015655/
+
+
+                        Thanks for registering at DotShare!
+--===============1249523776==
+Content-Type: text/html; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+
+<html>
+    <head>
+        <title>Welcome to DotShare!</title>
+    </head>
+    
+    <body>
+        <p>Welcome kolibry,</p>
+        <p>Please <a href="http://dotshare.it/confirm/7560/62640cc24c56bf898e67750ff34ca033a439885152b6259ebf13b68379015655/">confirm</a> your email address to activate your account.</p>
+        <p>Thanks for registering at DotShare!</p>
+    </body>
+</html>
+--===============1249523776==--

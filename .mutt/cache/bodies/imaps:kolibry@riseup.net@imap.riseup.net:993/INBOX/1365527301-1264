@@ -1,0 +1,45 @@
+Return-Path: <web453@mail.super-h.fr>
+X-Spam-Checker-Version: SpamAssassin 3.3.2 (2011-06-06) on spamd3.riseup.net
+X-Spam-Level: 
+X-Spam-Pyzor: Reported 0 times.
+X-Spam-Status: No, score=0.0 required=8.0 tests=AM_TRUNCATED,CK_KARD_SIZE,
+	ENV_FROM_DIFF,ENV_FROM_DIFF0,FORWARD_RELAY,T_RP_MATCHES_RCVD shortcircuit=no
+	autolearn=disabled version=3.3.2
+Delivered-To: kolibry@riseup.net
+Received: from mx1.riseup.net (mx1-pn.riseup.net [10.0.1.33])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA (256/256 bits))
+	(Client CN "*.riseup.net", Issuer "Gandi Standard SSL CA" (not verified))
+	by vireo.riseup.net (Postfix) with ESMTPS id 63CA49E
+	for <kolibry@riseup.net>; Mon, 23 Jun 2014 02:51:27 +0000 (UTC)
+Received: from mail.super-h.fr (ns1.super-h.fr [178.33.254.57])
+	by mx1.riseup.net (Postfix) with ESMTP id 188D151F41
+	for <kolibry@riseup.net>; Sun, 22 Jun 2014 19:51:26 -0700 (PDT)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.super-h.fr (Postfix) with ESMTP id 2CBB89FE9EE
+	for <kolibry@riseup.net>; Mon, 23 Jun 2014 04:51:20 +0200 (CEST)
+Received: from mail.super-h.fr ([127.0.0.1])
+	by localhost (hosting01.super-h.fr [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id wMPw01d14cJj for <kolibry@riseup.net>;
+	Mon, 23 Jun 2014 04:51:18 +0200 (CEST)
+Received: by mail.super-h.fr (Postfix, from userid 5419)
+	id AEE129FE8AE; Mon, 23 Jun 2014 04:51:18 +0200 (CEST)
+To: kolibry@riseup.net
+Subject: =?UTF-8?Q?[LIEU-ferme_de_Tr=C3=A9zenvy_-]_Inscription_d'un_nouvel_utilisa?=  =?UTF-8?Q?teur?=
+X-PHP-Originating-Script: 5419:class-phpmailer.php
+Date: Mon, 23 Jun 2014 02:51:18 +0000
+From: WordPress <wordpress@lieu-trezenvy.super-h.fr>
+Message-ID: <6a041fa8cb1f3ff898eb6ac2cbcfc15a@lieu-trezenvy.super-h.fr>
+X-Priority: 3
+X-Mailer: PHPMailer 5.2.7 (https://github.com/PHPMailer/PHPMailer/)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+X-Virus-Scanned: clamav-milter 0.98.1 at mx1
+X-Virus-Status: Clean
+
+Inscription d'un nouvel utilisateur sur votre site LIEU-ferme de Trézenvy - :
+
+Identifiant : Krystyn61R
+
+E-mail : scintillatingmiti524@laposte.net
+
